@@ -1,0 +1,4657 @@
+[
+    {
+        "id": 101,
+        "name": "Acrux I IronCopper",
+        "starId": 1,
+        "starName": "Acrux",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.3965856,
+        "rotationPeriod": 469.479308637915,
+        "obliquity": -3.623782,
+        "orbitalPeriod": 1352.28581381552,
+        "position": {
+            "x": 0.366443262252011,
+            "y": -0.0190118555879305,
+            "z": 0.150459207478296
+        }
+    },
+    {
+        "id": 102,
+        "name": "Acrux II",
+        "starId": 1,
+        "starName": "Acrux",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 5,
+        "radius": 80,
+        "orbitRadius": 0.9982073,
+        "rotationPeriod": 86.3989539549614,
+        "obliquity": 0.7321908,
+        "orbitalPeriod": 5400.0065776027,
+        "position": {
+            "x": -0.880208540514836,
+            "y": -0.0769584602092398,
+            "z": -0.464465543063402
+        }
+    },
+    {
+        "id": 103,
+        "name": "Home",
+        "starId": 1,
+        "starName": "Acrux",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 1,
+        "radius": 200,
+        "orbitRadius": 0.06476035,
+        "rotationPeriod": 553.640432644175,
+        "obliquity": 2.695691,
+        "orbitalPeriod": 994.975836432026,
+        "position": {
+            "x": -0.820344416015156,
+            "y": -0.0779231985628541,
+            "z": -0.489148712854993
+        }
+    },
+    {
+        "id": 104,
+        "name": "Acrux IV",
+        "starId": 1,
+        "starName": "Acrux",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 2.501363,
+        "rotationPeriod": 770.383154251994,
+        "obliquity": 2.64734,
+        "orbitalPeriod": 21420.4270357642,
+        "position": {
+            "x": 2.47557019386555,
+            "y": 0.0097898892869547,
+            "z": -0.358147659374301
+        }
+    },
+    {
+        "id": 201,
+        "name": "Phact I",
+        "starId": 2,
+        "starName": "Phact",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.3583374,
+        "rotationPeriod": 260.856056679933,
+        "obliquity": 7.183784,
+        "orbitalPeriod": 1399.31905274956,
+        "position": {
+            "x": 0.343350521816044,
+            "y": 0.00947070653115937,
+            "z": -0.102109780132967
+        }
+    },
+    {
+        "id": 202,
+        "name": "Phact II",
+        "starId": 2,
+        "starName": "Phact",
+        "type": "Gas",
+        "singularity": "LaySide",
+        "theme": 3,
+        "radius": 80,
+        "orbitRadius": 0.8726535,
+        "rotationPeriod": 83.0377142618551,
+        "obliquity": 73.52427,
+        "orbitalPeriod": 5317.91359177379,
+        "position": {
+            "x": 0.716514702240468,
+            "y": -0.110507385507579,
+            "z": -0.485715154080108
+        }
+    },
+    {
+        "id": 203,
+        "name": "Phact Farm",
+        "starId": 2,
+        "starName": "Phact",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 0.06318133,
+        "rotationPeriod": 668.595756683031,
+        "obliquity": 20.40053,
+        "orbitalPeriod": 958.808631742224,
+        "position": {
+            "x": 0.773815304072418,
+            "y": -0.117985440584834,
+            "z": -0.460169088944945
+        }
+    },
+    {
+        "id": 301,
+        "name": "Epsilon Sagittarii I Coal",
+        "starId": 3,
+        "starName": "Epsilon Sagittarii",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 25,
+        "radius": 200,
+        "orbitRadius": 0.8365969,
+        "rotationPeriod": 449.852188898244,
+        "obliquity": 11.6303,
+        "orbitalPeriod": 5220.66718367422,
+        "position": {
+            "x": -0.287525671222118,
+            "y": -0.0811384568157919,
+            "z": -0.781434555733055
+        }
+    },
+    {
+        "id": 302,
+        "name": "Epsilon Sagittarii II Titan",
+        "starId": 3,
+        "starName": "Epsilon Sagittarii",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 1.201327,
+        "rotationPeriod": 983.022630229407,
+        "obliquity": 5.223682,
+        "orbitalPeriod": 8983.45909559528,
+        "position": {
+            "x": -1.09253421832549,
+            "y": -0.0557552459351989,
+            "z": -0.496434713256685
+        }
+    },
+    {
+        "id": 303,
+        "name": "Epsilon Sagittarii III Fire",
+        "starId": 3,
+        "starName": "Epsilon Sagittarii",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 1.638313,
+        "rotationPeriod": 696.477944336526,
+        "obliquity": -0.3370831,
+        "orbitalPeriod": 14306.9500011817,
+        "position": {
+            "x": 0.625633862029528,
+            "y": 0.00831010300326096,
+            "z": 1.51412801033916
+        }
+    },
+    {
+        "id": 304,
+        "name": "Epsilon Sagittarii IV Iron",
+        "starId": 3,
+        "starName": "Epsilon Sagittarii",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 2.139628,
+        "rotationPeriod": 630.600299932516,
+        "obliquity": 19.91665,
+        "orbitalPeriod": 21353.0128043622,
+        "position": {
+            "x": -0.252037323070081,
+            "y": -0.116292811049767,
+            "z": -2.12154742283625
+        }
+    },
+    {
+        "id": 401,
+        "name": "CorHydrae Proliferator Silicon",
+        "starId": 4,
+        "starName": "CorHydrae",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 0.3374527,
+        "rotationPeriod": 456.988731817956,
+        "obliquity": 0.1452418,
+        "orbitalPeriod": 1718.04887023711,
+        "position": {
+            "x": 0.228440455235272,
+            "y": 0.0273601234374524,
+            "z": -0.246861692248209
+        }
+    },
+    {
+        "id": 402,
+        "name": "CorHydrae Oil Platform Stalag",
+        "starId": 4,
+        "starName": "CorHydrae",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 16,
+        "radius": 200,
+        "orbitRadius": 0.5721471,
+        "rotationPeriod": 647.744265134827,
+        "obliquity": -3.475489,
+        "orbitalPeriod": 3792.95517289675,
+        "position": {
+            "x": -0.523791975771555,
+            "y": 0.0121208124896655,
+            "z": -0.229885425292183
+        }
+    },
+    {
+        "id": 403,
+        "name": "CorHydrae Proliferator 1",
+        "starId": 4,
+        "starName": "CorHydrae",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 0.8126194,
+        "rotationPeriod": 640.969834304665,
+        "obliquity": -8.057016,
+        "orbitalPeriod": 6420.17710686438,
+        "position": {
+            "x": 0.300872619976447,
+            "y": 0.0433253508922673,
+            "z": 0.753623876600464
+        }
+    },
+    {
+        "id": 404,
+        "name": "CorHydrae MegaFarm",
+        "starId": 4,
+        "starName": "CorHydrae",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 1.129711,
+        "rotationPeriod": 819.832355648209,
+        "obliquity": -0.2366306,
+        "orbitalPeriod": 10523.6705985732,
+        "position": {
+            "x": 0.8354264586086,
+            "y": 0.000176865660581481,
+            "z": -0.760466863957044
+        }
+    },
+    {
+        "id": 501,
+        "name": "Atlas I",
+        "starId": 5,
+        "starName": "Atlas",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 22,
+        "radius": 200,
+        "orbitRadius": 0.5730562,
+        "rotationPeriod": 415.167595491565,
+        "obliquity": -0.215064,
+        "orbitalPeriod": 3263.46281688572,
+        "position": {
+            "x": 0.561498412899908,
+            "y": -0.0291945870206388,
+            "z": -0.110728101316831
+        }
+    },
+    {
+        "id": 502,
+        "name": "Atlas II",
+        "starId": 5,
+        "starName": "Atlas",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 2.069602,
+        "rotationPeriod": 992.665977917447,
+        "obliquity": -12.91243,
+        "orbitalPeriod": 22398.2053191005,
+        "position": {
+            "x": -0.00545341548454597,
+            "y": 0.0833777850392726,
+            "z": 2.06791482449688
+        }
+    },
+    {
+        "id": 601,
+        "name": "\u03b6 Ursae Majoris I",
+        "starId": 6,
+        "starName": "\u03b6 Ursae Majoris",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 0.3426481,
+        "rotationPeriod": 331.191945207594,
+        "obliquity": 12.16595,
+        "orbitalPeriod": 1382.00302925866,
+        "position": {
+            "x": 0.340111071709634,
+            "y": -0.0144074437566001,
+            "z": -0.0390468121520489
+        }
+    },
+    {
+        "id": 602,
+        "name": "\u03b6 Ursae Majoris II",
+        "starId": 6,
+        "starName": "\u03b6 Ursae Majoris",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 0.8593888,
+        "rotationPeriod": 147.977679498766,
+        "obliquity": 4.0726,
+        "orbitalPeriod": 5489.34998660933,
+        "position": {
+            "x": -0.35759110213006,
+            "y": -0.02662597463389,
+            "z": -0.781004914952852
+        }
+    },
+    {
+        "id": 603,
+        "name": "\u03b6 Ursae Majoris III Coal/Oil",
+        "starId": 6,
+        "starName": "\u03b6 Ursae Majoris",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 8,
+        "radius": 200,
+        "orbitRadius": 0.06275304,
+        "rotationPeriod": 744.825838594554,
+        "obliquity": 20.16116,
+        "orbitalPeriod": 949.075915643334,
+        "position": {
+            "x": -0.300450281464477,
+            "y": -0.0439976923514767,
+            "z": -0.800268717408293
+        }
+    },
+    {
+        "id": 604,
+        "name": "\u03b6 Ursae Majoris IV MegaFarm",
+        "starId": 6,
+        "starName": "\u03b6 Ursae Majoris",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 3.648779,
+        "rotationPeriod": 572.554979438386,
+        "obliquity": -10.78455,
+        "orbitalPeriod": 48023.9341915251,
+        "position": {
+            "x": 0.29015154344439,
+            "y": -0.0816856788525646,
+            "z": 3.63630684052504
+        }
+    },
+    {
+        "id": 701,
+        "name": "Bunda MegaFarm",
+        "starId": 7,
+        "starName": "Bunda",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 1.194531,
+        "rotationPeriod": 681.763847135278,
+        "obliquity": 7.650784,
+        "orbitalPeriod": 8890.44639008248,
+        "position": {
+            "x": -1.19116806309256,
+            "y": 0.0886340067417044,
+            "z": 0.012947710004124
+        }
+    },
+    {
+        "id": 702,
+        "name": "Bunda II",
+        "starId": 7,
+        "starName": "Bunda",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 1.626282,
+        "rotationPeriod": 624.996890216898,
+        "obliquity": -6.520294,
+        "orbitalPeriod": 14122.8019134661,
+        "position": {
+            "x": -1.41355044985274,
+            "y": 0.0229639537903023,
+            "z": 0.803828292062335
+        }
+    },
+    {
+        "id": 801,
+        "name": "Double Farm",
+        "starId": 8,
+        "starName": "Farm",
+        "type": "Desert",
+        "singularity": "TidalLocked2",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 0.9657974,
+        "rotationPeriod": 2617.49397733722,
+        "obliquity": -0.4659272,
+        "orbitalPeriod": 5234.98795467444,
+        "position": {
+            "x": 0.594187105131665,
+            "y": -0.123954281744565,
+            "z": 0.751226700090911
+        }
+    },
+    {
+        "id": 802,
+        "name": "Farm II Coal/Stone",
+        "starId": 8,
+        "starName": "Farm",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 14,
+        "radius": 200,
+        "orbitRadius": 1.361947,
+        "rotationPeriod": 889.482480645255,
+        "obliquity": 3.346319,
+        "orbitalPeriod": 8766.51463317118,
+        "position": {
+            "x": -1.17026989516975,
+            "y": -0.013101525772301,
+            "z": -0.696560339905433
+        }
+    },
+    {
+        "id": 803,
+        "name": "Farm III Iron/Kim",
+        "starId": 8,
+        "starName": "Farm",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 2.458016,
+        "rotationPeriod": 799.092005388503,
+        "obliquity": 2.271605,
+        "orbitalPeriod": 21255.1217038217,
+        "position": {
+            "x": -0.863628913258819,
+            "y": -0.0242633720041783,
+            "z": 2.30117306993343
+        }
+    },
+    {
+        "id": 804,
+        "name": "Farm 4 Titan",
+        "starId": 8,
+        "starName": "Farm",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 3.236456,
+        "rotationPeriod": 1209.48696767994,
+        "obliquity": 6.025466,
+        "orbitalPeriod": 32113.7642228362,
+        "position": {
+            "x": -2.71666841463658,
+            "y": 0.151084401514887,
+            "z": -1.75257898474327
+        }
+    },
+    {
+        "id": 805,
+        "name": "MegaFarm Alpha",
+        "starId": 8,
+        "starName": "Farm",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 19,
+        "radius": 200,
+        "orbitRadius": 4.205108,
+        "rotationPeriod": 738.682638886994,
+        "obliquity": -1.286348,
+        "orbitalPeriod": 47561.1535608874,
+        "position": {
+            "x": -4.14604908039479,
+            "y": 0.0360689045800903,
+            "z": -0.701363877428946
+        }
+    },
+    {
+        "id": 901,
+        "name": "ElKaprah I",
+        "starId": 9,
+        "starName": "ElKaprah",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 19,
+        "radius": 200,
+        "orbitRadius": 0.3419203,
+        "rotationPeriod": 353.722118013163,
+        "obliquity": -0.5693493,
+        "orbitalPeriod": 1380.53547293473,
+        "position": {
+            "x": 0.0490651133858989,
+            "y": -0.0184382105883081,
+            "z": -0.337878831814803
+        }
+    },
+    {
+        "id": 902,
+        "name": "ElKaprah II",
+        "starId": 9,
+        "starName": "ElKaprah",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 0.8515356,
+        "rotationPeriod": 415.468603251569,
+        "obliquity": 13.53569,
+        "orbitalPeriod": 5425.80962866814,
+        "position": {
+            "x": -0.478232489203606,
+            "y": -0.0296800738263355,
+            "z": 0.703935748147237
+        }
+    },
+    {
+        "id": 903,
+        "name": "ElKaprah III",
+        "starId": 9,
+        "starName": "ElKaprah",
+        "type": "Desert",
+        "singularity": "TidalLocked4",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 1.195695,
+        "rotationPeriod": 2256.99595637257,
+        "obliquity": -1.558072,
+        "orbitalPeriod": 9027.98382549028,
+        "position": {
+            "x": 0.089951703609849,
+            "y": -0.0716995063088213,
+            "z": -1.19014836314955
+        }
+    },
+    {
+        "id": 904,
+        "name": "ElKaprah IV",
+        "starId": 9,
+        "starName": "ElKaprah",
+        "type": "Desert",
+        "singularity": "LaySide",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 2.130373,
+        "rotationPeriod": 1201.58192934437,
+        "obliquity": -70.33821,
+        "orbitalPeriod": 21470.5810858648,
+        "position": {
+            "x": -0.105754033947606,
+            "y": 0.00602668823734666,
+            "z": 2.12773803204749
+        }
+    },
+    {
+        "id": 1001,
+        "name": "Gienah I",
+        "starId": 10,
+        "starName": "Gienah",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 15,
+        "radius": 200,
+        "orbitRadius": 0.6131719,
+        "rotationPeriod": 586.599807888581,
+        "obliquity": -9.315957,
+        "orbitalPeriod": 3174.8971743603,
+        "position": {
+            "x": -0.141416884796338,
+            "y": 0.0040422710263144,
+            "z": 0.596627765398643
+        }
+    },
+    {
+        "id": 1101,
+        "name": "Porrima I Sulfur",
+        "starId": 11,
+        "starName": "Porrima",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.3567525,
+        "rotationPeriod": 562.114697797226,
+        "obliquity": -7.111839,
+        "orbitalPeriod": 1359.54004184971,
+        "position": {
+            "x": -0.166559166324394,
+            "y": 0.00981228103265185,
+            "z": -0.315331699940642
+        }
+    },
+    {
+        "id": 1102,
+        "name": "Porrima II Silicon",
+        "starId": 11,
+        "starName": "Porrima",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 0.6390564,
+        "rotationPeriod": 768.752049846659,
+        "obliquity": -6.99339,
+        "orbitalPeriod": 3259.4950105365,
+        "position": {
+            "x": 0.458873119241696,
+            "y": 0.0727249936556669,
+            "z": -0.438793356710076
+        }
+    },
+    {
+        "id": 1103,
+        "name": "Porrima III Coal",
+        "starId": 11,
+        "starName": "Porrima",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 22,
+        "radius": 200,
+        "orbitRadius": 0.8796685,
+        "rotationPeriod": 433.893675566624,
+        "obliquity": 5.397046,
+        "orbitalPeriod": 5264.0508843011,
+        "position": {
+            "x": 0.196231078777332,
+            "y": -0.0343694189221999,
+            "z": -0.856813187925033
+        }
+    },
+    {
+        "id": 1104,
+        "name": "Porrima IV Titan",
+        "starId": 11,
+        "starName": "Porrima",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 1.244025,
+        "rotationPeriod": 1157.71256380868,
+        "obliquity": -18.1914,
+        "orbitalPeriod": 8852.89041105843,
+        "position": {
+            "x": -0.0271275223568399,
+            "y": 0.0483703188048301,
+            "z": -1.24278821953237
+        }
+    },
+    {
+        "id": 1201,
+        "name": "Saidak I Proliferator",
+        "starId": 12,
+        "starName": "Saidak",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 18,
+        "radius": 200,
+        "orbitRadius": 0.5806454,
+        "rotationPeriod": 319.377733485516,
+        "obliquity": 13.6704,
+        "orbitalPeriod": 3112.64455247471,
+        "position": {
+            "x": 0.300380483006284,
+            "y": -0.000711824534508715,
+            "z": -0.496910410606173
+        }
+    },
+    {
+        "id": 1202,
+        "name": "Saidak II",
+        "starId": 12,
+        "starName": "Saidak",
+        "type": "Ice",
+        "singularity": "ClockwiseRotate",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 1.604996,
+        "rotationPeriod": -603.632641753548,
+        "obliquity": 10.62625,
+        "orbitalPeriod": 14304.5428220817,
+        "position": {
+            "x": 1.3575249908487,
+            "y": 0.0374872335204545,
+            "z": 0.855413947531703
+        }
+    },
+    {
+        "id": 1203,
+        "name": "Saidak III",
+        "starId": 12,
+        "starName": "Saidak",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 2.126677,
+        "rotationPeriod": 475.594574246198,
+        "obliquity": -10.92828,
+        "orbitalPeriod": 21818.0257440246,
+        "position": {
+            "x": -1.02099500433626,
+            "y": 0.29355949916088,
+            "z": -1.8423210568735
+        }
+    },
+    {
+        "id": 1301,
+        "name": "Jugum I",
+        "starId": 13,
+        "starName": "Jugum",
+        "type": "Vocano",
+        "singularity": "TidalLocked",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.349748,
+        "rotationPeriod": 1341.68826123355,
+        "obliquity": -0.008091713,
+        "orbitalPeriod": 1341.68826123355,
+        "position": {
+            "x": -0.123152535994425,
+            "y": 0.00831656676268626,
+            "z": -0.327243002792832
+        }
+    },
+    {
+        "id": 1302,
+        "name": "Jugum II",
+        "starId": 13,
+        "starName": "Jugum",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 1.264861,
+        "rotationPeriod": 596.781989525269,
+        "obliquity": 10.62139,
+        "orbitalPeriod": 9227.46969049777,
+        "position": {
+            "x": -0.582328509597691,
+            "y": 0.0175355408461286,
+            "z": -1.12270136643086
+        }
+    },
+    {
+        "id": 1303,
+        "name": "Jugum III",
+        "starId": 13,
+        "starName": "Jugum",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 1.694999,
+        "rotationPeriod": 504.265085774254,
+        "obliquity": 13.64388,
+        "orbitalPeriod": 14314.3867288848,
+        "position": {
+            "x": -1.55564176313929,
+            "y": -0.033257500153407,
+            "z": -0.672230028534875
+        }
+    },
+    {
+        "id": 1401,
+        "name": "Algomeyla I Supplier 2",
+        "starId": 14,
+        "starName": "Algomeyla",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 23,
+        "radius": 200,
+        "orbitRadius": 0.9943119,
+        "rotationPeriod": 380.899220479128,
+        "obliquity": 21.28011,
+        "orbitalPeriod": 5405.6186808644,
+        "position": {
+            "x": -0.319798255082483,
+            "y": -0.0174777940856707,
+            "z": -0.941318069281466
+        }
+    },
+    {
+        "id": 1402,
+        "name": "Algomeyla II Supplier 1",
+        "starId": 14,
+        "starName": "Algomeyla",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 8,
+        "radius": 200,
+        "orbitRadius": 1.369597,
+        "rotationPeriod": 524.578815565016,
+        "obliquity": -13.51136,
+        "orbitalPeriod": 8738.776768694,
+        "position": {
+            "x": -0.762029102043546,
+            "y": 0.0557938947028516,
+            "z": 1.13665939108743
+        }
+    },
+    {
+        "id": 1403,
+        "name": "Algomeyla III Expiriment",
+        "starId": 14,
+        "starName": "Algomeyla",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 1.888488,
+        "rotationPeriod": 828.747317879865,
+        "obliquity": 11.26939,
+        "orbitalPeriod": 14149.233595226,
+        "position": {
+            "x": -1.61496880152068,
+            "y": -0.0220670996918146,
+            "z": 0.978660758666975
+        }
+    },
+    {
+        "id": 1404,
+        "name": "Algomeyla IV",
+        "starId": 14,
+        "starName": "Algomeyla",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 3,
+        "radius": 80,
+        "orbitRadius": 2.490625,
+        "rotationPeriod": 146.264406354655,
+        "obliquity": -13.10125,
+        "orbitalPeriod": 21430.0883235011,
+        "position": {
+            "x": 0.195910139627112,
+            "y": -6.97788334880507e-05,
+            "z": -2.48290844588644
+        }
+    },
+    {
+        "id": 1405,
+        "name": "Algomeyla V Supplier 3",
+        "starId": 14,
+        "starName": "Algomeyla",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 0.06467201,
+        "rotationPeriod": 1114.6735947023,
+        "obliquity": 3.269997,
+        "orbitalPeriod": 992.940616360206,
+        "position": {
+            "x": 0.22163735553918,
+            "y": 0.0203049073364266,
+            "z": -2.42718186970551
+        }
+    },
+    {
+        "id": 1501,
+        "name": "Rho Cassiopeiae I",
+        "starId": 15,
+        "starName": "Rho Cassiopeiae",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 3.078887,
+        "rotationPeriod": 931.689630854964,
+        "obliquity": -11.60319,
+        "orbitalPeriod": 30694.1921502395,
+        "position": {
+            "x": 2.45885967737735,
+            "y": 0.134825635934267,
+            "z": 1.84807352255043
+        }
+    },
+    {
+        "id": 1601,
+        "name": "Tramontana I",
+        "starId": 16,
+        "starName": "Tramontana",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.4270201,
+        "rotationPeriod": 590.175274694664,
+        "obliquity": 12.70419,
+        "orbitalPeriod": 1420.1117155569,
+        "position": {
+            "x": 0.278226392553614,
+            "y": -0.0226480224299606,
+            "z": 0.323145911219916
+        }
+    },
+    {
+        "id": 1602,
+        "name": "Tramontana II",
+        "starId": 16,
+        "starName": "Tramontana",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 1.072527,
+        "rotationPeriod": 392.722700527818,
+        "obliquity": 37.93237,
+        "orbitalPeriod": 5652.78049496417,
+        "position": {
+            "x": 0.857895231465687,
+            "y": 0.0765454229970338,
+            "z": -0.639116700969516
+        }
+    },
+    {
+        "id": 1603,
+        "name": "Tramontana III",
+        "starId": 16,
+        "starName": "Tramontana",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 14,
+        "radius": 200,
+        "orbitRadius": 1.48246,
+        "rotationPeriod": 479.232737438798,
+        "obliquity": 0.1213399,
+        "orbitalPeriod": 9185.9614730599,
+        "position": {
+            "x": -1.20196039452545,
+            "y": -0.00307412937781627,
+            "z": 0.867738858809846
+        }
+    },
+    {
+        "id": 1604,
+        "name": "Tramontana IV",
+        "starId": 16,
+        "starName": "Tramontana",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 2.018741,
+        "rotationPeriod": 970.707398542886,
+        "obliquity": -4.62527,
+        "orbitalPeriod": 14597.2502544899,
+        "position": {
+            "x": 0.409003071443151,
+            "y": -0.114729684221896,
+            "z": 1.97354297612507
+        }
+    },
+    {
+        "id": 1701,
+        "name": "Kappa Aquarii I Iron Copper",
+        "starId": 17,
+        "starName": "Kappa Aquarii",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.4075118,
+        "rotationPeriod": 322.727421824096,
+        "obliquity": 6.516485,
+        "orbitalPeriod": 1373.96498716401,
+        "position": {
+            "x": -0.398223980043657,
+            "y": -0.0110385671608271,
+            "z": 0.0858003133671866
+        }
+    },
+    {
+        "id": 1702,
+        "name": "Kappa Aquarii II Silicon Coal",
+        "starId": 17,
+        "starName": "Kappa Aquarii",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 1.03101,
+        "rotationPeriod": 534.504550521293,
+        "obliquity": 10.54223,
+        "orbitalPeriod": 5529.1694081357,
+        "position": {
+            "x": 0.708693009057535,
+            "y": 0.139837821994784,
+            "z": 0.73565064148433
+        }
+    },
+    {
+        "id": 1703,
+        "name": "Kappa Aquarii III Titan",
+        "starId": 17,
+        "starName": "Kappa Aquarii",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 1.961782,
+        "rotationPeriod": 672.848563873593,
+        "obliquity": 5.648187,
+        "orbitalPeriod": 14512.4789702598,
+        "position": {
+            "x": -1.78023038387564,
+            "y": -0.133576330313013,
+            "z": 0.813343105496344
+        }
+    },
+    {
+        "id": 1704,
+        "name": "Kappa Aquarii IV Fire",
+        "starId": 17,
+        "starName": "Kappa Aquarii",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 2.566932,
+        "rotationPeriod": 529.459417884329,
+        "obliquity": 15.86174,
+        "orbitalPeriod": 21721.3589122437,
+        "position": {
+            "x": 2.37856000748007,
+            "y": 0.318899629851517,
+            "z": -0.910987077840736
+        }
+    },
+    {
+        "id": 1801,
+        "name": "Elgomaisa I",
+        "starId": 18,
+        "starName": "Elgomaisa",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.3807412,
+        "rotationPeriod": 349.112240261384,
+        "obliquity": -59.62411,
+        "orbitalPeriod": 1348.53077513362,
+        "position": {
+            "x": 0.0303319801550931,
+            "y": 0.0101172094777526,
+            "z": 0.379396260907081
+        }
+    },
+    {
+        "id": 1802,
+        "name": "Elgomaisa II",
+        "starId": 18,
+        "starName": "Elgomaisa",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 0.652811,
+        "rotationPeriod": 646.28021817862,
+        "obliquity": 7.711219,
+        "orbitalPeriod": 3027.59075864602,
+        "position": {
+            "x": -0.329715397767208,
+            "y": 0.0147091486198664,
+            "z": 0.563234991177382
+        }
+    },
+    {
+        "id": 1803,
+        "name": "Elgomaisa III",
+        "starId": 18,
+        "starName": "Elgomaisa",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 1.807006,
+        "rotationPeriod": 752.45823218853,
+        "obliquity": -59.93414,
+        "orbitalPeriod": 13942.9685564729,
+        "position": {
+            "x": -0.563199603605525,
+            "y": -0.0184509632184136,
+            "z": -1.71689696986097
+        }
+    },
+    {
+        "id": 1804,
+        "name": "Elgomaisa IV",
+        "starId": 18,
+        "starName": "Elgomaisa",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 11,
+        "radius": 200,
+        "orbitRadius": 2.386461,
+        "rotationPeriod": 564.508043158522,
+        "obliquity": 11.83035,
+        "orbitalPeriod": 21161.5576612475,
+        "position": {
+            "x": -2.18208142965999,
+            "y": 0.0121366705180975,
+            "z": 0.966215271476942
+        }
+    },
+    {
+        "id": 1901,
+        "name": "Asterope I",
+        "starId": 19,
+        "starName": "Asterope",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.373762,
+        "rotationPeriod": 275.241715340018,
+        "obliquity": -16.42432,
+        "orbitalPeriod": 1337.41212653065,
+        "position": {
+            "x": 0.243670819428139,
+            "y": -0.0117225736434674,
+            "z": -0.283169843166599
+        }
+    },
+    {
+        "id": 1902,
+        "name": "Asterope II",
+        "starId": 19,
+        "starName": "Asterope",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 15,
+        "radius": 200,
+        "orbitRadius": 0.9417476,
+        "rotationPeriod": 770.501025804059,
+        "obliquity": -2.22498,
+        "orbitalPeriod": 5349.02040125379,
+        "position": {
+            "x": -0.919183199870975,
+            "y": -0.0579334714543424,
+            "z": -0.196556683904592
+        }
+    },
+    {
+        "id": 1903,
+        "name": "Asterope III",
+        "starId": 19,
+        "starName": "Asterope",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 11,
+        "radius": 200,
+        "orbitRadius": 1.318676,
+        "rotationPeriod": 819.716474452445,
+        "obliquity": 2.752473,
+        "orbitalPeriod": 8862.97931045035,
+        "position": {
+            "x": 0.914564580648177,
+            "y": -0.0281212241868984,
+            "z": 0.949572236327374
+        }
+    },
+    {
+        "id": 1904,
+        "name": "Asterope IV",
+        "starId": 19,
+        "starName": "Asterope",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 1.807428,
+        "rotationPeriod": 452.730203602798,
+        "obliquity": 3.706054,
+        "orbitalPeriod": 14222.1095581937,
+        "position": {
+            "x": 1.40530879200178,
+            "y": 0.180488813740782,
+            "z": -1.12219755517572
+        }
+    },
+    {
+        "id": 2001,
+        "name": "Becrux I",
+        "starId": 20,
+        "starName": "Becrux",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.3657036,
+        "rotationPeriod": 271.164079365541,
+        "obliquity": 12.1119,
+        "orbitalPeriod": 1327.14506473964,
+        "position": {
+            "x": 0.0855156243775704,
+            "y": -0.020301217843812,
+            "z": -0.354984595226902
+        }
+    },
+    {
+        "id": 2002,
+        "name": "Becrux II",
+        "starId": 20,
+        "starName": "Becrux",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 14,
+        "radius": 200,
+        "orbitRadius": 0.9116527,
+        "rotationPeriod": 1058.17621211068,
+        "obliquity": -6.904598,
+        "orbitalPeriod": 5223.58587525239,
+        "position": {
+            "x": 0.870830687947368,
+            "y": -0.115657207481513,
+            "z": 0.243696661524462
+        }
+    },
+    {
+        "id": 2003,
+        "name": "Becrux III",
+        "starId": 20,
+        "starName": "Becrux",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 4,
+        "radius": 80,
+        "orbitRadius": 1.303792,
+        "rotationPeriod": 205.298262432099,
+        "obliquity": -14.58662,
+        "orbitalPeriod": 8933.81433043475,
+        "position": {
+            "x": 0.832582948620998,
+            "y": 0.136334657368638,
+            "z": 0.994027826884642
+        }
+    },
+    {
+        "id": 2004,
+        "name": "Becrux IV",
+        "starId": 20,
+        "starName": "Becrux",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 0.06378316,
+        "rotationPeriod": 589.864277651564,
+        "obliquity": -1.247656,
+        "orbitalPeriod": 972.540771509263,
+        "position": {
+            "x": 0.8396115712381,
+            "y": 0.151756014764246,
+            "z": 1.05551823995842
+        }
+    },
+    {
+        "id": 2101,
+        "name": "Almach I",
+        "starId": 21,
+        "starName": "Almach",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.3744704,
+        "rotationPeriod": 274.099244386868,
+        "obliquity": 35.12905,
+        "orbitalPeriod": 1358.085123486,
+        "position": {
+            "x": -0.260637987439675,
+            "y": 0.0324120665925057,
+            "z": 0.26691834947143
+        }
+    },
+    {
+        "id": 2102,
+        "name": "Almach II",
+        "starId": 21,
+        "starName": "Almach",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 1.301321,
+        "rotationPeriod": 489.904342830165,
+        "obliquity": 5.626511,
+        "orbitalPeriod": 8797.86248113806,
+        "position": {
+            "x": 0.957716820069959,
+            "y": -0.0834295958763506,
+            "z": -0.877070984291873
+        }
+    },
+    {
+        "id": 2201,
+        "name": "62 Leporis I",
+        "starId": 22,
+        "starName": "62 Leporis",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.3859956,
+        "rotationPeriod": 416.069611607856,
+        "obliquity": -1.37636,
+        "orbitalPeriod": 1328.50490859902,
+        "position": {
+            "x": -0.244082396759499,
+            "y": 0.0376760377963998,
+            "z": -0.29664262175996
+        }
+    },
+    {
+        "id": 2202,
+        "name": "62 Leporis II",
+        "starId": 22,
+        "starName": "62 Leporis",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 14,
+        "radius": 200,
+        "orbitRadius": 0.9868854,
+        "rotationPeriod": 383.800050658712,
+        "obliquity": -0.6544612,
+        "orbitalPeriod": 5431.12493237961,
+        "position": {
+            "x": 0.981449739304401,
+            "y": -0.093371701868226,
+            "z": -0.0445061753928592
+        }
+    },
+    {
+        "id": 2203,
+        "name": "62 Leporis III",
+        "starId": 22,
+        "starName": "62 Leporis",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 1.82978,
+        "rotationPeriod": 616.539113839616,
+        "obliquity": 5.710009,
+        "orbitalPeriod": 13711.6009733974,
+        "position": {
+            "x": 1.25006090633431,
+            "y": 0.00941386553902564,
+            "z": 1.33617196981192
+        }
+    },
+    {
+        "id": 2301,
+        "name": "Dnoces I",
+        "starId": 23,
+        "starName": "Dnoces",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.3583602,
+        "rotationPeriod": 285.042367578691,
+        "obliquity": 33.36106,
+        "orbitalPeriod": 1363.2789873038,
+        "position": {
+            "x": 0.0560194828054105,
+            "y": 0.00540109540505421,
+            "z": -0.353913378850134
+        }
+    },
+    {
+        "id": 2302,
+        "name": "Dnoces II",
+        "starId": 23,
+        "starName": "Dnoces",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 0.6276076,
+        "rotationPeriod": 327.764510377096,
+        "obliquity": 0.2687767,
+        "orbitalPeriod": 3159.63821437067,
+        "position": {
+            "x": -0.164173971685916,
+            "y": -0.0634519256829997,
+            "z": 0.602421898611333
+        }
+    },
+    {
+        "id": 2303,
+        "name": "Dnoces III",
+        "starId": 23,
+        "starName": "Dnoces",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 1.24897,
+        "rotationPeriod": 461.296423001576,
+        "obliquity": 23.69111,
+        "orbitalPeriod": 8870.1938318126,
+        "position": {
+            "x": -1.05249010872307,
+            "y": 0.0499199688956165,
+            "z": 0.670595759593072
+        }
+    },
+    {
+        "id": 2401,
+        "name": "Menkent I",
+        "starId": 24,
+        "starName": "Menkent",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.4367881,
+        "rotationPeriod": 394.527972904982,
+        "obliquity": 4.352166,
+        "orbitalPeriod": 1474.48178530914,
+        "position": {
+            "x": -0.419253835367067,
+            "y": 0.0124971224123345,
+            "z": 0.121876737372321
+        }
+    },
+    {
+        "id": 2402,
+        "name": "Menkent II",
+        "starId": 24,
+        "starName": "Menkent",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.7757905,
+        "rotationPeriod": 410.034660086064,
+        "obliquity": -8.166542,
+        "orbitalPeriod": 3490.1962635647,
+        "position": {
+            "x": -0.150922733822579,
+            "y": 0.00382385920635291,
+            "z": 0.76095901239795
+        }
+    },
+    {
+        "id": 2403,
+        "name": "Menkent III",
+        "starId": 24,
+        "starName": "Menkent",
+        "type": "Gas",
+        "singularity": "LaySide",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 2.043976,
+        "rotationPeriod": 121.993362947679,
+        "obliquity": -70.55032,
+        "orbitalPeriod": 14926.1177364323,
+        "position": {
+            "x": 1.92467403778012,
+            "y": -0.151064083371765,
+            "z": -0.67130300690966
+        }
+    },
+    {
+        "id": 2404,
+        "name": "Menkent IV",
+        "starId": 24,
+        "starName": "Menkent",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 11,
+        "radius": 200,
+        "orbitRadius": 0.06563369,
+        "rotationPeriod": 990.752847240725,
+        "obliquity": 48.43358,
+        "orbitalPeriod": 1015.17054093713,
+        "position": {
+            "x": 1.97078935032002,
+            "y": -0.155544358831074,
+            "z": -0.717790496049436
+        }
+    },
+    {
+        "id": 2501,
+        "name": "Delta Sculptoris I",
+        "starId": 25,
+        "starName": "Delta Sculptoris",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 0.6257836,
+        "rotationPeriod": 409.945624299418,
+        "obliquity": -13.55657,
+        "orbitalPeriod": 3226.11088174365,
+        "position": {
+            "x": 0.562399020534172,
+            "y": 0.0144586443880627,
+            "z": 0.274050052374165
+        }
+    },
+    {
+        "id": 2502,
+        "name": "Delta Sculptoris II",
+        "starId": 25,
+        "starName": "Delta Sculptoris",
+        "type": "Ocean",
+        "singularity": "ClockwiseRotate",
+        "theme": 14,
+        "radius": 200,
+        "orbitRadius": 0.8812282,
+        "rotationPeriod": -424.131372525432,
+        "obliquity": -15.52319,
+        "orbitalPeriod": 5391.07764598018,
+        "position": {
+            "x": 0.630300015727971,
+            "y": -0.113918697960877,
+            "z": -0.605233504658783
+        }
+    },
+    {
+        "id": 2503,
+        "name": "Delta Sculptoris III",
+        "starId": 25,
+        "starName": "Delta Sculptoris",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 2,
+        "radius": 80,
+        "orbitRadius": 1.235572,
+        "rotationPeriod": 104.454662388879,
+        "obliquity": -6.449205,
+        "orbitalPeriod": 8950.45555495588,
+        "position": {
+            "x": -1.13847098748256,
+            "y": 0.012076494748185,
+            "z": 0.479975295186868
+        }
+    },
+    {
+        "id": 2504,
+        "name": "Delta Sculptoris IV",
+        "starId": 25,
+        "starName": "Delta Sculptoris",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 0.06306474,
+        "rotationPeriod": 502.978087633158,
+        "obliquity": -1.122755,
+        "orbitalPeriod": 956.155794246932,
+        "position": {
+            "x": -1.14930971057651,
+            "y": 0.0294268622870803,
+            "z": 0.420320896884457
+        }
+    },
+    {
+        "id": 2601,
+        "name": "Alterf I",
+        "starId": 26,
+        "starName": "Alterf",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.4726158,
+        "rotationPeriod": 511.524714953053,
+        "obliquity": 13.40346,
+        "orbitalPeriod": 1575.03591027882,
+        "position": {
+            "x": 0.146679391252145,
+            "y": -0.00317861670974081,
+            "z": -0.449266923073349
+        }
+    },
+    {
+        "id": 2602,
+        "name": "Alterf II",
+        "starId": 26,
+        "starName": "Alterf",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 3,
+        "radius": 80,
+        "orbitRadius": 1.18709,
+        "rotationPeriod": 165.02346011573,
+        "obliquity": -1.707621,
+        "orbitalPeriod": 6269.80100662112,
+        "position": {
+            "x": -0.512892564044255,
+            "y": 0.0125041782870857,
+            "z": -1.07049902400434
+        }
+    },
+    {
+        "id": 2603,
+        "name": "Alterf III",
+        "starId": 26,
+        "starName": "Alterf",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 19,
+        "radius": 200,
+        "orbitRadius": 0.06750712,
+        "rotationPeriod": 845.396198704915,
+        "obliquity": -0.8081329,
+        "orbitalPeriod": 1058.94427618741,
+        "position": {
+            "x": -0.468019174523621,
+            "y": 0.0175151757450743,
+            "z": -1.12068347439424
+        }
+    },
+    {
+        "id": 2604,
+        "name": "Alterf IV",
+        "starId": 26,
+        "starName": "Alterf",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 2.265993,
+        "rotationPeriod": 559.019716035377,
+        "obliquity": -23.89678,
+        "orbitalPeriod": 16535.449869252,
+        "position": {
+            "x": -0.61202439255999,
+            "y": 0.153883513621592,
+            "z": 2.17634341505061
+        }
+    },
+    {
+        "id": 2701,
+        "name": "Zeta Hydrae I",
+        "starId": 27,
+        "starName": "Zeta Hydrae",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 15,
+        "radius": 200,
+        "orbitRadius": 0.9450312,
+        "rotationPeriod": 519.766549708741,
+        "obliquity": 7.682032,
+        "orbitalPeriod": 5255.30579859822,
+        "position": {
+            "x": 0.939866294199269,
+            "y": -0.0925425442292287,
+            "z": 0.0342233936789458
+        }
+    },
+    {
+        "id": 2702,
+        "name": "Zeta Hydrae II",
+        "starId": 27,
+        "starName": "Zeta Hydrae",
+        "type": "Desert",
+        "singularity": "ClockwiseRotate",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 1.318825,
+        "rotationPeriod": -549.733218035792,
+        "obliquity": 5.274154,
+        "orbitalPeriod": 8663.82538294592,
+        "position": {
+            "x": -1.31185845116631,
+            "y": 0.126925206781678,
+            "z": 0.0470906455181909
+        }
+    },
+    {
+        "id": 2703,
+        "name": "Zeta Hydrae III",
+        "starId": 27,
+        "starName": "Zeta Hydrae",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 2.35215,
+        "rotationPeriod": 795.602465007109,
+        "obliquity": -7.337022,
+        "orbitalPeriod": 20636.0416984679,
+        "position": {
+            "x": 2.34515753337028,
+            "y": 0.0108598444344056,
+            "z": 0.180909684016924
+        }
+    },
+    {
+        "id": 2801,
+        "name": "Ashtaroth I",
+        "starId": 28,
+        "starName": "Ashtaroth",
+        "type": "Vocano",
+        "singularity": "TidalLocked4",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.4824879,
+        "rotationPeriod": 405.702060200478,
+        "obliquity": 2.475698,
+        "orbitalPeriod": 1622.80824080191,
+        "position": {
+            "x": 0.443271053185269,
+            "y": 0.0375602310956351,
+            "z": -0.186800921441887
+        }
+    },
+    {
+        "id": 2802,
+        "name": "Ashtaroth II",
+        "starId": 28,
+        "starName": "Ashtaroth",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 25,
+        "radius": 200,
+        "orbitRadius": 1.66326,
+        "rotationPeriod": 654.194187402278,
+        "obliquity": -6.392713,
+        "orbitalPeriod": 10386.7048388854,
+        "position": {
+            "x": -1.01431001983649,
+            "y": -0.00945204813196538,
+            "z": -1.31815000863361
+        }
+    },
+    {
+        "id": 2803,
+        "name": "Ashtaroth III",
+        "starId": 28,
+        "starName": "Ashtaroth",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 2.27895,
+        "rotationPeriod": 526.153363093647,
+        "obliquity": -7.031541,
+        "orbitalPeriod": 16658.6539590178,
+        "position": {
+            "x": -0.867334022491659,
+            "y": -0.136396247330595,
+            "z": -2.10303202124357
+        }
+    },
+    {
+        "id": 2901,
+        "name": "Zeta Delphini I",
+        "starId": 29,
+        "starName": "Zeta Delphini",
+        "type": "Vocano",
+        "singularity": "LaySide",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.8095354,
+        "rotationPeriod": 804.176615621156,
+        "obliquity": -79.65406,
+        "orbitalPeriod": 3537.97173636481,
+        "position": {
+            "x": -0.107384030092168,
+            "y": -0.0838508956516519,
+            "z": -0.797988326461472
+        }
+    },
+    {
+        "id": 2902,
+        "name": "Zeta Delphini II",
+        "starId": 29,
+        "starName": "Zeta Delphini",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 1.142567,
+        "rotationPeriod": 768.95610750558,
+        "obliquity": -11.54272,
+        "orbitalPeriod": 5932.29890959647,
+        "position": {
+            "x": 0.416902273520453,
+            "y": 0.0382537460596797,
+            "z": -1.06310315036037
+        }
+    },
+    {
+        "id": 2903,
+        "name": "Zeta Delphini III",
+        "starId": 29,
+        "starName": "Zeta Delphini",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 2.931205,
+        "rotationPeriod": 715.658049764886,
+        "obliquity": 8.0706,
+        "orbitalPeriod": 24376.4160517225,
+        "position": {
+            "x": 0.788257754112214,
+            "y": 0.230663332309495,
+            "z": 2.81378859010351
+        }
+    },
+    {
+        "id": 3001,
+        "name": "\u03b5 Canum Venaticorum I",
+        "starId": 30,
+        "starName": "\u03b5 Canum Venaticorum",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.9967536,
+        "rotationPeriod": 541.918979010586,
+        "obliquity": -0.5553811,
+        "orbitalPeriod": 4430.56241435782,
+        "position": {
+            "x": -0.971422254177917,
+            "y": -0.025243791432544,
+            "z": -0.221854111653387
+        }
+    },
+    {
+        "id": 3002,
+        "name": "\u03b5 Canum Venaticorum II",
+        "starId": 30,
+        "starName": "\u03b5 Canum Venaticorum",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 1.37483,
+        "rotationPeriod": 792.502453403842,
+        "obliquity": 11.96294,
+        "orbitalPeriod": 7177.12311412227,
+        "position": {
+            "x": -0.470763519978535,
+            "y": -0.0183934833281958,
+            "z": 1.29158802495446
+        }
+    },
+    {
+        "id": 3003,
+        "name": "\u03b5 Canum Venaticorum III",
+        "starId": 30,
+        "starName": "\u03b5 Canum Venaticorum",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 3,
+        "radius": 80,
+        "orbitRadius": 1.894108,
+        "rotationPeriod": 95.8969650517098,
+        "obliquity": 7.851833,
+        "orbitalPeriod": 11606.047060041,
+        "position": {
+            "x": 0.0981944925652585,
+            "y": 0.00367009743239204,
+            "z": -1.89155772052606
+        }
+    },
+    {
+        "id": 3004,
+        "name": "\u03b5 Canum Venaticorum IV",
+        "starId": 30,
+        "starName": "\u03b5 Canum Venaticorum",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 15,
+        "radius": 200,
+        "orbitRadius": 0.06947142,
+        "rotationPeriod": 429.623174525669,
+        "obliquity": 0.8006368,
+        "orbitalPeriod": 1105.49812228548,
+        "position": {
+            "x": 0.0887537051705951,
+            "y": 0.0219872209515711,
+            "z": -1.82521292331915
+        }
+    },
+    {
+        "id": 3101,
+        "name": "Gamma Aurigae I",
+        "starId": 31,
+        "starName": "Gamma Aurigae",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.4460666,
+        "rotationPeriod": 418.372760614962,
+        "obliquity": 1.601238,
+        "orbitalPeriod": 1499.94796301736,
+        "position": {
+            "x": -0.443384392711552,
+            "y": -0.0457567014324518,
+            "z": -0.0170880055496165
+        }
+    },
+    {
+        "id": 3102,
+        "name": "Gamma Aurigae II",
+        "starId": 31,
+        "starName": "Gamma Aurigae",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.7804786,
+        "rotationPeriod": 356.958272481231,
+        "obliquity": 57.4158,
+        "orbitalPeriod": 3471.50781768101,
+        "position": {
+            "x": -0.780173232282282,
+            "y": -0.00903076964797597,
+            "z": -0.0198780485483104
+        }
+    },
+    {
+        "id": 3103,
+        "name": "Gamma Aurigae III",
+        "starId": 31,
+        "starName": "Gamma Aurigae",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 1.111896,
+        "rotationPeriod": 395.575446376984,
+        "obliquity": 19.90351,
+        "orbitalPeriod": 5903.00192800392,
+        "position": {
+            "x": 0.795228611506864,
+            "y": -0.0226546286851349,
+            "z": -0.776795338043845
+        }
+    },
+    {
+        "id": 3104,
+        "name": "Gamma Aurigae IV",
+        "starId": 31,
+        "starName": "Gamma Aurigae",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 25,
+        "radius": 200,
+        "orbitRadius": 1.562629,
+        "rotationPeriod": 603.589082672208,
+        "obliquity": -17.73664,
+        "orbitalPeriod": 9834.68410246181,
+        "position": {
+            "x": 0.169776655430294,
+            "y": 0.0835398496442306,
+            "z": 1.55113050816858
+        }
+    },
+    {
+        "id": 3201,
+        "name": "Cebalrai I",
+        "starId": 32,
+        "starName": "Cebalrai",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.7942354,
+        "rotationPeriod": 382.974260636303,
+        "obliquity": -4.212832,
+        "orbitalPeriod": 3547.99009029204,
+        "position": {
+            "x": -0.624991932625706,
+            "y": 0.00570070519034131,
+            "z": 0.490063661319299
+        }
+    },
+    {
+        "id": 3202,
+        "name": "Cebalrai II",
+        "starId": 32,
+        "starName": "Cebalrai",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 1.564039,
+        "rotationPeriod": 556.733419337574,
+        "obliquity": 4.213872,
+        "orbitalPeriod": 9804.6014510215,
+        "position": {
+            "x": 1.5224781289539,
+            "y": 0.0848336885000952,
+            "z": 0.347968845906334
+        }
+    },
+    {
+        "id": 3203,
+        "name": "Cebalrai III",
+        "starId": 32,
+        "starName": "Cebalrai",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 2.133741,
+        "rotationPeriod": 98.6353987057194,
+        "obliquity": -7.806508,
+        "orbitalPeriod": 15623.2408293602,
+        "position": {
+            "x": 1.68041134095689,
+            "y": -0.130777315276434,
+            "z": 1.3084220656007
+        }
+    },
+    {
+        "id": 3204,
+        "name": "Cebalrai IV",
+        "starId": 32,
+        "starName": "Cebalrai",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 0.06664202,
+        "rotationPeriod": 889.541737061735,
+        "obliquity": -7.217638,
+        "orbitalPeriod": 1038.65429257727,
+        "position": {
+            "x": 1.68595632105021,
+            "y": -0.133167070754498,
+            "z": 1.37479000384452
+        }
+    },
+    {
+        "id": 3301,
+        "name": "Cornu I",
+        "starId": 33,
+        "starName": "Cornu",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.5623173,
+        "rotationPeriod": 316.663384003226,
+        "obliquity": 0.1655382,
+        "orbitalPeriod": 1886.69182247315,
+        "position": {
+            "x": -0.275167903061706,
+            "y": 0.0218300952565473,
+            "z": 0.489904920144085
+        }
+    },
+    {
+        "id": 3302,
+        "name": "Cornu II",
+        "starId": 33,
+        "starName": "Cornu",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 16,
+        "radius": 200,
+        "orbitRadius": 1.942261,
+        "rotationPeriod": 762.468355731768,
+        "obliquity": 8.782529,
+        "orbitalPeriod": 12111.2810988684,
+        "position": {
+            "x": -0.0138474102092372,
+            "y": 0.0834599051509765,
+            "z": 1.94041734675173
+        }
+    },
+    {
+        "id": 3303,
+        "name": "Cornu III",
+        "starId": 33,
+        "starName": "Cornu",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 2.593971,
+        "rotationPeriod": 190.757465754508,
+        "obliquity": 8.707082,
+        "orbitalPeriod": 18692.8931710284,
+        "position": {
+            "x": 1.1288596368362,
+            "y": 0.0116206639252361,
+            "z": 2.3354287998621
+        }
+    },
+    {
+        "id": 3304,
+        "name": "Cornu IV",
+        "starId": 33,
+        "starName": "Cornu",
+        "type": "Desert",
+        "singularity": "ClockwiseRotate",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 0.06957395,
+        "rotationPeriod": -758.685583031975,
+        "obliquity": 12.56889,
+        "orbitalPeriod": 1107.94630246634,
+        "position": {
+            "x": 1.19175960648666,
+            "y": 0.0147020839931915,
+            "z": 2.3650029955099
+        }
+    },
+    {
+        "id": 3305,
+        "name": "Cornu V",
+        "starId": 33,
+        "starName": "Cornu",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 4.519419,
+        "rotationPeriod": 734.499443187627,
+        "obliquity": -14.16814,
+        "orbitalPeriod": 42988.5360456838,
+        "position": {
+            "x": -3.7459969130348,
+            "y": -0.0426352312090539,
+            "z": 2.52801016022978
+        }
+    },
+    {
+        "id": 3401,
+        "name": "Beta Tucanae I",
+        "starId": 34,
+        "starName": "Beta Tucanae",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.9028531,
+        "rotationPeriod": 738.841984203174,
+        "obliquity": 10.81279,
+        "orbitalPeriod": 4046.14091643387,
+        "position": {
+            "x": -0.297185229048189,
+            "y": 0.023336093300556,
+            "z": 0.852220806059205
+        }
+    },
+    {
+        "id": 3402,
+        "name": "Beta Tucanae II",
+        "starId": 34,
+        "starName": "Beta Tucanae",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 8,
+        "radius": 200,
+        "orbitRadius": 1.762947,
+        "rotationPeriod": 628.355332800752,
+        "obliquity": -18.78962,
+        "orbitalPeriod": 11040.1272627939,
+        "position": {
+            "x": -0.515869146899826,
+            "y": 0.09062378693748,
+            "z": 1.68334413536164
+        }
+    },
+    {
+        "id": 3403,
+        "name": "Beta Tucanae III",
+        "starId": 34,
+        "starName": "Beta Tucanae",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 3.138681,
+        "rotationPeriod": 718.354375685618,
+        "obliquity": 23.75475,
+        "orbitalPeriod": 26226.243866272,
+        "position": {
+            "x": -0.130544562592761,
+            "y": -0.100202103144516,
+            "z": -3.1343634984851
+        }
+    },
+    {
+        "id": 3501,
+        "name": "Kappa Delphini I",
+        "starId": 35,
+        "starName": "Kappa Delphini",
+        "type": "Vocano",
+        "singularity": "ClockwiseRotate",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 1.415572,
+        "rotationPeriod": -714.370656606115,
+        "obliquity": 0.5591632,
+        "orbitalPeriod": 5100.98646829307,
+        "position": {
+            "x": -0.675994933721556,
+            "y": 0.020143793077636,
+            "z": -1.24357082549059
+        }
+    },
+    {
+        "id": 3502,
+        "name": "Kappa Delphini II",
+        "starId": 35,
+        "starName": "Kappa Delphini",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 2.789891,
+        "rotationPeriod": 790.160254355226,
+        "obliquity": -14.58795,
+        "orbitalPeriod": 14113.5847334062,
+        "position": {
+            "x": 0.727625091129389,
+            "y": 0.0468528721588452,
+            "z": 2.69292796036818
+        }
+    },
+    {
+        "id": 3503,
+        "name": "Kappa Delphini III",
+        "starId": 35,
+        "starName": "Kappa Delphini",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 5,
+        "radius": 80,
+        "orbitRadius": 3.784925,
+        "rotationPeriod": 333.207083371917,
+        "obliquity": -0.2842709,
+        "orbitalPeriod": 22301.9236289723,
+        "position": {
+            "x": 1.13051196960497,
+            "y": -0.20560987864213,
+            "z": 3.60628966612724
+        }
+    },
+    {
+        "id": 3504,
+        "name": "Kappa Delphini IV",
+        "starId": 35,
+        "starName": "Kappa Delphini",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 18,
+        "radius": 200,
+        "orbitRadius": 0.07547105,
+        "rotationPeriod": 767.795972252466,
+        "obliquity": 6.958501,
+        "orbitalPeriod": 1251.75505320957,
+        "position": {
+            "x": 1.07086498977711,
+            "y": -0.220297981334719,
+            "z": 3.65013458143102
+        }
+    },
+    {
+        "id": 3505,
+        "name": "Kappa Delphini V",
+        "starId": 35,
+        "starName": "Kappa Delphini",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 6.557192,
+        "rotationPeriod": 1283.33366387642,
+        "obliquity": -0.05379498,
+        "orbitalPeriod": 50854.9523364154,
+        "position": {
+            "x": 5.58189610314555,
+            "y": 0.0416333250870259,
+            "z": 3.44056278486875
+        }
+    },
+    {
+        "id": 3601,
+        "name": "TejatPrior I",
+        "starId": 36,
+        "starName": "TejatPrior",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 0.665124,
+        "rotationPeriod": 394.443907230934,
+        "obliquity": -22.61844,
+        "orbitalPeriod": 2161.70308309765,
+        "position": {
+            "x": -0.614880982661066,
+            "y": -0.0230513302141574,
+            "z": -0.252546995347612
+        }
+    },
+    {
+        "id": 3602,
+        "name": "TejatPrior II",
+        "starId": 36,
+        "starName": "TejatPrior",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 1.167473,
+        "rotationPeriod": 751.88718249893,
+        "obliquity": 23.94728,
+        "orbitalPeriod": 5027.04329451505,
+        "position": {
+            "x": -0.833319067529658,
+            "y": 0.140930836749125,
+            "z": -0.805426607824334
+        }
+    },
+    {
+        "id": 3603,
+        "name": "TejatPrior III",
+        "starId": 36,
+        "starName": "TejatPrior",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 1.666879,
+        "rotationPeriod": 953.860296700982,
+        "obliquity": -20.22015,
+        "orbitalPeriod": 8576.26890283164,
+        "position": {
+            "x": -1.59764372387446,
+            "y": -0.00977614821050725,
+            "z": 0.475316594100121
+        }
+    },
+    {
+        "id": 3604,
+        "name": "TejatPrior IV",
+        "starId": 36,
+        "starName": "TejatPrior",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 23,
+        "radius": 200,
+        "orbitRadius": 2.340289,
+        "rotationPeriod": 794.849805746342,
+        "obliquity": -9.302302,
+        "orbitalPeriod": 14267.4486198816,
+        "position": {
+            "x": -1.23021895291127,
+            "y": 0.236698620764857,
+            "z": -1.9767365878731
+        }
+    },
+    {
+        "id": 3605,
+        "name": "TejatPrior V",
+        "starId": 36,
+        "starName": "TejatPrior",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 4.153263,
+        "rotationPeriod": 1130.31956868904,
+        "obliquity": 3.309914,
+        "orbitalPeriod": 33730.7659903953,
+        "position": {
+            "x": -4.01700113400768,
+            "y": -0.112407572895777,
+            "z": 1.049121890825
+        }
+    },
+    {
+        "id": 3701,
+        "name": "Keid I",
+        "starId": 37,
+        "starName": "Keid",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.8656925,
+        "rotationPeriod": 538.70133284567,
+        "obliquity": -1.503183,
+        "orbitalPeriod": 1918.36835886471,
+        "position": {
+            "x": -0.173962793591855,
+            "y": -0.0224363186989786,
+            "z": -0.847736299826186
+        }
+    },
+    {
+        "id": 3702,
+        "name": "Keid II",
+        "starId": 37,
+        "starName": "Keid",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 2,
+        "radius": 80,
+        "orbitRadius": 2.181789,
+        "rotationPeriod": 208.899079790995,
+        "obliquity": 14.90521,
+        "orbitalPeriod": 7675.48135788825,
+        "position": {
+            "x": -2.07911153899185,
+            "y": -0.0848804982691339,
+            "z": -0.655967649020302
+        }
+    },
+    {
+        "id": 3703,
+        "name": "Keid III",
+        "starId": 37,
+        "starName": "Keid",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.07699901,
+        "rotationPeriod": 610.705269319395,
+        "obliquity": 4.576914,
+        "orbitalPeriod": 1289.96063286725,
+        "position": {
+            "x": -2.1545118205388,
+            "y": -0.0693052020526915,
+            "z": -0.654940484009553
+        }
+    },
+    {
+        "id": 3704,
+        "name": "Keid IV",
+        "starId": 37,
+        "starName": "Keid",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 5,
+        "radius": 80,
+        "orbitRadius": 5.483266,
+        "rotationPeriod": 289.711857149796,
+        "obliquity": 7.112287,
+        "orbitalPeriod": 30580.5672338501,
+        "position": {
+            "x": 2.9726583879024,
+            "y": -0.395423887907631,
+            "z": 4.59055032004068
+        }
+    },
+    {
+        "id": 3705,
+        "name": "Keid V",
+        "starId": 37,
+        "starName": "Keid",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 11,
+        "radius": 200,
+        "orbitRadius": 0.07693807,
+        "rotationPeriod": 507.49431285475,
+        "obliquity": -6.839432,
+        "orbitalPeriod": 1288.42959137545,
+        "position": {
+            "x": 3.00490748217375,
+            "y": -0.396889852692722,
+            "z": 4.52071255272174
+        }
+    },
+    {
+        "id": 3801,
+        "name": "Eta Corvi I",
+        "starId": 38,
+        "starName": "Eta Corvi",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.8577187,
+        "rotationPeriod": 506.897447087301,
+        "obliquity": 6.353333,
+        "orbitalPeriod": 1802.49476338178,
+        "position": {
+            "x": -0.675251832077917,
+            "y": 0.0202950754189929,
+            "z": 0.528492662833708
+        }
+    },
+    {
+        "id": 3802,
+        "name": "Eta Corvi II",
+        "starId": 38,
+        "starName": "Eta Corvi",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 3.125861,
+        "rotationPeriod": 604.517198674344,
+        "obliquity": 12.80508,
+        "orbitalPeriod": 12540.3964581617,
+        "position": {
+            "x": 3.07802245924996,
+            "y": 0.204684306950914,
+            "z": -0.504867909408343
+        }
+    },
+    {
+        "id": 3803,
+        "name": "Eta Corvi III",
+        "starId": 38,
+        "starName": "Eta Corvi",
+        "type": "Gas",
+        "singularity": "MultipleSatellites",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 4.272181,
+        "rotationPeriod": 125.670864660354,
+        "obliquity": 48.61346,
+        "orbitalPeriod": 20036.9290574104,
+        "position": {
+            "x": 2.53420218820095,
+            "y": 0.106647480214493,
+            "z": 3.43772886776685
+        }
+    },
+    {
+        "id": 3804,
+        "name": "Eta Corvi IV",
+        "starId": 38,
+        "starName": "Eta Corvi",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 23,
+        "radius": 200,
+        "orbitRadius": 0.07723497,
+        "rotationPeriod": 520.605173837062,
+        "obliquity": 19.3494,
+        "orbitalPeriod": 1295.89470996074,
+        "position": {
+            "x": 2.46432329254541,
+            "y": 0.0957869175144255,
+            "z": 3.46878092350758
+        }
+    },
+    {
+        "id": 3805,
+        "name": "Eta Corvi V",
+        "starId": 38,
+        "starName": "Eta Corvi",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 15,
+        "radius": 200,
+        "orbitRadius": 0.1290077,
+        "rotationPeriod": 825.580623926167,
+        "obliquity": 1.713144,
+        "orbitalPeriod": 2797.51252548639,
+        "position": {
+            "x": 2.57191480985125,
+            "y": 0.11036685771885,
+            "z": 3.56104515784636
+        }
+    },
+    {
+        "id": 3806,
+        "name": "Eta Corvi VI",
+        "starId": 38,
+        "starName": "Eta Corvi",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 9.651836,
+        "rotationPeriod": 1089.80661853788,
+        "obliquity": 9.415086,
+        "orbitalPeriod": 68041.1455126102,
+        "position": {
+            "x": 1.46145233680937,
+            "y": 0.0162902249397544,
+            "z": -9.54053653822701
+        }
+    },
+    {
+        "id": 3901,
+        "name": "Ksora I",
+        "starId": 39,
+        "starName": "Ksora",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 1.55512,
+        "rotationPeriod": 895.635459548117,
+        "obliquity": -12.89834,
+        "orbitalPeriod": 4476.44598638181,
+        "position": {
+            "x": -0.528988130916756,
+            "y": -0.0284611935332536,
+            "z": -1.46210777945407
+        }
+    },
+    {
+        "id": 3902,
+        "name": "Ksora II",
+        "starId": 39,
+        "starName": "Ksora",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 4.220581,
+        "rotationPeriod": 577.025586749307,
+        "obliquity": -2.706797,
+        "orbitalPeriod": 20014.5502823044,
+        "position": {
+            "x": -3.9993018327153,
+            "y": -0.371710899721054,
+            "z": -1.29642288903471
+        }
+    },
+    {
+        "id": 3903,
+        "name": "Ksora III",
+        "starId": 39,
+        "starName": "Ksora",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 7.336486,
+        "rotationPeriod": 654.677664192164,
+        "obliquity": 15.21276,
+        "orbitalPeriod": 45869.0464487811,
+        "position": {
+            "x": -4.84378221840581,
+            "y": 0.237068650854672,
+            "z": 5.5050530327798
+        }
+    },
+    {
+        "id": 3904,
+        "name": "Ksora IV",
+        "starId": 39,
+        "starName": "Ksora",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 9.591925,
+        "rotationPeriod": 1516.11029593039,
+        "obliquity": -19.99004,
+        "orbitalPeriod": 68571.8996518846,
+        "position": {
+            "x": 6.94575016636028,
+            "y": -0.0154401132390543,
+            "z": 6.61523312914199
+        }
+    },
+    {
+        "id": 4001,
+        "name": "Procyon I",
+        "starId": 40,
+        "starName": "Procyon",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 2,
+        "radius": 80,
+        "orbitRadius": 2.540657,
+        "rotationPeriod": 144.430462775957,
+        "obliquity": 0.04338598,
+        "orbitalPeriod": 6413.32201677961,
+        "position": {
+            "x": 2.10349442991117,
+            "y": -0.00439556057283255,
+            "z": -1.42486103416991
+        }
+    },
+    {
+        "id": 4002,
+        "name": "Procyon II",
+        "starId": 40,
+        "starName": "Procyon",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 0.07964306,
+        "rotationPeriod": 435.262945821902,
+        "obliquity": -0.02309416,
+        "orbitalPeriod": 1356.97138435529,
+        "position": {
+            "x": 2.02596920136945,
+            "y": 0.0131173833120204,
+            "z": -1.42997507244414
+        }
+    },
+    {
+        "id": 4003,
+        "name": "Procyon III",
+        "starId": 40,
+        "starName": "Procyon",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 23,
+        "radius": 200,
+        "orbitRadius": 4.869407,
+        "rotationPeriod": 1176.82332342411,
+        "obliquity": -6.662606,
+        "orbitalPeriod": 17016.8111023507,
+        "position": {
+            "x": -0.0798311688429724,
+            "y": 0.0565183765129872,
+            "z": 4.8684247068143
+        }
+    },
+    {
+        "id": 4004,
+        "name": "Procyon IV",
+        "starId": 40,
+        "starName": "Procyon",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 6.38289,
+        "rotationPeriod": 231.233565211166,
+        "obliquity": 2.102377,
+        "orbitalPeriod": 25538.189407273,
+        "position": {
+            "x": 2.11278713208407,
+            "y": -0.292246541307833,
+            "z": -6.01597961082736
+        }
+    },
+    {
+        "id": 4005,
+        "name": "Procyon V",
+        "starId": 40,
+        "starName": "Procyon",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 0.07947154,
+        "rotationPeriod": 990.300453248983,
+        "obliquity": -14.97091,
+        "orbitalPeriod": 1352.58998159527,
+        "position": {
+            "x": 2.10094941463848,
+            "y": -0.291934624276611,
+            "z": -5.93739526718209
+        }
+    },
+    {
+        "id": 4101,
+        "name": "OsPegasi I",
+        "starId": 41,
+        "starName": "OsPegasi",
+        "type": "Vocano",
+        "singularity": "TidalLocked2",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 1.059234,
+        "rotationPeriod": 835.674810950241,
+        "obliquity": -0.0979121,
+        "orbitalPeriod": 1671.34962190048,
+        "position": {
+            "x": -0.555825469366646,
+            "y": 0.00505413887283634,
+            "z": 0.901670669663587
+        }
+    },
+    {
+        "id": 4102,
+        "name": "OsPegasi II",
+        "starId": 41,
+        "starName": "OsPegasi",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 1.813142,
+        "rotationPeriod": 499.240368598716,
+        "obliquity": -13.16342,
+        "orbitalPeriod": 3743.06215871422,
+        "position": {
+            "x": 1.64180070904916,
+            "y": 0.110977166373934,
+            "z": 0.761353814272732
+        }
+    },
+    {
+        "id": 4103,
+        "name": "OsPegasi III",
+        "starId": 41,
+        "starName": "OsPegasi",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 2.586734,
+        "rotationPeriod": 510.199591048576,
+        "obliquity": 0.1612706,
+        "orbitalPeriod": 6378.32663515029,
+        "position": {
+            "x": 2.43276551605661,
+            "y": -0.233383858559305,
+            "z": 0.847569283682641
+        }
+    },
+    {
+        "id": 4104,
+        "name": "OsPegasi IV",
+        "starId": 41,
+        "starName": "OsPegasi",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 3,
+        "radius": 80,
+        "orbitRadius": 3.668424,
+        "rotationPeriod": 119.904073734339,
+        "obliquity": 3.744955,
+        "orbitalPeriod": 10772.0538678015,
+        "position": {
+            "x": -2.82017074562495,
+            "y": 0.145299907084031,
+            "z": -2.34155093878703
+        }
+    },
+    {
+        "id": 4105,
+        "name": "OsPegasi V",
+        "starId": 41,
+        "starName": "OsPegasi",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 0.08030961,
+        "rotationPeriod": 514.064961855328,
+        "obliquity": -1.955306,
+        "orbitalPeriod": 1374.04219067746,
+        "position": {
+            "x": -2.8016941126394,
+            "y": 0.151973464008112,
+            "z": -2.41942077810742
+        }
+    },
+    {
+        "id": 4201,
+        "name": "Alsahm I",
+        "starId": 42,
+        "starName": "Alsahm",
+        "type": "Vocano",
+        "singularity": "TidalLocked4",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.7888674,
+        "rotationPeriod": 565.222284209498,
+        "obliquity": 0.1886994,
+        "orbitalPeriod": 2260.88913683799,
+        "position": {
+            "x": 0.209123180743375,
+            "y": -0.0296726613873971,
+            "z": -0.760064890909471
+        }
+    },
+    {
+        "id": 4202,
+        "name": "Alsahm II",
+        "starId": 42,
+        "starName": "Alsahm",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 2.701258,
+        "rotationPeriod": 600.282902952026,
+        "obliquity": 4.000269,
+        "orbitalPeriod": 14325.9173896225,
+        "position": {
+            "x": -2.43141846091267,
+            "y": -0.0108366686904571,
+            "z": -1.17681129898677
+        }
+    },
+    {
+        "id": 4203,
+        "name": "Alsahm III",
+        "starId": 42,
+        "starName": "Alsahm",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 3,
+        "radius": 80,
+        "orbitRadius": 3.668916,
+        "rotationPeriod": 164.820638098125,
+        "obliquity": -6.235372,
+        "orbitalPeriod": 22676.6975581631,
+        "position": {
+            "x": -2.3968584858613,
+            "y": -0.147792956944628,
+            "z": -2.77383626794879
+        }
+    },
+    {
+        "id": 4204,
+        "name": "Alsahm IV",
+        "starId": 42,
+        "starName": "Alsahm",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 0.07521333,
+        "rotationPeriod": 501.798694273886,
+        "obliquity": 19.95467,
+        "orbitalPeriod": 1245.34867882345,
+        "position": {
+            "x": -2.35024885180001,
+            "y": -0.148080636655897,
+            "z": -2.71480658588688
+        }
+    },
+    {
+        "id": 4205,
+        "name": "Alsahm V",
+        "starId": 42,
+        "starName": "Alsahm",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 6.410476,
+        "rotationPeriod": 1454.6744942297,
+        "obliquity": 44.04366,
+        "orbitalPeriod": 52373.1423875585,
+        "position": {
+            "x": 0.6018483816156,
+            "y": -0.291686875173275,
+            "z": 6.37549219193425
+        }
+    },
+    {
+        "id": 4301,
+        "name": "Mintaka I",
+        "starId": 43,
+        "starName": "Mintaka",
+        "type": "Vocano",
+        "singularity": "ClockwiseRotate",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.8238818,
+        "rotationPeriod": -555.203586788056,
+        "obliquity": 5.097697,
+        "orbitalPeriod": 2112.61553864543,
+        "position": {
+            "x": 0.699796664098049,
+            "y": -0.0121278754015364,
+            "z": 0.43464789318602
+        }
+    },
+    {
+        "id": 4302,
+        "name": "Mintaka II",
+        "starId": 43,
+        "starName": "Mintaka",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 2.0843,
+        "rotationPeriod": 138.721190831298,
+        "obliquity": 6.55852,
+        "orbitalPeriod": 8500.87308394216,
+        "position": {
+            "x": 0.885951545278526,
+            "y": 0.00166404231993003,
+            "z": 1.88663610545575
+        }
+    },
+    {
+        "id": 4303,
+        "name": "Mintaka III",
+        "starId": 43,
+        "starName": "Mintaka",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.07601226,
+        "rotationPeriod": 590.723749706609,
+        "obliquity": -5.825896,
+        "orbitalPeriod": 1265.2438476113,
+        "position": {
+            "x": 0.906586475721534,
+            "y": -0.0119415800667698,
+            "z": 1.95851761059615
+        }
+    },
+    {
+        "id": 4401,
+        "name": "173 Comae Berenices I",
+        "starId": 44,
+        "starName": "173 Comae Berenices",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 5,
+        "radius": 80,
+        "orbitRadius": 2.729597,
+        "rotationPeriod": 106.729980234346,
+        "obliquity": -14.37957,
+        "orbitalPeriod": 43074.309915994,
+        "position": {
+            "x": 0.854144231802283,
+            "y": 0.261280776047558,
+            "z": 2.57931521056664
+        }
+    },
+    {
+        "id": 4402,
+        "name": "173 Comae Berenices II",
+        "starId": 44,
+        "starName": "173 Comae Berenices",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.08103988,
+        "rotationPeriod": 973.723302128037,
+        "obliquity": -15.59131,
+        "orbitalPeriod": 1392.82612996425,
+        "position": {
+            "x": 0.850379759410678,
+            "y": 0.271552202178644,
+            "z": 2.49901710962199
+        }
+    },
+    {
+        "id": 4501,
+        "name": "Muphrid Photon Farm",
+        "starId": 45,
+        "starName": "Muphrid",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 1.915317,
+        "rotationPeriod": 423.490799835849,
+        "obliquity": -3.297456,
+        "orbitalPeriod": 3537.09154073467,
+        "position": {
+            "x": -1.8547806626963,
+            "y": -0.0436898723068525,
+            "z": 0.475729641561087
+        }
+    },
+    {
+        "id": 4502,
+        "name": "Muphrid II",
+        "starId": 45,
+        "starName": "Muphrid",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 4,
+        "radius": 80,
+        "orbitRadius": 3.818058,
+        "rotationPeriod": 130.14062932968,
+        "obliquity": -8.839423,
+        "orbitalPeriod": 9955.17983414411,
+        "position": {
+            "x": 3.7865877215363,
+            "y": -0.230067571220762,
+            "z": 0.431728754839588
+        }
+    },
+    {
+        "id": 4503,
+        "name": "Muphrid III",
+        "starId": 45,
+        "starName": "Muphrid",
+        "type": "Vocano",
+        "singularity": "ClockwiseRotate",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.08099381,
+        "rotationPeriod": -661.399168994993,
+        "obliquity": -17.46676,
+        "orbitalPeriod": 1391.63867531233,
+        "position": {
+            "x": 3.84855631748876,
+            "y": -0.238850498486704,
+            "z": 0.483136445678227
+        }
+    },
+    {
+        "id": 4504,
+        "name": "Muphrid IV",
+        "starId": 45,
+        "starName": "Muphrid",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 11,
+        "radius": 200,
+        "orbitRadius": 6.843905,
+        "rotationPeriod": 748.465301342823,
+        "obliquity": 28.26628,
+        "orbitalPeriod": 23891.3849865669,
+        "position": {
+            "x": 6.66261411904041,
+            "y": -0.324012433814095,
+            "z": 1.53089336389944
+        }
+    },
+    {
+        "id": 4601,
+        "name": "Gemma I",
+        "starId": 46,
+        "starName": "Gemma",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.8303584,
+        "rotationPeriod": 343.136207553554,
+        "obliquity": 5.293939,
+        "orbitalPeriod": 2003.08061911293,
+        "position": {
+            "x": 0.480502225644655,
+            "y": 0.0188338384091813,
+            "z": 0.676947515757296
+        }
+    },
+    {
+        "id": 4602,
+        "name": "Gemma II",
+        "starId": 46,
+        "starName": "Gemma",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 1.475602,
+        "rotationPeriod": 469.078794485849,
+        "obliquity": -17.40328,
+        "orbitalPeriod": 4745.19527236355,
+        "position": {
+            "x": -1.24184145350438,
+            "y": -0.0529060928636503,
+            "z": -0.795256478992228
+        }
+    },
+    {
+        "id": 4603,
+        "name": "Gemma III",
+        "starId": 46,
+        "starName": "Gemma",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 5,
+        "radius": 80,
+        "orbitRadius": 2.136571,
+        "rotationPeriod": 107.364625542308,
+        "obliquity": 5.782307,
+        "orbitalPeriod": 8267.53629797674,
+        "position": {
+            "x": -1.4635136657211,
+            "y": -0.00880214651576113,
+            "z": 1.55659453245603
+        }
+    },
+    {
+        "id": 4604,
+        "name": "Gemma IV",
+        "starId": 46,
+        "starName": "Gemma",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.07661107,
+        "rotationPeriod": 424.869395796642,
+        "obliquity": -8.537704,
+        "orbitalPeriod": 1280.22429192438,
+        "position": {
+            "x": -1.49055299253666,
+            "y": 0.00207969391207245,
+            "z": 1.62744449548343
+        }
+    },
+    {
+        "id": 4701,
+        "name": "Asmidiske I",
+        "starId": 47,
+        "starName": "Asmidiske",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.7792878,
+        "rotationPeriod": 359.571041559631,
+        "obliquity": -3.032253,
+        "orbitalPeriod": 2226.93317389814,
+        "position": {
+            "x": -0.701809074395007,
+            "y": 0.0272155067720731,
+            "z": 0.337657943365674
+        }
+    },
+    {
+        "id": 4702,
+        "name": "Asmidiske II",
+        "starId": 47,
+        "starName": "Asmidiske",
+        "type": "Gas",
+        "singularity": "ClockwiseRotate",
+        "theme": 2,
+        "radius": 80,
+        "orbitRadius": 1.940507,
+        "rotationPeriod": -129.611173335408,
+        "obliquity": -14.11564,
+        "orbitalPeriod": 8750.50334315769,
+        "position": {
+            "x": -1.4867176642429,
+            "y": 0.0587855567978577,
+            "z": -1.24570492459976
+        }
+    },
+    {
+        "id": 4703,
+        "name": "Asmidiske III",
+        "starId": 47,
+        "starName": "Asmidiske",
+        "type": "Desert",
+        "singularity": "ClockwiseRotate",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 0.0749625,
+        "rotationPeriod": -565.938455147799,
+        "obliquity": 17.59262,
+        "orbitalPeriod": 1239.12433282346,
+        "position": {
+            "x": -1.42760251551011,
+            "y": 0.05239012535811,
+            "z": -1.20005544511079
+        }
+    },
+    {
+        "id": 4704,
+        "name": "Asmidiske IV",
+        "starId": 47,
+        "starName": "Asmidiske",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 3.687996,
+        "rotationPeriod": 1125.95930097492,
+        "obliquity": -22.44094,
+        "orbitalPeriod": 22926.935150971,
+        "position": {
+            "x": -3.42950334461969,
+            "y": 0.029841805823005,
+            "z": 1.3560715855182
+        }
+    },
+    {
+        "id": 4705,
+        "name": "Asmidiske V",
+        "starId": 47,
+        "starName": "Asmidiske",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 4.87652,
+        "rotationPeriod": 1209.44266970896,
+        "obliquity": -18.56871,
+        "orbitalPeriod": 34859.8401944554,
+        "position": {
+            "x": -2.98653706051372,
+            "y": -0.307430552279528,
+            "z": -3.84272465074728
+        }
+    },
+    {
+        "id": 4801,
+        "name": "Eta Lupi I",
+        "starId": 48,
+        "starName": "Eta Lupi",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 2,
+        "radius": 80,
+        "orbitRadius": 2.006596,
+        "rotationPeriod": 102.645365571623,
+        "obliquity": -26.99936,
+        "orbitalPeriod": 8465.78044787068,
+        "position": {
+            "x": 0.223501273440534,
+            "y": 0.132526872267239,
+            "z": -1.98970137348735
+        }
+    },
+    {
+        "id": 4802,
+        "name": "Eta Lupi II",
+        "starId": 48,
+        "starName": "Eta Lupi",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 0.0749203,
+        "rotationPeriod": 398.524635358208,
+        "obliquity": -17.99805,
+        "orbitalPeriod": 1238.0779491684,
+        "position": {
+            "x": 0.297167985441614,
+            "y": 0.145459001155683,
+            "z": -1.98533953759156
+        }
+    },
+    {
+        "id": 4803,
+        "name": "Eta Lupi III",
+        "starId": 48,
+        "starName": "Eta Lupi",
+        "type": "Ocean",
+        "singularity": "None",
+        "theme": 14,
+        "radius": 200,
+        "orbitRadius": 3.81053,
+        "rotationPeriod": 816.35950632452,
+        "obliquity": 32.82825,
+        "orbitalPeriod": 22154.1518421522,
+        "position": {
+            "x": 3.80659696016177,
+            "y": 0.104297524217778,
+            "z": -0.138131260503399
+        }
+    },
+    {
+        "id": 4804,
+        "name": "Eta Lupi IV",
+        "starId": 48,
+        "starName": "Eta Lupi",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 8.62063,
+        "rotationPeriod": 1428.33747932309,
+        "obliquity": -11.97021,
+        "orbitalPeriod": 75385.1125258608,
+        "position": {
+            "x": -4.1071343053188,
+            "y": -0.237735918891344,
+            "z": 7.57563154734665
+        }
+    },
+    {
+        "id": 4901,
+        "name": "Lambda Eridani I",
+        "starId": 49,
+        "starName": "Lambda Eridani",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.9461198,
+        "rotationPeriod": 638.856419835539,
+        "obliquity": -5.700943,
+        "orbitalPeriod": 1805.36303082781,
+        "position": {
+            "x": -0.703660625525124,
+            "y": -0.000182126671148719,
+            "z": 0.632459066954966
+        }
+    },
+    {
+        "id": 4902,
+        "name": "Lambda Eridani II",
+        "starId": 49,
+        "starName": "Lambda Eridani",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 2.381849,
+        "rotationPeriod": 754.3096843146,
+        "obliquity": -35.77068,
+        "orbitalPeriod": 7211.35008800939,
+        "position": {
+            "x": -0.755258206158998,
+            "y": 0.0725080128201121,
+            "z": -2.25777122630056
+        }
+    },
+    {
+        "id": 4903,
+        "name": "Lambda Eridani III",
+        "starId": 49,
+        "starName": "Lambda Eridani",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 3.319212,
+        "rotationPeriod": 636.279990204551,
+        "obliquity": 10.1921,
+        "orbitalPeriod": 11863.089075294,
+        "position": {
+            "x": 3.2988733695077,
+            "y": 0.069305485445929,
+            "z": -0.360276299707608
+        }
+    },
+    {
+        "id": 4904,
+        "name": "Lambda Eridani IV",
+        "starId": 49,
+        "starName": "Lambda Eridani",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 23,
+        "radius": 200,
+        "orbitRadius": 4.485715,
+        "rotationPeriod": 583.708325422227,
+        "obliquity": -2.925251,
+        "orbitalPeriod": 18637.7233612357,
+        "position": {
+            "x": -3.88520620424107,
+            "y": 0.371206974067807,
+            "z": -2.21111212449056
+        }
+    },
+    {
+        "id": 4905,
+        "name": "Lambda Eridani V",
+        "starId": 49,
+        "starName": "Lambda Eridani",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 5.893066,
+        "rotationPeriod": 777.648425079979,
+        "obliquity": 6.385416,
+        "orbitalPeriod": 28064.5033230808,
+        "position": {
+            "x": -1.28874955673903,
+            "y": 0.14188967479074,
+            "z": 5.74867179396273
+        }
+    },
+    {
+        "id": 5001,
+        "name": "Merga I",
+        "starId": 50,
+        "starName": "Merga",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 2.449749,
+        "rotationPeriod": 607.204814940793,
+        "obliquity": -0.7179518,
+        "orbitalPeriod": 7163.67691287873,
+        "position": {
+            "x": 1.29353063653062,
+            "y": 0.0880318856381932,
+            "z": -2.07853229794148
+        }
+    },
+    {
+        "id": 5002,
+        "name": "Merga II",
+        "starId": 50,
+        "starName": "Merga",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 3.392025,
+        "rotationPeriod": 1009.99661065776,
+        "obliquity": -1.416331,
+        "orbitalPeriod": 11671.9175117524,
+        "position": {
+            "x": -2.49165726840269,
+            "y": -0.000378553212335314,
+            "z": 2.30162457531244
+        }
+    },
+    {
+        "id": 5003,
+        "name": "Merga III",
+        "starId": 50,
+        "starName": "Merga",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 19,
+        "radius": 200,
+        "orbitRadius": 4.591432,
+        "rotationPeriod": 970.342600890218,
+        "obliquity": 16.68941,
+        "orbitalPeriod": 18381.2870210906,
+        "position": {
+            "x": 3.81716668813594,
+            "y": -0.39889393250725,
+            "z": 2.52019188982619
+        }
+    },
+    {
+        "id": 5004,
+        "name": "Merga IV",
+        "starId": 50,
+        "starName": "Merga",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 7.949999,
+        "rotationPeriod": 961.320732534422,
+        "obliquity": 8.671347,
+        "orbitalPeriod": 41879.7745337841,
+        "position": {
+            "x": 7.17761084947189,
+            "y": 0.336721260372946,
+            "z": 3.40161666698106
+        }
+    },
+    {
+        "id": 5101,
+        "name": "Lambda Scorpii I",
+        "starId": 51,
+        "starName": "Lambda Scorpii",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 1.618578,
+        "rotationPeriod": 470.522057910821,
+        "obliquity": 10.73904,
+        "orbitalPeriod": 4298.21109309643,
+        "position": {
+            "x": -1.61599788962906,
+            "y": 0.0613869930596572,
+            "z": -0.067645118561501
+        }
+    },
+    {
+        "id": 5102,
+        "name": "Lambda Scorpii II",
+        "starId": 51,
+        "starName": "Lambda Scorpii",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 19,
+        "radius": 200,
+        "orbitRadius": 3.217212,
+        "rotationPeriod": 649.474002220151,
+        "obliquity": 7.396537,
+        "orbitalPeriod": 12045.0030997301,
+        "position": {
+            "x": -3.15057036069472,
+            "y": -0.271937256013376,
+            "z": -0.591952384410066
+        }
+    },
+    {
+        "id": 5103,
+        "name": "Lambda Scorpii III",
+        "starId": 51,
+        "starName": "Lambda Scorpii",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 11,
+        "radius": 200,
+        "orbitRadius": 4.400767,
+        "rotationPeriod": 747.887422997222,
+        "obliquity": -2.76522,
+        "orbitalPeriod": 19269.9236056613,
+        "position": {
+            "x": -2.81610790137885,
+            "y": -0.012338727663183,
+            "z": 3.38173594079668
+        }
+    },
+    {
+        "id": 5104,
+        "name": "Lambda Scorpii IV",
+        "starId": 51,
+        "starName": "Lambda Scorpii",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 5.793538,
+        "rotationPeriod": 977.692293488653,
+        "obliquity": 48.714,
+        "orbitalPeriod": 29107.3891727985,
+        "position": {
+            "x": 5.25953576953521,
+            "y": -0.195419674798584,
+            "z": -2.42160668934244
+        }
+    },
+    {
+        "id": 5105,
+        "name": "Lambda Scorpii V",
+        "starId": 51,
+        "starName": "Lambda Scorpii",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 9.944102,
+        "rotationPeriod": 1145.24250207746,
+        "obliquity": 6.450388,
+        "orbitalPeriod": 65453.9449079865,
+        "position": {
+            "x": -4.59463584744268,
+            "y": -0.0517864825470014,
+            "z": 8.81883270205272
+        }
+    },
+    {
+        "id": 5201,
+        "name": "HyadumPrimus I",
+        "starId": 52,
+        "starName": "HyadumPrimus",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 1.630821,
+        "rotationPeriod": 444.968077572573,
+        "obliquity": 20.37282,
+        "orbitalPeriod": 4199.9867236907,
+        "position": {
+            "x": 0.0289256696442182,
+            "y": 0.0395619800070807,
+            "z": 1.63008431407705
+        }
+    },
+    {
+        "id": 5202,
+        "name": "HyadumPrimus II",
+        "starId": 52,
+        "starName": "HyadumPrimus",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 19,
+        "radius": 200,
+        "orbitRadius": 2.318914,
+        "rotationPeriod": 845.602842212317,
+        "obliquity": -9.554836,
+        "orbitalPeriod": 7121.40371065741,
+        "position": {
+            "x": -1.17457267749569,
+            "y": 0.212933063760468,
+            "z": -1.9880650348962
+        }
+    },
+    {
+        "id": 5203,
+        "name": "HyadumPrimus III",
+        "starId": 52,
+        "starName": "HyadumPrimus",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 3,
+        "radius": 80,
+        "orbitRadius": 3.295731,
+        "rotationPeriod": 184.321068160877,
+        "obliquity": 0.2961777,
+        "orbitalPeriod": 12066.0766878465,
+        "position": {
+            "x": 3.24195487156992,
+            "y": 0.0253679131756121,
+            "z": -0.592390455082238
+        }
+    },
+    {
+        "id": 5204,
+        "name": "HyadumPrimus IV",
+        "starId": 52,
+        "starName": "HyadumPrimus",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 0.07788135,
+        "rotationPeriod": 772.6238178587,
+        "obliquity": 2.349296,
+        "orbitalPeriod": 1312.19679244241,
+        "position": {
+            "x": 3.27574853105986,
+            "y": 0.01167710155753,
+            "z": -0.6612094559578
+        }
+    },
+    {
+        "id": 5205,
+        "name": "HyadumPrimus V",
+        "starId": 52,
+        "starName": "HyadumPrimus",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 5.81037,
+        "rotationPeriod": 319.901698956685,
+        "obliquity": 0.9666346,
+        "orbitalPeriod": 28245.174338531,
+        "position": {
+            "x": 3.97595612942228,
+            "y": 0.205650502749448,
+            "z": -4.23200725664511
+        }
+    },
+    {
+        "id": 5206,
+        "name": "HyadumPrimus VI",
+        "starId": 52,
+        "starName": "HyadumPrimus",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 0.07797407,
+        "rotationPeriod": 760.257860159714,
+        "obliquity": -0.8358737,
+        "orbitalPeriod": 1314.5406762643,
+        "position": {
+            "x": 4.02023476752498,
+            "y": 0.206978933096804,
+            "z": -4.16783878969691
+        }
+    },
+    {
+        "id": 5301,
+        "name": "Epsilon Lyrae I",
+        "starId": 53,
+        "starName": "Epsilon Lyrae",
+        "type": "Desert",
+        "singularity": "LaySide",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 1.064939,
+        "rotationPeriod": 545.366030380673,
+        "obliquity": 75.70661,
+        "orbitalPeriod": 1625.98836636969,
+        "position": {
+            "x": -1.02930862996724,
+            "y": -0.0159567540025529,
+            "z": -0.272696400301491
+        }
+    },
+    {
+        "id": 5302,
+        "name": "Epsilon Lyrae II",
+        "starId": 53,
+        "starName": "Epsilon Lyrae",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 1.840467,
+        "rotationPeriod": 454.44916100437,
+        "obliquity": -5.952477,
+        "orbitalPeriod": 3694.21845577529,
+        "position": {
+            "x": 1.77299067734319,
+            "y": 0.13916788104039,
+            "z": -0.47376501799339
+        }
+    },
+    {
+        "id": 5303,
+        "name": "Epsilon Lyrae III",
+        "starId": 53,
+        "starName": "Epsilon Lyrae",
+        "type": "Vocano",
+        "singularity": "TidalLocked",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 2.624601,
+        "rotationPeriod": 6291.08539534607,
+        "obliquity": 0.02631246,
+        "orbitalPeriod": 6291.08539534607,
+        "position": {
+            "x": 2.25824734210334,
+            "y": -0.0169540997266444,
+            "z": -1.33737151512765
+        }
+    },
+    {
+        "id": 5304,
+        "name": "Epsilon Lyrae IV",
+        "starId": 53,
+        "starName": "Epsilon Lyrae",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 3.705374,
+        "rotationPeriod": 575.878098663262,
+        "obliquity": 7.152135,
+        "orbitalPeriod": 10553.0648154293,
+        "position": {
+            "x": 3.69270153215357,
+            "y": 0.301670658639792,
+            "z": 0.0523851423262518
+        }
+    },
+    {
+        "id": 5305,
+        "name": "Epsilon Lyrae V",
+        "starId": 53,
+        "starName": "Epsilon Lyrae",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 8.675126,
+        "rotationPeriod": 1055.47971425144,
+        "obliquity": -4.733283,
+        "orbitalPeriod": 37804.570369058,
+        "position": {
+            "x": -7.91808067365504,
+            "y": -0.218446150434308,
+            "z": -3.53752764118021
+        }
+    },
+    {
+        "id": 5401,
+        "name": "43 Centauri I",
+        "starId": 54,
+        "starName": "43 Centauri",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 5,
+        "radius": 80,
+        "orbitRadius": 2.243111,
+        "rotationPeriod": 151.04784036091,
+        "obliquity": 1.965077,
+        "orbitalPeriod": 7617.75086691998,
+        "position": {
+            "x": 1.57127931386941,
+            "y": -0.038816453921646,
+            "z": -1.60034981637081
+        }
+    },
+    {
+        "id": 5402,
+        "name": "43 Centauri II",
+        "starId": 54,
+        "starName": "43 Centauri",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 0.07747392,
+        "rotationPeriod": 397.355489021345,
+        "obliquity": -45.15379,
+        "orbitalPeriod": 1301.91335557748,
+        "position": {
+            "x": 1.524368312956,
+            "y": -0.0325980446165414,
+            "z": -1.66169228199952
+        }
+    },
+    {
+        "id": 5403,
+        "name": "43 Centauri III",
+        "starId": 54,
+        "starName": "43 Centauri",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 23,
+        "radius": 200,
+        "orbitRadius": 4.26615,
+        "rotationPeriod": 812.138418250731,
+        "obliquity": -9.218955,
+        "orbitalPeriod": 19980.43315468,
+        "position": {
+            "x": -0.564358612818025,
+            "y": 0.470055109759833,
+            "z": -4.20244950054941
+        }
+    },
+    {
+        "id": 5404,
+        "name": "43 Centauri IV",
+        "starId": 54,
+        "starName": "43 Centauri",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 11,
+        "radius": 200,
+        "orbitRadius": 5.588922,
+        "rotationPeriod": 1463.82232143974,
+        "obliquity": -2.222607,
+        "orbitalPeriod": 29960.0640396545,
+        "position": {
+            "x": -4.56855652618132,
+            "y": 0.0421899243638247,
+            "z": -3.21909205500672
+        }
+    },
+    {
+        "id": 5405,
+        "name": "43 Centauri V",
+        "starId": 54,
+        "starName": "43 Centauri",
+        "type": "Ice",
+        "singularity": "ClockwiseRotate",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 7.387718,
+        "rotationPeriod": -1594.03915204491,
+        "obliquity": -0.6705664,
+        "orbitalPeriod": 45531.9402307555,
+        "position": {
+            "x": 2.07565226991818,
+            "y": 0.0860356919303437,
+            "z": -7.08961506751723
+        }
+    },
+    {
+        "id": 5501,
+        "name": "Theta Scuti I",
+        "starId": 55,
+        "starName": "Theta Scuti",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 1.745488,
+        "rotationPeriod": 786.749639550119,
+        "obliquity": 2.36479,
+        "orbitalPeriod": 4056.98331377351,
+        "position": {
+            "x": 0.910346642091184,
+            "y": -0.0343112124517341,
+            "z": 1.48889851773415
+        }
+    },
+    {
+        "id": 5502,
+        "name": "Theta Scuti II",
+        "starId": 55,
+        "starName": "Theta Scuti",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 2.463824,
+        "rotationPeriod": 541.141569882146,
+        "obliquity": -0.8293537,
+        "orbitalPeriod": 6803.66043169968,
+        "position": {
+            "x": -1.99151404827521,
+            "y": -0.0307590105978289,
+            "z": 1.45029503345421
+        }
+    },
+    {
+        "id": 5503,
+        "name": "Theta Scuti III",
+        "starId": 55,
+        "starName": "Theta Scuti",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 3,
+        "radius": 80,
+        "orbitRadius": 3.444682,
+        "rotationPeriod": 147.070839838936,
+        "obliquity": -0.09868944,
+        "orbitalPeriod": 11247.3913753537,
+        "position": {
+            "x": 3.33301046368423,
+            "y": 0.002283136517751,
+            "z": 0.86998392385456
+        }
+    },
+    {
+        "id": 5504,
+        "name": "Theta Scuti IV",
+        "starId": 55,
+        "starName": "Theta Scuti",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.07869382,
+        "rotationPeriod": 439.228464822267,
+        "obliquity": -9.123696,
+        "orbitalPeriod": 1332.78382740907,
+        "position": {
+            "x": 3.27974668242711,
+            "y": -0.0156014163003111,
+            "z": 0.925082291854844
+        }
+    },
+    {
+        "id": 5505,
+        "name": "Theta Scuti V",
+        "starId": 55,
+        "starName": "Theta Scuti",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 6.135445,
+        "rotationPeriod": 1232.23141205212,
+        "obliquity": 11.78252,
+        "orbitalPeriod": 26736.044137286,
+        "position": {
+            "x": -2.49148453075448,
+            "y": 0.440885469020626,
+            "z": -5.5894375791088
+        }
+    },
+    {
+        "id": 5601,
+        "name": "Beta Arae I",
+        "starId": 56,
+        "starName": "Beta Arae",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 6,
+        "radius": 200,
+        "orbitRadius": 0.997075,
+        "rotationPeriod": 340.412709902859,
+        "obliquity": -22.89706,
+        "orbitalPeriod": 1686.55540475304,
+        "position": {
+            "x": 0.344259828176792,
+            "y": -0.0566250770626587,
+            "z": 0.934043673729016
+        }
+    },
+    {
+        "id": 5602,
+        "name": "Beta Arae II",
+        "starId": 56,
+        "starName": "Beta Arae",
+        "type": "Gas",
+        "singularity": "MultipleSatellites",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 2.499335,
+        "rotationPeriod": 129.749405844313,
+        "obliquity": 1.322354,
+        "orbitalPeriod": 6693.38147929629,
+        "position": {
+            "x": -0.132408322585018,
+            "y": -0.125680192977257,
+            "z": 2.49265849973518
+        }
+    },
+    {
+        "id": 5603,
+        "name": "Beta Arae III",
+        "starId": 56,
+        "starName": "Beta Arae",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.07901015,
+        "rotationPeriod": 762.373229681113,
+        "obliquity": -10.83592,
+        "orbitalPeriod": 1340.8280797034,
+        "position": {
+            "x": -0.132725594328473,
+            "y": -0.117276258374931,
+            "z": 2.41409721591568
+        }
+    },
+    {
+        "id": 5604,
+        "name": "Beta Arae IV",
+        "starId": 56,
+        "starName": "Beta Arae",
+        "type": "Desert",
+        "singularity": "ClockwiseRotate",
+        "theme": 19,
+        "radius": 200,
+        "orbitRadius": 0.130922,
+        "rotationPeriod": -463.902989036594,
+        "obliquity": -0.8845936,
+        "orbitalPeriod": 2860.01212107791,
+        "position": {
+            "x": -0.0068239915765449,
+            "y": -0.149842951947283,
+            "z": 2.4646350123992
+        }
+    },
+    {
+        "id": 5605,
+        "name": "Beta Arae V",
+        "starId": 56,
+        "starName": "Beta Arae",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 8.251023,
+        "rotationPeriod": 763.682596425469,
+        "obliquity": 0.506298,
+        "orbitalPeriod": 40148.6158902573,
+        "position": {
+            "x": 4.04968121104046,
+            "y": -0.257595420980733,
+            "z": 7.18422693085546
+        }
+    },
+    {
+        "id": 5606,
+        "name": "Beta Arae VI",
+        "starId": 56,
+        "starName": "Beta Arae",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 10.7213,
+        "rotationPeriod": 983.415184573307,
+        "obliquity": 15.76836,
+        "orbitalPeriod": 59467.5171589964,
+        "position": {
+            "x": 8.34372569649018,
+            "y": -0.300183500697417,
+            "z": -6.7259473065413
+        }
+    },
+    {
+        "id": 5701,
+        "name": "AlTinnin I",
+        "starId": 57,
+        "starName": "AlTinnin",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 2,
+        "radius": 80,
+        "orbitRadius": 2.723437,
+        "rotationPeriod": 103.059405015694,
+        "obliquity": -8.407207,
+        "orbitalPeriod": 5992.12121349758,
+        "position": {
+            "x": -2.00818154155474,
+            "y": -0.0183059001281988,
+            "z": 1.8395604090886
+        }
+    },
+    {
+        "id": 5702,
+        "name": "AlTinnin II",
+        "starId": 57,
+        "starName": "AlTinnin",
+        "type": "Vocano",
+        "singularity": "LaySide",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.08093191,
+        "rotationPeriod": 468.248203873991,
+        "obliquity": -75.25046,
+        "orbitalPeriod": 1390.04364281622,
+        "position": {
+            "x": -1.94119394677722,
+            "y": 0.00345043525322353,
+            "z": 1.79969440567725
+        }
+    },
+    {
+        "id": 5703,
+        "name": "AlTinnin III",
+        "starId": 57,
+        "starName": "AlTinnin",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 5.184384,
+        "rotationPeriod": 696.779004188126,
+        "obliquity": -25.14361,
+        "orbitalPeriod": 15738.0296412687,
+        "position": {
+            "x": 3.81982699923722,
+            "y": -0.0709316724958429,
+            "z": -3.50452942261474
+        }
+    },
+    {
+        "id": 5704,
+        "name": "AlTinnin IV",
+        "starId": 57,
+        "starName": "AlTinnin",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 9.007886,
+        "rotationPeriod": 941.720124660351,
+        "obliquity": -25.95457,
+        "orbitalPeriod": 36044.4904236489,
+        "position": {
+            "x": -1.49222280261579,
+            "y": 0.804988091740707,
+            "z": 8.84687941139102
+        }
+    },
+    {
+        "id": 5705,
+        "name": "AlTinnin V",
+        "starId": 57,
+        "starName": "AlTinnin",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 11.74022,
+        "rotationPeriod": 821.84838538664,
+        "obliquity": -11.23595,
+        "orbitalPeriod": 53631.4009163482,
+        "position": {
+            "x": 11.250783314935,
+            "y": 0.470373495997792,
+            "z": -3.32137298923158
+        }
+    },
+    {
+        "id": 5801,
+        "name": "Adhafera I",
+        "starId": 58,
+        "starName": "Adhafera",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 0.8565941,
+        "rotationPeriod": 436.973880349559,
+        "obliquity": 4.78511,
+        "orbitalPeriod": 2157.30180693329,
+        "position": {
+            "x": -0.824977657599086,
+            "y": -0.107963375955247,
+            "z": 0.203738979831405
+        }
+    },
+    {
+        "id": 5802,
+        "name": "Adhafera II",
+        "starId": 58,
+        "starName": "Adhafera",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 2.083474,
+        "rotationPeriod": 1054.68452117228,
+        "obliquity": 1.107956,
+        "orbitalPeriod": 8183.33551801162,
+        "position": {
+            "x": -0.845143993659248,
+            "y": 0.264827067742877,
+            "z": -1.88585832820503
+        }
+    },
+    {
+        "id": 5803,
+        "name": "Adhafera III",
+        "starId": 58,
+        "starName": "Adhafera",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 5.209919,
+        "rotationPeriod": 1192.32215903894,
+        "obliquity": 17.15453,
+        "orbitalPeriod": 32358.9758678189,
+        "position": {
+            "x": -4.58354423857645,
+            "y": 0.000649677548777466,
+            "z": 2.47676825709139
+        }
+    },
+    {
+        "id": 5804,
+        "name": "Adhafera IV",
+        "starId": 58,
+        "starName": "Adhafera",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 6.884021,
+        "rotationPeriod": 675.984580051754,
+        "obliquity": -1.338579,
+        "orbitalPeriod": 49148.6412514234,
+        "position": {
+            "x": -5.97390859346667,
+            "y": -0.718069202633947,
+            "z": 3.34462631432118
+        }
+    },
+    {
+        "id": 5805,
+        "name": "Adhafera V",
+        "starId": 58,
+        "starName": "Adhafera",
+        "type": "Ice",
+        "singularity": "ClockwiseRotate",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 8.957599,
+        "rotationPeriod": -928.338720268142,
+        "obliquity": -2.083056,
+        "orbitalPeriod": 72951.7403392333,
+        "position": {
+            "x": -3.5887637496605,
+            "y": 0.0395114362865642,
+            "z": 8.20718011758169
+        }
+    },
+    {
+        "id": 5901,
+        "name": "Gamma Centauri I",
+        "starId": 59,
+        "starName": "Gamma Centauri",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 2.674238,
+        "rotationPeriod": 538.173306581502,
+        "obliquity": -5.489847,
+        "orbitalPeriod": 6189.02736911955,
+        "position": {
+            "x": -1.22580010305807,
+            "y": -0.0485044435208983,
+            "z": 2.37626022030613
+        }
+    },
+    {
+        "id": 5902,
+        "name": "Gamma Centauri II",
+        "starId": 59,
+        "starName": "Gamma Centauri",
+        "type": "Gas",
+        "singularity": "None",
+        "theme": 21,
+        "radius": 80,
+        "orbitRadius": 3.749718,
+        "rotationPeriod": 193.728282806239,
+        "obliquity": 5.272238,
+        "orbitalPeriod": 10275.9048218683,
+        "position": {
+            "x": -2.51572118181156,
+            "y": -0.427131752178805,
+            "z": 2.74756053627933
+        }
+    },
+    {
+        "id": 5903,
+        "name": "Gamma Centauri III",
+        "starId": 59,
+        "starName": "Gamma Centauri",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 0.08041994,
+        "rotationPeriod": 535.400516485229,
+        "obliquity": -3.29511,
+        "orbitalPeriod": 1376.87443077045,
+        "position": {
+            "x": -2.48329394584065,
+            "y": -0.423650618614961,
+            "z": 2.67405051640289
+        }
+    },
+    {
+        "id": 5904,
+        "name": "Gamma Centauri IV",
+        "starId": 59,
+        "starName": "Gamma Centauri",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 20,
+        "radius": 200,
+        "orbitRadius": 6.677825,
+        "rotationPeriod": 667.109526829642,
+        "obliquity": 2.990814,
+        "orbitalPeriod": 24421.638943082,
+        "position": {
+            "x": -2.90289917074325,
+            "y": 0.55871336312726,
+            "z": 5.98785163537521
+        }
+    },
+    {
+        "id": 6001,
+        "name": "Alifa I Photon Farm",
+        "starId": 60,
+        "starName": "Alifa",
+        "type": "Vocano",
+        "singularity": "ClockwiseRotate",
+        "theme": 13,
+        "radius": 200,
+        "orbitRadius": 1.31979,
+        "rotationPeriod": -318.109880392117,
+        "obliquity": -0.9909981,
+        "orbitalPeriod": 1192.09870677007,
+        "position": {
+            "x": 0.75042181614239,
+            "y": 0.151121501399954,
+            "z": 1.07511565103836
+        }
+    },
+    {
+        "id": 6002,
+        "name": "Alifa II",
+        "starId": 60,
+        "starName": "Alifa",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 12,
+        "radius": 200,
+        "orbitRadius": 3.281118,
+        "rotationPeriod": 1021.17386807666,
+        "obliquity": -0.1474431,
+        "orbitalPeriod": 4672.91619631378,
+        "position": {
+            "x": 2.67186343101023,
+            "y": -0.0196697532816908,
+            "z": -1.9043362844409
+        }
+    },
+    {
+        "id": 6003,
+        "name": "Alifa III",
+        "starId": 60,
+        "starName": "Alifa",
+        "type": "Vocano",
+        "singularity": "None",
+        "theme": 9,
+        "radius": 200,
+        "orbitRadius": 4.6039,
+        "rotationPeriod": 642.692505685742,
+        "obliquity": -16.21397,
+        "orbitalPeriod": 7766.83402434709,
+        "position": {
+            "x": -4.46587693539882,
+            "y": 0.545904788780398,
+            "z": 0.976642544793929
+        }
+    },
+    {
+        "id": 6004,
+        "name": "Alifa IV",
+        "starId": 60,
+        "starName": "Alifa",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 17,
+        "radius": 200,
+        "orbitRadius": 6.25202,
+        "rotationPeriod": 903.954455282726,
+        "obliquity": 0.2334908,
+        "orbitalPeriod": 12290.9574678412,
+        "position": {
+            "x": -5.42282899603233,
+            "y": -0.230502235325153,
+            "z": 3.10283040964698
+        }
+    },
+    {
+        "id": 6005,
+        "name": "Alifa V",
+        "starId": 60,
+        "starName": "Alifa",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 10.86234,
+        "rotationPeriod": 914.137070765771,
+        "obliquity": -1.274093,
+        "orbitalPeriod": 28147.5333196043,
+        "position": {
+            "x": -8.9527013800387,
+            "y": -0.10687181400032,
+            "z": 6.15046227853538
+        }
+    },
+    {
+        "id": 6006,
+        "name": "Alifa VI",
+        "starId": 60,
+        "starName": "Alifa",
+        "type": "Desert",
+        "singularity": "None",
+        "theme": 7,
+        "radius": 200,
+        "orbitRadius": 14.18419,
+        "rotationPeriod": 902.126694222059,
+        "obliquity": -1.224047,
+        "orbitalPeriod": 42001.2276984213,
+        "position": {
+            "x": -8.91762869757703,
+            "y": 0.913906835803568,
+            "z": 10.9923562295274
+        }
+    },
+    {
+        "id": 6101,
+        "name": "Zibel I",
+        "starId": 61,
+        "starName": "Zibel",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 1.515731,
+        "rotationPeriod": 235.946824014459,
+        "obliquity": -1.482706,
+        "orbitalPeriod": 12465.5861032855,
+        "position": {
+            "x": 1.50505669993996,
+            "y": -0.127299769744081,
+            "z": -0.126647116236745
+        }
+    },
+    {
+        "id": 6201,
+        "name": "TaTsun I",
+        "starId": 62,
+        "starName": "TaTsun",
+        "type": "Ice",
+        "singularity": "ClockwiseRotate",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 0.8877776,
+        "rotationPeriod": -265.535060667448,
+        "obliquity": -10.88764,
+        "orbitalPeriod": 8621.2477666784,
+        "position": {
+            "x": -0.853523849243787,
+            "y": 0.0498084645149348,
+            "z": 0.239092500835181
+        }
+    },
+    {
+        "id": 6301,
+        "name": "NTR J1954-02 I Mid Farm to wipe",
+        "starId": 63,
+        "starName": "NTR J1954-02",
+        "type": "Ice",
+        "singularity": "None",
+        "theme": 24,
+        "radius": 200,
+        "orbitRadius": 3.724509,
+        "rotationPeriod": 157.759208364982,
+        "obliquity": -13.46697,
+        "orbitalPeriod": 20973.0229139323,
+        "position": {
+            "x": -0.532154540634291,
+            "y": -0.652864607842079,
+            "z": 3.62802242739264
+        }
+    },
+    {
+        "id": 6401,
+        "name": "DSR J2029+13 I Uni",
+        "starId": 64,
+        "starName": "DSR J2029+13",
+        "type": "Ice",
+        "singularity": "LaySide",
+        "theme": 10,
+        "radius": 200,
+        "orbitRadius": 2.45611,
+        "rotationPeriod": 103.781275361196,
+        "obliquity": -76.4585,
+        "orbitalPeriod": 3082.25508152313,
+        "position": {
+            "x": -1.80458627771091,
+            "y": -0.0205732019584458,
+            "z": 1.66598993337423
+        }
+    }
+]

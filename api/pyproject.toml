@@ -1,0 +1,18 @@
+[project]
+name = "dsp-api"
+version = "0.1.0"
+description = "FastAPI and MCP server for Dyson Sphere Program data integration"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.128.0",
+    "fastmcp>=2.14.3",
+    "uvicorn>=0.40.0",
+    "websockets>=16.0",
+]
+
+[project.scripts]
+dsp-api = "server:main"
+
+[tool.uv]
+package = true

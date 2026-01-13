@@ -1,0 +1,26 @@
+{
+    "planetId": 101,
+    "planetName": "Acrux I IronCopper",
+    "resourceSpots": [
+        {
+            "type": "Iron",
+            "amount": 16067231,
+            "veinCount": 271
+        },
+        {
+            "type": "Copper",
+            "amount": 16971120,
+            "veinCount": 289
+        },
+        {
+            "type": "Titanium",
+            "amount": 4887021,
+            "veinCount": 102
+        },
+        {
+            "type": "Stone",
+            "amount": 976440,
+            "veinCount": 37
+        }
+    ]
+}

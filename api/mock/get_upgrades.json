@@ -1,0 +1,30 @@
+{
+    "research": {
+        "techSpeed": 30,
+        "universeObserveLevel": 4
+    },
+    "mecha": {
+        "coreEnergyCap": 51200000000,
+        "coreEnergy": 51200000000,
+        "corePowerGen": 80000,
+        "reactorPowerGen": 17400000,
+        "walkSpeed": 16,
+        "jumpSpeed": 32,
+        "maxSailSpeed": 2000,
+        "maxWarpSpeed": 2400000,
+        "buildArea": 80
+    },
+    "inventory": {
+        "inventorySize": 144
+    },
+    "dyson": {
+        "solarSailLife": 9000,
+        "solarEnergyLossRate": 1.130746e-05,
+        "useIonLayer": true
+    },
+    "logisticsCapacity": {
+        "stationDroneCount": 200,
+        "stationShipCount": 2000,
+        "stationWarperNecessary": true
+    }
+}

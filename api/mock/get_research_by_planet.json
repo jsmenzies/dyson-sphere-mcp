@@ -1,0 +1,78 @@
+{
+    "planets": [
+        {
+            "planetId": 104,
+            "planetName": "Acrux IV",
+            "starName": "Acrux",
+            "labCount": 60,
+            "workingLabs": 60,
+            "idleLabs": 0,
+            "hashPerSecond": 135000
+        },
+        {
+            "planetId": 801,
+            "planetName": "Double Farm",
+            "starName": "Farm",
+            "labCount": 60,
+            "workingLabs": 60,
+            "idleLabs": 0,
+            "hashPerSecond": 135000
+        },
+        {
+            "planetId": 404,
+            "planetName": "CorHydrae MegaFarm",
+            "starName": "CorHydrae",
+            "labCount": 60,
+            "workingLabs": 60,
+            "idleLabs": 0,
+            "hashPerSecond": 135000
+        },
+        {
+            "planetId": 805,
+            "planetName": "MegaFarm Alpha",
+            "starName": "Farm",
+            "labCount": 60,
+            "workingLabs": 60,
+            "idleLabs": 0,
+            "hashPerSecond": 135000
+        },
+        {
+            "planetId": 203,
+            "planetName": "Phact Farm",
+            "starName": "Phact",
+            "labCount": 60,
+            "workingLabs": 60,
+            "idleLabs": 0,
+            "hashPerSecond": 135000
+        },
+        {
+            "planetId": 701,
+            "planetName": "Bunda MegaFarm",
+            "starName": "Bunda",
+            "labCount": 60,
+            "workingLabs": 60,
+            "idleLabs": 0,
+            "hashPerSecond": 135000
+        },
+        {
+            "planetId": 1403,
+            "planetName": "Algomeyla III Expiriment",
+            "starName": "Algomeyla",
+            "labCount": 60,
+            "workingLabs": 60,
+            "idleLabs": 0,
+            "hashPerSecond": 135000
+        },
+        {
+            "planetId": 604,
+            "planetName": "\u03b6 Ursae Majoris IV MegaFarm",
+            "starName": "\u03b6 Ursae Majoris",
+            "labCount": 60,
+            "workingLabs": 60,
+            "idleLabs": 0,
+            "hashPerSecond": 135000
+        }
+    ],
+    "totalHashPerSecond": 1080000,
+    "totalLabCount": 480
+}

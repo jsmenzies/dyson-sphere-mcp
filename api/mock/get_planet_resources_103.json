@@ -1,0 +1,16 @@
+{
+    "planetId": 103,
+    "planetName": "Home",
+    "resourceSpots": [
+        {
+            "type": "Stone",
+            "amount": 231005,
+            "veinCount": 18
+        },
+        {
+            "type": "Oil",
+            "amount": 345888,
+            "veinCount": 17
+        }
+    ]
+}

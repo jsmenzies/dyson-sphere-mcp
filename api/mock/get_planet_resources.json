@@ -1,0 +1,40 @@
+{
+    "planetId": 101,
+    "planetName": "Acrux I IronCopper",
+    "resources": [
+        {
+            "type": "IronOre",
+            "veinCount": 10,
+            "amount": 1000000,
+            "positions": [
+                {
+                    "x": 100,
+                    "y": 0,
+                    "z": 100
+                },
+                {
+                    "x": 120,
+                    "y": 0,
+                    "z": 110
+                }
+            ]
+        },
+        {
+            "type": "CopperOre",
+            "veinCount": 8,
+            "amount": 800000,
+            "positions": [
+                {
+                    "x": -50,
+                    "y": 0,
+                    "z": -50
+                },
+                {
+                    "x": -60,
+                    "y": 0,
+                    "z": -40
+                }
+            ]
+        }
+    ]
+}

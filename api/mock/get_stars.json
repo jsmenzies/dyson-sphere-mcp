@@ -1,0 +1,1090 @@
+[
+    {
+        "id": 1,
+        "name": "Acrux",
+        "displayName": "Acrux",
+        "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 5733.25,
+        "luminosity": 0.9962363,
+        "radius": 1.05639,
+        "dysonRadius": 0.2779168,
+        "planetCount": 4
+    },
+    {
+        "id": 2,
+        "name": "Phact",
+        "displayName": "Phact",
+        "position": {
+            "x": -2.26705817001939,
+            "y": -0.109064287658324,
+            "z": 1.52154977892605
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 4707.796,
+        "luminosity": 0.7675052,
+        "radius": 0.7500769,
+        "dysonRadius": 0.2469828,
+        "planetCount": 3
+    },
+    {
+        "id": 3,
+        "name": "Epsilon Sagittarii",
+        "displayName": "Epsilon Sagittarii",
+        "position": {
+            "x": -1.66974883234788,
+            "y": -3.29226580805342,
+            "z": -2.96395723706448
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 4496.962,
+        "luminosity": 0.720807,
+        "radius": 0.9157113,
+        "dysonRadius": 0.2408933,
+        "planetCount": 4
+    },
+    {
+        "id": 4,
+        "name": "CorHydrae",
+        "displayName": "CorHydrae",
+        "position": {
+            "x": 3.89342802726916,
+            "y": 1.38441506675758,
+            "z": -0.614008947464642
+        },
+        "type": "MainSeqStar",
+        "spectr": "M",
+        "temperature": 3531.652,
+        "luminosity": 0.5076315,
+        "radius": 0.6734815,
+        "dysonRadius": 0.2294541,
+        "planetCount": 4
+    },
+    {
+        "id": 5,
+        "name": "Atlas",
+        "displayName": "Atlas",
+        "position": {
+            "x": 5.80182582547675,
+            "y": -0.838406941104034,
+            "z": 3.33715608097137
+        },
+        "type": "MainSeqStar",
+        "spectr": "M",
+        "temperature": 4080.02,
+        "luminosity": 0.6286591,
+        "radius": 0.7190932,
+        "dysonRadius": 0.2294541,
+        "planetCount": 2
+    },
+    {
+        "id": 6,
+        "name": "\u03b6 Ursae Majoris",
+        "displayName": "\u03b6 Ursae Majoris",
+        "position": {
+            "x": 5.69127417105336,
+            "y": 2.00446804207306,
+            "z": -4.09254921511025
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 4452.274,
+        "luminosity": 0.7109192,
+        "radius": 0.9114321,
+        "dysonRadius": 0.2396155,
+        "planetCount": 4
+    },
+    {
+        "id": 7,
+        "name": "Bunda",
+        "displayName": "Bunda",
+        "position": {
+            "x": -1.4985736486765,
+            "y": 1.37361146860755,
+            "z": -4.21678794294201
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 4505.63,
+        "luminosity": 0.7227252,
+        "radius": 0.795571,
+        "dysonRadius": 0.2411416,
+        "planetCount": 2
+    },
+    {
+        "id": 8,
+        "name": "37 Reticuli",
+        "displayName": "Farm",
+        "position": {
+            "x": 0.812237229671161,
+            "y": 1.25389924425539,
+            "z": -4.94240680113939
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 5619.896,
+        "luminosity": 0.9707932,
+        "radius": 1.027369,
+        "dysonRadius": 0.2743977,
+        "planetCount": 5
+    },
+    {
+        "id": 9,
+        "name": "ElKaprah",
+        "displayName": "ElKaprah",
+        "position": {
+            "x": -3.42433627579266,
+            "y": -3.25536576428273,
+            "z": -12.3616667216079
+        },
+        "type": "MainSeqStar",
+        "spectr": "M",
+        "temperature": 4442.718,
+        "luminosity": 0.7088051,
+        "radius": 0.8441561,
+        "dysonRadius": 0.2393428,
+        "planetCount": 4
+    },
+    {
+        "id": 10,
+        "name": "Gienah",
+        "displayName": "Gienah",
+        "position": {
+            "x": -2.66707720333741,
+            "y": -3.54260710338088,
+            "z": -14.5433437619356
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 4642.799,
+        "luminosity": 0.7530996,
+        "radius": 0.8705992,
+        "dysonRadius": 0.2450949,
+        "planetCount": 1
+    },
+    {
+        "id": 11,
+        "name": "Porrima",
+        "displayName": "Porrima",
+        "position": {
+            "x": 7.91384091290943,
+            "y": 3.60281610360958,
+            "z": -1.36005134597195
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 4816.975,
+        "luminosity": 0.7917228,
+        "radius": 0.9955513,
+        "dysonRadius": 0.2501748,
+        "planetCount": 4
+    },
+    {
+        "id": 12,
+        "name": "Saidak",
+        "displayName": "Saidak",
+        "position": {
+            "x": 3.44972503370705,
+            "y": 3.59527806402955,
+            "z": 8.92026010031545
+        },
+        "type": "MainSeqStar",
+        "spectr": "M",
+        "temperature": 4360.083,
+        "luminosity": 0.6905307,
+        "radius": 0.7063415,
+        "dysonRadius": 0.2369941,
+        "planetCount": 3
+    },
+    {
+        "id": 13,
+        "name": "Jugum",
+        "displayName": "Jugum",
+        "position": {
+            "x": 9.34132512314259,
+            "y": 2.77354534771199,
+            "z": -3.32757343465658
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 4735.354,
+        "luminosity": 0.7736154,
+        "radius": 0.8476119,
+        "dysonRadius": 0.247786,
+        "planetCount": 3
+    },
+    {
+        "id": 14,
+        "name": "Algomeyla",
+        "displayName": "Algomeyla",
+        "position": {
+            "x": 8.22608833936568,
+            "y": 3.84343344785445,
+            "z": 10.4634220732252
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 5690.584,
+        "luminosity": 0.9866545,
+        "radius": 0.8770708,
+        "dysonRadius": 0.2765895,
+        "planetCount": 5
+    },
+    {
+        "id": 15,
+        "name": "Rho Cassiopeiae",
+        "displayName": "Rho Cassiopeiae",
+        "position": {
+            "x": 18.9528762310412,
+            "y": -2.0153941997968,
+            "z": -3.68444669031736
+        },
+        "type": "GiantStar",
+        "spectr": "K",
+        "temperature": 4353.254,
+        "luminosity": 1.397051,
+        "radius": 14.62821,
+        "dysonRadius": 0.8615087,
+        "planetCount": 1
+    },
+    {
+        "id": 16,
+        "name": "Tramontana",
+        "displayName": "Tramontana",
+        "position": {
+            "x": -17.4827484749753,
+            "y": -0.584285801722023,
+            "z": 0.0368401548058845
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 6033.634,
+        "luminosity": 1.063886,
+        "radius": 1.071405,
+        "dysonRadius": 0.2983832,
+        "planetCount": 4
+    },
+    {
+        "id": 17,
+        "name": "Kappa Aquarii",
+        "displayName": "Kappa Aquarii",
+        "position": {
+            "x": 3.30017908585325,
+            "y": -0.841172943689419,
+            "z": -7.53415837440706
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 5890.127,
+        "luminosity": 1.031525,
+        "radius": 1.02953,
+        "dysonRadius": 0.2870632,
+        "planetCount": 4
+    },
+    {
+        "id": 18,
+        "name": "Elgomaisa",
+        "displayName": "Elgomaisa",
+        "position": {
+            "x": -5.27827877692272,
+            "y": -1.96278229921179,
+            "z": -13.034478566815
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 5384.322,
+        "luminosity": 0.9180554,
+        "radius": 0.9808473,
+        "dysonRadius": 0.2671601,
+        "planetCount": 4
+    },
+    {
+        "id": 19,
+        "name": "Asterope",
+        "displayName": "Asterope",
+        "position": {
+            "x": 7.14969550467732,
+            "y": 0.476290461768497,
+            "z": -7.76419050618113
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 5273.767,
+        "luminosity": 0.8933665,
+        "radius": 1.014456,
+        "dysonRadius": 0.2637998,
+        "planetCount": 4
+    },
+    {
+        "id": 20,
+        "name": "Becrux",
+        "displayName": "Becrux",
+        "position": {
+            "x": 14.4439042315557,
+            "y": 2.16871389489496,
+            "z": -5.2246496139707
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 5136.011,
+        "luminosity": 0.8626544,
+        "radius": 0.848801,
+        "dysonRadius": 0.2596463,
+        "planetCount": 4
+    },
+    {
+        "id": 21,
+        "name": "Almach",
+        "displayName": "Almach",
+        "position": {
+            "x": 12.9558852463808,
+            "y": 3.57505480449253,
+            "z": 5.23432652739248
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 5204.291,
+        "luminosity": 0.8778702,
+        "radius": 0.8956251,
+        "dysonRadius": 0.2617003,
+        "planetCount": 2
+    },
+    {
+        "id": 22,
+        "name": "62 Leporis",
+        "displayName": "62 Leporis",
+        "position": {
+            "x": 9.20215578320867,
+            "y": 0.818243704758032,
+            "z": -7.90354961547665
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 5593.449,
+        "luminosity": 0.9648631,
+        "radius": 0.8764519,
+        "dysonRadius": 0.27358,
+        "planetCount": 3
+    },
+    {
+        "id": 23,
+        "name": "Dnoces",
+        "displayName": "Dnoces",
+        "position": {
+            "x": -13.7572863421405,
+            "y": -0.392659940125681,
+            "z": 7.96816757171245
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 4836.997,
+        "luminosity": 0.796167,
+        "radius": 0.9051051,
+        "dysonRadius": 0.2507629,
+        "planetCount": 3
+    },
+    {
+        "id": 24,
+        "name": "Menkent",
+        "displayName": "Menkent",
+        "position": {
+            "x": 8.20673520940345,
+            "y": 2.05310121868507,
+            "z": -10.4677053976912
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 6109.373,
+        "luminosity": 1.080998,
+        "radius": 1.06762,
+        "dysonRadius": 0.3043934,
+        "planetCount": 4
+    },
+    {
+        "id": 25,
+        "name": "Delta Sculptoris",
+        "displayName": "Delta Sculptoris",
+        "position": {
+            "x": -13.2307746943533,
+            "y": -1.86900342224107,
+            "z": -10.704726286161
+        },
+        "type": "MainSeqStar",
+        "spectr": "K",
+        "temperature": 4712.66,
+        "luminosity": 0.7685835,
+        "radius": 0.9230556,
+        "dysonRadius": 0.2471245,
+        "planetCount": 4
+    },
+    {
+        "id": 26,
+        "name": "Alterf",
+        "displayName": "Alterf",
+        "position": {
+            "x": -12.21423241753,
+            "y": -2.15344085148106,
+            "z": -13.4472297308531
+        },
+        "type": "MainSeqStar",
+        "spectr": "F",
+        "temperature": 6471.237,
+        "luminosity": 1.163073,
+        "radius": 1.094875,
+        "dysonRadius": 0.3334391,
+        "planetCount": 4
+    },
+    {
+        "id": 27,
+        "name": "Zeta Hydrae",
+        "displayName": "Zeta Hydrae",
+        "position": {
+            "x": 3.03540840496698,
+            "y": 2.10559542860557,
+            "z": -13.8373274571341
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 5310.389,
+        "luminosity": 0.9015408,
+        "radius": 0.8441171,
+        "dysonRadius": 0.2649103,
+        "planetCount": 3
+    },
+    {
+        "id": 28,
+        "name": "Ashtaroth",
+        "displayName": "Ashtaroth",
+        "position": {
+            "x": 16.9833901891053,
+            "y": 4.54320120602346,
+            "z": -0.115981434034175
+        },
+        "type": "MainSeqStar",
+        "spectr": "F",
+        "temperature": 6479.381,
+        "luminosity": 1.164927,
+        "radius": 1.041092,
+        "dysonRadius": 0.3340989,
+        "planetCount": 3
+    },
+    {
+        "id": 29,
+        "name": "Zeta Delphini",
+        "displayName": "Zeta Delphini",
+        "position": {
+            "x": 16.3402309311309,
+            "y": 5.17593726761369,
+            "z": -2.91519799792223
+        },
+        "type": "MainSeqStar",
+        "spectr": "F",
+        "temperature": 6381.192,
+        "luminosity": 1.142599,
+        "radius": 1.221456,
+        "dysonRadius": 0.3261612,
+        "planetCount": 3
+    },
+    {
+        "id": 30,
+        "name": "\u03b5 Canum Venaticorum",
+        "displayName": "\u03b5 Canum Venaticorum",
+        "position": {
+            "x": -7.60460041139951,
+            "y": -3.71079927278743,
+            "z": -10.278882591802
+        },
+        "type": "MainSeqStar",
+        "spectr": "F",
+        "temperature": 7113.798,
+        "luminosity": 1.310217,
+        "radius": 1.12727,
+        "dysonRadius": 0.3862952,
+        "planetCount": 4
+    },
+    {
+        "id": 31,
+        "name": "Gamma Aurigae",
+        "displayName": "Gamma Aurigae",
+        "position": {
+            "x": 24.2976893512546,
+            "y": 2.02461763129586,
+            "z": 3.42988513178461
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 6206.637,
+        "luminosity": 1.103006,
+        "radius": 1.050803,
+        "dysonRadius": 0.3121471,
+        "planetCount": 4
+    },
+    {
+        "id": 32,
+        "name": "Cebalrai",
+        "displayName": "Cebalrai",
+        "position": {
+            "x": 23.5567366719219,
+            "y": 2.20403507032696,
+            "z": 5.42960543922969
+        },
+        "type": "MainSeqStar",
+        "spectr": "G",
+        "temperature": 6236.488,
+        "luminosity": 1.109768,
+        "radius": 1.110841,
+        "dysonRadius": 0.3145348,
+        "planetCount": 4
+    },
+    {
+        "id": 33,
+        "name": "Cornu",
+        "displayName": "Cornu",
+        "position": {
+            "x": 30.2747157709801,
+            "y": -1.81886943966337,
+            "z": 6.79962666872899
+        },
+        "type": "MainSeqStar",
+        "spectr": "F",
+        "temperature": 7074.442,
+        "luminosity": 1.30115,
+        "radius": 1.110785,
+        "dysonRadius": 0.3830128,
+        "planetCount": 5
+    },
+    {
+        "id": 34,
+        "name": "Beta Tucanae",
+        "displayName": "Beta Tucanae",
+        "position": {
+            "x": -9.21013933000962,
+            "y": -4.38491906632632,
+            "z": -16.4223938727015
+        },
+        "type": "MainSeqStar",
+        "spectr": "F",
+        "temperature": 6670.997,
+        "luminosity": 1.208619,
+        "radius": 1.096769,
+        "dysonRadius": 0.3497002,
+        "planetCount": 3
+    },
+    {
+        "id": 35,
+        "name": "Kappa Delphini",
+        "displayName": "Kappa Delphini",
+        "position": {
+            "x": -21.1389568209843,
+            "y": 1.6598209165355,
+            "z": 13.1485789364882
+        },
+        "type": "MainSeqStar",
+        "spectr": "A",
+        "temperature": 10954.48,
+        "luminosity": 2.233953,
+        "radius": 1.534018,
+        "dysonRadius": 0.5581881,
+        "planetCount": 5
+    },
+    {
+        "id": 36,
+        "name": "TejatPrior",
+        "displayName": "TejatPrior",
+        "position": {
+            "x": 11.0746911355786,
+            "y": 2.62462232410339,
+            "z": -11.1339929444692
+        },
+        "type": "MainSeqStar",
+        "spectr": "A",
+        "temperature": 8058.502,
+        "luminosity": 1.530132,
+        "radius": 1.160664,
+        "dysonRadius": 0.4667346,
+        "planetCount": 5
+    },
+    {
+        "id": 37,
+        "name": "Keid",
+        "displayName": "Keid",
+        "position": {
+            "x": -11.7598243144366,
+            "y": -4.62629732304128,
+            "z": -22.3940169377897
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 14450.14,
+        "luminosity": 3.145648,
+        "radius": 1.732787,
+        "dysonRadius": 0.615078,
+        "planetCount": 5
+    },
+    {
+        "id": 38,
+        "name": "Eta Corvi",
+        "displayName": "Eta Corvi",
+        "position": {
+            "x": 11.5741259860156,
+            "y": 2.14290302313524,
+            "z": -9.02959165277164
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 15231.64,
+        "luminosity": 3.358498,
+        "radius": 2.062738,
+        "dysonRadius": 0.6263322,
+        "planetCount": 6
+    },
+    {
+        "id": 39,
+        "name": "Ksora",
+        "displayName": "Ksora",
+        "position": {
+            "x": 24.6409097596718,
+            "y": 5.97536818553027,
+            "z": -4.6142902592514
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 14969.02,
+        "luminosity": 3.286614,
+        "radius": 2.129627,
+        "dysonRadius": 0.6225997,
+        "planetCount": 4
+    },
+    {
+        "id": 40,
+        "name": "Procyon",
+        "displayName": "Procyon",
+        "position": {
+            "x": 32.3059235798299,
+            "y": -2.25106229623292,
+            "z": 14.5157958785076
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 22795.52,
+        "luminosity": 5.569569,
+        "radius": 2.364078,
+        "dysonRadius": 0.7177279,
+        "planetCount": 5
+    },
+    {
+        "id": 41,
+        "name": "OsPegasi",
+        "displayName": "OsPegasi",
+        "position": {
+            "x": 31.8012656811908,
+            "y": 3.82346176353001,
+            "z": 4.11382470298558
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 23629.19,
+        "luminosity": 5.828279,
+        "radius": 2.741122,
+        "dysonRadius": 0.7263567,
+        "planetCount": 5
+    },
+    {
+        "id": 42,
+        "name": "Alsahm",
+        "displayName": "Alsahm",
+        "position": {
+            "x": 27.1541095570361,
+            "y": 5.46416984394845,
+            "z": -9.32019373805443
+        },
+        "type": "MainSeqStar",
+        "spectr": "A",
+        "temperature": 10127.59,
+        "luminosity": 2.028245,
+        "radius": 1.576455,
+        "dysonRadius": 0.5427089,
+        "planetCount": 5
+    },
+    {
+        "id": 43,
+        "name": "Mintaka",
+        "displayName": "Mintaka",
+        "position": {
+            "x": 33.762435849973,
+            "y": 3.94574195417041,
+            "z": 4.54971834180395
+        },
+        "type": "MainSeqStar",
+        "spectr": "A",
+        "temperature": 11912,
+        "luminosity": 2.476957,
+        "radius": 1.715611,
+        "dysonRadius": 0.5750149,
+        "planetCount": 3
+    },
+    {
+        "id": 44,
+        "name": "173 Comae Berenices",
+        "displayName": "173 Comae Berenices",
+        "position": {
+            "x": 32.0317334855589,
+            "y": -3.85410739312059,
+            "z": 16.0893501697513
+        },
+        "type": "GiantStar",
+        "spectr": "M",
+        "temperature": 1921.088,
+        "luminosity": 0.6937189,
+        "radius": 15.94975,
+        "dysonRadius": 0.7571984,
+        "planetCount": 2
+    },
+    {
+        "id": 45,
+        "name": "Muphrid",
+        "displayName": "Muphrid",
+        "position": {
+            "x": -8.18635680533528,
+            "y": -1.73009647002032,
+            "z": -18.9562635193998
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 27547.18,
+        "luminosity": 7.078667,
+        "radius": 2.915812,
+        "dysonRadius": 0.7641898,
+        "planetCount": 4
+    },
+    {
+        "id": 46,
+        "name": "Gemma",
+        "displayName": "Gemma",
+        "position": {
+            "x": 19.7937638858478,
+            "y": 2.0947346507422,
+            "z": -9.6715152347895
+        },
+        "type": "MainSeqStar",
+        "spectr": "A",
+        "temperature": 12822.89,
+        "luminosity": 2.712883,
+        "radius": 1.666833,
+        "dysonRadius": 0.5900814,
+        "planetCount": 4
+    },
+    {
+        "id": 47,
+        "name": "Asmidiske",
+        "displayName": "Asmidiske",
+        "position": {
+            "x": 27.8597703638569,
+            "y": 4.68449495947677,
+            "z": -14.539945569334
+        },
+        "type": "MainSeqStar",
+        "spectr": "A",
+        "temperature": 10202.79,
+        "luminosity": 2.046794,
+        "radius": 1.587462,
+        "dysonRadius": 0.5441568,
+        "planetCount": 5
+    },
+    {
+        "id": 48,
+        "name": "Eta Lupi",
+        "displayName": "Eta Lupi",
+        "position": {
+            "x": 32.0183401623844,
+            "y": -4.76114295860851,
+            "z": 17.9621847586047
+        },
+        "type": "MainSeqStar",
+        "spectr": "A",
+        "temperature": 11175.89,
+        "luminosity": 2.289685,
+        "radius": 1.647231,
+        "dysonRadius": 0.5621774,
+        "planetCount": 4
+    },
+    {
+        "id": 49,
+        "name": "Lambda Eridani",
+        "displayName": "Lambda Eridani",
+        "position": {
+            "x": 32.7028057028309,
+            "y": 2.34249678606812,
+            "z": 5.37351009413578
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 17961.16,
+        "luminosity": 4.126123,
+        "radius": 2.038373,
+        "dysonRadius": 0.662536,
+        "planetCount": 5
+    },
+    {
+        "id": 50,
+        "name": "Merga",
+        "displayName": "Merga",
+        "position": {
+            "x": 30.0576236744564,
+            "y": -5.17271480455218,
+            "z": 15.2663104276754
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 18967.43,
+        "luminosity": 4.418134,
+        "radius": 2.245144,
+        "dysonRadius": 0.6748518,
+        "planetCount": 4
+    },
+    {
+        "id": 51,
+        "name": "Lambda Scorpii",
+        "displayName": "Lambda Scorpii",
+        "position": {
+            "x": -9.18414527685927,
+            "y": -0.541858273261561,
+            "z": -21.4844064353133
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 16759.93,
+        "luminosity": 3.78378,
+        "radius": 1.895989,
+        "dysonRadius": 0.6471465,
+        "planetCount": 5
+    },
+    {
+        "id": 52,
+        "name": "HyadumPrimus",
+        "displayName": "HyadumPrimus",
+        "position": {
+            "x": -7.03315529670906,
+            "y": -0.987035532013968,
+            "z": -21.0412026669279
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 17181.98,
+        "luminosity": 3.903273,
+        "radius": 2.330862,
+        "dysonRadius": 0.6526442,
+        "planetCount": 6
+    },
+    {
+        "id": 53,
+        "name": "Epsilon Lyrae",
+        "displayName": "Epsilon Lyrae",
+        "position": {
+            "x": 22.3910379547399,
+            "y": 2.95352497423257,
+            "z": -2.69985203391298
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 24577.73,
+        "luminosity": 6.125879,
+        "radius": 2.906251,
+        "dysonRadius": 0.7359098,
+        "planetCount": 5
+    },
+    {
+        "id": 54,
+        "name": "43 Centauri",
+        "displayName": "43 Centauri",
+        "position": {
+            "x": 33.1525034335093,
+            "y": 4.40365035034211,
+            "z": -19.6105446999371
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 15269.61,
+        "luminosity": 3.36892,
+        "radius": 1.750836,
+        "dysonRadius": 0.6268678,
+        "planetCount": 5
+    },
+    {
+        "id": 55,
+        "name": "Theta Scuti",
+        "displayName": "Theta Scuti",
+        "position": {
+            "x": -31.2565652497094,
+            "y": 2.43697983713532,
+            "z": 16.3292521454118
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 20284.15,
+        "luminosity": 4.807144,
+        "radius": 2.535819,
+        "dysonRadius": 0.6902609,
+        "planetCount": 5
+    },
+    {
+        "id": 56,
+        "name": "Beta Arae",
+        "displayName": "Beta Arae",
+        "position": {
+            "x": -5.21163969664899,
+            "y": -0.544474782777373,
+            "z": -21.7879632914019
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 21000.42,
+        "luminosity": 5.021922,
+        "radius": 2.427282,
+        "dysonRadius": 0.6983367,
+        "planetCount": 6
+    },
+    {
+        "id": 57,
+        "name": "AlTinnin",
+        "displayName": "AlTinnin",
+        "position": {
+            "x": 37.119300002024,
+            "y": 2.95884651989382,
+            "z": -24.9919972758138
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 27503.02,
+        "luminosity": 7.064274,
+        "radius": 3.04425,
+        "dysonRadius": 0.7637858,
+        "planetCount": 5
+    },
+    {
+        "id": 58,
+        "name": "Adhafera",
+        "displayName": "Adhafera",
+        "position": {
+            "x": 37.3433513594646,
+            "y": 4.70962069979041,
+            "z": -26.8567046534227
+        },
+        "type": "MainSeqStar",
+        "spectr": "A",
+        "temperature": 12411.37,
+        "luminosity": 2.605726,
+        "radius": 1.601881,
+        "dysonRadius": 0.5833798,
+        "planetCount": 5
+    },
+    {
+        "id": 59,
+        "name": "Gamma Centauri",
+        "displayName": "Gamma Centauri",
+        "position": {
+            "x": 37.5123761009058,
+            "y": 5.38434037059233,
+            "z": -28.8737624336111
+        },
+        "type": "MainSeqStar",
+        "spectr": "B",
+        "temperature": 25815.68,
+        "luminosity": 6.519288,
+        "radius": 3.265382,
+        "dysonRadius": 0.7479842,
+        "planetCount": 4
+    },
+    {
+        "id": 60,
+        "name": "Alifa",
+        "displayName": "Alifa",
+        "position": {
+            "x": 33.9975021158665,
+            "y": -4.75417647343918,
+            "z": 3.89632331342494
+        },
+        "type": "MainSeqStar",
+        "spectr": "O",
+        "temperature": 49318.26,
+        "luminosity": 14.8429,
+        "radius": 5.239813,
+        "dysonRadius": 0.9238282,
+        "planetCount": 6
+    },
+    {
+        "id": 61,
+        "name": "Zibel",
+        "displayName": "Zibel",
+        "position": {
+            "x": -28.4023265746075,
+            "y": 3.12933500592455,
+            "z": 17.4515441983808
+        },
+        "type": "WhiteDwarf",
+        "spectr": "X",
+        "temperature": 130941.2,
+        "luminosity": 0.04898112,
+        "radius": 0.3251571,
+        "dysonRadius": 0.4199641,
+        "planetCount": 1
+    },
+    {
+        "id": 62,
+        "name": "TaTsun",
+        "displayName": "TaTsun",
+        "position": {
+            "x": -4.80850047443594,
+            "y": -0.426819930714777,
+            "z": -26.742584581195
+        },
+        "type": "WhiteDwarf",
+        "spectr": "X",
+        "temperature": 150904.1,
+        "luminosity": 0.02988717,
+        "radius": 0.2252614,
+        "dysonRadius": 0.2437374,
+        "planetCount": 1
+    },
+    {
+        "id": 63,
+        "name": "NTR J1954-02",
+        "displayName": "NTR J1954-02",
+        "position": {
+            "x": 36.3237221782121,
+            "y": 5.97061611271671,
+            "z": -32.2559714438008
+        },
+        "type": "NeutronStar",
+        "spectr": "X",
+        "temperature": 49896690.0,
+        "luminosity": 0.4538448,
+        "radius": 0.4866154,
+        "dysonRadius": 1.043223,
+        "planetCount": 1
+    },
+    {
+        "id": 64,
+        "name": "DSR J2029+13",
+        "displayName": "DSR J2029+13",
+        "position": {
+            "x": 38.8338618365567,
+            "y": 5.05576227945697,
+            "z": 5.99640542594163
+        },
+        "type": "BlackHole",
+        "spectr": "X",
+        "temperature": 0,
+        "luminosity": 0.004884687,
+        "radius": 3.132128,
+        "dysonRadius": 0.69384,
+        "planetCount": 1
+    }
+]

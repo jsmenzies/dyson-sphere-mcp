@@ -1,0 +1,40 @@
+{
+    "queue": [
+        {
+            "id": 5206,
+            "name": "Explosive Weapon Damage",
+            "position": 0,
+            "hashNeeded": 378000000,
+            "hashUploaded": 376656930
+        },
+        {
+            "id": 5206,
+            "name": "Explosive Weapon Damage",
+            "position": 1,
+            "hashNeeded": 378000000,
+            "hashUploaded": 376656930
+        },
+        {
+            "id": 5206,
+            "name": "Explosive Weapon Damage",
+            "position": 2,
+            "hashNeeded": 378000000,
+            "hashUploaded": 376656930
+        },
+        {
+            "id": 5106,
+            "name": "Energy Weapon Damage",
+            "position": 3,
+            "hashNeeded": 1215000000,
+            "hashUploaded": 0
+        },
+        {
+            "id": 5006,
+            "name": "Kinetic Weapon Damage",
+            "position": 4,
+            "hashNeeded": 432000000,
+            "hashUploaded": 0
+        }
+    ],
+    "queueLength": 5
+}

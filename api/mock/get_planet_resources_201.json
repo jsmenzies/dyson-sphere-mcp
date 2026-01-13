@@ -1,0 +1,41 @@
+{
+    "planetId": 201,
+    "planetName": "Phact I",
+    "resourceSpots": [
+        {
+            "type": "Iron",
+            "amount": 25332229,
+            "veinCount": 322
+        },
+        {
+            "type": "Copper",
+            "amount": 22271865,
+            "veinCount": 283
+        },
+        {
+            "type": "Silicium",
+            "amount": 1208887,
+            "veinCount": 27
+        },
+        {
+            "type": "Titanium",
+            "amount": 14780059,
+            "veinCount": 193
+        },
+        {
+            "type": "Stone",
+            "amount": 2209517,
+            "veinCount": 58
+        },
+        {
+            "type": "Coal",
+            "amount": 342172,
+            "veinCount": 12
+        },
+        {
+            "type": "Diamond",
+            "amount": 1763795,
+            "veinCount": 32
+        }
+    ]
+}

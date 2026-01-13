@@ -1,0 +1,7 @@
+# .gitignore for Python API
+.venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+dsp_api.egg-info/
