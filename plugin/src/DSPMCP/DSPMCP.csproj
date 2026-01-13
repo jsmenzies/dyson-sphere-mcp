@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Game Install Path - Update this if DSP is installed elsewhere -->
+    <DSPGamePath>C:\Program Files (x86)\Steam\steamapps\common\Dyson Sphere Program</DSPGamePath>
+    <DSPManagedPath>$(DSPGamePath)\DSPGAME_Data\Managed</DSPManagedPath>
+
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>DSPMCP</AssemblyName>
+    <Description>Model Context Protocol server for Dyson Sphere Program</Description>
+    <Version>1.0.0</Version>
+    <Authors>jsmenzies</Authors>
+    <RepositoryUrl>https://github.com/jsmenzies/dsp_mcp</RepositoryUrl>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://nuget.bepinex.dev/v3/index.json;
+      https://nuget.samboy.dev/v3/index.json
+    </RestoreAdditionalProjectSources>
+    <RootNamespace>DSPMCP</RootNamespace>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.4.17" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+    <PackageReference Include="UnityEngine.Modules" Version="2018.4.12" IncludeAssets="compile" />
+    <PackageReference Include="WebSocketSharp-netstandard" Version="1.0.1" />
+  </ItemGroup>
+
+  <!-- DSP Game Assembly Reference -->
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(DSPManagedPath)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+  
+  <!-- Post-build event to copy the DLL to the r2modman profile -->
+  <Target Name="CopyArtifacts" AfterTargets="Build">
+    <PropertyGroup>
+      <!-- Use AppData env var for portability -->
+      <PluginDir>$(AppData)\r2modmanPlus-local\DysonSphereProgram\profiles\Default\BepInEx\plugins\DSPMCP</PluginDir>
+    </PropertyGroup>
+    <Message Text="Copying build artifacts to $(PluginDir)..." Importance="high" />
+    <MakeDir Directories="$(PluginDir)" />
+    <!-- Copy all DLLs including dependencies -->
+    <Copy SourceFiles="$(OutputPath)\$(AssemblyName).dll" DestinationFolder="$(PluginDir)" />
+    <Copy SourceFiles="$(OutputPath)\websocket-sharp.dll" DestinationFolder="$(PluginDir)" />
+  </Target>
+
+</Project>
