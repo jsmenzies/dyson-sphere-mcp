@@ -55,50 +55,6 @@
     - `get_production_stats(planetId, timeLevel)`: Production/consumption rates.
     - `get_assembler_details(planetId)`: Machine working/idle status.
 
-### Discovery: Using UI Statistics Objects Instead of Manual Calculation
-
-**Finding (January 2026):**
-While implementing power grid tools, we discovered that the game has precomputed statistics objects used by the UI, accessible via `GameMain.data.statistics`. This is significantly more efficient than manually iterating through game objects.
-
-**ProductionStatistics Pattern:**
-```csharp
-var stats = GameMain.data.statistics.production;
-
-// Refresh for specific planet (or 0 for all planets)
-stats.RefreshPowerGenerationCapacites(planetId);
-stats.RefreshPowerConsumptionDemands(planetId);
-
-// Access precomputed values (already in Watts!)
-long generationCapacityW = stats.totalGenCapacity;
-long consumptionDemandW = stats.totalConDemand;
-```
-
-**Benefits:**
-1. **Matches UI Exactly** - Uses same data source as game UI, ensuring consistency
-2. **More Efficient** - Precomputed aggregates instead of manual iteration
-3. **Already Converted** - Values in display units (Watts), not internal per-tick values
-4. **Per-Planet Filtering** - `RefreshPowerGenerationCapacites(planetId)` filters to specific planet
-
-**Implementation:**
-- PowerGridHandler.cs now uses ProductionStatistics for generation/consumption totals
-- Still manually aggregates some network-level values (energyServed, energyStored) not in ProductionStatistics
-- Response format simplified by removing internal `_raw_*` fields
-
-**Question for Future Work:**
-The `GameMain.data.statistics` object appears to have multiple subsystems:
-- `statistics.production` (used for power grid)
-- `statistics.kill` (possibly combat stats?)
-- `statistics.traffic` (possibly logistics/transport stats?)
-- `statistics.charts` (possibly historical time-series data?)
-
-**TODO:** Investigate if similar precomputed statistics exist for:
-- Production rates (item/min across factories) - Could eliminate manual factory iteration in production tools
-- Logistics throughput (ILS/PLS item flow rates) - Could provide transport statistics
-- Belt utilization - Might have precomputed belt saturation data
-- Building efficiency - May track working/idle assembler counts
-
-If these exist, we should refactor existing tools to use them instead of manual calculations. This pattern discovery could significantly improve performance and accuracy across all tools.
-
 ---
 
 ## Phase 3: Proposed MCP Tools
@@ -180,104 +136,45 @@ If these exist, we should refactor existing tools to use them instead of manual 
 
 ---
 
-## Phase 4: Web Frontend
+## Phase 4: Web Frontend (Galaxy Map) (COMPLETE)
 
 ### Overview
-Add a web frontend to display game data visually. The frontend connects to a REST API exposed by the Python server.
+Create a 2D interactive Starmap using SvelteKit, Bun, TailwindCSS, and D3.js. The map will plot stars based on their coordinates, allow navigation (pan/zoom), and display details on interaction.
 
-### Architecture
-```
-┌─────────────────┐     HTTP :8000    ┌─────────────────┐   WebSocket   ┌─────────────────┐
-│  SvelteKit      │◄─────────────────►│  Python Server  │◄─────────────►│  C# Game Mod    │
-│  Frontend       │   REST API        │  (FastAPI +     │  :18181       │  (DSPMCP.dll)   │
-│  /frontend      │                   │   FastMCP)      │               │                 │
-└─────────────────┘                   └─────────────────┘               └─────────────────┘
-```
+### Tech Stack
+- **Runtime:** Bun
+- **Framework:** SvelteKit (Vite)
+- **Styling:** Tailwind CSS
+- **Visualization:** D3.js (SVG/Canvas)
+- **API:** Local Python REST API (`http://localhost:8000`)
 
-### Technology Choices
-| Component | Choice |
-|-----------|--------|
-| Frontend Framework | SvelteKit + TypeScript |
-| Frontend Runtime | Bun |
-| REST Server | FastAPI (port 8000) |
-| Python Package Manager | uv |
-| Charts | Chart.js / svelte-chartjs |
-| Starmap (future) | D3.js 2D |
-| Update Mode | Manual refresh |
+### 4.1: Project Scaffolding (COMPLETE)
+- [x] Initialize SvelteKit project in `web/` using Bun.
+- [x] Configure Tailwind CSS.
+- [x] Configure `vite.config.ts` to proxy `/api` requests to `localhost:8000`.
+- [x] Verify standard "Hello World" page loads.
 
-### MVP Scope: Research Dashboard
-- Total research progress (current tech, hash rate, progress %)
-- Per-planet breakdown table (labs, working/idle, hash/sec)
-- Lab details on planet click
+### 4.2: Data Integration (COMPLETE)
+- [x] Create TypeScript interfaces for Star/Planet data (matching API response).
+- [x] Implement `ApiClient` to fetch `/api/stars`.
+- [x] Verify data fetching in a simple text list.
 
-### Phase 4.1: Python REST API
+### 4.3: Galaxy Map (D3.js Core) (COMPLETE)
+- [x] Create `GalaxyMap.svelte` component.
+- [x] Setup D3 SVG container with responsive sizing.
+- [x] Implement X/Z coordinate projection (top-down view).
+- [x] Draw basic circles for stars.
 
-**Files to modify:**
-- `mcp-server/server.py` - Add FastAPI app
-- `mcp-server/pyproject.toml` - Add fastapi, uvicorn (via `uv add`)
+### 4.4: Visualization Enhancements (COMPLETE)
+- [x] **Color Mapping:** Map spectral types (O, B, A, F, G, K, M) to star colors.
+- [x] **Size Mapping:** Scale star radius based on luminosity or physical radius.
+- [x] **Labels:** Add star names (optional, or visible on zoom).
 
-**REST Endpoints:**
-```
-GET /api/health                    → {"status": "ok", "game_connected": bool}
-GET /api/research/progress         → Research progress data
-GET /api/research/planets          → Per-planet research breakdown
-GET /api/research/labs/{planet_id} → Lab details for specific planet
-```
-
-**Implementation:**
-1. Add FastAPI + uvicorn deps: `uv add fastapi uvicorn[standard]`
-2. Create shared `call_game(method, params)` async function
-3. Add FastAPI routes that call game via WebSocket
-4. Add CORS middleware for localhost:5173
-5. Run FastAPI on port 8000
-
-### Phase 4.2: SvelteKit Project Setup
-
-**New directory:** `frontend/`
-
-**Steps:**
-1. Initialize SvelteKit: `bun create svelte@latest frontend`
-2. Install deps: `bun add chart.js svelte-chartjs d3`
-3. Configure VITE_API_URL=http://localhost:8000
-
-**Project structure:**
-```
-frontend/
-├── src/
-│   ├── lib/
-│   │   ├── api/client.ts          # API client
-│   │   ├── components/            # Svelte components
-│   │   └── types/index.ts         # TypeScript interfaces
-│   ├── routes/
-│   │   ├── +layout.svelte
-│   │   ├── +page.svelte           # Dashboard
-│   │   └── research/+page.svelte  # Research view
-│   └── app.css
-└── package.json
-```
-
-### Phase 4.3: Frontend Components
-
-**Components to build:**
-- `ResearchProgress.svelte` - Current tech, progress bar, hash rate
-- `PlanetTable.svelte` - Sortable table of planets with lab stats
-- `LabDetails.svelte` - Modal showing individual lab info
-- `RefreshButton.svelte` - Manual refresh with loading state
-
-**Styling:** Dark theme matching DSP aesthetic
-- Background: #0a0a1a
-- Accents: Cyan (#00d4ff), Orange (#ff8800)
-
-### Phase 4.4: Integration Testing
-
-**Verification checklist:**
-- [ ] `curl http://localhost:8000/api/health` returns ok
-- [ ] `curl http://localhost:8000/api/research/progress` returns data
-- [ ] Frontend loads at http://localhost:5173
-- [ ] Research dashboard displays correctly
-- [ ] Planet table is sortable
-- [ ] Lab details modal works
-- [ ] MCP tools still work via CLI
+### 4.5: Interactivity & Navigation (COMPLETE)
+- [x] **Zoom/Pan:** Implement `d3-zoom` behavior.
+- [x] **Hover:** Show tooltip with basic info (Name, Type).
+- [x] **Click:** Open a "Star Details" sidebar/modal.
+- [x] **Sidebar:** Show planet list and resource summary for selected star.
 
 ---
 
@@ -288,11 +185,9 @@ frontend/
 - Station list with item storage progress bars
 - Drone/ship utilization display
 
-### Phase 6: Interactive Starmap
-- REST endpoints: `GET /api/stars`, `GET /api/planets`
-- D3.js 2D force-directed starmap
-- Click stars to see details
-- Logistics routes as connecting lines
+### Phase 6: Logistics Layer on Starmap
+- Draw lines between stars representing active shipping routes.
+- Filter lines by item type.
 
 ### Phase 7: Production Statistics
 - New C# `ProductionHandler.cs`
@@ -309,11 +204,12 @@ frontend/
 **IMPORTANT:** Complete in this order:
 1. ~~Phase 1: Core Connectivity~~ (DONE)
 2. ~~Phase 2: Game Data Integration~~ (DONE)
-3. **Phase 4: Web Frontend** (NEXT)
-   - 4.1: Python REST API
-   - 4.2: SvelteKit setup
-   - 4.3: Research dashboard components
-   - 4.4: Integration testing
+3. **Phase 4: Web Frontend** (CURRENT)
+   - **4.1: Scaffolding**
+   - 4.2: Data Integration
+   - 4.3: Galaxy Map Core
+   - 4.4: Visualization
+   - 4.5: Interactivity
 4. Phase 5+: Additional views
 
 ---
@@ -327,27 +223,10 @@ uv sync                                    # Install dependencies from pyproject
 uv run uvicorn server:api_app --host 0.0.0.0 --port 8000 --reload
 
 # Frontend dev server (using bun)
-cd frontend
+cd web
 bun install
 bun run dev
 
 # Build frontend
 bun run build
-```
-
----
-
-## Original Architecture (MCP Only)
-
-```
-┌─────────────────┐     stdio      ┌─────────────────┐   WebSocket   ┌─────────────────┐
-│  Claude Code    │◄──────────────►│  Python MCP     │◄─────────────►│  C# Game Mod    │
-│  (MCP Client)   │                │  (server.py)    │  :18181       │  (DSPMCP.dll)   │
-└─────────────────┘                └─────────────────┘               └─────────────────┘
-                                                                              │
-                                                                              ▼
-                                                                     ┌─────────────────┐
-                                                                     │  Dyson Sphere   │
-                                                                     │  Program        │
-                                                                     └─────────────────┘
 ```
