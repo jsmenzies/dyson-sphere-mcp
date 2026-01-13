@@ -22,7 +22,25 @@ This project enables an AI agent to analyze and interact with "Dyson Sphere Prog
 **Components:**
 
 1. **Game Mod (`plugin/`)**: A C# BepInEx mod that embeds a WebSocket server inside the game. It exposes internal game data via JSON-RPC protocol.
-2. **MCP Server (`api/`)**: A Python server using `fastmcp` and `FastAPI`. It connects to the Game Mod via WebSocket and exposes high-level MCP Tools to AI agents like Claude Code.
+2. **MCP Server (`api/`)**: A Python server using `fastmcp` and `FastAPI`. It connects to the Game Mod via WebSocket and exposes high-level MCP Tools to AI agents that support HTTP MCP transport.
+
+---
+
+## Requirements
+
+### Game & Mod Manager
+- **[Dyson Sphere Program](https://store.steampowered.com/app/1366540/)** (Steam)
+- **[BepInEx 5.4.x](https://github.com/BepInEx/BepInEx)** - Mod framework for Unity games
+- **[r2modman](https://github.com/ebkr/r2modmanPlus)** (recommended) - Mod manager for easy BepInEx installation
+  - **Note:** r2modman is not strictly required, but the build scripts assume the default r2modman installation directory (`%AppData%\r2modmanPlus-local\DysonSphereProgram\profiles\Default\BepInEx\plugins\`). If you're using a custom BepInEx installation, update the paths in `plugin/src/DSPMCP/DSPMCP.csproj` and `plugin/cmds/build-plugin.sh`.
+
+### Development Tools
+- **[.NET SDK 6.0+](https://dotnet.microsoft.com/download)** - For building the C# plugin
+- **[Python 3.8+](https://www.python.org/downloads/)** - For running the MCP server
+- **[uv](https://github.com/astral-sh/uv)** (recommended) - Fast Python package manager and runner
+
+### AI Agent
+- Any AI agent with **HTTP MCP transport** support (e.g., Claude Code CLI, Claude Desktop, or custom MCP clients)
 
 ---
 
@@ -69,15 +87,19 @@ DSP_USE_MOCK=true uv run python server.py
 
 ---
 
-### 3. Connect Claude Code
+### 3. Connect Your AI Agent
 
-**Add the MCP server to Claude Code:**
+**For Claude Code CLI:**
 ```bash
 claude mcp add --transport http DysonSphereMCP http://localhost:8001/mcp
 ```
 
+**For other MCP clients:**
+Configure HTTP transport to `http://localhost:8001/mcp`
+
 **Reconnect after updates:**
-Type `/mcp` in Claude Code and select "DysonSphereMCP" to reconnect.
+- **Claude Code:** Type `/mcp` and select "DysonSphereMCP" to reconnect
+- **Claude Desktop:** Restart the application
 
 ---
 
@@ -157,17 +179,6 @@ dyson-sphere-mcp/
 ├── AGENTS.md            # Development guide
 └── PLAN.md              # Implementation roadmap
 ```
-
----
-
-## Requirements
-
-- **Game**: Dyson Sphere Program (Steam)
-- **Mod Manager**: r2modman (for BepInEx)
-- **.NET SDK**: For building the C# plugin
-- **Python 3.8+**: For running the MCP server
-- **uv**: Python package manager (recommended)
-- **Claude Code CLI**: For using MCP tools
 
 ---
 
