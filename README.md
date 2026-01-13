@@ -5,19 +5,36 @@ This project enables an AI agent to analyze and interact with "Dyson Sphere Prog
 ## Architecture
 
 ```
-┌─────────────────┐    HTTP :8001     ┌─────────────────┐   WebSocket   ┌─────────────────┐
-│  Claude Code    │◄─────────────────►│  Python MCP     │◄─────────────►│  C# Game Mod    │
-│  (MCP Client)   │   MCP Tools       │  Server         │   :18181      │  (DSPMCP.dll)   │
-└─────────────────┘                   │  (FastAPI +     │               │                 │
-                                      │   FastMCP)      │               │                 │
-                                      └─────────────────┘               └─────────────────┘
-                                                                                │
-                                                                                ▼
-                                                                       ┌─────────────────┐
-                                                                       │  Dyson Sphere   │
-                                                                       │  Program        │
-                                                                       └─────────────────┘
+┌──────────────────────────┐         ┌─────────────────────────┐         ┌──────────────────────┐
+│  Dyson Sphere Program    │         │   Python MCP Server     │         │   MCP Client         │
+│  ┌────────────────────┐  │         │   (api/server.py)       │         │  (AI Agent)          │
+│  │                    │  │         │                         │         │                      │
+│  │  Game Engine       │  │         │  ┌───────────────────┐  │         │  • Claude Code CLI   │
+│  │  (Unity)           │  │         │  │   FastMCP Server  │  │         │  • Claude Desktop    │
+│  │                    │  │  JSON   │  │   :8001/mcp       │◄─┼─────────┼─ • Custom Clients    │
+│  └─────────┬──────────┘  │  -RPC   │  │   (HTTP)          │  │   HTTP  │                      │
+│            │             │  over   │  └───────────────────┘  │  :8001  │  Requests:           │
+│  ┌─────────▼──────────┐  │  WS     │           │             │         │  - get_game_info     │
+│  │   BepInEx Plugin   │  │ :18181  │           ▼             │         │  - get_research_...  │
+│  │   (DSPMCP.dll)     ├──┼────────►│  ┌───────────────────┐  │         │  - list_planets      │
+│  │                    │  │         │  │   WebSocket       │  │         │  - etc. (12 tools)   │
+│  │  • WebSocket       │  │         │  │   Client          │  │         │                      │
+│  │    Server :18181   │  │         │  └───────────────────┘  │         │  Responses:          │
+│  │  • JSON-RPC        │  │         │                         │         │  - Game data (JSON)  │
+│  │    Handlers        │◄─┼─────────┤  ┌───────────────────┐  │         │                      │
+│  │  • Game Data       │  │         │  │   FastAPI Server  │  │         │                      │
+│  │    Access          │  │         │  │   :8000           │  │         │                      │
+│  └────────────────────┘  │         │  │   (REST API)      │  │         │                      │
+│                          │         │  └───────────────────┘  │         │                      │
+└──────────────────────────┘         └─────────────────────────┘         └──────────────────────┘
+     Game Runtime                        MCP Server Bridge                     AI Interface
 ```
+
+**Data Flow:**
+
+1. **Game → Python Server:** DSPMCP.dll exposes game data via WebSocket server (`:18181`) using JSON-RPC protocol
+2. **Python Server → MCP Client:** FastMCP server exposes 12 tools via HTTP (`:8001/mcp`) for AI agents to query
+3. **Optional REST API:** FastAPI server (`:8000`) provides alternative HTTP endpoints for web frontends
 
 **Components:**
 
@@ -179,6 +196,17 @@ dyson-sphere-mcp/
 ├── AGENTS.md            # Development guide
 └── PLAN.md              # Implementation roadmap
 ```
+
+---
+
+## Requirements
+
+- **Game**: Dyson Sphere Program (Steam)
+- **Mod Manager**: r2modman (for BepInEx)
+- **.NET SDK**: For building the C# plugin
+- **Python 3.8+**: For running the MCP server
+- **uv**: Python package manager (recommended)
+- **Claude Code CLI**: For using MCP tools
 
 ---
 
