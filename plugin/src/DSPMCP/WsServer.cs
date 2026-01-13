@@ -51,7 +51,9 @@ namespace DSPMCP
                         RegisterHandler(new LogisticsHandler());
                         RegisterHandler(new PlanetHandler());
                         RegisterHandler(new GalaxyHandler());
-                        // Future handlers: ProductionHandler, etc.
+                        RegisterHandler(new PowerGridHandler());
+                        RegisterHandler(new ShipHandler());
+                        RegisterHandler(new ProductionHandler());
                     }
         private static void RegisterHandler(IMethodHandler handler)
         {

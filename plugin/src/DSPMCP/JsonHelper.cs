@@ -128,6 +128,13 @@ namespace DSPMCP
             return Key(key).Value(value);
         }
 
+        public JsonBuilder AppendRaw(string rawJson)
+        {
+            AppendCommaIfNeeded();
+            _sb.Append(rawJson);
+            return this;
+        }
+
         private void AppendCommaIfNeeded()
         {
             if (!_firstItem)

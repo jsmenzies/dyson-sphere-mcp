@@ -11,7 +11,10 @@ namespace DSPMCP.Handlers
             return new Dictionary<string, string>
             {
                 { "list_ils_per_planet", "List Interstellar Logistics Stations (ILS) for each planet in the system." },
-                { "get_ils_details", "Get detailed ILS information for a specific planet including items, storage, and ship counts." }
+                { "get_ils_details", "Get detailed ILS information for a specific planet including items, storage, and ship counts." },
+                { "get_shipping_routes_for_ils", "Get shipping routes for a given ILS (by gid), showing outgoing and incoming ships." },
+                { "get_planet_routes", "Get all incoming and outgoing shipping routes for a specific planet." },
+                { "find_item_transport", "Find all ships currently transporting a specific item (by ID)." }
             };
         }
 
@@ -28,6 +31,12 @@ namespace DSPMCP.Handlers
                         return ListIlsPerPlanet(id);
                     case "get_ils_details":
                         return GetIlsDetails(id, paramsJson);
+                    case "get_shipping_routes_for_ils":
+                        return GetShippingRoutes(id, paramsJson);
+                    case "get_planet_routes":
+                        return GetPlanetRoutes(id, paramsJson);
+                    case "find_item_transport":
+                        return FindItemTransport(id, paramsJson);
                     default:
                         return JsonRpc.Error(id, -32601, $"Unknown method: {method}");
                 }
@@ -71,6 +80,7 @@ namespace DSPMCP.Handlers
 
                     json.StartObject()
                         .Prop("id", station.id)
+                        .Prop("gid", station.gid)
                         .Prop("entityId", station.entityId)
                         .Prop("isStellar", station.isStellar)
                         .Prop("deliveryDrones", station.deliveryDrones)
@@ -195,6 +205,7 @@ namespace DSPMCP.Handlers
 
                 json.StartObject()
                     .Prop("id", station.id)
+                    .Prop("gid", station.gid)
                     .Prop("entityId", station.entityId)
                     .Prop("isStellar", station.isStellar)
                     .Prop("deliveryDrones", station.deliveryDrones)
@@ -255,6 +266,322 @@ namespace DSPMCP.Handlers
             json.Prop("ilsCount", ilsCount);
             json.EndObject();
             return JsonRpc.Success(id, json.ToString());
+        }
+
+        private string GetShippingRoutes(string id, string paramsJson)
+        {
+            var stationIdMatch = Regex.Match(paramsJson, @"""stationId""\s*:\s*(\d+)");
+            if (!stationIdMatch.Success || !int.TryParse(stationIdMatch.Groups[1].Value, out var stationGid))
+            {
+                return JsonRpc.Error(id, -32602, "Missing or invalid 'stationId' (gid) parameter.");
+            }
+
+            var gameData = GameMain.data;
+            var galacticTransport = gameData.galacticTransport;
+            if (galacticTransport == null || galacticTransport.stationPool == null)
+            {
+                return JsonRpc.Error(id, -32602, "Galactic Transport not initialized.");
+            }
+
+            var stationPool = galacticTransport.stationPool;
+            var stationCursor = galacticTransport.stationCursor;
+
+            // Find the target station
+            StationComponent targetStation = null;
+            if (stationGid >= 0 && stationGid < stationPool.Length)
+            {
+                targetStation = stationPool[stationGid];
+            }
+
+            if (targetStation == null || targetStation.id == 0 || targetStation.gid != stationGid)
+            {
+                 // Fallback search if index mismatch (though gid is usually index)
+                 bool found = false;
+                 for(int i=0; i<stationCursor; i++) {
+                    if (stationPool[i] != null && stationPool[i].gid == stationGid) {
+                        targetStation = stationPool[i];
+                        found = true;
+                        break;
+                    }
+                 }
+                 if (!found)
+                    return JsonRpc.Error(id, -32602, $"Station with GID {stationGid} not found.");
+            }
+
+            var json = new JsonBuilder().StartObject();
+            var targetPlanet = gameData.galaxy.PlanetById(targetStation.planetId);
+            
+            json.Prop("stationId", targetStation.gid)
+                .Prop("planetId", targetStation.planetId)
+                .Prop("planetName", targetPlanet?.displayName ?? "Unknown")
+                .Prop("starName", targetPlanet?.star?.displayName ?? "Unknown");
+
+            // Outgoing Ships (Owned by this station)
+            json.Key("outgoing").StartArray();
+            if (targetStation.workShipDatas != null)
+            {
+                for (int i = 0; i < targetStation.workShipCount; i++)
+                {
+                    var ship = targetStation.workShipDatas[i];
+                    if (ship.otherGId <= 0) continue; 
+
+                    var otherStation = (ship.otherGId < stationPool.Length) ? stationPool[ship.otherGId] : null;
+                    string otherPlanetName = "Unknown";
+                    string otherStarName = "Unknown";
+                    
+                    if (otherStation != null) {
+                        var p = gameData.galaxy.PlanetById(otherStation.planetId);
+                        if (p != null) {
+                            otherPlanetName = p.displayName;
+                            otherStarName = p.star?.displayName;
+                        }
+                    }
+
+                    string itemName = GetItemName(ship.itemId);
+                    string stage = GetShipStageName(ship.stage);
+
+                    json.StartObject()
+                        .Prop("shipIndex", ship.shipIndex)
+                        .Prop("otherStationGId", ship.otherGId)
+                        .Prop("otherPlanetName", otherPlanetName)
+                        .Prop("otherStarName", otherStarName)
+                        .Prop("itemId", ship.itemId)
+                        .Prop("itemName", itemName)
+                        .Prop("itemCount", ship.itemCount)
+                        .Prop("stage", stage)
+                        .Prop("direction", ship.direction)
+                        .Prop("t", ship.t) // progress 0-1
+                        .EndObject();
+                }
+            }
+            json.EndArray();
+
+            // Incoming Ships (Owned by OTHER stations, targeting this one)
+            json.Key("incoming").StartArray();
+            for (int i = 0; i < stationCursor; i++)
+            {
+                var otherStation = stationPool[i];
+                if (otherStation == null || otherStation.gid == targetStation.gid || otherStation.id == 0) continue;
+
+                if (otherStation.workShipDatas != null)
+                {
+                    for (int s = 0; s < otherStation.workShipCount; s++)
+                    {
+                        var ship = otherStation.workShipDatas[s];
+                        if (ship.otherGId == targetStation.gid)
+                        {
+                            // This ship is coming to (or returning from) our target station
+                            string sourcePlanetName = "Unknown";
+                            string sourceStarName = "Unknown";
+                            
+                            var p = gameData.galaxy.PlanetById(otherStation.planetId);
+                            if (p != null) {
+                                sourcePlanetName = p.displayName;
+                                sourceStarName = p.star?.displayName;
+                            }
+
+                            string itemName = GetItemName(ship.itemId);
+                             string stage = GetShipStageName(ship.stage);
+
+                            json.StartObject()
+                                .Prop("shipIndex", ship.shipIndex)
+                                .Prop("sourceStationGId", otherStation.gid)
+                                .Prop("sourcePlanetName", sourcePlanetName)
+                                .Prop("sourceStarName", sourceStarName)
+                                .Prop("itemId", ship.itemId)
+                                .Prop("itemName", itemName)
+                                .Prop("itemCount", ship.itemCount)
+                                .Prop("stage", stage)
+                                .Prop("direction", ship.direction) 
+                                .Prop("t", ship.t)
+                                .EndObject();
+                        }
+                    }
+                }
+            }
+            json.EndArray();
+
+            json.EndObject();
+            return JsonRpc.Success(id, json.ToString());
+        }
+
+        private string GetPlanetRoutes(string id, string paramsJson)
+        {
+            var planetIdMatch = Regex.Match(paramsJson, @"""planetId""\s*:\s*(\d+)");
+            if (!planetIdMatch.Success || !int.TryParse(planetIdMatch.Groups[1].Value, out var planetId))
+            {
+                return JsonRpc.Error(id, -32602, "Missing or invalid 'planetId' parameter.");
+            }
+
+            var gameData = GameMain.data;
+            var galacticTransport = gameData.galacticTransport;
+            if (galacticTransport == null || galacticTransport.stationPool == null)
+                return JsonRpc.Error(id, -32602, "Galactic Transport not initialized.");
+
+            // Identify all station GIDs belonging to the target planet
+            var targetStationGids = new HashSet<int>();
+            var stationPool = galacticTransport.stationPool;
+            var stationCursor = galacticTransport.stationCursor;
+
+            for (int i = 0; i < stationCursor; i++)
+            {
+                var s = stationPool[i];
+                if (s != null && s.id > 0 && s.planetId == planetId)
+                {
+                    targetStationGids.Add(s.gid);
+                }
+            }
+
+            var json = new JsonBuilder().StartObject();
+            var targetPlanet = gameData.galaxy.PlanetById(planetId);
+            
+            json.Prop("planetId", planetId)
+                .Prop("planetName", targetPlanet?.displayName ?? "Unknown")
+                .Prop("starName", targetPlanet?.star?.displayName ?? "Unknown")
+                .Prop("stationCount", targetStationGids.Count);
+
+            var outgoing = new JsonBuilder().StartArray();
+            var incoming = new JsonBuilder().StartArray();
+
+            // Single pass over all global stations to find relevant ships
+            for (int i = 0; i < stationCursor; i++)
+            {
+                var station = stationPool[i];
+                if (station == null || station.id == 0 || station.workShipDatas == null) continue;
+
+                bool stationIsOnTargetPlanet = targetStationGids.Contains(station.gid);
+
+                for (int s = 0; s < station.workShipCount; s++)
+                {
+                    var ship = station.workShipDatas[s];
+                    if (ship.otherGId <= 0) continue;
+
+                    // Outgoing: Origin is on target planet
+                    if (stationIsOnTargetPlanet)
+                    {
+                        var destStation = (ship.otherGId < stationPool.Length) ? stationPool[ship.otherGId] : null;
+                        string destPlanetName = "Unknown";
+                        if (destStation != null) 
+                        {
+                            var p = gameData.galaxy.PlanetById(destStation.planetId);
+                            destPlanetName = p?.displayName ?? "Unknown";
+                        }
+                        
+                        outgoing.StartObject()
+                            .Prop("shipIndex", ship.shipIndex)
+                            .Prop("originStationGId", station.gid)
+                            .Prop("destStationGId", ship.otherGId)
+                            .Prop("destPlanetName", destPlanetName)
+                            .Prop("itemId", ship.itemId)
+                            .Prop("itemName", GetItemName(ship.itemId))
+                            .Prop("itemCount", ship.itemCount)
+                            .Prop("stage", GetShipStageName(ship.stage))
+                            .Prop("t", ship.t)
+                            .EndObject();
+                    }
+                    // Incoming: Destination is on target planet
+                    else if (targetStationGids.Contains(ship.otherGId))
+                    {
+                        var originStation = station;
+                        string originPlanetName = "Unknown";
+                        var p = gameData.galaxy.PlanetById(originStation.planetId);
+                        originPlanetName = p?.displayName ?? "Unknown";
+
+                        incoming.StartObject()
+                            .Prop("shipIndex", ship.shipIndex)
+                            .Prop("originStationGId", originStation.gid)
+                            .Prop("originPlanetName", originPlanetName)
+                            .Prop("destStationGId", ship.otherGId)
+                            .Prop("itemId", ship.itemId)
+                            .Prop("itemName", GetItemName(ship.itemId))
+                            .Prop("itemCount", ship.itemCount)
+                            .Prop("stage", GetShipStageName(ship.stage))
+                            .Prop("t", ship.t)
+                            .EndObject();
+                    }
+                }
+            }
+
+            outgoing.EndArray();
+            incoming.EndArray();
+
+            json.Key("outgoing").AppendRaw(outgoing.ToString());
+            json.Key("incoming").AppendRaw(incoming.ToString());
+
+            json.EndObject();
+            return JsonRpc.Success(id, json.ToString());
+        }
+
+        private string FindItemTransport(string id, string paramsJson)
+        {
+            var itemIdMatch = Regex.Match(paramsJson, @"""itemId""\s*:\s*(\d+)");
+            if (!itemIdMatch.Success || !int.TryParse(itemIdMatch.Groups[1].Value, out var itemId))
+            {
+                return JsonRpc.Error(id, -32602, "Missing or invalid 'itemId' parameter.");
+            }
+
+            var gameData = GameMain.data;
+            var galacticTransport = gameData.galacticTransport;
+            if (galacticTransport == null || galacticTransport.stationPool == null)
+                return JsonRpc.Error(id, -32602, "Galactic Transport not initialized.");
+
+            var json = new JsonBuilder().StartObject();
+            json.Prop("itemId", itemId)
+                .Prop("itemName", GetItemName(itemId));
+
+            json.Key("ships").StartArray();
+
+            var stationPool = galacticTransport.stationPool;
+            var stationCursor = galacticTransport.stationCursor;
+
+            for (int i = 0; i < stationCursor; i++)
+            {
+                var station = stationPool[i];
+                if (station == null || station.id == 0 || station.workShipDatas == null) continue;
+
+                for (int s = 0; s < station.workShipCount; s++)
+                {
+                    var ship = station.workShipDatas[s];
+                    if (ship.itemId == itemId)
+                    {
+                        var destStation = (ship.otherGId > 0 && ship.otherGId < stationPool.Length) ? stationPool[ship.otherGId] : null;
+                        
+                        string originPlanet = gameData.galaxy.PlanetById(station.planetId)?.displayName ?? "Unknown";
+                        string destPlanet = destStation != null ? (gameData.galaxy.PlanetById(destStation.planetId)?.displayName ?? "Unknown") : "Unknown";
+
+                        json.StartObject()
+                            .Prop("shipIndex", ship.shipIndex)
+                            .Prop("originStationGId", station.gid)
+                            .Prop("originPlanet", originPlanet)
+                            .Prop("destStationGId", ship.otherGId)
+                            .Prop("destPlanet", destPlanet)
+                            .Prop("itemCount", ship.itemCount)
+                            .Prop("stage", GetShipStageName(ship.stage))
+                            .Prop("t", ship.t)
+                            .EndObject();
+                    }
+                }
+            }
+
+            json.EndArray().EndObject();
+            return JsonRpc.Success(id, json.ToString());
+        }
+
+        private string GetItemName(int itemId) {
+             if (itemId <= 0) return "None";
+             try {
+                var itemProto = LDB.items.Select(itemId);
+                return itemProto?.name?.Translate() ?? $"Item {itemId}";
+             } catch { return $"Item {itemId}"; }
+        }
+
+        private string GetShipStageName(int stage) {
+            // Decoding stage based on typical game logic (observed or assumed)
+            // -2: Reset? -1: None? 0: Idle? 1: Going to? 2: Arrived/Working? 3: Returning? 
+            // Better to just return the int if unsure, but let's label it "Raw: X"
+            // Wait, standard stages: 0=idle, 1=transport, 2=unload, 3=return?
+            // Let's just return the number for now as I didn't verify the enum.
+            return stage.ToString();
         }
     }
 }

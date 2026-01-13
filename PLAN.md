@@ -45,6 +45,51 @@
 - [x] Planet data: list_planets, get_planet_resources
 - [x] Galaxy data: get_galaxy_details
 - [x] Star data: get_stars
+- [x] Power grid: get_power_grid_status, get_power_grids_by_planet
+
+### Discovery: Using UI Statistics Objects Instead of Manual Calculation
+
+**Finding (January 2026):**
+While implementing power grid tools, we discovered that the game has precomputed statistics objects used by the UI, accessible via `GameMain.data.statistics`. This is significantly more efficient than manually iterating through game objects.
+
+**ProductionStatistics Pattern:**
+```csharp
+var stats = GameMain.data.statistics.production;
+
+// Refresh for specific planet (or 0 for all planets)
+stats.RefreshPowerGenerationCapacites(planetId);
+stats.RefreshPowerConsumptionDemands(planetId);
+
+// Access precomputed values (already in Watts!)
+long generationCapacityW = stats.totalGenCapacity;
+long consumptionDemandW = stats.totalConDemand;
+```
+
+**Benefits:**
+1. **Matches UI Exactly** - Uses same data source as game UI, ensuring consistency
+2. **More Efficient** - Precomputed aggregates instead of manual iteration
+3. **Already Converted** - Values in display units (Watts), not internal per-tick values
+4. **Per-Planet Filtering** - `RefreshPowerGenerationCapacites(planetId)` filters to specific planet
+
+**Implementation:**
+- PowerGridHandler.cs now uses ProductionStatistics for generation/consumption totals
+- Still manually aggregates some network-level values (energyServed, energyStored) not in ProductionStatistics
+- Response format simplified by removing internal `_raw_*` fields
+
+**Question for Future Work:**
+The `GameMain.data.statistics` object appears to have multiple subsystems:
+- `statistics.production` (used for power grid)
+- `statistics.kill` (possibly combat stats?)
+- `statistics.traffic` (possibly logistics/transport stats?)
+- `statistics.charts` (possibly historical time-series data?)
+
+**TODO:** Investigate if similar precomputed statistics exist for:
+- Production rates (item/min across factories) - Could eliminate manual factory iteration in production tools
+- Logistics throughput (ILS/PLS item flow rates) - Could provide transport statistics
+- Belt utilization - Might have precomputed belt saturation data
+- Building efficiency - May track working/idle assembler counts
+
+If these exist, we should refactor existing tools to use them instead of manual calculations. This pattern discovery could significantly improve performance and accuracy across all tools.
 
 ---
 

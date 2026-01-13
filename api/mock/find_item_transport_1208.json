@@ -1,0 +1,386 @@
+{
+    "itemId": 1208,
+    "itemName": "Critical Photon",
+    "ships": [
+        {
+            "shipIndex": 2,
+            "originStationGId": 77,
+            "originPlanet": "Home",
+            "destStationGId": 594,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "-1",
+            "t": 0.6784136
+        },
+        {
+            "shipIndex": 0,
+            "originStationGId": 77,
+            "originPlanet": "Home",
+            "destStationGId": 599,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 3,
+            "originStationGId": 77,
+            "originPlanet": "Home",
+            "destStationGId": 575,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 7,
+            "originStationGId": 157,
+            "originPlanet": "Porrima I Sulfur",
+            "destStationGId": 599,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 1,
+            "originStationGId": 179,
+            "originPlanet": "Porrima I Sulfur",
+            "destStationGId": 491,
+            "destPlanet": "Muphrid Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 7,
+            "originStationGId": 179,
+            "originPlanet": "Porrima I Sulfur",
+            "destStationGId": 594,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 4,
+            "originStationGId": 491,
+            "originPlanet": "Muphrid Photon Farm",
+            "destStationGId": 179,
+            "destPlanet": "Porrima I Sulfur",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 5,
+            "originStationGId": 491,
+            "originPlanet": "Muphrid Photon Farm",
+            "destStationGId": 567,
+            "destPlanet": "Home",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 6,
+            "originStationGId": 491,
+            "originPlanet": "Muphrid Photon Farm",
+            "destStationGId": 571,
+            "destPlanet": "Home",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 7,
+            "originStationGId": 491,
+            "originPlanet": "Muphrid Photon Farm",
+            "destStationGId": 585,
+            "destPlanet": "Acrux I IronCopper",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 8,
+            "originStationGId": 491,
+            "originPlanet": "Muphrid Photon Farm",
+            "destStationGId": 571,
+            "destPlanet": "Home",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 0,
+            "originStationGId": 567,
+            "originPlanet": "Home",
+            "destStationGId": 576,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 1,
+            "originStationGId": 567,
+            "originPlanet": "Home",
+            "destStationGId": 594,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 3,
+            "originStationGId": 567,
+            "originPlanet": "Home",
+            "destStationGId": 600,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 5,
+            "originStationGId": 567,
+            "originPlanet": "Home",
+            "destStationGId": 576,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 0,
+            "stage": "-1",
+            "t": 0.2631156
+        },
+        {
+            "shipIndex": 4,
+            "originStationGId": 571,
+            "originPlanet": "Home",
+            "destStationGId": 575,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "-2",
+            "t": 0.83325
+        },
+        {
+            "shipIndex": 5,
+            "originStationGId": 571,
+            "originPlanet": "Home",
+            "destStationGId": 599,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 8,
+            "originStationGId": 571,
+            "originPlanet": "Home",
+            "destStationGId": 575,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 7,
+            "originStationGId": 576,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 578,
+            "destPlanet": "Almach II",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 8,
+            "originStationGId": 577,
+            "originPlanet": "Almach II",
+            "destStationGId": 594,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 0,
+            "originStationGId": 577,
+            "originPlanet": "Almach II",
+            "destStationGId": 599,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 3,
+            "originStationGId": 577,
+            "originPlanet": "Almach II",
+            "destStationGId": 594,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 9,
+            "originStationGId": 578,
+            "originPlanet": "Almach II",
+            "destStationGId": 611,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 2,
+            "originStationGId": 578,
+            "originPlanet": "Almach II",
+            "destStationGId": 594,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 6,
+            "originStationGId": 585,
+            "originPlanet": "Acrux I IronCopper",
+            "destStationGId": 601,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 7,
+            "originStationGId": 585,
+            "originPlanet": "Acrux I IronCopper",
+            "destStationGId": 594,
+            "destPlanet": "Alifa I Photon Farm",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 0,
+            "originStationGId": 594,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 179,
+            "destPlanet": "Porrima I Sulfur",
+            "itemCount": 0,
+            "stage": "-1",
+            "t": 0.34221
+        },
+        {
+            "shipIndex": 1,
+            "originStationGId": 594,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 77,
+            "destPlanet": "Home",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 2,
+            "originStationGId": 594,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 157,
+            "destPlanet": "Porrima I Sulfur",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 3,
+            "originStationGId": 594,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 179,
+            "destPlanet": "Porrima I Sulfur",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 3,
+            "originStationGId": 599,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 77,
+            "destPlanet": "Home",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 4,
+            "originStationGId": 599,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 157,
+            "destPlanet": "Porrima I Sulfur",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 5,
+            "originStationGId": 599,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 179,
+            "destPlanet": "Porrima I Sulfur",
+            "itemCount": 2000,
+            "stage": "1",
+            "t": 0.9853824
+        },
+        {
+            "shipIndex": 6,
+            "originStationGId": 599,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 157,
+            "destPlanet": "Porrima I Sulfur",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 7,
+            "originStationGId": 599,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 605,
+            "destPlanet": "Farm 4 Titan",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 3,
+            "originStationGId": 600,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 605,
+            "destPlanet": "Farm 4 Titan",
+            "itemCount": 0,
+            "stage": "0",
+            "t": 1
+        },
+        {
+            "shipIndex": 3,
+            "originStationGId": 601,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 605,
+            "destPlanet": "Farm 4 Titan",
+            "itemCount": 0,
+            "stage": "1",
+            "t": 0.6139365
+        },
+        {
+            "shipIndex": 0,
+            "originStationGId": 611,
+            "originPlanet": "Alifa I Photon Farm",
+            "destStationGId": 157,
+            "destPlanet": "Porrima I Sulfur",
+            "itemCount": 2000,
+            "stage": "0",
+            "t": 1
+        }
+    ]
+}

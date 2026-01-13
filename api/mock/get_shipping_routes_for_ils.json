@@ -1,0 +1,34 @@
+{
+  "stationId": 7,
+  "planetId": 103,
+  "planetName": "Home",
+  "starName": "Acrux",
+  "outgoing": [
+    {
+      "shipIndex": 1,
+      "otherStationGId": 25,
+      "otherPlanetName": "Mining Colony",
+      "otherStarName": "Vega",
+      "itemId": 1804,
+      "itemName": "Strange Annihilation Fuel Rod",
+      "itemCount": 100,
+      "stage": "1",
+      "direction": 1,
+      "t": 0.3
+    }
+  ],
+  "incoming": [
+    {
+      "shipIndex": 10,
+      "sourceStationGId": 99,
+      "sourcePlanetName": "Core Prime",
+      "sourceStarName": "Sirius",
+      "itemId": 5205,
+      "itemName": "Core Element",
+      "itemCount": 500,
+      "stage": "1",
+      "direction": -1,
+      "t": 0.7
+    }
+  ]
+}

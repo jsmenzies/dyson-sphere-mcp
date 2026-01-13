@@ -141,6 +141,9 @@ Configure HTTP transport to `http://localhost:8001/mcp`
 ### Logistics
 - **`list_ils_per_planet`**: List all Interstellar Logistics Stations (ILS) grouped by planet, including drone/ship counts, warper status, energy levels, and item storage with logistics modes (supply/demand)
 - **`get_ils_details(planetId)`**: Get detailed information for all ILS stations on a specific planet
+- **`get_shipping_routes_for_ils(stationId)`**: Get shipping routes for a given ILS (by stationId/gid), showing outgoing and incoming ships
+- **`get_planet_routes(planetId)`**: Get all incoming and outgoing shipping routes for a specific planet
+- **`find_item_transport(itemId)`**: Find all ships currently transporting a specific item (by ID)
 
 ---
 

@@ -50,11 +50,16 @@ def load_mock_data(method: str, params: dict = None) -> Any:
     """Load data from the mock directory."""
     filename = f"{method}.json"
     
-    # Special handling for methods with planetId/starId to look for specific mocks
-    if params and "planetId" in params:
-        specific_file = f"{method}_{params['planetId']}.json"
-        if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
-            filename = specific_file
+    # Special handling for methods with planetId/starId/itemId to look for specific mocks
+    if params:
+        if "planetId" in params:
+            specific_file = f"{method}_{params['planetId']}.json"
+            if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
+                filename = specific_file
+        elif "itemId" in params:
+            specific_file = f"{method}_{params['itemId']}.json"
+            if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
+                filename = specific_file
             
     filepath = os.path.join(MOCK_DIR, filename)
     
@@ -163,9 +168,51 @@ async def get_ils_details(planetId: int) -> str:
     return json.dumps(result)
 
 @mcp.tool()
+async def get_shipping_routes_for_ils(stationId: int) -> str:
+    """Get shipping routes for a given ILS (by stationId/gid), showing outgoing and incoming ships."""
+    result = await query_game("get_shipping_routes_for_ils", {"stationId": stationId})
+    return json.dumps(result)
+
+@mcp.tool()
 async def get_galaxy_details() -> str:
     """Get galaxy-wide details and statistics."""
     result = await query_game("get_galaxy_details")
+    return json.dumps(result)
+
+@mcp.tool()
+async def get_power_grid_status() -> str:
+    """Get power grid status across all planets, including energy generation, consumption, and satisfaction."""
+    result = await query_game("get_power_grid_status")
+    return json.dumps(result)
+
+@mcp.tool()
+async def get_power_grids_by_planet(planetId: int) -> str:
+    """Get detailed power network information for a specific planet, including individual network stats with generators, consumers, and accumulators."""
+    result = await query_game("get_power_grids_by_planet", {"planetId": planetId})
+    return json.dumps(result)
+
+@mcp.tool()
+async def get_production_stats(planetId: int = -1, timeLevel: int = 0) -> str:
+    """Get production and consumption rates for a planet (-1 for global). timeLevel: 0=1m, 1=10m, 2=1h, 3=10h, 4=100h, 5=Total."""
+    result = await query_game("get_production_stats", {"planetId": planetId, "timeLevel": timeLevel})
+    return json.dumps(result)
+
+@mcp.tool()
+async def get_assembler_details(planetId: int) -> str:
+    """Get detailed status of all assemblers on a specific planet, including proliferation and actual speed."""
+    result = await query_game("get_assembler_details", {"planetId": planetId})
+    return json.dumps(result)
+
+@mcp.tool()
+async def get_planet_routes(planetId: int) -> str:
+    """Get all incoming and outgoing shipping routes for a specific planet."""
+    result = await query_game("get_planet_routes", {"planetId": planetId})
+    return json.dumps(result)
+
+@mcp.tool()
+async def find_item_transport(itemId: int) -> str:
+    """Find all ships currently transporting a specific item (by ID)."""
+    result = await query_game("find_item_transport", {"itemId": itemId})
     return json.dumps(result)
 
 # ===== FastAPI Endpoints =====
@@ -214,9 +261,37 @@ async def api_get_lab_details(planet_id: int):
 async def api_get_ils_details(planet_id: int):
     return await query_game("get_ils_details", {"planetId": planet_id})
 
+@app.get("/api/ils/{station_id}/routes")
+async def api_get_shipping_routes(station_id: int):
+    return await query_game("get_shipping_routes_for_ils", {"stationId": station_id})
+
 @app.get("/api/galaxy")
 async def api_get_galaxy_details():
     return await query_game("get_galaxy_details")
+
+@app.get("/api/power")
+async def api_get_power_grid_status():
+    return await query_game("get_power_grid_status")
+
+@app.get("/api/planets/{planet_id}/power")
+async def api_get_power_grids_by_planet(planet_id: int):
+    return await query_game("get_power_grids_by_planet", {"planetId": planet_id})
+
+@app.get("/api/production")
+async def api_get_production_stats(planet_id: int = -1, time_level: int = 0):
+    return await query_game("get_production_stats", {"planetId": planet_id, "timeLevel": time_level})
+
+@app.get("/api/planets/{planet_id}/assemblers")
+async def api_get_assembler_details(planet_id: int):
+    return await query_game("get_assembler_details", {"planetId": planet_id})
+
+@app.get("/api/planets/{planet_id}/routes")
+async def api_get_planet_routes(planet_id: int):
+    return await query_game("get_planet_routes", {"planetId": planet_id})
+
+@app.get("/api/transport/items/{item_id}")
+async def api_find_item_transport(item_id: int):
+    return await query_game("find_item_transport", {"itemId": item_id})
 
 @app.get("/api/config")
 async def get_config():
