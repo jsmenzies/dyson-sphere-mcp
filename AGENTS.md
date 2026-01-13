@@ -4,6 +4,24 @@
 - Use `dotnet.exe` (not `dotnet`) when running .NET commands from WSL
 - Use `python` when running Python commands
 
+## Git Workflow
+
+### When User Says "Commit"
+Execute the following steps:
+1. **Stage changes:** `git add <files>`
+2. **Commit with semantic message:** `git commit -m "<type>: <description>"`
+   - Use conventional commit types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, etc.
+   - Write clear, concise commit messages describing what changed
+   - Do NOT sign commits with Claude attribution
+3. **Push to remote:** `git push`
+
+**Example:**
+```bash
+git add README.md
+git commit -m "docs: update architecture diagram with data flow"
+git push
+```
+
 ---
 
 ## Development Workflow
