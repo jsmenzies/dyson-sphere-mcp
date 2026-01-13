@@ -34,18 +34,26 @@
 
 ---
 
-## Phase 2: Game Data Integration (IN PROGRESS)
+## Phase 2: Game Data Integration (COMPLETE)
 
-### Objective 3: Implement Real Game Data (MOSTLY COMPLETE)
+### Objective 3: Implement Real Game Data (COMPLETE)
 **Goal:** Make the C# plugin return actual game information instead of generic responses.
 
 **Implemented:**
 - [x] Research data: get_research_progress, get_research_by_planet, get_tech_queue, get_upgrades, get_lab_details
-- [x] ILS logistics: list_ils_per_planet, get_ils_details
 - [x] Planet data: list_planets, get_planet_resources
 - [x] Galaxy data: get_galaxy_details
 - [x] Star data: get_stars
 - [x] Power grid: get_power_grid_status, get_power_grids_by_planet
+- [x] **Logistics:** 
+    - `list_ils_per_planet`: Summary of all ILS stations.
+    - `get_ils_details(planetId)`: Detailed station config and storage.
+    - `get_shipping_routes_for_ils(stationId)`: Specific shipping routes for a station.
+    - `get_planet_routes(planetId)`: All incoming/outgoing routes for a planet.
+    - `find_item_transport(itemId)`: Track specific items in transit globally.
+- [x] **Production:**
+    - `get_production_stats(planetId, timeLevel)`: Production/consumption rates.
+    - `get_assembler_details(planetId)`: Machine working/idle status.
 
 ### Discovery: Using UI Statistics Objects Instead of Manual Calculation
 
@@ -98,18 +106,22 @@ If these exist, we should refactor existing tools to use them instead of manual 
 ### Bottleneck Analysis Tools
 
 1. **get_production_summary** - Get production/consumption rates per item across all factories
+   - [x] Implemented as `get_production_stats`
    - Returns: item ID, production rate/min, consumption rate/min, net rate
    - Use: Identify items with negative net rates (bottlenecks)
 
 2. **get_logistics_stations** - List all Planetary/Interstellar Logistics Stations
+   - [x] Implemented as `list_ils_per_planet` and `get_ils_details`
    - Returns: station ID, planet, position, item slots (item, mode, current/max stock, demand/supply rates)
    - Use: Find stations with unfulfilled demand or idle supply
 
 3. **get_power_grid_status** - Get power network status per planet
+   - [x] Implemented
    - Returns: planet, total generation, total consumption, satisfaction %, storage level
    - Use: Identify planets with power deficits causing production slowdowns
 
 4. **get_assembler_efficiency** - Get working/idle status of production buildings
+   - [x] Implemented as `get_assembler_details`
    - Returns: planet, building type, total count, working count, idle count, idle %
    - Use: Find machines starved for input or blocked on output
 
@@ -124,18 +136,22 @@ If these exist, we should refactor existing tools to use them instead of manual 
 ### Distance & Factory Placement Tools
 
 7. **get_star_systems** - List all star systems with positions
+   - [x] Implemented as `get_stars`
    - Returns: star ID, name, type, position (x,y,z), luminosity, planets count
    - Use: Calculate inter-system distances for logistics planning
 
 8. **get_planets** - List all planets with details
+   - [x] Implemented as `list_planets`
    - Returns: planet ID, name, star, type, position, radius. Resource details are now available via `get_planet_resources`.
    - Use: Find planets with specific resources
 
 9. **get_planet_resources** - Get vein/resource deposits on a specific planet
+    - [x] Implemented
     - Returns: resource type, vein count, total amount, positions
     - Use: Evaluate resource richness for factory placement
 
 10. **get_logistics_network_graph** - Get logistics vessel routes and distances
+    - [x] Partially implemented via `get_planet_routes` and `find_item_transport`
     - Returns: station pairs, distance (AU/LY), travel time, vessel count, throughput
     - Use: Identify long routes that could benefit from relay stations
 
@@ -154,6 +170,7 @@ If these exist, we should refactor existing tools to use them instead of manual 
 ### Utility Tools
 
 14. **get_player_location** - Get current player/mecha position
+    - [x] Included in `get_game_info`
     - Returns: current planet, position, current star system
     - Use: Context for relative distance calculations
 
@@ -291,12 +308,13 @@ frontend/
 
 **IMPORTANT:** Complete in this order:
 1. ~~Phase 1: Core Connectivity~~ (DONE)
-2. **Phase 2: Finish ILS per-planet** (CURRENT PRIORITY)
-3. Phase 4.1: Python REST API
-4. Phase 4.2: SvelteKit setup
-5. Phase 4.3: Research dashboard components
-6. Phase 4.4: Integration testing
-7. Phase 5+: Additional views
+2. ~~Phase 2: Game Data Integration~~ (DONE)
+3. **Phase 4: Web Frontend** (NEXT)
+   - 4.1: Python REST API
+   - 4.2: SvelteKit setup
+   - 4.3: Research dashboard components
+   - 4.4: Integration testing
+4. Phase 5+: Additional views
 
 ---
 

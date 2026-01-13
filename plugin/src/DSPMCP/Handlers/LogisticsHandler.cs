@@ -340,6 +340,18 @@ namespace DSPMCP.Handlers
                     string itemName = GetItemName(ship.itemId);
                     string stage = GetShipStageName(ship.stage);
 
+                    var astroPoses = GameMain.data.galaxy.astrosData;
+                    var history = GameMain.history;
+                    int remainingTicks = targetStation.CalcArrivalRemainingTime(astroPoses, otherStation, history.logisticShipSailSpeedModified, history.logisticShipWarpSpeedModified, ship.shipIndex);
+
+                    // Calculate distance to target station
+                    double distance = 0;
+                    if (otherStation != null)
+                    {
+                        var targetPos = astroPoses[otherStation.planetId].uPos;
+                        distance = (ship.uPos - targetPos).magnitude;
+                    }
+
                     json.StartObject()
                         .Prop("shipIndex", ship.shipIndex)
                         .Prop("otherStationGId", ship.otherGId)
@@ -351,6 +363,11 @@ namespace DSPMCP.Handlers
                         .Prop("stage", stage)
                         .Prop("direction", ship.direction)
                         .Prop("t", ship.t) // progress 0-1
+                        .Prop("uSpeed", ship.uSpeed)
+                        .Prop("warpState", ship.warpState)
+                        .Prop("distance", distance)
+                        .Prop("remainingTicks", remainingTicks)
+                        .Prop("remainingSeconds", remainingTicks / 60.0)
                         .EndObject();
                 }
             }
@@ -381,7 +398,16 @@ namespace DSPMCP.Handlers
                             }
 
                             string itemName = GetItemName(ship.itemId);
-                             string stage = GetShipStageName(ship.stage);
+                            string stage = GetShipStageName(ship.stage);
+
+                            var astroPoses = GameMain.data.galaxy.astrosData;
+                            var history = GameMain.history;
+                            // Note: CalcArrivalRemainingTime must be called on the station that OWNS the ship
+                            int remainingTicks = otherStation.CalcArrivalRemainingTime(astroPoses, targetStation, history.logisticShipSailSpeedModified, history.logisticShipWarpSpeedModified, ship.shipIndex);
+
+                            // Calculate distance to this station
+                            var targetPos = astroPoses[targetStation.planetId].uPos;
+                            double distance = (ship.uPos - targetPos).magnitude;
 
                             json.StartObject()
                                 .Prop("shipIndex", ship.shipIndex)
@@ -394,6 +420,11 @@ namespace DSPMCP.Handlers
                                 .Prop("stage", stage)
                                 .Prop("direction", ship.direction) 
                                 .Prop("t", ship.t)
+                                .Prop("uSpeed", ship.uSpeed)
+                                .Prop("warpState", ship.warpState)
+                                .Prop("distance", distance)
+                                .Prop("remainingTicks", remainingTicks)
+                                .Prop("remainingSeconds", remainingTicks / 60.0)
                                 .EndObject();
                         }
                     }
@@ -443,6 +474,9 @@ namespace DSPMCP.Handlers
             var outgoing = new JsonBuilder().StartArray();
             var incoming = new JsonBuilder().StartArray();
 
+            var astroPoses = GameMain.data.galaxy.astrosData;
+            var history = GameMain.history;
+
             // Single pass over all global stations to find relevant ships
             for (int i = 0; i < stationCursor; i++)
             {
@@ -461,10 +495,17 @@ namespace DSPMCP.Handlers
                     {
                         var destStation = (ship.otherGId < stationPool.Length) ? stationPool[ship.otherGId] : null;
                         string destPlanetName = "Unknown";
+                        double distance = 0;
+                        int remainingTicks = 0;
+
                         if (destStation != null) 
                         {
                             var p = gameData.galaxy.PlanetById(destStation.planetId);
                             destPlanetName = p?.displayName ?? "Unknown";
+                            
+                            var targetPos = astroPoses[destStation.planetId].uPos;
+                            distance = (ship.uPos - targetPos).magnitude;
+                            remainingTicks = station.CalcArrivalRemainingTime(astroPoses, destStation, history.logisticShipSailSpeedModified, history.logisticShipWarpSpeedModified, ship.shipIndex);
                         }
                         
                         outgoing.StartObject()
@@ -477,6 +518,10 @@ namespace DSPMCP.Handlers
                             .Prop("itemCount", ship.itemCount)
                             .Prop("stage", GetShipStageName(ship.stage))
                             .Prop("t", ship.t)
+                            .Prop("uSpeed", ship.uSpeed)
+                            .Prop("distance", distance)
+                            .Prop("remainingTicks", remainingTicks)
+                            .Prop("remainingSeconds", remainingTicks / 60.0)
                             .EndObject();
                     }
                     // Incoming: Destination is on target planet
@@ -486,6 +531,16 @@ namespace DSPMCP.Handlers
                         string originPlanetName = "Unknown";
                         var p = gameData.galaxy.PlanetById(originStation.planetId);
                         originPlanetName = p?.displayName ?? "Unknown";
+
+                        var destStation = stationPool[ship.otherGId];
+                        double distance = 0;
+                        int remainingTicks = 0;
+                        if (destStation != null)
+                        {
+                            var targetPos = astroPoses[destStation.planetId].uPos;
+                            distance = (ship.uPos - targetPos).magnitude;
+                            remainingTicks = originStation.CalcArrivalRemainingTime(astroPoses, destStation, history.logisticShipSailSpeedModified, history.logisticShipWarpSpeedModified, ship.shipIndex);
+                        }
 
                         incoming.StartObject()
                             .Prop("shipIndex", ship.shipIndex)
@@ -497,6 +552,10 @@ namespace DSPMCP.Handlers
                             .Prop("itemCount", ship.itemCount)
                             .Prop("stage", GetShipStageName(ship.stage))
                             .Prop("t", ship.t)
+                            .Prop("uSpeed", ship.uSpeed)
+                            .Prop("distance", distance)
+                            .Prop("remainingTicks", remainingTicks)
+                            .Prop("remainingSeconds", remainingTicks / 60.0)
                             .EndObject();
                     }
                 }
@@ -533,6 +592,8 @@ namespace DSPMCP.Handlers
 
             var stationPool = galacticTransport.stationPool;
             var stationCursor = galacticTransport.stationCursor;
+            var astroPoses = GameMain.data.galaxy.astrosData;
+            var history = GameMain.history;
 
             for (int i = 0; i < stationCursor; i++)
             {
@@ -549,6 +610,15 @@ namespace DSPMCP.Handlers
                         string originPlanet = gameData.galaxy.PlanetById(station.planetId)?.displayName ?? "Unknown";
                         string destPlanet = destStation != null ? (gameData.galaxy.PlanetById(destStation.planetId)?.displayName ?? "Unknown") : "Unknown";
 
+                        double distance = 0;
+                        int remainingTicks = 0;
+                        if (destStation != null)
+                        {
+                            var targetPos = astroPoses[destStation.planetId].uPos;
+                            distance = (ship.uPos - targetPos).magnitude;
+                            remainingTicks = station.CalcArrivalRemainingTime(astroPoses, destStation, history.logisticShipSailSpeedModified, history.logisticShipWarpSpeedModified, ship.shipIndex);
+                        }
+
                         json.StartObject()
                             .Prop("shipIndex", ship.shipIndex)
                             .Prop("originStationGId", station.gid)
@@ -558,6 +628,10 @@ namespace DSPMCP.Handlers
                             .Prop("itemCount", ship.itemCount)
                             .Prop("stage", GetShipStageName(ship.stage))
                             .Prop("t", ship.t)
+                            .Prop("uSpeed", ship.uSpeed)
+                            .Prop("distance", distance)
+                            .Prop("remainingTicks", remainingTicks)
+                            .Prop("remainingSeconds", remainingTicks / 60.0)
                             .EndObject();
                     }
                 }
@@ -576,12 +650,15 @@ namespace DSPMCP.Handlers
         }
 
         private string GetShipStageName(int stage) {
-            // Decoding stage based on typical game logic (observed or assumed)
-            // -2: Reset? -1: None? 0: Idle? 1: Going to? 2: Arrived/Working? 3: Returning? 
-            // Better to just return the int if unsure, but let's label it "Raw: X"
-            // Wait, standard stages: 0=idle, 1=transport, 2=unload, 3=return?
-            // Let's just return the number for now as I didn't verify the enum.
-            return stage.ToString();
+            switch (stage)
+            {
+                case -2: return "Takeoff";
+                case -1: return "Departure";
+                case 0: return "Flight";
+                case 1: return "Approach";
+                case 2: return "Landing";
+                default: return stage.ToString();
+            }
         }
     }
 }
