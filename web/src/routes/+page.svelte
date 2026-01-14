@@ -9,13 +9,31 @@
     function handleSelect(event: CustomEvent<Star>) {
         selectedStar = event.detail;
     }
+
+    // Calculate cluster summary
+    $: systemCount = data.stars.length;
+    $: activeRoutes = data.routes.length;
 </script>
 
 <div class="flex h-[calc(100vh-64px)]">
     <!-- Sidebar -->
     <div class="w-72 bg-gray-800 border-r border-gray-700 flex flex-col">
         <div class="p-4 border-b border-gray-700">
-            <h2 class="text-xl font-bold text-cyan-400">Systems ({data.stars.length})</h2>
+            <h2 class="text-xl font-bold text-cyan-400">Cluster Overview</h2>
+            <div class="grid grid-cols-2 gap-2 mt-4">
+                <div class="bg-gray-900/50 p-2 rounded text-center border border-gray-700">
+                    <div class="text-[10px] text-gray-500 uppercase">Systems</div>
+                    <div class="text-lg font-bold text-white">{systemCount}</div>
+                </div>
+                <div class="bg-gray-900/50 p-2 rounded text-center border border-gray-700">
+                    <div class="text-[10px] text-gray-500 uppercase">Routes</div>
+                    <div class="text-lg font-bold text-cyan-400">{activeRoutes}</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="p-4 border-b border-gray-700">
+            <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Systems List</h3>
         </div>
         
         <!-- List -->
@@ -32,14 +50,12 @@
                 {/each}
             </ul>
         </div>
-
-        <!-- Details Panel (Bottom of Sidebar or separate?) Let's put it in a right sidebar or overlay -->
     </div>
 
     <!-- Main Map Area -->
     <div class="flex-1 bg-gray-900 relative">
         {#if data.stars.length > 0}
-            <GalaxyMap stars={data.stars} on:select={handleSelect} />
+            <GalaxyMap stars={data.stars} routes={data.routes} activeStars={data.activeStars} on:select={handleSelect} />
         {:else}
             <div class="flex items-center justify-center h-full text-gray-500">
                 Loading or No Data...

@@ -241,6 +241,27 @@ async def api_get_stars():
 async def api_list_ils():
     return await query_game("list_ils_per_planet")
 
+@app.get("/api/logistics/routes")
+async def api_get_all_routes():
+    # Aggregates routes from all planets that have ILS
+    ils_data = await query_game("list_ils_per_planet")
+    if not ils_data or "planets" not in ils_data:
+        return {"routes": []}
+    
+    all_routes = []
+    for planet in ils_data["planets"]:
+        planet_routes = await query_game("get_planet_routes", {"planetId": planet["planetId"]})
+        if planet_routes and "outgoing" in planet_routes:
+            for route in planet_routes["outgoing"]:
+                # Only include interstellar routes (those with a destination planet name)
+                # and avoid duplicates if we aggregate from all planets
+                route["originPlanetId"] = planet["planetId"]
+                route["originPlanetName"] = planet["planetName"]
+                route["originStarName"] = planet["starName"]
+                all_routes.append(route)
+    
+    return {"routes": all_routes}
+
 @app.get("/api/research/by-planet")
 async def api_get_research_by_planet():
     return await query_game("get_research_by_planet")

@@ -2,20 +2,35 @@ import { fetchStars } from '$lib/api';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ fetch }) => {
-    // We pass the special 'fetch' from SvelteKit to handle requests correctly
-    // But our api.ts uses global fetch. Let's rewrite api.ts or just inline for now.
-    
     try {
-        const response = await fetch('/api/stars');
-        if (response.ok) {
-            const data = await response.json();
-            return {
-                stars: data.stars || []
-            };
+        const [starsRes, routesRes, ilsRes] = await Promise.all([
+            fetch('/api/stars'),
+            fetch('/api/logistics/routes'),
+            fetch('/api/ils')
+        ]);
+
+        const starsData = await starsRes.json();
+        const routesData = routesRes.ok ? await routesRes.json() : { routes: [] };
+        const ilsData = ilsRes.ok ? await ilsRes.json() : { planets: [] };
+
+        // Extract stars that have at least one planet with an ILS
+        const starsWithILS = new Set<string>();
+        if (ilsData.planets) {
+            ilsData.planets.forEach((p: any) => {
+                if (p.ilsStations && p.ilsStations.length > 0) {
+                    starsWithILS.add(p.starName);
+                }
+            });
         }
+
+        return {
+            stars: Array.isArray(starsData) ? starsData : (starsData.stars || []),
+            routes: routesData.routes || [],
+            activeStars: Array.from(starsWithILS)
+        };
     } catch (e) {
         console.error("API Fetch Error:", e);
     }
     
-    return { stars: [] };
+    return { stars: [], routes: [], activeStars: [] };
 };

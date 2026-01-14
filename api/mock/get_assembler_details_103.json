@@ -1,0 +1,45 @@
+{
+  "planetId": 103,
+  "planetName": "Home",
+  "assemblers": [
+    {
+      "id": 1,
+      "entityId": 5001,
+      "recipeId": 1,
+      "recipeName": "Iron Ingot",
+      "replicating": true,
+      "speed": 10000,
+      "extraSpeed": 0,
+      "productive": true,
+      "isExtraProductiveMode": false,
+      "powerRatio": 1.0,
+      "itemsPerMinute": 60.0
+    },
+    {
+      "id": 2,
+      "entityId": 5002,
+      "recipeId": 1,
+      "recipeName": "Iron Ingot",
+      "replicating": true,
+      "speed": 10000,
+      "extraSpeed": 2500,
+      "productive": true,
+      "isExtraProductiveMode": true,
+      "powerRatio": 1.0,
+      "itemsPerMinute": 75.0
+    },
+    {
+      "id": 3,
+      "entityId": 5003,
+      "recipeId": 2,
+      "recipeName": "Magnet",
+      "replicating": false,
+      "speed": 10000,
+      "extraSpeed": 0,
+      "productive": true,
+      "isExtraProductiveMode": false,
+      "powerRatio": 0.5,
+      "itemsPerMinute": 40.0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "planetId": -1,
+  "timeLevel": 0,
+  "stats": [
+    {
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "productionRate": 4500.0,
+      "consumptionRate": 4200.0,
+      "theoreticalMaxProduction": 6000.0,
+      "theoreticalMaxConsumption": 6000.0
+    },
+    {
+      "itemId": 1101,
+      "itemName": "Iron Ingot",
+      "productionRate": 4200.0,
+      "consumptionRate": 4000.0,
+      "theoreticalMaxProduction": 5000.0,
+      "theoreticalMaxConsumption": 5000.0
+    },
+    {
+      "itemId": 1002,
+      "itemName": "Copper Ore",
+      "productionRate": 3000.0,
+      "consumptionRate": 3100.0,
+      "theoreticalMaxProduction": 4000.0,
+      "theoreticalMaxConsumption": 4000.0
+    },
+    {
+      "itemId": 1104,
+      "itemName": "Copper Ingot",
+      "productionRate": 3100.0,
+      "consumptionRate": 2800.0,
+      "theoreticalMaxProduction": 4000.0,
+      "theoreticalMaxConsumption": 4000.0
+    },
+    {
+      "itemId": 1201,
+      "itemName": "Gears",
+      "productionRate": 1500.0,
+      "consumptionRate": 1600.0,
+      "theoreticalMaxProduction": 2000.0,
+      "theoreticalMaxConsumption": 2000.0
+    },
+    {
+      "itemId": 1103,
+      "itemName": "Steel",
+      "productionRate": 800.0,
+      "consumptionRate": 1200.0,
+      "theoreticalMaxProduction": 1500.0,
+      "theoreticalMaxConsumption": 1500.0
+    }
+  ]
+}
