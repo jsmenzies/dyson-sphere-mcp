@@ -3,6 +3,7 @@
 
 API_PORT=8000
 WEB_PORT=5173
+CHROME_PORT=9222
 
 check_port() {
     local port=$1
@@ -17,3 +18,4 @@ check_port() {
 
 check_port $API_PORT "API Server"
 check_port $WEB_PORT "Web Server"
+check_port $CHROME_PORT "Google Chrome"
