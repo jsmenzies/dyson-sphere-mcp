@@ -1,0 +1,9 @@
+# .gitignore for SvelteKit Web App
+node_modules/
+.svelte-kit/
+dist/
+.env
+.env.*
+!.env.example
+.vercel
+.output

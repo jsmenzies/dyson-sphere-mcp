@@ -84,6 +84,12 @@ namespace DSPMCP
                     var network = powerSystem.netPool[netId];
                     if (network == null) continue;
 
+                    // Only count networks that have actual consumers, generators, or accumulators
+                    int consumerCount = network.consumers?.Count ?? 0;
+                    int generatorCount = network.generators?.Count ?? 0;
+                    int accumulatorCount = network.accumulators?.Count ?? 0;
+                    if (consumerCount == 0 && generatorCount == 0 && accumulatorCount == 0) continue;
+
                     networkCount++;
                     totalEnergyServed += network.energyServed;
                     totalEnergyAccumulated += network.energyAccumulated;
@@ -161,6 +167,12 @@ namespace DSPMCP
                 var network = powerSystem.netPool[netId];
                 if (network == null) continue;
 
+                // Only include networks that have actual consumers, generators, or accumulators
+                int consumerCount = network.consumers?.Count ?? 0;
+                int generatorCount = network.generators?.Count ?? 0;
+                int accumulatorCount = network.accumulators?.Count ?? 0;
+                if (consumerCount == 0 && generatorCount == 0 && accumulatorCount == 0) continue;
+
                 // Calculate satisfaction percentage for this network
                 double satisfactionPercent = 0.0;
                 if (network.energyRequired > 0)
@@ -184,9 +196,9 @@ namespace DSPMCP
                     .Prop("satisfactionPercent", satisfactionPercent)
                     .Prop("consumerRatio", Math.Round(network.consumerRatio, 4))
                     .Prop("generatorRatio", Math.Round(network.generaterRatio, 4))
-                    .Prop("consumerCount", network.consumers?.Count ?? 0)
-                    .Prop("generatorCount", network.generators?.Count ?? 0)
-                    .Prop("accumulatorCount", network.accumulators?.Count ?? 0)
+                    .Prop("consumerCount", consumerCount)
+                    .Prop("generatorCount", generatorCount)
+                    .Prop("accumulatorCount", accumulatorCount)
                     .Prop("exchangerCount", network.exchangers?.Count ?? 0);
 
                 // Add consumer details
