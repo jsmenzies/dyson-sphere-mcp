@@ -65,8 +65,8 @@
         },
         {
             "planetId": 604,
-            "planetName": "\u03b6 Ursae Majoris IV MegaFarm",
-            "starName": "\u03b6 Ursae Majoris",
+            "planetName": "ζ Ursae Majoris IV MegaFarm",
+            "starName": "ζ Ursae Majoris",
             "labCount": 60,
             "workingLabs": 60,
             "idleLabs": 0,
