@@ -1,12 +1,45 @@
 <script lang="ts">
     import type { PageData } from './$types';
+    import type { GeneratorType } from '$lib/types';
     import CircularGauge from '$lib/components/ui/CircularGauge.svelte';
     import MetricCard from '$lib/components/ui/MetricCard.svelte';
+    import generatorIcons from '$lib/data/generator-icons.json';
+    import { image } from 'd3';
 
     export let data: PageData;
 
+    // Star filter state
+    let selectedStar = 'all';
+
     $: activePlanets = data.planets.filter(p => p.networkCount > 0)
         .sort((a, b) => b.generationCapacityW - a.generationCapacityW);
+
+    // Get unique stars with planet counts
+    $: starOptions = (() => {
+        const starMap = new Map<string, number>();
+        activePlanets.forEach(p => {
+            starMap.set(p.starName, (starMap.get(p.starName) || 0) + 1);
+        });
+        return Array.from(starMap.entries())
+            .map(([name, count]) => ({ name, count }))
+            .sort((a, b) => b.count - a.count);
+    })();
+
+    // Filter planets by selected star
+    $: filteredPlanets = selectedStar === 'all'
+        ? activePlanets
+        : activePlanets.filter(p => p.starName === selectedStar);
+
+    // Generator icon lookup
+    function getGeneratorIcon(type: GeneratorType): string {
+        const iconData = generatorIcons[type as keyof typeof generatorIcons];
+        return iconData?.icon || '';
+    }
+
+    function getGeneratorName(type: GeneratorType): string {
+        const iconData = generatorIcons[type as keyof typeof generatorIcons];
+        return iconData?.name || type;
+    }
 
     // Calculate cluster totals
     $: clusterTotals = activePlanets.reduce((acc, p) => ({
@@ -51,8 +84,11 @@
             <p class="page-subtitle">Real-time power data across {activePlanets.length} planetary grids</p>
         </div>
         <div class="header-filters">
-            <select class="filter-select">
-                <option>All Planets</option>
+            <select class="filter-select" bind:value={selectedStar}>
+                <option value="all">All Stars ({activePlanets.length} planets)</option>
+                {#each starOptions as star}
+                    <option value={star.name}>{star.name} ({star.count})</option>
+                {/each}
             </select>
         </div>
     </div>
@@ -131,42 +167,58 @@
 
         <!-- Planetary Grids Section -->
         <section class="grids-section">
-            <h2 class="section-title">Planetary Power Grids</h2>
+            <h2 class="section-title">
+                Planetary Power Grids
+                {#if selectedStar !== 'all'}
+                    <span class="filter-indicator">- {selectedStar}</span>
+                {/if}
+            </h2>
             <div class="grids-list">
-                {#each activePlanets as planet}
+                {#each filteredPlanets as planet}
                     <div class="grid-card" class:warning={planet.satisfactionPercent < 100}>
                         <div class="grid-header">
                             <div class="planet-info">
                                 <div class="planet-name">{planet.planetName}</div>
                                 <div class="star-name">{planet.starName}</div>
                             </div>
-                            <div class="satisfaction-badge" class:good={planet.satisfactionPercent >= 100} class:warning={planet.satisfactionPercent < 100 && planet.satisfactionPercent >= 80} class:critical={planet.satisfactionPercent < 80}>
-                                {planet.satisfactionPercent.toFixed(1)}%
-                            </div>
                         </div>
 
-                        <div class="grid-progress">
-                            <div
-                                class="grid-progress-fill"
-                                class:good={planet.satisfactionPercent >= 100}
-                                class:warning={planet.satisfactionPercent < 100 && planet.satisfactionPercent >= 80}
-                                class:critical={planet.satisfactionPercent < 80}
-                                style="width: {Math.min(100, planet.satisfactionPercent)}%"
-                            ></div>
-                        </div>
+                        <div class="grid-body">
+                            <div class="grid-stats">
+                                <div class="stat">
+                                    <span class="stat-label">Generation</span>
+                                    <span class="stat-value cyan">{formatWattsString(planet.generationCapacityW)}</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-label">Demand</span>
+                                    <span class="stat-value orange">{formatWattsString(planet.consumptionDemandW)}</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-label">Networks</span>
+                                    <span class="stat-value">{planet.networkCount}</span>
+                                </div>
+                            </div>
 
-                        <div class="grid-stats">
-                            <div class="stat">
-                                <span class="stat-label">Generation</span>
-                                <span class="stat-value cyan">{formatWattsString(planet.generationCapacityW)}</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-label">Demand</span>
-                                <span class="stat-value orange">{formatWattsString(planet.consumptionDemandW)}</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-label">Networks</span>
-                                <span class="stat-value">{planet.networkCount}</span>
+                            <div class="grid-gauge-section">
+                                <CircularGauge
+                                    value={Math.min(planet.satisfactionPercent, 999)}
+                                    max={100}
+                                    size="sm"
+                                    color={getSatisfactionColor(planet.satisfactionPercent)}
+                                    unit="%"
+                                />
+                                {#if planet.generatorTypes && planet.generatorTypes.length > 0}
+                                    <div class="generator-icons">
+                                        {#each planet.generatorTypes.sort((a, b) => b.totalPowerW - a.totalPowerW).slice(0, 4) as genType}
+                                            <img
+                                                class="generator-icon"
+                                                src={getGeneratorIcon(genType.type)}
+                                                alt={getGeneratorName(genType.type)}
+                                                title={`${getGeneratorName(genType.type)}: ${formatWattsString(genType.totalPowerW)}`}
+                                            />
+                                        {/each}
+                                    </div>
+                                {/if}
                             </div>
                         </div>
 
@@ -384,10 +436,15 @@
         margin: 0 0 1rem 0;
     }
 
+    .filter-indicator {
+        font-weight: 400;
+        color: var(--accent-cyan);
+    }
+
     /* Grids List */
     .grids-list {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
         gap: 1rem;
     }
 
@@ -428,54 +485,26 @@
         color: var(--text-muted);
     }
 
-    .satisfaction-badge {
-        font-size: 0.875rem;
-        font-weight: 600;
-        font-variant-numeric: tabular-nums;
-        padding: 0.25rem 0.5rem;
-        border-radius: var(--radius-sm);
+    .grid-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
     }
-
-    .satisfaction-badge.good {
-        color: var(--accent-green);
-        background: rgba(34, 197, 94, 0.1);
-    }
-
-    .satisfaction-badge.warning {
-        color: var(--accent-orange);
-        background: rgba(255, 149, 0, 0.1);
-    }
-
-    .satisfaction-badge.critical {
-        color: var(--accent-red);
-        background: rgba(239, 68, 68, 0.1);
-    }
-
-    .grid-progress {
-        height: 4px;
-        background: var(--bg-tertiary);
-    }
-
-    .grid-progress-fill {
-        height: 100%;
-        transition: width 0.5s ease;
-    }
-
-    .grid-progress-fill.good { background: var(--accent-green); }
-    .grid-progress-fill.warning { background: var(--accent-orange); }
-    .grid-progress-fill.critical { background: var(--accent-red); }
 
     .grid-stats {
-        padding: 1rem;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-direction: column;
         gap: 0.5rem;
+        flex: 1;
     }
 
     .stat {
         display: flex;
-        flex-direction: column;
-        gap: 0.125rem;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
     }
 
     .stat-label {
@@ -494,6 +523,29 @@
 
     .stat-value.cyan { color: var(--accent-cyan); }
     .stat-value.orange { color: var(--accent-orange); }
+
+    .grid-gauge-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .generator-icons {
+        display: flex;
+        gap: 2px;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100px;
+    }
+
+    .generator-icon {
+        width: 28px;
+        height: 28px;
+        object-fit: contain;
+        cursor: help;
+        filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+    }
 
     .warning-banner {
         display: flex;

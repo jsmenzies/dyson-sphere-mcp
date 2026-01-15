@@ -449,3 +449,113 @@ git push
 ```
 
 **Recommended Start**: Commit baseline → CSS variables → CircularGauge → Power page redesign → Verify
+
+---
+
+### Phase 0.1: Power Page Enhancements
+
+**New Requirements** (added to Phase 0):
+
+#### 1. Planet Card Ring Gauges
+Replace the current satisfaction badge + thin progress bar with a mini CircularGauge.
+
+**Current:**
+```
+MegaFarm Alpha    [100.0%] ← colored badge
+FARM
+[════════════════] ← thin progress bar
+```
+
+**New:**
+```
+┌─────────────────────────────────────┐
+│ MegaFarm Alpha          ┌─────┐    │
+│ FARM                    │100% │    │
+│                         │  ◯  │    │  ← Ring gauge (size='sm')
+│ GENERATION  DEMAND  NET └─────┘    │
+│ 57.05 GW    39.13 GW  1            │
+└─────────────────────────────────────┘
+```
+
+- Use existing `CircularGauge.svelte` with `size='sm'` (80px)
+- Color based on satisfaction: green (100%+), orange (80-99%), red (<80%)
+
+#### 2. Power Generator Type Icons
+Show small icons representing how power is generated on each planet.
+
+**Generator Types Available from API:**
+- `photovoltaic` → Solar Panel icon
+- `wind` → Wind Turbine icon
+- `gamma` → Ray Receiver icon
+- `geothermal` → Geothermal Power Station icon
+- Fuel-based (fuelId present) → Thermal/Fusion/Artificial Star icons
+
+**Icon Source:** Wiki scraper (same approach as Phase 1 item icons)
+- Scrape from: https://dyson-sphere-program.fandom.com/wiki/Buildings
+- Target icons: Solar Panel, Wind Turbine, Geothermal Power Station, Thermal Power Station, Mini Fusion Power Station, Artificial Star, Ray Receiver
+
+**Display Rules:**
+- Show ALL generator type icons present on the planet (side-by-side)
+- Icons should be small (24-32px) next to the ring gauge
+- Order by power contribution (highest first)
+
+**API Enhancement Required:**
+Add `generatorTypes` array to `PowerGridStat` response:
+```typescript
+interface PowerGridStat {
+  // ... existing fields ...
+  generatorTypes: {
+    type: 'solar' | 'wind' | 'gamma' | 'geothermal' | 'thermal' | 'fusion' | 'artificial_star';
+    totalPowerW: number;
+  }[];
+}
+```
+
+#### 3. Filter by Star System
+Change the dropdown from "All Planets" to filter by star.
+
+**Current:** Single option "All Planets"
+
+**New Options:**
+- "All Stars" (default, shows all planets)
+- "Acrux (4 planets)"
+- "Farm (5 planets)"
+- "CorHydrae (3 planets)"
+- etc.
+
+**Implementation:**
+- Group planets by `starName` (already in API response)
+- Show planet count per star in dropdown
+- Filter planet cards when star selected
+
+**Updated Target Design:**
+```
+┌──────────────────────────────────────────────────────────────┐
+│ ⚡ Power Grid Status                        [All Stars ▼]    │
+│ Real-time power data across 41 planetary grids               │
+├──────────────────────────────────────────────────────────────┤
+│ ┌─────────────────────┐  ┌──────────────────────────────┐   │
+│ │ ⚡ Real-time Power   │  │  ┌─────┐      ┌─────┐       │   │
+│ │ Generation: 616 GW  │  │  │154% │      │616GW│       │   │
+│ │ Consumption: 400 GW │  │  │Suff.│      │Gen. │       │   │
+│ │ [═══════════░░░░░]  │  │  └─────┘      └─────┘       │   │
+│ └─────────────────────┘  └──────────────────────────────┘   │
+├──────────────────────────────────────────────────────────────┤
+│ Planetary Power Grids                                        │
+│ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ │
+│ │ MegaFarm Alpha  │ │ Acrux IV        │ │ Double Farm     │ │
+│ │ FARM            │ │ ACRUX           │ │ FARM            │ │
+│ │ ┌────┐ ☀️🌟     │ │ ┌────┐ ☀️       │ │ ┌────┐ 🔥☀️    │ │
+│ │ │100%│          │ │ │100%│          │ │ │100%│          │ │
+│ │ └────┘          │ │ └────┘          │ │ └────┘          │ │
+│ │ 57GW  39GW  1   │ │ 57GW  39GW  1   │ │ 57GW  39GW  1   │ │
+│ └─────────────────┘ └─────────────────┘ └─────────────────┘ │
+└──────────────────────────────────────────────────────────────┘
+```
+
+**Verification Checklist:**
+1. Navigate to http://localhost:5173/power
+2. Take screenshot - verify ring gauges on each planet card
+3. Verify generator icons appear next to gauges
+4. Test star filter dropdown - select a star, verify only its planets shown
+5. Compare with game Power panel for visual consistency

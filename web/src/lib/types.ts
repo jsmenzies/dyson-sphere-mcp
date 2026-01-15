@@ -87,6 +87,13 @@ export interface AssemblerDetail {
     itemsPerMinute: number;
 }
 
+export type GeneratorType = 'solar' | 'wind' | 'gamma' | 'geothermal' | 'thermal' | 'fusion' | 'artificial_star';
+
+export interface GeneratorTypeStat {
+    type: GeneratorType;
+    totalPowerW: number;
+}
+
 export interface PowerGridStat {
     planetId: number;
     planetName: string;
@@ -97,6 +104,7 @@ export interface PowerGridStat {
     actualConsumptionW: number;
     energyStored: number;
     satisfactionPercent: number;
+    generatorTypes: GeneratorTypeStat[];
 }
 
 export interface ResearchProgress {

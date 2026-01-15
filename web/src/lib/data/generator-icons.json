@@ -1,0 +1,44 @@
+{
+  "solar": {
+    "name": "Solar Panel",
+    "buildingId": 2205,
+    "icon": "/icons/generators/solar_panel.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Solar_Panel"
+  },
+  "wind": {
+    "name": "Wind Turbine",
+    "buildingId": 2203,
+    "icon": "/icons/generators/wind_turbine.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Wind_Turbine"
+  },
+  "geothermal": {
+    "name": "Geothermal Power Station",
+    "buildingId": 2213,
+    "icon": "/icons/generators/geothermal.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Geothermal_Power_Station"
+  },
+  "thermal": {
+    "name": "Thermal Power Station",
+    "buildingId": 2204,
+    "icon": "/icons/generators/thermal.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Thermal_Power_Station"
+  },
+  "fusion": {
+    "name": "Mini Fusion Power Station",
+    "buildingId": 2211,
+    "icon": "/icons/generators/fusion.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mini_Fusion_Power_Station"
+  },
+  "artificial_star": {
+    "name": "Artificial Star",
+    "buildingId": 2210,
+    "icon": "/icons/generators/artificial_star.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Artificial_Star"
+  },
+  "gamma": {
+    "name": "Ray Receiver",
+    "buildingId": 2208,
+    "icon": "/icons/generators/ray_receiver.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Receiver"
+  }
+}

@@ -79,6 +79,15 @@ namespace DSPMCP
                 long totalEnergyStored = 0;
                 int networkCount = 0;
 
+                // Track generator types and their total power
+                long solarPowerW = 0;
+                long windPowerW = 0;
+                long gammaPowerW = 0;
+                long geothermalPowerW = 0;
+                long thermalPowerW = 0;   // fuelId present, not fusion/star
+                long fusionPowerW = 0;    // Mini Fusion Power Station
+                long artificialStarPowerW = 0;  // Artificial Star
+
                 for (int netId = 1; netId < powerSystem.netCursor; netId++)
                 {
                     var network = powerSystem.netPool[netId];
@@ -94,6 +103,58 @@ namespace DSPMCP
                     totalEnergyServed += network.energyServed;
                     totalEnergyAccumulated += network.energyAccumulated;
                     totalEnergyStored += network.energyStored;
+
+                    // Aggregate generator types
+                    if (network.generators != null)
+                    {
+                        foreach (var generatorId in network.generators)
+                        {
+                            if (generatorId >= powerSystem.genCursor) continue;
+                            var gen = powerSystem.genPool[generatorId];
+                            if (gen.id == 0) continue;
+
+                            // Power in Watts (genEnergyPerTick * 60 ticks/sec)
+                            long powerW = gen.genEnergyPerTick * 60;
+
+                            if (gen.photovoltaic)
+                            {
+                                solarPowerW += powerW;
+                            }
+                            else if (gen.wind)
+                            {
+                                windPowerW += powerW;
+                            }
+                            else if (gen.gamma)
+                            {
+                                gammaPowerW += powerW;
+                            }
+                            else if (gen.geothermal)
+                            {
+                                geothermalPowerW += powerW;
+                            }
+                            else if (gen.fuelId > 0)
+                            {
+                                // Fuel-based generator - determine type by product or power output
+                                // Artificial Star (2210) produces antimatter, Mini Fusion (2211) doesn't
+                                // We can also check the entity's protoId
+                                var entity = factory.entityPool[gen.entityId];
+                                int protoId = entity.protoId;
+
+                                if (protoId == 2210) // Artificial Star
+                                {
+                                    artificialStarPowerW += powerW;
+                                }
+                                else if (protoId == 2211) // Mini Fusion Power Station
+                                {
+                                    fusionPowerW += powerW;
+                                }
+                                else // Thermal Power Station (2204) or similar
+                                {
+                                    thermalPowerW += powerW;
+                                }
+                            }
+                        }
+                    }
                 }
 
                 // Calculate satisfaction using UI values
@@ -118,8 +179,27 @@ namespace DSPMCP
                     .Prop("consumptionDemandW", consumptionDemandW)
                     .Prop("actualConsumptionW", totalEnergyServed * 60)
                     .Prop("energyStored", totalEnergyStored)
-                    .Prop("satisfactionPercent", satisfactionPercent)
-                    .EndObject();
+                    .Prop("satisfactionPercent", satisfactionPercent);
+
+                // Add generator types array (only include types with power > 0)
+                json.Key("generatorTypes").StartArray();
+                if (solarPowerW > 0)
+                    json.StartObject().Prop("type", "solar").Prop("totalPowerW", solarPowerW).EndObject();
+                if (windPowerW > 0)
+                    json.StartObject().Prop("type", "wind").Prop("totalPowerW", windPowerW).EndObject();
+                if (gammaPowerW > 0)
+                    json.StartObject().Prop("type", "gamma").Prop("totalPowerW", gammaPowerW).EndObject();
+                if (geothermalPowerW > 0)
+                    json.StartObject().Prop("type", "geothermal").Prop("totalPowerW", geothermalPowerW).EndObject();
+                if (thermalPowerW > 0)
+                    json.StartObject().Prop("type", "thermal").Prop("totalPowerW", thermalPowerW).EndObject();
+                if (fusionPowerW > 0)
+                    json.StartObject().Prop("type", "fusion").Prop("totalPowerW", fusionPowerW).EndObject();
+                if (artificialStarPowerW > 0)
+                    json.StartObject().Prop("type", "artificial_star").Prop("totalPowerW", artificialStarPowerW).EndObject();
+                json.EndArray();
+
+                json.EndObject();
             }
 
             json.EndArray();
