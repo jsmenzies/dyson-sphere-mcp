@@ -1,0 +1,1052 @@
+{
+  "Applied Superconductor": {
+    "name": "Applied Superconductor",
+    "techId": 1131,
+    "icon": "/icons/tech/applied_superconductor.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Applied_Superconductor"
+  },
+  "Artificial Star (Technology)": {
+    "name": "Artificial Star (Technology)",
+    "techId": 1144,
+    "icon": "/icons/tech/artificial_star_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Artificial_Star_%28Technology%29"
+  },
+  "Automatic Metallurgy": {
+    "name": "Automatic Metallurgy",
+    "techId": 1401,
+    "icon": "/icons/tech/automatic_metallurgy.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Automatic_Metallurgy"
+  },
+  "Basic Chemical Engineering": {
+    "name": "Basic Chemical Engineering",
+    "techId": 1121,
+    "icon": "/icons/tech/basic_chemical_engineering.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Basic_Chemical_Engineering"
+  },
+  "Basic Logistics System": {
+    "name": "Basic Logistics System",
+    "techId": 1601,
+    "icon": "/icons/tech/basic_logistics_system.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Basic_Logistics_System"
+  },
+  "Casimir Crystal (Technology)": {
+    "name": "Casimir Crystal (Technology)",
+    "techId": 1125,
+    "icon": "/icons/tech/casimir_crystal_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Casimir_Crystal_%28Technology%29"
+  },
+  "Controlled Annihilation Reaction": {
+    "name": "Controlled Annihilation Reaction",
+    "techId": 1145,
+    "icon": "/icons/tech/controlled_annihilation_reaction.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Controlled_Annihilation_Reaction"
+  },
+  "Crystal Smelting": {
+    "name": "Crystal Smelting",
+    "techId": 1403,
+    "icon": "/icons/tech/crystal_smelting.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Crystal_Smelting"
+  },
+  "Deuterium Fractionation": {
+    "name": "Deuterium Fractionation",
+    "techId": 1134,
+    "icon": "/icons/tech/deuterium_fractionation.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Deuterium_Fractionation"
+  },
+  "Dirac Inversion Mechanism": {
+    "name": "Dirac Inversion Mechanism",
+    "techId": 1506,
+    "icon": "/icons/tech/dirac_inversion_mechanism.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Dirac_Inversion_Mechanism"
+  },
+  "Distribution Logistics System": {
+    "name": "Distribution Logistics System",
+    "techId": 1608,
+    "icon": "/icons/tech/distribution_logistics_system.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Distribution_Logistics_System"
+  },
+  "Dyson Sphere Program": {
+    "name": "Dyson Sphere Program",
+    "techId": 1,
+    "icon": "/icons/tech/dyson_sphere_program.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Dyson_Sphere_Program"
+  },
+  "Dyson Sphere Stress System (Lv1)": {
+    "name": "Dyson Sphere Stress System (Lv1)",
+    "techId": 1523,
+    "icon": "/icons/tech/dyson_sphere_stress_system_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Dyson_Sphere_Stress_System_%28Lv1%29"
+  },
+  "Electromagnetic Drive": {
+    "name": "Electromagnetic Drive",
+    "techId": 1701,
+    "icon": "/icons/tech/electromagnetic_drive.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Electromagnetic_Drive"
+  },
+  "Electromagnetic Matrix (Technology)": {
+    "name": "Electromagnetic Matrix (Technology)",
+    "techId": 1002,
+    "icon": "/icons/tech/electromagnetic_matrix_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Electromagnetic_Matrix_%28Technology%29"
+  },
+  "Electromagnetism": {
+    "name": "Electromagnetism",
+    "techId": 1001,
+    "icon": "/icons/tech/electromagnetism.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Electromagnetism"
+  },
+  "Energy Matrix (Technology)": {
+    "name": "Energy Matrix (Technology)",
+    "techId": 1111,
+    "icon": "/icons/tech/energy_matrix_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Energy_Matrix_%28Technology%29"
+  },
+  "Energy Storage": {
+    "name": "Energy Storage",
+    "techId": 1511,
+    "icon": "/icons/tech/energy_storage.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Energy_Storage"
+  },
+  "Fluid Storage Encapsulation": {
+    "name": "Fluid Storage Encapsulation",
+    "techId": 1120,
+    "icon": "/icons/tech/fluid_storage_encapsulation.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Fluid_Storage_Encapsulation"
+  },
+  "Gas Giants Exploitation": {
+    "name": "Gas Giants Exploitation",
+    "techId": 1606,
+    "icon": "/icons/tech/gas_giants_exploitation.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Gas_Giants_Exploitation"
+  },
+  "Geothermal Extraction": {
+    "name": "Geothermal Extraction",
+    "techId": 1513,
+    "icon": "/icons/tech/geothermal_extraction.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Geothermal_Extraction"
+  },
+  "Gravitational Wave Refraction": {
+    "name": "Gravitational Wave Refraction",
+    "techId": 1704,
+    "icon": "/icons/tech/gravitational_wave_refraction.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Gravitational_Wave_Refraction"
+  },
+  "Gravity Matrix (Technology)": {
+    "name": "Gravity Matrix (Technology)",
+    "techId": 1705,
+    "icon": "/icons/tech/gravity_matrix_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Gravity_Matrix_%28Technology%29"
+  },
+  "High-Efficiency Logistics System": {
+    "name": "High-Efficiency Logistics System",
+    "techId": 1603,
+    "icon": "/icons/tech/high_efficiency_logistics_system.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/High-Efficiency_Logistics_System"
+  },
+  "High-Efficiency Plasma Control": {
+    "name": "High-Efficiency Plasma Control",
+    "techId": 1101,
+    "icon": "/icons/tech/high_efficiency_plasma_control.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/High-Efficiency_Plasma_Control"
+  },
+  "High-Strength Crystal": {
+    "name": "High-Strength Crystal",
+    "techId": 1123,
+    "icon": "/icons/tech/high_strength_crystal.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/High-Strength_Crystal"
+  },
+  "High-Strength Glass": {
+    "name": "High-Strength Glass",
+    "techId": 1126,
+    "icon": "/icons/tech/high_strength_glass.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/High-Strength_Glass"
+  },
+  "High-Strength Lightweight Structure": {
+    "name": "High-Strength Lightweight Structure",
+    "techId": 1521,
+    "icon": "/icons/tech/high_strength_lightweight_structure.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/High-Strength_Lightweight_Structure"
+  },
+  "High-Strength Material": {
+    "name": "High-Strength Material",
+    "techId": 1132,
+    "icon": "/icons/tech/high_strength_material.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/High-Strength_Material"
+  },
+  "High-Strength Titanium Alloy": {
+    "name": "High-Strength Titanium Alloy",
+    "techId": 1414,
+    "icon": "/icons/tech/high_strength_titanium_alloy.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/High-Strength_Titanium_Alloy"
+  },
+  "Hydrogen Fuel Rod (Technology)": {
+    "name": "Hydrogen Fuel Rod (Technology)",
+    "techId": 1112,
+    "icon": "/icons/tech/hydrogen_fuel_rod_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Hydrogen_Fuel_Rod_%28Technology%29"
+  },
+  "Information Matrix (Technology)": {
+    "name": "Information Matrix (Technology)",
+    "techId": 1312,
+    "icon": "/icons/tech/information_matrix_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Information_Matrix_%28Technology%29"
+  },
+  "Integrated Logistics System": {
+    "name": "Integrated Logistics System",
+    "techId": 1607,
+    "icon": "/icons/tech/integrated_logistics_system.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Integrated_Logistics_System"
+  },
+  "Interstellar Logistics System": {
+    "name": "Interstellar Logistics System",
+    "techId": 1605,
+    "icon": "/icons/tech/interstellar_logistics_system.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Interstellar_Logistics_System"
+  },
+  "Interstellar Power Transmission": {
+    "name": "Interstellar Power Transmission",
+    "techId": 1512,
+    "icon": "/icons/tech/interstellar_power_transmission.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Interstellar_Power_Transmission"
+  },
+  "Magnetic Levitation": {
+    "name": "Magnetic Levitation",
+    "techId": 1702,
+    "icon": "/icons/tech/magnetic_levitation.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Magnetic_Levitation"
+  },
+  "Magnetic Particle Trap": {
+    "name": "Magnetic Particle Trap",
+    "techId": 1703,
+    "icon": "/icons/tech/magnetic_particle_trap.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Magnetic_Particle_Trap"
+  },
+  "Mesoscopic Quantum Entanglement": {
+    "name": "Mesoscopic Quantum Entanglement",
+    "techId": 1305,
+    "icon": "/icons/tech/mesoscopic_quantum_entanglement.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mesoscopic_Quantum_Entanglement"
+  },
+  "Mini Fusion Power Generation": {
+    "name": "Mini Fusion Power Generation",
+    "techId": 1416,
+    "icon": "/icons/tech/mini_fusion_power_generation.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mini_Fusion_Power_Generation"
+  },
+  "Miniature Particle Collider (Technology)": {
+    "name": "Miniature Particle Collider (Technology)",
+    "techId": 1142,
+    "icon": "/icons/tech/miniature_particle_collider_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Miniature_Particle_Collider_%28Technology%29"
+  },
+  "Mission Completed!": {
+    "name": "Mission Completed!",
+    "techId": 1508,
+    "icon": "/icons/tech/mission_completed.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mission_Completed%21"
+  },
+  "Particle Control": {
+    "name": "Particle Control",
+    "techId": 1133,
+    "icon": "/icons/tech/particle_control.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Particle_Control"
+  },
+  "Photon Frequency Conversion": {
+    "name": "Photon Frequency Conversion",
+    "techId": 1502,
+    "icon": "/icons/tech/photon_frequency_conversion.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Photon_Frequency_Conversion"
+  },
+  "Planetary Ionosphere Utilization": {
+    "name": "Planetary Ionosphere Utilization",
+    "techId": 1505,
+    "icon": "/icons/tech/planetary_ionosphere_utilization.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Planetary_Ionosphere_Utilization"
+  },
+  "Planetary Logistics System": {
+    "name": "Planetary Logistics System",
+    "techId": 1604,
+    "icon": "/icons/tech/planetary_logistics_system.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Planetary_Logistics_System"
+  },
+  "Plasma Extract Refining": {
+    "name": "Plasma Extract Refining",
+    "techId": 1102,
+    "icon": "/icons/tech/plasma_extract_refining.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Plasma_Extract_Refining"
+  },
+  "Polymer Chemical Engineering": {
+    "name": "Polymer Chemical Engineering",
+    "techId": 1122,
+    "icon": "/icons/tech/polymer_chemical_engineering.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Polymer_Chemical_Engineering"
+  },
+  "Processor (Technology)": {
+    "name": "Processor (Technology)",
+    "techId": 1302,
+    "icon": "/icons/tech/processor_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Processor_%28Technology%29"
+  },
+  "Proliferator Mk.I (Technology)": {
+    "name": "Proliferator Mk.I (Technology)",
+    "techId": 1151,
+    "icon": "/icons/tech/proliferator_mk_i_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Proliferator_Mk.I_%28Technology%29"
+  },
+  "Proliferator Mk.II (Technology)": {
+    "name": "Proliferator Mk.II (Technology)",
+    "techId": 1152,
+    "icon": "/icons/tech/proliferator_mk_ii_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Proliferator_Mk.II_%28Technology%29"
+  },
+  "Proliferator Mk.III (Technology)": {
+    "name": "Proliferator Mk.III (Technology)",
+    "techId": 1153,
+    "icon": "/icons/tech/proliferator_mk_iii_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Proliferator_Mk.III_%28Technology%29"
+  },
+  "Quantum Chip (Technology)": {
+    "name": "Quantum Chip (Technology)",
+    "techId": 1303,
+    "icon": "/icons/tech/quantum_chip_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Quantum_Chip_%28Technology%29"
+  },
+  "Ray Receiver (Technology)": {
+    "name": "Ray Receiver (Technology)",
+    "techId": 1504,
+    "icon": "/icons/tech/ray_receiver_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Receiver_%28Technology%29"
+  },
+  "Reformed Refinement": {
+    "name": "Reformed Refinement",
+    "techId": 1104,
+    "icon": "/icons/tech/reformed_refinement.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Reformed_Refinement"
+  },
+  "Reinforced Thruster (Technology)": {
+    "name": "Reinforced Thruster (Technology)",
+    "techId": 1114,
+    "icon": "/icons/tech/reinforced_thruster_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Reinforced_Thruster_%28Technology%29"
+  },
+  "Satellite Power Distribution System": {
+    "name": "Satellite Power Distribution System",
+    "techId": 1712,
+    "icon": "/icons/tech/satellite_power_distribution_system.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Satellite_Power_Distribution_System"
+  },
+  "Semiconductor Material": {
+    "name": "Semiconductor Material",
+    "techId": 1311,
+    "icon": "/icons/tech/semiconductor_material.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Semiconductor_Material"
+  },
+  "Smelting Purification": {
+    "name": "Smelting Purification",
+    "techId": 1402,
+    "icon": "/icons/tech/smelting_purification.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Smelting_Purification"
+  },
+  "Solar Collection": {
+    "name": "Solar Collection",
+    "techId": 1501,
+    "icon": "/icons/tech/solar_collection.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Solar_Collection"
+  },
+  "Solar Sail Orbit System": {
+    "name": "Solar Sail Orbit System",
+    "techId": 1503,
+    "icon": "/icons/tech/solar_sail_orbit_system.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Solar_Sail_Orbit_System"
+  },
+  "Steel Smelting": {
+    "name": "Steel Smelting",
+    "techId": 1411,
+    "icon": "/icons/tech/steel_smelting.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Steel_Smelting"
+  },
+  "Strange Matter (Technology)": {
+    "name": "Strange Matter (Technology)",
+    "techId": 1143,
+    "icon": "/icons/tech/strange_matter_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Strange_Matter_%28Technology%29"
+  },
+  "Structure Matrix (Technology)": {
+    "name": "Structure Matrix (Technology)",
+    "techId": 1124,
+    "icon": "/icons/tech/structure_matrix_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Structure_Matrix_%28Technology%29"
+  },
+  "Super Magnetic Field Generator": {
+    "name": "Super Magnetic Field Generator",
+    "techId": 1711,
+    "icon": "/icons/tech/super_magnetic_field_generator.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Super_Magnetic_Field_Generator"
+  },
+  "Thermal Power": {
+    "name": "Thermal Power",
+    "techId": 1412,
+    "icon": "/icons/tech/thermal_power.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Thermal_Power"
+  },
+  "Thruster (Technology)": {
+    "name": "Thruster (Technology)",
+    "techId": 1113,
+    "icon": "/icons/tech/thruster_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Thruster_%28Technology%29"
+  },
+  "Titanium Smelting": {
+    "name": "Titanium Smelting",
+    "techId": 1413,
+    "icon": "/icons/tech/titanium_smelting.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Titanium_Smelting"
+  },
+  "Universe Matrix (Technology)": {
+    "name": "Universe Matrix (Technology)",
+    "techId": 1507,
+    "icon": "/icons/tech/universe_matrix_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Universe_Matrix_%28Technology%29"
+  },
+  "Vertical Launching Silo (Technology)": {
+    "name": "Vertical Launching Silo (Technology)",
+    "techId": 1522,
+    "icon": "/icons/tech/vertical_launching_silo_technology.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Vertical_Launching_Silo_%28Technology%29"
+  },
+  "Wave Function Interference": {
+    "name": "Wave Function Interference",
+    "techId": 1141,
+    "icon": "/icons/tech/wave_function_interference.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Wave_Function_Interference"
+  },
+  "X-Ray Cracking": {
+    "name": "X-Ray Cracking",
+    "techId": 1103,
+    "icon": "/icons/tech/x_ray_cracking.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/X-Ray_Cracking"
+  },
+  "Communication Control (Lv1)": {
+    "name": "Communication Control (Lv1)",
+    "techId": 2401,
+    "icon": "/icons/tech/communication_control_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Communication_Control_%28Lv1%29"
+  },
+  "Communication Control (Lv2)": {
+    "name": "Communication Control (Lv2)",
+    "techId": 2402,
+    "icon": "/icons/tech/communication_control_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Communication_Control_%28Lv2%29"
+  },
+  "Communication Control (Lv3)": {
+    "name": "Communication Control (Lv3)",
+    "techId": 2403,
+    "icon": "/icons/tech/communication_control_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Communication_Control_%28Lv3%29"
+  },
+  "Communication Control (Lv4)": {
+    "name": "Communication Control (Lv4)",
+    "techId": 2404,
+    "icon": "/icons/tech/communication_control_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Communication_Control_%28Lv4%29"
+  },
+  "Communication Control (Lv5)": {
+    "name": "Communication Control (Lv5)",
+    "techId": 2405,
+    "icon": "/icons/tech/communication_control_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Communication_Control_%28Lv5%29"
+  },
+  "Communication Control (Lv6)": {
+    "name": "Communication Control (Lv6)",
+    "techId": 2406,
+    "icon": "/icons/tech/communication_control_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Communication_Control_%28Lv6%29"
+  },
+  "Communication Control (Lv7)": {
+    "name": "Communication Control (Lv7)",
+    "techId": 2407,
+    "icon": "/icons/tech/communication_control_lv7.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Communication_Control_%28Lv7%29"
+  },
+  "Distribution Range (Lv1)": {
+    "name": "Distribution Range (Lv1)",
+    "techId": 4001,
+    "icon": "/icons/tech/distribution_range_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Distribution_Range_%28Lv1%29"
+  },
+  "Distribution Range (Lv2)": {
+    "name": "Distribution Range (Lv2)",
+    "techId": 4002,
+    "icon": "/icons/tech/distribution_range_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Distribution_Range_%28Lv2%29"
+  },
+  "Distribution Range (Lv3)": {
+    "name": "Distribution Range (Lv3)",
+    "techId": 4003,
+    "icon": "/icons/tech/distribution_range_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Distribution_Range_%28Lv3%29"
+  },
+  "Distribution Range (Lv4)": {
+    "name": "Distribution Range (Lv4)",
+    "techId": 4004,
+    "icon": "/icons/tech/distribution_range_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Distribution_Range_%28Lv4%29"
+  },
+  "Distribution Range (Lv5)": {
+    "name": "Distribution Range (Lv5)",
+    "techId": 4005,
+    "icon": "/icons/tech/distribution_range_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Distribution_Range_%28Lv5%29"
+  },
+  "Drive Engine (Lv1)": {
+    "name": "Drive Engine (Lv1)",
+    "techId": 2901,
+    "icon": "/icons/tech/drive_engine_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drive_Engine_%28Lv1%29"
+  },
+  "Drive Engine (Lv2)": {
+    "name": "Drive Engine (Lv2)",
+    "techId": 2902,
+    "icon": "/icons/tech/drive_engine_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drive_Engine_%28Lv2%29"
+  },
+  "Drive Engine (Lv3)": {
+    "name": "Drive Engine (Lv3)",
+    "techId": 2903,
+    "icon": "/icons/tech/drive_engine_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drive_Engine_%28Lv3%29"
+  },
+  "Drive Engine (Lv4)": {
+    "name": "Drive Engine (Lv4)",
+    "techId": 2904,
+    "icon": "/icons/tech/drive_engine_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drive_Engine_%28Lv4%29"
+  },
+  "Drive Engine (Lv5)": {
+    "name": "Drive Engine (Lv5)",
+    "techId": 2904,
+    "icon": "/icons/tech/drive_engine_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drive_Engine_%28Lv5%29"
+  },
+  "Drone Engine (Lv1)": {
+    "name": "Drone Engine (Lv1)",
+    "techId": 2601,
+    "icon": "/icons/tech/drone_engine_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drone_Engine_%28Lv1%29"
+  },
+  "Drone Engine (Lv2)": {
+    "name": "Drone Engine (Lv2)",
+    "techId": 2602,
+    "icon": "/icons/tech/drone_engine_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drone_Engine_%28Lv2%29"
+  },
+  "Drone Engine (Lv3)": {
+    "name": "Drone Engine (Lv3)",
+    "techId": 2603,
+    "icon": "/icons/tech/drone_engine_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drone_Engine_%28Lv3%29"
+  },
+  "Drone Engine (Lv4)": {
+    "name": "Drone Engine (Lv4)",
+    "techId": 2604,
+    "icon": "/icons/tech/drone_engine_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drone_Engine_%28Lv4%29"
+  },
+  "Drone Engine (Lv5)": {
+    "name": "Drone Engine (Lv5)",
+    "techId": 2605,
+    "icon": "/icons/tech/drone_engine_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drone_Engine_%28Lv5%29"
+  },
+  "Drone Engine (Lv6)": {
+    "name": "Drone Engine (Lv6)",
+    "techId": 2606,
+    "icon": "/icons/tech/drone_engine_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Drone_Engine_%28Lv6%29"
+  },
+  "Energy Circuit (Lv1)": {
+    "name": "Energy Circuit (Lv1)",
+    "techId": 2501,
+    "icon": "/icons/tech/energy_circuit_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Energy_Circuit_%28Lv1%29"
+  },
+  "Energy Circuit (Lv2)": {
+    "name": "Energy Circuit (Lv2)",
+    "techId": 2502,
+    "icon": "/icons/tech/energy_circuit_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Energy_Circuit_%28Lv2%29"
+  },
+  "Energy Circuit (Lv3)": {
+    "name": "Energy Circuit (Lv3)",
+    "techId": 2503,
+    "icon": "/icons/tech/energy_circuit_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Energy_Circuit_%28Lv3%29"
+  },
+  "Energy Circuit (Lv4)": {
+    "name": "Energy Circuit (Lv4)",
+    "techId": 2504,
+    "icon": "/icons/tech/energy_circuit_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Energy_Circuit_%28Lv4%29"
+  },
+  "Energy Circuit (Lv5)": {
+    "name": "Energy Circuit (Lv5)",
+    "techId": 2505,
+    "icon": "/icons/tech/energy_circuit_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Energy_Circuit_%28Lv5%29"
+  },
+  "Energy Circuit (Lv6)": {
+    "name": "Energy Circuit (Lv6)",
+    "techId": 2506,
+    "icon": "/icons/tech/energy_circuit_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Energy_Circuit_%28Lv6%29"
+  },
+  "Inventory Capacity (Lv1)": {
+    "name": "Inventory Capacity (Lv1)",
+    "techId": 2301,
+    "icon": "/icons/tech/inventory_capacity_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Inventory_Capacity_%28Lv1%29"
+  },
+  "Inventory Capacity (Lv2)": {
+    "name": "Inventory Capacity (Lv2)",
+    "techId": 2302,
+    "icon": "/icons/tech/inventory_capacity_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Inventory_Capacity_%28Lv2%29"
+  },
+  "Inventory Capacity (Lv3)": {
+    "name": "Inventory Capacity (Lv3)",
+    "techId": 2303,
+    "icon": "/icons/tech/inventory_capacity_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Inventory_Capacity_%28Lv3%29"
+  },
+  "Inventory Capacity (Lv4)": {
+    "name": "Inventory Capacity (Lv4)",
+    "techId": 2304,
+    "icon": "/icons/tech/inventory_capacity_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Inventory_Capacity_%28Lv4%29"
+  },
+  "Inventory Capacity (Lv5)": {
+    "name": "Inventory Capacity (Lv5)",
+    "techId": 2305,
+    "icon": "/icons/tech/inventory_capacity_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Inventory_Capacity_%28Lv5%29"
+  },
+  "Inventory Capacity (Lv6)": {
+    "name": "Inventory Capacity (Lv6)",
+    "techId": 2306,
+    "icon": "/icons/tech/inventory_capacity_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Inventory_Capacity_%28Lv6%29"
+  },
+  "Logistics Carrier Capacity (Lv1)": {
+    "name": "Logistics Carrier Capacity (Lv1)",
+    "techId": 3501,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv1%29"
+  },
+  "Logistics Carrier Capacity (Lv12)": {
+    "name": "Logistics Carrier Capacity (Lv12)",
+    "techId": 3510,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv12.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv12%29"
+  },
+  "Logistics Carrier Capacity (Lv2)": {
+    "name": "Logistics Carrier Capacity (Lv2)",
+    "techId": 3502,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv2%29"
+  },
+  "Logistics Carrier Capacity (Lv3)": {
+    "name": "Logistics Carrier Capacity (Lv3)",
+    "techId": 3503,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv3%29"
+  },
+  "Logistics Carrier Capacity (Lv4)": {
+    "name": "Logistics Carrier Capacity (Lv4)",
+    "techId": 3504,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv4%29"
+  },
+  "Logistics Carrier Capacity (Lv5)": {
+    "name": "Logistics Carrier Capacity (Lv5)",
+    "techId": 3505,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv5%29"
+  },
+  "Logistics Carrier Capacity (Lv6)": {
+    "name": "Logistics Carrier Capacity (Lv6)",
+    "techId": 3506,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv6%29"
+  },
+  "Logistics Carrier Capacity (Lv7)": {
+    "name": "Logistics Carrier Capacity (Lv7)",
+    "techId": 3507,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv7.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv7%29"
+  },
+  "Logistics Carrier Capacity (Lv8)": {
+    "name": "Logistics Carrier Capacity (Lv8)",
+    "techId": 3508,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv8.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv8%29"
+  },
+  "Logistics Carrier Capacity (Lv9)": {
+    "name": "Logistics Carrier Capacity (Lv9)",
+    "techId": 3509,
+    "icon": "/icons/tech/logistics_carrier_capacity_lv9.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Capacity_%28Lv9%29"
+  },
+  "Logistics Carrier Engine (Lv1)": {
+    "name": "Logistics Carrier Engine (Lv1)",
+    "techId": 3401,
+    "icon": "/icons/tech/logistics_carrier_engine_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Engine_%28Lv1%29"
+  },
+  "Logistics Carrier Engine (Lv2)": {
+    "name": "Logistics Carrier Engine (Lv2)",
+    "techId": 3402,
+    "icon": "/icons/tech/logistics_carrier_engine_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Engine_%28Lv2%29"
+  },
+  "Logistics Carrier Engine (Lv3)": {
+    "name": "Logistics Carrier Engine (Lv3)",
+    "techId": 3403,
+    "icon": "/icons/tech/logistics_carrier_engine_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Engine_%28Lv3%29"
+  },
+  "Logistics Carrier Engine (Lv4)": {
+    "name": "Logistics Carrier Engine (Lv4)",
+    "techId": 3404,
+    "icon": "/icons/tech/logistics_carrier_engine_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Engine_%28Lv4%29"
+  },
+  "Logistics Carrier Engine (Lv5)": {
+    "name": "Logistics Carrier Engine (Lv5)",
+    "techId": 3405,
+    "icon": "/icons/tech/logistics_carrier_engine_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Engine_%28Lv5%29"
+  },
+  "Logistics Carrier Engine (Lv6)": {
+    "name": "Logistics Carrier Engine (Lv6)",
+    "techId": 3406,
+    "icon": "/icons/tech/logistics_carrier_engine_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Engine_%28Lv6%29"
+  },
+  "Logistics Carrier Engine (Lv7)": {
+    "name": "Logistics Carrier Engine (Lv7)",
+    "techId": 3407,
+    "icon": "/icons/tech/logistics_carrier_engine_lv7.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Logistics_Carrier_Engine_%28Lv7%29"
+  },
+  "Mass Construction (Lv1)": {
+    "name": "Mass Construction (Lv1)",
+    "techId": 2701,
+    "icon": "/icons/tech/mass_construction_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mass_Construction_%28Lv1%29"
+  },
+  "Mass Construction (Lv2)": {
+    "name": "Mass Construction (Lv2)",
+    "techId": 2702,
+    "icon": "/icons/tech/mass_construction_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mass_Construction_%28Lv2%29"
+  },
+  "Mass Construction (Lv3)": {
+    "name": "Mass Construction (Lv3)",
+    "techId": 2703,
+    "icon": "/icons/tech/mass_construction_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mass_Construction_%28Lv3%29"
+  },
+  "Mass Construction (Lv4)": {
+    "name": "Mass Construction (Lv4)",
+    "techId": 2704,
+    "icon": "/icons/tech/mass_construction_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mass_Construction_%28Lv4%29"
+  },
+  "Mass Construction (Lv5)": {
+    "name": "Mass Construction (Lv5)",
+    "techId": 2705,
+    "icon": "/icons/tech/mass_construction_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mass_Construction_%28Lv5%29"
+  },
+  "Mecha Core (Lv1)": {
+    "name": "Mecha Core (Lv1)",
+    "techId": 2101,
+    "icon": "/icons/tech/mecha_core_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mecha_Core_%28Lv1%29"
+  },
+  "Mecha Core (Lv2)": {
+    "name": "Mecha Core (Lv2)",
+    "techId": 2102,
+    "icon": "/icons/tech/mecha_core_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mecha_Core_%28Lv2%29"
+  },
+  "Mecha Core (Lv3)": {
+    "name": "Mecha Core (Lv3)",
+    "techId": 2103,
+    "icon": "/icons/tech/mecha_core_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mecha_Core_%28Lv3%29"
+  },
+  "Mecha Core (Lv4)": {
+    "name": "Mecha Core (Lv4)",
+    "techId": 2104,
+    "icon": "/icons/tech/mecha_core_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mecha_Core_%28Lv4%29"
+  },
+  "Mecha Core (Lv5)": {
+    "name": "Mecha Core (Lv5)",
+    "techId": 2105,
+    "icon": "/icons/tech/mecha_core_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mecha_Core_%28Lv5%29"
+  },
+  "Mecha Core (Lv6)": {
+    "name": "Mecha Core (Lv6)",
+    "techId": 2106,
+    "icon": "/icons/tech/mecha_core_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mecha_Core_%28Lv6%29"
+  },
+  "Mechanical Frame (Lv1)": {
+    "name": "Mechanical Frame (Lv1)",
+    "techId": 2201,
+    "icon": "/icons/tech/mechanical_frame_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mechanical_Frame_%28Lv1%29"
+  },
+  "Mechanical Frame (Lv2)": {
+    "name": "Mechanical Frame (Lv2)",
+    "techId": 2202,
+    "icon": "/icons/tech/mechanical_frame_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mechanical_Frame_%28Lv2%29"
+  },
+  "Mechanical Frame (Lv3)": {
+    "name": "Mechanical Frame (Lv3)",
+    "techId": 2203,
+    "icon": "/icons/tech/mechanical_frame_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mechanical_Frame_%28Lv3%29"
+  },
+  "Mechanical Frame (Lv4)": {
+    "name": "Mechanical Frame (Lv4)",
+    "techId": 2204,
+    "icon": "/icons/tech/mechanical_frame_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mechanical_Frame_%28Lv4%29"
+  },
+  "Mechanical Frame (Lv5)": {
+    "name": "Mechanical Frame (Lv5)",
+    "techId": 2205,
+    "icon": "/icons/tech/mechanical_frame_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mechanical_Frame_%28Lv5%29"
+  },
+  "Mechanical Frame (Lv6)": {
+    "name": "Mechanical Frame (Lv6)",
+    "techId": 2206,
+    "icon": "/icons/tech/mechanical_frame_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mechanical_Frame_%28Lv6%29"
+  },
+  "Mechanical Frame (Lv7)": {
+    "name": "Mechanical Frame (Lv7)",
+    "techId": 2207,
+    "icon": "/icons/tech/mechanical_frame_lv7.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mechanical_Frame_%28Lv7%29"
+  },
+  "Mechanical Frame (Lv8)": {
+    "name": "Mechanical Frame (Lv8)",
+    "techId": 2208,
+    "icon": "/icons/tech/mechanical_frame_lv8.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Mechanical_Frame_%28Lv8%29"
+  },
+  "Ray Transmission Efficiency (Lv1)": {
+    "name": "Ray Transmission Efficiency (Lv1)",
+    "techId": 3201,
+    "icon": "/icons/tech/ray_transmission_efficiency_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Transmission_Efficiency_%28Lv1%29"
+  },
+  "Ray Transmission Efficiency (Lv2)": {
+    "name": "Ray Transmission Efficiency (Lv2)",
+    "techId": 3202,
+    "icon": "/icons/tech/ray_transmission_efficiency_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Transmission_Efficiency_%28Lv2%29"
+  },
+  "Ray Transmission Efficiency (Lv3)": {
+    "name": "Ray Transmission Efficiency (Lv3)",
+    "techId": 3203,
+    "icon": "/icons/tech/ray_transmission_efficiency_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Transmission_Efficiency_%28Lv3%29"
+  },
+  "Ray Transmission Efficiency (Lv4)": {
+    "name": "Ray Transmission Efficiency (Lv4)",
+    "techId": 3204,
+    "icon": "/icons/tech/ray_transmission_efficiency_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Transmission_Efficiency_%28Lv4%29"
+  },
+  "Ray Transmission Efficiency (Lv5)": {
+    "name": "Ray Transmission Efficiency (Lv5)",
+    "techId": 3205,
+    "icon": "/icons/tech/ray_transmission_efficiency_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Transmission_Efficiency_%28Lv5%29"
+  },
+  "Ray Transmission Efficiency (Lv6)": {
+    "name": "Ray Transmission Efficiency (Lv6)",
+    "techId": 3206,
+    "icon": "/icons/tech/ray_transmission_efficiency_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Transmission_Efficiency_%28Lv6%29"
+  },
+  "Ray Transmission Efficiency (Lv7)": {
+    "name": "Ray Transmission Efficiency (Lv7)",
+    "techId": 3207,
+    "icon": "/icons/tech/ray_transmission_efficiency_lv7.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Transmission_Efficiency_%28Lv7%29"
+  },
+  "Ray Transmission Efficiency (Lv8)": {
+    "name": "Ray Transmission Efficiency (Lv8)",
+    "techId": 3208,
+    "icon": "/icons/tech/ray_transmission_efficiency_lv8.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Ray_Transmission_Efficiency_%28Lv8%29"
+  },
+  "Research Speed (Lv1)": {
+    "name": "Research Speed (Lv1)",
+    "techId": 3901,
+    "icon": "/icons/tech/research_speed_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Research_Speed_%28Lv1%29"
+  },
+  "Research Speed (Lv2)": {
+    "name": "Research Speed (Lv2)",
+    "techId": 3902,
+    "icon": "/icons/tech/research_speed_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Research_Speed_%28Lv2%29"
+  },
+  "Research Speed (Lv3)": {
+    "name": "Research Speed (Lv3)",
+    "techId": 3903,
+    "icon": "/icons/tech/research_speed_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Research_Speed_%28Lv3%29"
+  },
+  "Research Speed (Lv4)": {
+    "name": "Research Speed (Lv4)",
+    "techId": 3904,
+    "icon": "/icons/tech/research_speed_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Research_Speed_%28Lv4%29"
+  },
+  "Solar Sail Life (Lv1)": {
+    "name": "Solar Sail Life (Lv1)",
+    "techId": 3101,
+    "icon": "/icons/tech/solar_sail_life_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Solar_Sail_Life_%28Lv1%29"
+  },
+  "Solar Sail Life (Lv2)": {
+    "name": "Solar Sail Life (Lv2)",
+    "techId": 3102,
+    "icon": "/icons/tech/solar_sail_life_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Solar_Sail_Life_%28Lv2%29"
+  },
+  "Solar Sail Life (Lv3)": {
+    "name": "Solar Sail Life (Lv3)",
+    "techId": 3103,
+    "icon": "/icons/tech/solar_sail_life_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Solar_Sail_Life_%28Lv3%29"
+  },
+  "Solar Sail Life (Lv4)": {
+    "name": "Solar Sail Life (Lv4)",
+    "techId": 3104,
+    "icon": "/icons/tech/solar_sail_life_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Solar_Sail_Life_%28Lv4%29"
+  },
+  "Solar Sail Life (Lv5)": {
+    "name": "Solar Sail Life (Lv5)",
+    "techId": 3105,
+    "icon": "/icons/tech/solar_sail_life_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Solar_Sail_Life_%28Lv5%29"
+  },
+  "Solar Sail Life (Lv6)": {
+    "name": "Solar Sail Life (Lv6)",
+    "techId": 3106,
+    "icon": "/icons/tech/solar_sail_life_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Solar_Sail_Life_%28Lv6%29"
+  },
+  "Sorter Cargo Stacking (Lv1)": {
+    "name": "Sorter Cargo Stacking (Lv1)",
+    "techId": 3301,
+    "icon": "/icons/tech/sorter_cargo_stacking_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Sorter_Cargo_Stacking_%28Lv1%29"
+  },
+  "Sorter Cargo Stacking (Lv2)": {
+    "name": "Sorter Cargo Stacking (Lv2)",
+    "techId": 3302,
+    "icon": "/icons/tech/sorter_cargo_stacking_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Sorter_Cargo_Stacking_%28Lv2%29"
+  },
+  "Sorter Cargo Stacking (Lv3)": {
+    "name": "Sorter Cargo Stacking (Lv3)",
+    "techId": 3303,
+    "icon": "/icons/tech/sorter_cargo_stacking_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Sorter_Cargo_Stacking_%28Lv3%29"
+  },
+  "Sorter Cargo Stacking (Lv4)": {
+    "name": "Sorter Cargo Stacking (Lv4)",
+    "techId": 3304,
+    "icon": "/icons/tech/sorter_cargo_stacking_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Sorter_Cargo_Stacking_%28Lv4%29"
+  },
+  "Sorter Cargo Stacking (Lv5)": {
+    "name": "Sorter Cargo Stacking (Lv5)",
+    "techId": 3305,
+    "icon": "/icons/tech/sorter_cargo_stacking_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Sorter_Cargo_Stacking_%28Lv5%29"
+  },
+  "Universe Exploration (Lv1)": {
+    "name": "Universe Exploration (Lv1)",
+    "techId": 4101,
+    "icon": "/icons/tech/universe_exploration_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Universe_Exploration_%28Lv1%29"
+  },
+  "Universe Exploration (Lv2)": {
+    "name": "Universe Exploration (Lv2)",
+    "techId": 4102,
+    "icon": "/icons/tech/universe_exploration_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Universe_Exploration_%28Lv2%29"
+  },
+  "Universe Exploration (Lv3)": {
+    "name": "Universe Exploration (Lv3)",
+    "techId": 4103,
+    "icon": "/icons/tech/universe_exploration_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Universe_Exploration_%28Lv3%29"
+  },
+  "Universe Exploration (Lv4)": {
+    "name": "Universe Exploration (Lv4)",
+    "techId": 4104,
+    "icon": "/icons/tech/universe_exploration_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Universe_Exploration_%28Lv4%29"
+  },
+  "Vertical Construction (Lv1)": {
+    "name": "Vertical Construction (Lv1)",
+    "techId": 3701,
+    "icon": "/icons/tech/vertical_construction_lv1.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Vertical_Construction_%28Lv1%29"
+  },
+  "Vertical Construction (Lv2)": {
+    "name": "Vertical Construction (Lv2)",
+    "techId": 3702,
+    "icon": "/icons/tech/vertical_construction_lv2.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Vertical_Construction_%28Lv2%29"
+  },
+  "Vertical Construction (Lv3)": {
+    "name": "Vertical Construction (Lv3)",
+    "techId": 3703,
+    "icon": "/icons/tech/vertical_construction_lv3.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Vertical_Construction_%28Lv3%29"
+  },
+  "Vertical Construction (Lv4)": {
+    "name": "Vertical Construction (Lv4)",
+    "techId": 3704,
+    "icon": "/icons/tech/vertical_construction_lv4.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Vertical_Construction_%28Lv4%29"
+  },
+  "Vertical Construction (Lv5)": {
+    "name": "Vertical Construction (Lv5)",
+    "techId": 3705,
+    "icon": "/icons/tech/vertical_construction_lv5.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Vertical_Construction_%28Lv5%29"
+  },
+  "Vertical Construction (Lv6)": {
+    "name": "Vertical Construction (Lv6)",
+    "techId": 3706,
+    "icon": "/icons/tech/vertical_construction_lv6.png",
+    "wikiUrl": "https://dyson-sphere-program.fandom.com/wiki/Vertical_Construction_%28Lv6%29"
+  }
+}
