@@ -53,9 +53,9 @@ Access the dashboard at `http://localhost:5173`.
 │  │    Handlers        │◄─┼─────────┤  ┌───────────────────┐  │         │                      │
 │  │  • Game Data       │  │         │  │   FastAPI Server  │  │         │                      │
 │  │    Access          │  │         │  │   :8000           │  │         │                      │
-│  └────┬────────────┘  │         │  │   (REST API)      │  │         │                      │
-│       │              │         │  └───────────────────┘  │         │                      │
-└───────┘              └─────────┘                         └─────────┘                      └────────┘
+│  └────────────────────┘  │         │  │   (REST API)      │  │         │                      │
+│                          │         │  └───────────────────┘  │         │                      │
+└──────────────────────────┘         └─────────────────────────┘         └──────────────────────┘
      Game Runtime                        MCP Server Bridge                     AI Interface
 ```
 
@@ -118,8 +118,7 @@ Look for the message: `WebSocket Server started on ws://localhost:18181/`
 
 **Start the server:**
 ```bash
-cd api
-uv run python server.py
+./plugin/cmds/run-api.sh
 ```
 
 The server will start:
@@ -128,8 +127,7 @@ The server will start:
 
 **Test with mock data (without running the game):**
 ```bash
-cd api
-DSP_USE_MOCK=true uv run python server.py
+DSP_USE_MOCK=true && ./plugin/cmds/run-api.sh
 ```
 
 ---
