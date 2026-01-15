@@ -3,6 +3,12 @@
 
 PORT=8000
 
+# Check for mock argument
+if [ "$1" == "mock" ]; then
+    echo "Enabling mock mode..."
+    export DSP_USE_MOCK=true
+fi
+
 echo "Checking for existing server on port $PORT..."
 PID=$(lsof -t -i:$PORT)
 
