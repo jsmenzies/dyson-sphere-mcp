@@ -2,6 +2,34 @@
 
 This project enables an AI agent to analyze and interact with "Dyson Sphere Program" (DSP) using the Model Context Protocol (MCP).
 
+<details>
+<summary><strong>Optional Web Frontend (Under Development)</strong></summary>
+
+A modern, real-time dashboard for visualizing your cluster's status. Built with **SvelteKit** and **Tailwind CSS**.
+
+### Features
+- **Power Grid**: Real-time power generation/consumption breakdown by planet and generator type.
+- **Research**: Track current tech progress, queue, and hash rate contribution per planet.
+- **Production**: Monitor global production rates and identify bottlenecks (coming soon).
+- **Logistics**: View interstellar transport routes and station status (coming soon).
+
+### Screenshots
+
+**Power Grid Overview**
+![Power Grid](screenshots/Power-overview.png)
+
+**Research & Technology**
+![Research Breakdown](screenshots/Research-overview.png)
+
+### Running the Frontend
+
+```bash
+./cmds/run-web.sh
+```
+
+Access the dashboard at `http://localhost:5173`.
+</details>
+
 ## Architecture
 
 ```
@@ -84,6 +112,7 @@ Look for the message: `WebSocket Server started on ws://localhost:18181/`
 
 ---
 
+
 ### 2. Run the MCP Server
 
 **Start the server:**
@@ -103,6 +132,7 @@ DSP_USE_MOCK=true uv run python server.py
 ```
 
 ---
+
 
 ### 3. Connect Your AI Agent
 
@@ -166,34 +196,6 @@ GET /api/ils                       # All ILS stations
 GET /api/galaxy                    # Galaxy details
 GET /api/config                    # Server configuration
 ```
-
----
-
-## Web Frontend
-
-A modern, real-time dashboard for visualizing your cluster's status. Built with **SvelteKit** and **Tailwind CSS**.
-
-### Features
-- **Power Grid**: Real-time power generation/consumption breakdown by planet and generator type.
-- **Research**: Track current tech progress, queue, and hash rate contribution per planet.
-- **Production**: Monitor global production rates and identify bottlenecks (coming soon).
-- **Logistics**: View interstellar transport routes and station status (coming soon).
-
-### Screenshots
-
-**Power Grid Overview**
-![Power Grid](screenshots/power_page_overview.png)
-
-**Research & Technology**
-![Research Breakdown](screenshots/research_page_overview.png)
-
-### Running the Frontend
-
-```bash
-./cmds/run-web.sh
-```
-
-Access the dashboard at `http://localhost:5173`.
 
 ---
 
