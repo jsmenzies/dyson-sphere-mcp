@@ -410,3 +410,122 @@ Power page fully implemented with:
 - Planet cards with ring gauges and generator type icons
 - Star system filter dropdown
 - Hover tooltips showing per-planet generation breakdown
+
+---
+
+## Phase 0.5: Research Page Planet Breakdown
+
+**Goal**: Display per-planet research contribution breakdown below the main progress bar on the Research page.
+
+### Feature Description
+
+Add a "Research by Planet" breakdown section under the main progress bar that shows each planet's hash rate contribution. Similar in style to the "Generation Breakdown" on the Power page.
+
+**Location**: `web/src/routes/research/+page.svelte` - inside the "Current Research" card, below the progress bar
+
+### Data Source
+
+**API Endpoint**: `/api/research/by-planet` (already exists)
+
+**Response Structure**:
+```json
+{
+  "planets": [
+    {
+      "planetId": 104,
+      "planetName": "Acrux IV",
+      "starName": "Acrux",
+      "labCount": 60,
+      "workingLabs": 60,
+      "idleLabs": 0,
+      "hashPerSecond": 135000
+    }
+  ],
+  "totalHashPerSecond": 1080000,
+  "totalLabCount": 480
+}
+```
+
+### UI Requirements
+
+1. **Section Header**: "Research by Planet" label (matches `.breakdown-label` style from Power page)
+
+2. **Breakdown Rows**: One row per planet with active research (hashPerSecond > 0)
+   - **Left**: Planet name (or small icon placeholder)
+   - **Center**: Horizontal bar showing percentage of that planet's contribution
+     - Bar fill percentage = `(planet.hashPerSecond / totalHashPerSecond) * 100`
+     - Use cyan color gradient (same as progress bar)
+   - **Right**: Hash rate value (e.g., "135 kH/s")
+
+3. **Sorting**: Order planets by hashPerSecond descending (highest contributors first)
+
+4. **Filtering**: Only show planets where `hashPerSecond > 0`
+
+5. **Empty State**: If no planets have research, don't show the section
+
+### Visual Reference
+
+Match the Power page breakdown style from `web/src/routes/power/+page.svelte` lines 232-256:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ RESEARCH BY PLANET                                          │
+│ ┌─────────────────────────────────────────────────┐         │
+│ │ Acrux IV          [████████████████████]  135 kH/s        │
+│ │ Double Farm       [████████████████████]  135 kH/s        │
+│ │ CorHydrae MegaFarm[████████████████████]  135 kH/s        │
+│ └─────────────────────────────────────────────────┘         │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### CSS Classes to Reuse/Match
+
+From Power page (`+page.svelte`):
+- `.breakdown-label` - Section header styling
+- `.breakdown-list` - Container for rows
+- `.breakdown-row` - Individual row layout (flex)
+- `.breakdown-bar-container` - Bar container styling
+- `.breakdown-bar-fill` - Bar fill with color
+- `.breakdown-value` - Right-aligned value
+
+### Implementation Steps
+
+1. **Fetch Data**: Add `byPlanet` data to the page load (modify `+page.ts` or add to refresh function)
+2. **Filter & Sort**: Create reactive variable filtering planets with research and sorting by hashPerSecond
+3. **Add HTML**: Insert breakdown section after `.progress-bar-container` div
+4. **Add CSS**: Copy/adapt breakdown styles from Power page (consider extracting to shared component)
+5. **Format Values**: Use existing `formatHash()` function with "H/s" suffix
+
+### Code Location
+
+**File to modify**: `web/src/routes/research/+page.svelte`
+
+**Insert after** (around line 172):
+```svelte
+</div>  <!-- progress-bar-container -->
+
+<!-- Research by Planet Breakdown -->
+{#if byPlanet?.planets?.length > 0}
+  <div class="research-breakdown">
+    ...
+  </div>
+{/if}
+
+<div class="research-stats">
+```
+
+### Verification Checklist (Chrome DevTools MCP)
+
+1. Navigate to http://localhost:5173/research
+2. Take screenshot - verify breakdown section appears below progress bar
+3. Take snapshot - verify breakdown rows have correct structure
+4. Verify bar widths are proportional to hash rates
+5. Verify hash rates display correctly formatted (e.g., "135 kH/s")
+6. Test with mock data showing varied hash rates to verify proportional bars
+7. Verify section is hidden when no planets have research
+
+### Future Enhancements (Out of Scope)
+
+- Clickable planet names linking to planet detail page
+- Hover tooltip showing lab count (working/idle)
+- Color coding based on utilization (workingLabs/labCount)
