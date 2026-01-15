@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "DysonSphereMCP": {
+      "httpUrl": "http://localhost:8001/mcp",
+      "timeout": 5000
+    },
+    "DecompilerServer": {
+      "command": "dotnet",
+      "args": [
+        "/mnt/c/Users/James/git/DecompilerServer/bin/Debug/net8.0/DecompilerServer.dll"
+      ]
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest",
+        "--browserUrl",
+        "http://127.0.0.1:9222"
+      ]
+    }
+  }
+}
