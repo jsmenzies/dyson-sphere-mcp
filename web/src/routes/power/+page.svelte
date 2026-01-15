@@ -41,8 +41,8 @@
         return iconData?.name || type;
     }
 
-    // Calculate cluster totals
-    $: clusterTotals = activePlanets.reduce((acc, p) => ({
+    // Calculate cluster totals based on filtered planets
+    $: clusterTotals = filteredPlanets.reduce((acc, p) => ({
         generation: acc.generation + p.generationCapacityW,
         demand: acc.demand + p.consumptionDemandW,
         consumption: acc.consumption + p.actualConsumptionW,
@@ -52,6 +52,10 @@
     $: clusterSatisfaction = clusterTotals.demand > 0
         ? (clusterTotals.generation / clusterTotals.demand) * 100
         : 100;
+
+    $: clusterUtilization = clusterTotals.generation > 0
+        ? (clusterTotals.consumption / clusterTotals.generation) * 100
+        : 0;
 
     function formatWatts(watts: number): { value: string; unit: string } {
         if (watts >= 1e12) return { value: (watts / 1e12).toFixed(2), unit: 'TW' };
@@ -70,6 +74,32 @@
         if (percent >= 100) return 'green';
         if (percent >= 80) return 'orange';
         return 'red';
+    }
+
+    function getUtilizationColor(percent: number): string {
+        // Returns a hex color from dark gray to bright green based on utilization
+        // 0% = dark gray, 100% = bright green
+        const normalized = Math.min(percent / 100, 1);
+
+        if (normalized < 0.1) {
+            // 0-10%: Very dark gray to dark greenish
+            const intensity = Math.floor(40 + normalized * 100);
+            return `rgb(${intensity}, ${intensity + 10}, ${intensity})`;
+        } else if (normalized < 0.5) {
+            // 10-50%: Dark green to medium green
+            const factor = (normalized - 0.1) / 0.4;
+            const r = Math.floor(40 + factor * 20);
+            const g = Math.floor(100 + factor * 100);
+            const b = Math.floor(40 + factor * 20);
+            return `rgb(${r}, ${g}, ${b})`;
+        } else {
+            // 50-100%: Medium green to bright green
+            const factor = (normalized - 0.5) / 0.5;
+            const r = Math.floor(60 - factor * 60);
+            const g = Math.floor(200 + factor * 55);
+            const b = Math.floor(60 - factor * 60);
+            return `rgb(${r}, ${g}, ${b})`;
+        }
     }
 </script>
 
@@ -140,25 +170,38 @@
                     </div>
                 </div>
 
-                <!-- Gauges Section -->
+                <!-- Gauges Section - 3 Equal Gauges -->
                 <div class="overview-card gauges-card">
-                    <div class="gauges-row">
-                        <CircularGauge
-                            value={Math.min(clusterSatisfaction, 999)}
-                            max={100}
-                            label="Sufficiency"
-                            size="lg"
-                            color={getSatisfactionColor(clusterSatisfaction)}
-                        />
-                        <div class="gauge-secondary">
+                    <div class="gauges-row-three">
+                        <div class="gauge-item">
+                            <CircularGauge
+                                value={clusterSatisfaction}
+                                max={clusterSatisfaction > 100 ? clusterSatisfaction : 100}
+                                size="md"
+                                color={getSatisfactionColor(clusterSatisfaction)}
+                                unit="%"
+                            />
+                            <div class="gauge-title">Capacity</div>
+                        </div>
+                        <div class="gauge-item">
                             <CircularGauge
                                 value={parseFloat(formatWatts(clusterTotals.generation).value)}
                                 max={parseFloat(formatWatts(clusterTotals.generation).value)}
-                                label="Generation"
                                 size="md"
                                 color="cyan"
                                 unit={formatWatts(clusterTotals.generation).unit}
                             />
+                            <div class="gauge-title">Generation</div>
+                        </div>
+                        <div class="gauge-item">
+                            <CircularGauge
+                                value={clusterUtilization}
+                                max={100}
+                                size="md"
+                                color={getUtilizationColor(clusterUtilization)}
+                                unit="%"
+                            />
+                            <div class="gauge-title">Utilization</div>
                         </div>
                     </div>
                 </div>
@@ -185,6 +228,7 @@
 
                         <div class="grid-body">
                             <div class="grid-stats">
+                                <!-- Stats row -->
                                 <div class="stat">
                                     <span class="stat-label">Generation</span>
                                     <span class="stat-value cyan">{formatWattsString(planet.generationCapacityW)}</span>
@@ -194,6 +238,12 @@
                                     <span class="stat-value orange">{formatWattsString(planet.consumptionDemandW)}</span>
                                 </div>
                                 <div class="stat">
+                                    <span class="stat-label">Utilization</span>
+                                    <span class="stat-value">
+                                        {planet.generationCapacityW > 0 ? ((planet.actualConsumptionW / planet.generationCapacityW * 100).toFixed(2)) : '0.00'}%
+                                    </span>
+                                </div>
+                                <div class="stat">
                                     <span class="stat-label">Networks</span>
                                     <span class="stat-value">{planet.networkCount}</span>
                                 </div>
@@ -201,8 +251,8 @@
 
                             <div class="grid-gauge-section">
                                 <CircularGauge
-                                    value={Math.min(planet.satisfactionPercent, 999)}
-                                    max={100}
+                                    value={planet.satisfactionPercent}
+                                    max={planet.satisfactionPercent > 100 ? planet.satisfactionPercent : 100}
                                     size="sm"
                                     color={getSatisfactionColor(planet.satisfactionPercent)}
                                     unit="%"
@@ -422,10 +472,64 @@
         gap: 2rem;
     }
 
+    .gauges-row-three {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .gauge-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        flex: 1;
+    }
+
+    .gauge-title {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        font-weight: 500;
+    }
+
+    .main-gauge {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
     .gauge-secondary {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+    }
+
+    .utilization-badge {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-sm);
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .utilization-label {
+        font-size: 0.625rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        margin-bottom: 0.25rem;
+    }
+
+    .utilization-value {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        font-variant-numeric: tabular-nums;
     }
 
     /* Section Title */

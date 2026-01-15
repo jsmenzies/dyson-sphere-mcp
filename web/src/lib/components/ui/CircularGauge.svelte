@@ -3,7 +3,7 @@
   export let max: number = 100;
   export let label: string = '';
   export let size: 'sm' | 'md' | 'lg' = 'md';
-  export let color: 'cyan' | 'orange' | 'green' | 'red' = 'cyan';
+  export let color: 'cyan' | 'orange' | 'green' | 'red' | string = 'cyan';
   export let showValue: boolean = true;
   export let unit: string = '%';
   export let thickness: number = 8;
@@ -26,7 +26,13 @@
   };
 
   $: currentSize = sizes[size];
-  $: currentColor = colors[color];
+  $: currentColor = (() => {
+    if (color in colors) {
+      return colors[color as keyof typeof colors];
+    }
+    // Custom color string (e.g., "rgb(100, 200, 100)")
+    return { stroke: color, glow: color.replace('rgb', 'rgba').replace(')', ', 0.4)') };
+  })();
 </script>
 
 <div
