@@ -3,7 +3,7 @@
 
 set -e
 
-PLUGIN_DIR="/mnt/c/Users/James/git/dyson-sphere-mcp/plugin/src/DSPMCP"
+PLUGIN_DIR="/home/jsm/git/dyson-sphere-mcp/plugin/src/DSPMCP"
 DEPLOYED_DLL="/mnt/c/Users/James/AppData/Roaming/r2modmanPlus-local/DysonSphereProgram/profiles/Default/BepInEx/plugins/DSPMCP/DSPMCP.dll"
 
 # Generate version from current timestamp (e.g., 1.12.1912)

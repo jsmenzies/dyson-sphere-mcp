@@ -1,9 +1,5 @@
 # Agent Instructions
 
-## CLI Commands
-- Use `dotnet.exe` (not `dotnet`) when running .NET commands from WSL
-- Use `python` when running Python commands
-
 ## Git Workflow
 
 ### When User Says "Commit"
@@ -26,24 +22,25 @@ git push
 
 ## Development Workflow
 
+**Important:** Always use the scripts in `cmds/` for building and running services. The scripts automatically kill any existing processes on the target ports, so there's no need to manually stop them first.
+
 ### 1. Build and Deploy Plugin
 Build the C# BepInEx plugin and deploy it to the game:
 ```bash
-./plugin/cmds/build-plugin.sh
+./cmds/build-plugin.sh
 ```
 
 ### 2. Check Game Logs
 View the BepInEx log to verify the plugin loaded correctly:
 ```bash
-./plugin/cmds/check-log.sh      # last 30 lines
-./plugin/cmds/check-log.sh 50   # last 50 lines
+./cmds/check-log.sh      # last 30 lines
+./cmds/check-log.sh 50   # last 50 lines
 ```
 
-### 3. Run Python MCP Server
-Start the MCP server that connects to the game:
+### 3. Start API and MCP Server
+Start the Python API server (port 8000) and MCP server (port 8001):
 ```bash
-cd api
-uv run python server.py
+./cmds/run-api.sh
 ```
 
 **Environment Variables:**
@@ -52,8 +49,31 @@ uv run python server.py
 
 **Example with mock data:**
 ```bash
-cd api
-DSP_USE_MOCK=true uv run python server.py
+DSP_USE_MOCK=true ./cmds/run-api.sh
+```
+
+### 4. Start Web Frontend
+Start the SvelteKit web frontend (port 5173):
+```bash
+./cmds/run-web.sh
+```
+
+### 5. Launch Chrome for DevTools MCP
+Launch Chrome with remote debugging enabled (port 9222):
+```bash
+./cmds/run-chrome.sh
+```
+
+### 6. Check Server Status
+Check if Chrome, API, and Web servers are running:
+```bash
+./cmds/check-servers.sh
+```
+
+### 7. Stop All Servers
+Stop all running servers:
+```bash
+./cmds/stop-all.sh
 ```
 
 ---
@@ -72,12 +92,30 @@ Add the stdio-based .NET Decompiler MCP server to Claude Code:
 claude mcp add --transport stdio DecompilerServer /mnt/c/Users/James/git/DecompilerServer/bin/Debug/net8.0/DecompilerServer.exe
 ```
 
+### Add Chrome DevTools MCP Server
+Add the Chrome DevTools MCP server to Claude Code (requires Chrome running with `./cmds/run-chrome.sh`):
+```bash
+claude mcp add chrome-devtools --command npx --args chrome-devtools-mcp@latest --browserUrl http://127.0.0.1:9222
+```
+
+Or add manually to your Claude Code config:
+```json
+"chrome-devtools": {
+  "command": "npx",
+  "args": [
+    "chrome-devtools-mcp@latest",
+    "--browserUrl",
+    "http://127.0.0.1:9222"
+  ]
+}
+```
+
 ### Reconnect to MCP Servers
 After updating an MCP server, reconnect without restarting Claude Code:
 ```
 /mcp
 ```
-Then select the server to reconnect (e.g., "DysonSphereMCP" or "DecompilerServer").
+Then select the server to reconnect (e.g., "DysonSphereMCP", "DecompilerServer", or "chrome-devtools").
 
 ---
 
@@ -111,16 +149,22 @@ Then select the server to reconnect (e.g., "DysonSphereMCP" or "DecompilerServer
 
 ```
 dyson-sphere-mcp/
+├── cmds/                 # Utility scripts (always use these!)
+│   ├── build-plugin.sh   # Build and deploy plugin
+│   ├── check-log.sh      # View game logs
+│   ├── run-api.sh        # Start API + MCP server
+│   ├── run-web.sh        # Start web frontend
+│   ├── run-chrome.sh     # Launch Chrome with debugging
+│   ├── check-servers.sh  # Check server status
+│   └── stop-all.sh       # Stop all servers
 ├── plugin/               # C# BepInEx game mod
-│   ├── src/DSPMCP/      # Plugin source code
-│   └── cmds/            # Utility scripts
-│       ├── build-plugin.sh  # Build and deploy plugin
-│       └── check-log.sh     # View game logs
+│   └── src/DSPMCP/       # Plugin source code
 ├── api/                  # Python MCP server
-│   ├── server.py        # FastMCP + FastAPI server
-│   ├── mock/            # Mock data for testing
-│   └── pyproject.toml   # Python dependencies
-└── README.md            # Project documentation
+│   ├── server.py         # FastMCP + FastAPI server
+│   ├── mock/             # Mock data for testing
+│   └── pyproject.toml    # Python dependencies
+├── web/                  # SvelteKit web frontend
+└── README.md             # Project documentation
 ```
 
 ---
@@ -129,13 +173,14 @@ dyson-sphere-mcp/
 
 ### Plugin Not Loading
 1. Check if the plugin DLL exists in the game directory
-2. View BepInEx logs: `./plugin/cmds/check-log.sh`
-3. Rebuild and redeploy: `./plugin/cmds/build-plugin.sh`
+2. View BepInEx logs: `./cmds/check-log.sh`
+3. Rebuild and redeploy: `./cmds/build-plugin.sh`
 
 ### MCP Server Connection Issues
-1. Verify the game is running with the plugin loaded
-2. Check if the server is running: `curl http://localhost:8001/api/config`
-3. Test with mock data: `DSP_USE_MOCK=true uv run python server.py`
+1. Check server status: `./cmds/check-servers.sh`
+2. Verify the game is running with the plugin loaded
+3. Check if the API is responding: `curl http://localhost:8000/api/config`
+4. Test with mock data: `DSP_USE_MOCK=true ./cmds/run-api.sh`
 
 ### WebSocket Connection Failed
 1. Ensure the game is running
