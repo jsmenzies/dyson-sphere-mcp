@@ -4,12 +4,11 @@
       "httpUrl": "http://localhost:8001/mcp",
       "timeout": 5000
     },
-    "DecompilerServer": {
-      "command": "dotnet",
-      "args": [
-        "/mnt/c/Users/James/git/DecompilerServer/bin/Debug/net8.0/DecompilerServer.dll"
-      ]
-    },
+    // "DecompilerServer": {
+    //   "command": "/home/jsm/git/DecompilerServer/bin/Debug/net8.0/DecompilerServer.exe",
+    //   "args": [
+    //   ]
+    // },
     "chrome-devtools": {
       "command": "npx",
       "args": [

@@ -80,7 +80,7 @@
 
     $: planetBreakdown = byPlanet?.planets
         ? byPlanet.planets
-            .filter((p: any) => p.hashPerSecond > 0)
+            .filter((p: any) => p.hashPerSecond > 0 || p.labCount > 0)
             .map((p: any) => {
                 const techSpeed = upgrades?.research?.techSpeed || 1;
                 // Formula: labCount * techSpeed * 60 ticks/sec
@@ -92,6 +92,12 @@
             })
             .sort((a: any, b: any) => b.hashPerSecond - a.hashPerSecond)
         : [];
+
+    $: labStats = byPlanet?.planets ? byPlanet.planets.reduce((acc: any, p: any) => ({
+        total: acc.total + (p.labCount || 0),
+        active: acc.active + (p.workingLabs || 0),
+        inactive: acc.inactive + (p.idleLabs || 0)
+    }), { total: 0, active: 0, inactive: 0 }) : { total: 0, active: 0, inactive: 0 };
 
     function getTechIcon(techName: string): string | null {
         // Direct match
@@ -211,22 +217,25 @@
                                 <div class="breakdown-label">Research by Planet</div>
                                 <div class="breakdown-list">
                                     {#each planetBreakdown as planet}
+                                        {@const isStalled = planet.hashPerSecond === 0 && planet.labCount > 0}
                                         <div class="breakdown-row">
                                             <div class="breakdown-name" title="{planet.planetName} ({planet.starName})">
                                                 {planet.planetName}
                                             </div>
-                                            <div class="breakdown-bar-container">
+                                            <div class="breakdown-bar-container" class:stalled={isStalled}>
                                                 <div
                                                     class="breakdown-bar-fill"
                                                     style="
-                                                        width: {Math.min(100, (planet.hashPerSecond / (planet.theoreticalMaxHashPerSecond || 1)) * 100)}%;
-                                                        background: linear-gradient(90deg, {getPerformanceColors((planet.hashPerSecond / (planet.theoreticalMaxHashPerSecond || 1)) * 100).dim} 0%, {getPerformanceColors((planet.hashPerSecond / (planet.theoreticalMaxHashPerSecond || 1)) * 100).main} 100%);
+                                                        width: {isStalled ? 0 : Math.min(100, (planet.hashPerSecond / (planet.theoreticalMaxHashPerSecond || 1)) * 100)}%;
+                                                        background: {isStalled ? 'transparent' : `linear-gradient(90deg, ${getPerformanceColors((planet.hashPerSecond / (planet.theoreticalMaxHashPerSecond || 1)) * 100).dim} 0%, ${getPerformanceColors((planet.hashPerSecond / (planet.theoreticalMaxHashPerSecond || 1)) * 100).main} 100%)`};
                                                     "
                                                 >
-                                                    <div class="progress-bar-pulse"></div>
+                                                    {#if !isStalled}
+                                                        <div class="progress-bar-pulse"></div>
+                                                    {/if}
                                                 </div>
                                             </div>
-                                            <div class="breakdown-value">
+                                            <div class="breakdown-value" class:stalled={isStalled}>
                                                 <span class="value">{formatHash(planet.hashPerSecond).value}</span>
                                                 <span class="suffix">{formatHash(planet.hashPerSecond).suffix}</span>
                                                 <span class="unit">Hash/s</span>
@@ -238,7 +247,12 @@
                         {/if}
 
                         <div class="research-stats">
-                            <span class="stat">Labs Active: <strong>{research.totalLabCount}</strong></span>
+                            <span class="stat">
+                                Labs: <strong>{labStats.total}</strong>
+                                <span class="sub-stat">
+                                    (Active: <strong>{labStats.active}</strong> / Inactive: <strong style="color: {labStats.inactive > 0 ? 'var(--accent-red)' : 'inherit'}">{labStats.inactive}</strong>)
+                                </span>
+                            </span>
                             <span class="stat">Est. Time: <strong>{((research.currentTech.hashNeeded - research.currentTech.hashUploaded) / (research.totalHashPerSecond || 1) / 60).toFixed(1)}m</strong> remaining</span>
                         </div>
                     </div>
@@ -672,6 +686,11 @@
         border: 1px solid var(--border-subtle);
     }
 
+    .breakdown-bar-container.stalled {
+        border-color: var(--accent-red);
+        box-shadow: 0 0 4px rgba(239, 68, 68, 0.2);
+    }
+
     .breakdown-bar-fill {
         position: relative;
         height: 100%;
@@ -701,6 +720,13 @@
         font-weight: 400;
         color: var(--text-muted);
         margin-left: 0.125rem;
+    }
+
+    .breakdown-value.stalled,
+    .breakdown-value.stalled .value,
+    .breakdown-value.stalled .suffix,
+    .breakdown-value.stalled .unit {
+        color: var(--accent-red);
     }
 
     /* Queue */
