@@ -8,6 +8,40 @@
 
     export let data: PageData;
 
+    // Tooltip state
+    let tooltipPlanet: typeof data.planets[0] | null = null;
+    let tooltipX = 0;
+    let tooltipY = 0;
+
+    function showTooltip(event: MouseEvent, planet: typeof data.planets[0]) {
+        tooltipPlanet = planet;
+        tooltipX = event.clientX + 15;
+        tooltipY = event.clientY + 15;
+    }
+
+    function moveTooltip(event: MouseEvent) {
+        tooltipX = event.clientX + 15;
+        tooltipY = event.clientY + 15;
+    }
+
+    function hideTooltip() {
+        tooltipPlanet = null;
+    }
+
+    // Calculate breakdown for a single planet
+    function getPlanetBreakdown(planet: typeof data.planets[0]) {
+        if (!planet.generatorTypes || planet.generatorTypes.length === 0) return [];
+
+        const totalPower = planet.generatorTypes.reduce((sum, g) => sum + g.totalPowerW, 0);
+        return planet.generatorTypes
+            .map(gen => ({
+                type: gen.type as GeneratorType,
+                power: gen.totalPowerW,
+                percentage: totalPower > 0 ? (gen.totalPowerW / totalPower) * 100 : 0
+            }))
+            .sort((a, b) => b.power - a.power);
+    }
+
     // Star filter state
     let selectedStar = 'all';
 
@@ -56,6 +90,42 @@
     $: clusterUtilization = clusterTotals.generation > 0
         ? (clusterTotals.consumption / clusterTotals.generation) * 100
         : 0;
+
+    // Calculate generator breakdown by type
+    $: generatorBreakdown = (() => {
+        const breakdown = new Map<GeneratorType, number>();
+
+        filteredPlanets.forEach(planet => {
+            if (planet.generatorTypes) {
+                planet.generatorTypes.forEach(gen => {
+                    const current = breakdown.get(gen.type) || 0;
+                    breakdown.set(gen.type, current + gen.totalPowerW);
+                });
+            }
+        });
+
+        // Convert to array and calculate percentages
+        // Use the sum of generator powers as denominator so bar always fills 100%
+        const entries = Array.from(breakdown.entries());
+        const totalGeneratorPower = entries.reduce((sum, [, power]) => sum + power, 0);
+        return entries
+            .map(([type, power]) => ({
+                type,
+                power,
+                percentage: totalGeneratorPower > 0 ? (power / totalGeneratorPower) * 100 : 0
+            }))
+            .sort((a, b) => b.power - a.power);
+    })();
+
+    const generatorColors: Record<string, string> = {
+        'solar': '#FFD700',
+        'wind': '#87CEEB',
+        'thermal': '#FF6B35',
+        'geothermal': '#FF4500',
+        'fusion': '#9D4EDD',
+        'artificial_star': '#00D4FF',
+        'gamma': '#22C55E'
+    };
 
     function formatWatts(watts: number): { value: string; unit: string } {
         if (watts >= 1e12) return { value: (watts / 1e12).toFixed(2), unit: 'TW' };
@@ -158,6 +228,33 @@
                             style="width: {Math.min(100, (clusterTotals.demand / clusterTotals.generation) * 100)}%"
                         ></div>
                     </div>
+
+                    <!-- Generator Breakdown List -->
+                    {#if generatorBreakdown.length > 0}
+                        <div class="generator-breakdown">
+                            <div class="breakdown-label">Generation Breakdown</div>
+                            <div class="breakdown-list">
+                                {#each generatorBreakdown as gen}
+                                    <div class="breakdown-row">
+                                        <img
+                                            src={getGeneratorIcon(gen.type)}
+                                            alt={getGeneratorName(gen.type)}
+                                            class="breakdown-icon"
+                                            title={getGeneratorName(gen.type)}
+                                        />
+                                        <div class="breakdown-bar-container">
+                                            <div
+                                                class="breakdown-bar-fill"
+                                                style="width: {gen.percentage}%; background-color: {generatorColors[gen.type] || '#666'};"
+                                            ></div>
+                                        </div>
+                                        <div class="breakdown-value">{formatWattsString(gen.power)}</div>
+                                    </div>
+                                {/each}
+                            </div>
+                        </div>
+                    {/if}
+
                     <div class="metrics-row secondary">
                         <div class="metric-small">
                             <span class="label">Actual Consumption:</span>
@@ -218,7 +315,13 @@
             </h2>
             <div class="grids-list">
                 {#each filteredPlanets as planet}
-                    <div class="grid-card" class:warning={planet.satisfactionPercent < 100}>
+                    <div
+                        class="grid-card"
+                        class:warning={planet.satisfactionPercent < 100}
+                        on:mouseenter={(e) => showTooltip(e, planet)}
+                        on:mousemove={moveTooltip}
+                        on:mouseleave={hideTooltip}
+                    >
                         <div class="grid-header">
                             <div class="planet-info">
                                 <div class="planet-name">{planet.planetName}</div>
@@ -282,6 +385,37 @@
                 {/each}
             </div>
         </section>
+    {/if}
+
+    <!-- Generation Breakdown Tooltip -->
+    {#if tooltipPlanet && tooltipPlanet.generatorTypes && tooltipPlanet.generatorTypes.length > 0}
+        <div
+            class="planet-tooltip"
+            style="left: {tooltipX}px; top: {tooltipY}px;"
+        >
+            <div class="tooltip-header">
+                <span class="tooltip-title">{tooltipPlanet.planetName}</span>
+                <span class="tooltip-subtitle">Generation Breakdown</span>
+            </div>
+            <div class="tooltip-breakdown">
+                {#each getPlanetBreakdown(tooltipPlanet) as gen}
+                    <div class="tooltip-row">
+                        <img
+                            src={getGeneratorIcon(gen.type)}
+                            alt={getGeneratorName(gen.type)}
+                            class="tooltip-icon"
+                        />
+                        <div class="tooltip-bar-container">
+                            <div
+                                class="tooltip-bar-fill"
+                                style="width: {gen.percentage}%; background-color: {generatorColors[gen.type] || '#666'};"
+                            ></div>
+                        </div>
+                        <div class="tooltip-value">{formatWattsString(gen.power)}</div>
+                    </div>
+                {/each}
+            </div>
+        </div>
     {/if}
 </div>
 
@@ -457,6 +591,63 @@
         height: 100%;
         background: linear-gradient(90deg, var(--accent-orange-dim), var(--accent-orange));
         transition: width 0.5s ease;
+    }
+
+    /* Generator Breakdown */
+    .generator-breakdown {
+        margin-bottom: 1rem;
+    }
+
+    .breakdown-label {
+        font-size: 0.625rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        margin-bottom: 0.5rem;
+    }
+
+    .breakdown-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.375rem;
+    }
+
+    .breakdown-row {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .breakdown-icon {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+        flex-shrink: 0;
+    }
+
+    .breakdown-bar-container {
+        flex: 1;
+        height: 16px;
+        background: var(--bg-secondary);
+        border-radius: var(--radius-sm);
+        overflow: hidden;
+        border: 1px solid var(--border-subtle);
+    }
+
+    .breakdown-bar-fill {
+        height: 100%;
+        border-radius: var(--radius-sm);
+        transition: width 0.3s ease;
+    }
+
+    .breakdown-value {
+        font-size: 0.75rem;
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+        color: var(--text-secondary);
+        min-width: 70px;
+        text-align: right;
     }
 
     /* Gauges */
@@ -680,5 +871,84 @@
         .gauges-row {
             flex-direction: column;
         }
+    }
+
+    /* Planet Tooltip */
+    .planet-tooltip {
+        position: fixed;
+        z-index: 1000;
+        background: var(--bg-card);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-md);
+        padding: 0.75rem;
+        min-width: 280px;
+        max-width: 350px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        pointer-events: none;
+    }
+
+    .tooltip-header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .tooltip-title {
+        font-weight: 600;
+        color: var(--text-primary);
+        font-size: 0.875rem;
+    }
+
+    .tooltip-subtitle {
+        font-size: 0.625rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        margin-top: 0.125rem;
+    }
+
+    .tooltip-breakdown {
+        display: flex;
+        flex-direction: column;
+        gap: 0.375rem;
+    }
+
+    .tooltip-row {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .tooltip-icon {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+        flex-shrink: 0;
+    }
+
+    .tooltip-bar-container {
+        flex: 1;
+        height: 12px;
+        background: var(--bg-secondary);
+        border-radius: var(--radius-sm);
+        overflow: hidden;
+        border: 1px solid var(--border-subtle);
+    }
+
+    .tooltip-bar-fill {
+        height: 100%;
+        border-radius: var(--radius-sm);
+    }
+
+    .tooltip-value {
+        font-size: 0.6875rem;
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+        color: var(--text-secondary);
+        min-width: 60px;
+        text-align: right;
     }
 </style>

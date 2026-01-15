@@ -4,23 +4,39 @@
             "planetId": 103,
             "planetName": "Home",
             "starName": "Acrux",
-            "networkCount": 1,
+            "networkCount": 3,
             "generationCapacityW": 29390879940,
-            "consumptionDemandW": 15269525160,
-            "actualConsumptionW": 15660923340,
+            "consumptionDemandW": 17438725020,
+            "actualConsumptionW": 17762319480,
             "energyStored": 0,
-            "satisfactionPercent": 102.56
+            "satisfactionPercent": 101.86,
+            "generatorTypes": [
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 4800000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 7344000000
+                }
+            ]
         },
         {
             "planetId": 104,
             "planetName": "Acrux IV",
             "starName": "Acrux",
-            "networkCount": 2,
+            "networkCount": 1,
             "generationCapacityW": 57024000000,
-            "consumptionDemandW": 39159558300,
-            "actualConsumptionW": 39159558300,
+            "consumptionDemandW": 39110478420,
+            "actualConsumptionW": 39110478420,
             "energyStored": 0,
-            "satisfactionPercent": 100
+            "satisfactionPercent": 100,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 14256000000
+                }
+            ]
         },
         {
             "planetId": 102,
@@ -31,7 +47,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 403,
@@ -39,32 +56,66 @@
             "starName": "CorHydrae",
             "networkCount": 1,
             "generationCapacityW": 8496000000,
-            "consumptionDemandW": 6615735240,
-            "actualConsumptionW": 6615735240,
+            "consumptionDemandW": 6455296920,
+            "actualConsumptionW": 6455296920,
             "energyStored": 0,
-            "satisfactionPercent": 100
+            "satisfactionPercent": 100,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 720000000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1224000000
+                }
+            ]
         },
         {
             "planetId": 6401,
-            "planetName": "DSR J2029+13 I Uni",
+            "planetName": "DSR J2029+13 I",
             "starName": "DSR J2029+13",
             "networkCount": 1,
             "generationCapacityW": 954000000,
-            "consumptionDemandW": 358454100,
-            "actualConsumptionW": 359049660,
+            "consumptionDemandW": 294519120,
+            "actualConsumptionW": 295178580,
             "energyStored": 0,
-            "satisfactionPercent": 100.17
+            "satisfactionPercent": 100.22,
+            "generatorTypes": [
+                {
+                    "type": "fusion",
+                    "totalPowerW": 630000000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 144000000
+                }
+            ]
         },
         {
             "planetId": 301,
             "planetName": "Epsilon Sagittarii I Coal",
             "starName": "Epsilon Sagittarii",
             "networkCount": 1,
-            "generationCapacityW": 10436177640,
-            "consumptionDemandW": 1596733080,
-            "actualConsumptionW": 1780516860,
+            "generationCapacityW": 10437470160,
+            "consumptionDemandW": 1593981120,
+            "actualConsumptionW": 1777848960,
             "energyStored": 0,
-            "satisfactionPercent": 111.51
+            "satisfactionPercent": 111.54,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 180000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 19200000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 2376000000
+                }
+            ]
         },
         {
             "planetId": 101,
@@ -72,10 +123,24 @@
             "starName": "Acrux",
             "networkCount": 1,
             "generationCapacityW": 13105919760,
-            "consumptionDemandW": 5001704100,
-            "actualConsumptionW": 5162257800,
+            "consumptionDemandW": 4934588040,
+            "actualConsumptionW": 5096471400,
             "energyStored": 0,
-            "satisfactionPercent": 103.21
+            "satisfactionPercent": 103.28,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 1368000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 76800000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 3240000000
+                }
+            ]
         },
         {
             "planetId": 1101,
@@ -83,10 +148,16 @@
             "starName": "Porrima",
             "networkCount": 1,
             "generationCapacityW": 7776000000,
-            "consumptionDemandW": 5675857500,
-            "actualConsumptionW": 5721578700,
+            "consumptionDemandW": 5634287160,
+            "actualConsumptionW": 5680913400,
             "energyStored": 0,
-            "satisfactionPercent": 100.81
+            "satisfactionPercent": 100.83,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1944000000
+                }
+            ]
         },
         {
             "planetId": 6002,
@@ -97,7 +168,17 @@
             "consumptionDemandW": 275721000,
             "actualConsumptionW": 322864320,
             "energyStored": 0,
-            "satisfactionPercent": 117.1
+            "satisfactionPercent": 117.1,
+            "generatorTypes": [
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 19200000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 648000000
+                }
+            ]
         },
         {
             "planetId": 3104,
@@ -105,10 +186,16 @@
             "starName": "Gamma Aurigae",
             "networkCount": 1,
             "generationCapacityW": 1728000000,
-            "consumptionDemandW": 990804960,
-            "actualConsumptionW": 1006854060,
+            "consumptionDemandW": 1043154480,
+            "actualConsumptionW": 1058063940,
             "energyStored": 0,
-            "satisfactionPercent": 101.62
+            "satisfactionPercent": 101.43,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 432000000
+                }
+            ]
         },
         {
             "planetId": 2003,
@@ -119,7 +206,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 2004,
@@ -130,7 +218,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 302,
@@ -141,29 +230,37 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 602,
-            "planetName": "\u03b6 Ursae Majoris II",
-            "starName": "\u03b6 Ursae Majoris",
+            "planetName": "ζ Ursae Majoris II",
+            "starName": "ζ Ursae Majoris",
             "networkCount": 0,
             "generationCapacityW": 0,
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 603,
-            "planetName": "\u03b6 Ursae Majoris III Coal/Oil",
-            "starName": "\u03b6 Ursae Majoris",
+            "planetName": "ζ Ursae Majoris III Coal/Oil",
+            "starName": "ζ Ursae Majoris",
             "networkCount": 1,
             "generationCapacityW": 4320000000,
-            "consumptionDemandW": 1019538060,
-            "actualConsumptionW": 1091390880,
+            "consumptionDemandW": 1080279780,
+            "actualConsumptionW": 1150810200,
             "energyStored": 0,
-            "satisfactionPercent": 107.05
+            "satisfactionPercent": 106.53,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1080000000
+                }
+            ]
         },
         {
             "planetId": 6006,
@@ -174,7 +271,13 @@
             "consumptionDemandW": 269064000,
             "actualConsumptionW": 285129540,
             "energyStored": 0,
-            "satisfactionPercent": 105.97
+            "satisfactionPercent": 105.97,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 432000000
+                }
+            ]
         },
         {
             "planetId": 6001,
@@ -182,98 +285,192 @@
             "starName": "Alifa",
             "networkCount": 1,
             "generationCapacityW": 4320000000,
-            "consumptionDemandW": 623525220,
-            "actualConsumptionW": 696756600,
+            "consumptionDemandW": 615826440,
+            "actualConsumptionW": 689210340,
             "energyStored": 0,
-            "satisfactionPercent": 111.74
+            "satisfactionPercent": 111.92,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 14304000000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1080000000
+                }
+            ]
         },
         {
             "planetId": 6004,
             "planetName": "Alifa IV",
             "starName": "Alifa",
-            "networkCount": 1,
+            "networkCount": 2,
             "generationCapacityW": 1789439940,
             "consumptionDemandW": 254586000,
             "actualConsumptionW": 283098600,
             "energyStored": 0,
-            "satisfactionPercent": 111.2
+            "satisfactionPercent": 111.2,
+            "generatorTypes": [
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 14400000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 432000000
+                }
+            ]
         },
         {
             "planetId": 6003,
             "planetName": "Alifa III",
             "starName": "Alifa",
-            "networkCount": 1,
+            "networkCount": 2,
             "generationCapacityW": 2792423160,
             "consumptionDemandW": 266703000,
             "actualConsumptionW": 316292400,
             "energyStored": 0,
-            "satisfactionPercent": 118.59
+            "satisfactionPercent": 118.59,
+            "generatorTypes": [
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 172800000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 648000000
+                }
+            ]
         },
         {
             "planetId": 6005,
             "planetName": "Alifa V",
             "starName": "Alifa",
             "networkCount": 1,
-            "generationCapacityW": 663168900,
+            "generationCapacityW": 665405520,
             "consumptionDemandW": 270570000,
-            "actualConsumptionW": 279117060,
+            "actualConsumptionW": 279165780,
             "energyStored": 0,
-            "satisfactionPercent": 103.16
+            "satisfactionPercent": 103.18,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 504000000
+                }
+            ]
         },
         {
             "planetId": 802,
             "planetName": "Farm II Coal/Stone",
             "starName": "Farm",
-            "networkCount": 1,
+            "networkCount": 2,
             "generationCapacityW": 6665040000,
-            "consumptionDemandW": 2624796720,
-            "actualConsumptionW": 2704488480,
+            "consumptionDemandW": 2778483000,
+            "actualConsumptionW": 2855130060,
             "energyStored": 0,
-            "satisfactionPercent": 103.04
+            "satisfactionPercent": 102.76,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 324000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 19200000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1296000000
+                }
+            ]
         },
         {
             "planetId": 803,
             "planetName": "Farm III Iron/Kim",
             "starName": "Farm",
-            "networkCount": 1,
+            "networkCount": 2,
             "generationCapacityW": 1711319940,
-            "consumptionDemandW": 1428831780,
-            "actualConsumptionW": 1434335820,
+            "consumptionDemandW": 1396612680,
+            "actualConsumptionW": 1402786620,
             "energyStored": 0,
-            "satisfactionPercent": 100.39
+            "satisfactionPercent": 100.44,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 324000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 19200000
+                }
+            ]
         },
         {
             "planetId": 801,
             "planetName": "Double Farm",
             "starName": "Farm",
-            "networkCount": 2,
+            "networkCount": 1,
             "generationCapacityW": 57024000000,
-            "consumptionDemandW": 39125997720,
-            "actualConsumptionW": 39125997720,
+            "consumptionDemandW": 39141451680,
+            "actualConsumptionW": 39141451680,
             "energyStored": 0,
-            "satisfactionPercent": 100
+            "satisfactionPercent": 100,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 14256000000
+                }
+            ]
         },
         {
             "planetId": 401,
             "planetName": "CorHydrae Proliferator Silicon",
             "starName": "CorHydrae",
-            "networkCount": 1,
+            "networkCount": 2,
             "generationCapacityW": 16649760000,
-            "consumptionDemandW": 13556817360,
-            "actualConsumptionW": 13617721200,
+            "consumptionDemandW": 13936698900,
+            "actualConsumptionW": 13990076880,
             "energyStored": 0,
-            "satisfactionPercent": 100.45
+            "satisfactionPercent": 100.38,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 708000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 38400000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 3240000000
+                }
+            ]
         },
         {
             "planetId": 402,
             "planetName": "CorHydrae Oil Platform Stalag",
             "starName": "CorHydrae",
-            "networkCount": 1,
+            "networkCount": 2,
             "generationCapacityW": 6213119940,
-            "consumptionDemandW": 1061975580,
-            "actualConsumptionW": 1168665540,
+            "consumptionDemandW": 1115483460,
+            "actualConsumptionW": 1221060900,
             "energyStored": 0,
-            "satisfactionPercent": 110.05
+            "satisfactionPercent": 109.46,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 504000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 14400000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1224000000
+                }
+            ]
         },
         {
             "planetId": 404,
@@ -281,21 +478,37 @@
             "starName": "CorHydrae",
             "networkCount": 1,
             "generationCapacityW": 44640000000,
-            "consumptionDemandW": 39098130060,
-            "actualConsumptionW": 39098130060,
+            "consumptionDemandW": 39137642340,
+            "actualConsumptionW": 39137642340,
             "energyStored": 0,
-            "satisfactionPercent": 100
+            "satisfactionPercent": 100,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 11160000000
+                }
+            ]
         },
         {
             "planetId": 304,
             "planetName": "Epsilon Sagittarii IV Iron",
             "starName": "Epsilon Sagittarii",
             "networkCount": 1,
-            "generationCapacityW": 925082400,
-            "consumptionDemandW": 557866080,
-            "actualConsumptionW": 565141080,
+            "generationCapacityW": 921333000,
+            "consumptionDemandW": 548687880,
+            "actualConsumptionW": 556070400,
             "energyStored": 0,
-            "satisfactionPercent": 101.3
+            "satisfactionPercent": 101.35,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 180000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 19200000
+                }
+            ]
         },
         {
             "planetId": 202,
@@ -306,7 +519,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 2403,
@@ -317,7 +531,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 3805,
@@ -328,7 +543,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 3804,
@@ -339,7 +555,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 3803,
@@ -350,7 +567,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 804,
@@ -358,21 +576,41 @@
             "starName": "Farm",
             "networkCount": 1,
             "generationCapacityW": 9501000000,
-            "consumptionDemandW": 1861805340,
-            "actualConsumptionW": 2020634340,
+            "consumptionDemandW": 2472859020,
+            "actualConsumptionW": 2618983380,
             "energyStored": 0,
-            "satisfactionPercent": 108.53
+            "satisfactionPercent": 105.91,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 324000000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1944000000
+                }
+            ]
         },
         {
             "planetId": 805,
             "planetName": "MegaFarm Alpha",
             "starName": "Farm",
-            "networkCount": 2,
+            "networkCount": 1,
             "generationCapacityW": 57045120000,
-            "consumptionDemandW": 39102760980,
-            "actualConsumptionW": 39102760980,
+            "consumptionDemandW": 39138405660,
+            "actualConsumptionW": 39138405660,
             "energyStored": 0,
-            "satisfactionPercent": 100
+            "satisfactionPercent": 100,
+            "generatorTypes": [
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 4800000
+                },
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 14256000000
+                }
+            ]
         },
         {
             "planetId": 303,
@@ -380,10 +618,16 @@
             "starName": "Epsilon Sagittarii",
             "networkCount": 1,
             "generationCapacityW": 4896000000,
-            "consumptionDemandW": 676877340,
-            "actualConsumptionW": 768729900,
+            "consumptionDemandW": 731689920,
+            "actualConsumptionW": 822349140,
             "energyStored": 0,
-            "satisfactionPercent": 113.57
+            "satisfactionPercent": 112.39,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1224000000
+                }
+            ]
         },
         {
             "planetId": 1104,
@@ -394,29 +638,50 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 2701,
             "planetName": "Zeta Hydrae I",
             "starName": "Zeta Hydrae",
-            "networkCount": 1,
+            "networkCount": 2,
             "generationCapacityW": 1005599880,
-            "consumptionDemandW": 514562820,
-            "actualConsumptionW": 523474620,
+            "consumptionDemandW": 576007440,
+            "actualConsumptionW": 583762260,
             "energyStored": 0,
-            "satisfactionPercent": 101.73
+            "satisfactionPercent": 101.35,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 180000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 28800000
+                }
+            ]
         },
         {
             "planetId": 4503,
             "planetName": "Muphrid III",
             "starName": "Muphrid",
-            "networkCount": 1,
+            "networkCount": 2,
             "generationCapacityW": 1539093000,
             "consumptionDemandW": 20310000,
             "actualConsumptionW": 20310000,
             "energyStored": 0,
-            "satisfactionPercent": 100
+            "satisfactionPercent": 100,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 324000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 115200000
+                }
+            ]
         },
         {
             "planetId": 4502,
@@ -427,18 +692,29 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 4501,
             "planetName": "Muphrid Photon Farm",
             "starName": "Muphrid",
-            "networkCount": 1,
+            "networkCount": 5,
             "generationCapacityW": 1148338980,
-            "consumptionDemandW": 468294660,
-            "actualConsumptionW": 480160020,
+            "consumptionDemandW": 510817980,
+            "actualConsumptionW": 521840940,
             "energyStored": 0,
-            "satisfactionPercent": 102.53
+            "satisfactionPercent": 102.16,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 3888000000
+                },
+                {
+                    "type": "geothermal",
+                    "totalPowerW": 33600000
+                }
+            ]
         },
         {
             "planetId": 201,
@@ -446,21 +722,28 @@
             "starName": "Phact",
             "networkCount": 1,
             "generationCapacityW": 0,
-            "consumptionDemandW": 924477360,
+            "consumptionDemandW": 925119480,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 203,
             "planetName": "Phact Farm",
             "starName": "Phact",
-            "networkCount": 2,
+            "networkCount": 1,
             "generationCapacityW": 50112000000,
-            "consumptionDemandW": 39046835460,
-            "actualConsumptionW": 39113060700,
+            "consumptionDemandW": 39137347200,
+            "actualConsumptionW": 39203030700,
             "energyStored": 0,
-            "satisfactionPercent": 100.17
+            "satisfactionPercent": 100.17,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 12528000000
+                }
+            ]
         },
         {
             "planetId": 4504,
@@ -471,18 +754,20 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 6301,
             "planetName": "NTR J1954-02 I",
             "starName": "NTR J1954-02",
-            "networkCount": 1,
+            "networkCount": 0,
             "generationCapacityW": 0,
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 3101,
@@ -493,7 +778,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 3102,
@@ -504,7 +790,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 2702,
@@ -515,7 +802,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 2703,
@@ -526,7 +814,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 1102,
@@ -537,7 +826,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 1103,
@@ -545,21 +835,33 @@
             "starName": "Porrima",
             "networkCount": 1,
             "generationCapacityW": 3600000000,
-            "consumptionDemandW": 772889100,
-            "actualConsumptionW": 831668460,
+            "consumptionDemandW": 646157460,
+            "actualConsumptionW": 707571780,
             "energyStored": 0,
-            "satisfactionPercent": 107.61
+            "satisfactionPercent": 109.5,
+            "generatorTypes": [
+                {
+                    "type": "gamma",
+                    "totalPowerW": 720000000
+                }
+            ]
         },
         {
             "planetId": 701,
             "planetName": "Bunda MegaFarm",
             "starName": "Bunda",
-            "networkCount": 2,
+            "networkCount": 1,
             "generationCapacityW": 57024000000,
-            "consumptionDemandW": 38979177360,
-            "actualConsumptionW": 38979177360,
+            "consumptionDemandW": 39005685900,
+            "actualConsumptionW": 39005685900,
             "energyStored": 0,
-            "satisfactionPercent": 100
+            "satisfactionPercent": 100,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 14256000000
+                }
+            ]
         },
         {
             "planetId": 702,
@@ -570,7 +872,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 1201,
@@ -578,10 +881,16 @@
             "starName": "Saidak",
             "networkCount": 1,
             "generationCapacityW": 8640000000,
-            "consumptionDemandW": 6731762160,
-            "actualConsumptionW": 6773305500,
+            "consumptionDemandW": 6667489020,
+            "actualConsumptionW": 6710431620,
             "energyStored": 0,
-            "satisfactionPercent": 100.62
+            "satisfactionPercent": 100.64,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 2160000000
+                }
+            ]
         },
         {
             "planetId": 1402,
@@ -589,10 +898,16 @@
             "starName": "Algomeyla",
             "networkCount": 1,
             "generationCapacityW": 7776000000,
-            "consumptionDemandW": 4588158420,
-            "actualConsumptionW": 4657559400,
+            "consumptionDemandW": 4494874680,
+            "actualConsumptionW": 4566306540,
             "energyStored": 0,
-            "satisfactionPercent": 101.51
+            "satisfactionPercent": 101.59,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1944000000
+                }
+            ]
         },
         {
             "planetId": 1401,
@@ -600,21 +915,33 @@
             "starName": "Algomeyla",
             "networkCount": 1,
             "generationCapacityW": 7776000000,
-            "consumptionDemandW": 1765474500,
-            "actualConsumptionW": 1896326820,
+            "consumptionDemandW": 1779026100,
+            "actualConsumptionW": 1909583400,
             "energyStored": 0,
-            "satisfactionPercent": 107.41
+            "satisfactionPercent": 107.34,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1944000000
+                }
+            ]
         },
         {
             "planetId": 1403,
             "planetName": "Algomeyla III Expiriment",
             "starName": "Algomeyla",
-            "networkCount": 2,
+            "networkCount": 1,
             "generationCapacityW": 50112000000,
-            "consumptionDemandW": 39044279280,
-            "actualConsumptionW": 39044279280,
+            "consumptionDemandW": 38964675180,
+            "actualConsumptionW": 38964675180,
             "energyStored": 0,
-            "satisfactionPercent": 100
+            "satisfactionPercent": 100,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 12528000000
+                }
+            ]
         },
         {
             "planetId": 1404,
@@ -625,7 +952,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 1405,
@@ -633,10 +961,16 @@
             "starName": "Algomeyla",
             "networkCount": 1,
             "generationCapacityW": 7776000000,
-            "consumptionDemandW": 1006348920,
-            "actualConsumptionW": 1147098900,
+            "consumptionDemandW": 919693380,
+            "actualConsumptionW": 1062245100,
             "energyStored": 0,
-            "satisfactionPercent": 113.99
+            "satisfactionPercent": 115.5,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1944000000
+                }
+            ]
         },
         {
             "planetId": 4401,
@@ -647,7 +981,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 4402,
@@ -658,7 +993,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 4004,
@@ -669,7 +1005,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 4005,
@@ -680,7 +1017,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 4001,
@@ -691,7 +1029,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 4003,
@@ -702,7 +1041,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 4804,
@@ -713,7 +1053,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 4803,
@@ -724,7 +1065,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 5501,
@@ -735,7 +1077,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 5502,
@@ -746,7 +1089,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 5505,
@@ -757,7 +1101,8 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 6101,
@@ -768,29 +1113,37 @@
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 604,
-            "planetName": "\u03b6 Ursae Majoris IV MegaFarm",
-            "starName": "\u03b6 Ursae Majoris",
-            "networkCount": 2,
+            "planetName": "ζ Ursae Majoris IV MegaFarm",
+            "starName": "ζ Ursae Majoris",
+            "networkCount": 1,
             "generationCapacityW": 57024000000,
-            "consumptionDemandW": 39177202260,
-            "actualConsumptionW": 39266257980,
+            "consumptionDemandW": 39261845340,
+            "actualConsumptionW": 39350478660,
             "energyStored": 0,
-            "satisfactionPercent": 100.23
+            "satisfactionPercent": 100.23,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 14256000000
+                }
+            ]
         },
         {
             "planetId": 601,
-            "planetName": "\u03b6 Ursae Majoris I",
-            "starName": "\u03b6 Ursae Majoris",
+            "planetName": "ζ Ursae Majoris I",
+            "starName": "ζ Ursae Majoris",
             "networkCount": 0,
             "generationCapacityW": 0,
             "consumptionDemandW": 0,
             "actualConsumptionW": 0,
             "energyStored": 0,
-            "satisfactionPercent": 0
+            "satisfactionPercent": 0,
+            "generatorTypes": []
         },
         {
             "planetId": 2102,
@@ -798,10 +1151,16 @@
             "starName": "Almach",
             "networkCount": 1,
             "generationCapacityW": 4320000000,
-            "consumptionDemandW": 3818326800,
-            "actualConsumptionW": 3829248480,
+            "consumptionDemandW": 3695072880,
+            "actualConsumptionW": 3708677880,
             "energyStored": 0,
-            "satisfactionPercent": 100.29
+            "satisfactionPercent": 100.37,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1080000000
+                }
+            ]
         },
         {
             "planetId": 501,
@@ -809,10 +1168,16 @@
             "starName": "Atlas",
             "networkCount": 1,
             "generationCapacityW": 5184000000,
-            "consumptionDemandW": 2858614980,
-            "actualConsumptionW": 2909239860,
+            "consumptionDemandW": 2909259180,
+            "actualConsumptionW": 2958781500,
             "energyStored": 0,
-            "satisfactionPercent": 101.77
+            "satisfactionPercent": 101.7,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 1296000000
+                }
+            ]
         },
         {
             "planetId": 502,
@@ -823,7 +1188,13 @@
             "consumptionDemandW": 270864000,
             "actualConsumptionW": 302586600,
             "energyStored": 0,
-            "satisfactionPercent": 111.71
+            "satisfactionPercent": 111.71,
+            "generatorTypes": [
+                {
+                    "type": "artificial_star",
+                    "totalPowerW": 432000000
+                }
+            ]
         }
     ]
 }
