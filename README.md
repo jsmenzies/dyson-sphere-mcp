@@ -5,7 +5,8 @@ This project enables an AI agent to analyze and interact with "Dyson Sphere Prog
 <details>
 <summary><strong>Optional Web Frontend (Under Development)</strong></summary>
 
-A modern, real-time dashboard for visualizing your cluster's status. Built with **SvelteKit** and **Tailwind CSS**.
+> [!TIP]
+> **Web Frontend Overview**: A modern, real-time dashboard for visualizing your cluster's status. Built with **SvelteKit** and **Tailwind CSS**.
 
 ### Features
 - **Power Grid**: Real-time power generation/consumption breakdown by planet and generator type.
@@ -52,9 +53,9 @@ Access the dashboard at `http://localhost:5173`.
 │  │    Handlers        │◄─┼─────────┤  ┌───────────────────┐  │         │                      │
 │  │  • Game Data       │  │         │  │   FastAPI Server  │  │         │                      │
 │  │    Access          │  │         │  │   :8000           │  │         │                      │
-│  └────────────────────┘  │         │  │   (REST API)      │  │         │                      │
-│                          │         │  └───────────────────┘  │         │                      │
-└──────────────────────────┘         └─────────────────────────┘         └──────────────────────┘
+│  └────┬────────────┘  │         │  │   (REST API)      │  │         │                      │
+│       │              │         │  └───────────────────┘  │         │                      │
+└───────┘              └─────────┘                         └─────────┘                      └────────┘
      Game Runtime                        MCP Server Bridge                     AI Interface
 ```
 
@@ -229,17 +230,6 @@ dyson-sphere-mcp/
 ├── AGENTS.md            # Development guide
 └── PLAN.md              # Implementation roadmap
 ```
-
----
-
-## Requirements
-
-- **Game**: Dyson Sphere Program (Steam)
-- **Mod Manager**: r2modman (for BepInEx)
-- **.NET SDK**: For building the C# plugin
-- **Python 3.8+**: For running the MCP server
-- **uv**: Python package manager (recommended)
-- **Claude Code CLI**: For using MCP tools
 
 ---
 
