@@ -169,6 +169,34 @@ GET /api/config                    # Server configuration
 
 ---
 
+## Web Frontend
+
+A modern, real-time dashboard for visualizing your cluster's status. Built with **SvelteKit** and **Tailwind CSS**.
+
+### Features
+- **Power Grid**: Real-time power generation/consumption breakdown by planet and generator type.
+- **Research**: Track current tech progress, queue, and hash rate contribution per planet.
+- **Production**: Monitor global production rates and identify bottlenecks (coming soon).
+- **Logistics**: View interstellar transport routes and station status (coming soon).
+
+### Screenshots
+
+**Power Grid Overview**
+![Power Grid](screenshots/power_page_overview.png)
+
+**Research & Technology**
+![Research Breakdown](screenshots/research_page_overview.png)
+
+### Running the Frontend
+
+```bash
+./cmds/run-web.sh
+```
+
+Access the dashboard at `http://localhost:5173`.
+
+---
+
 ## Development
 
 See [`AGENTS.md`](AGENTS.md) for:
