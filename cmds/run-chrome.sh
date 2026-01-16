@@ -19,4 +19,5 @@ echo "Starting Google Chrome with remote debugging on port $PORT..."
 echo "User data directory: $USER_DATA_DIR"
 
 # Run in background to allow script to exit if needed, or user can run this script with &
-/usr/bin/google-chrome --remote-debugging-port=$PORT --user-data-dir=$USER_DATA_DIR --no-first-run --no-default-browser-check
+# /usr/bin/google-chrome --remote-debugging-port=$PORT --user-data-dir=$USER_DATA_DIR --no-first-run --no-default-browser-check
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=$PORT --user-data-dir=$USER_DATA_DIR --no-first-run --no-default-browser-check

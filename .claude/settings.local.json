@@ -92,9 +92,13 @@
       "Bash(head:*)",
       "Bash(ls:*)",
       "Bash(git -C /home/jsm/git/dyson-sphere-mcp diff --stat)",
-      "Bash(git -C /home/jsm/git/dyson-sphere-mcp log --oneline -5)"
+      "Bash(git -C /home/jsm/git/dyson-sphere-mcp log --oneline -5)",
+      "Bash(dotnet --version:*)",
+      "mcp__DecompilerServer__status",
+      "Bash(bun add:*)"
     ]
   },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "DysonSphereMCP",
     "DecompilerServer",
