@@ -1,11 +1,10 @@
 export interface Star {
     id: number;
     name: string;
+    displayName: string;
     position: { x: number; y: number; z: number };
     type: string;
-    mass: number;
-    lifetime: number;
-    age: number;
+    spectr: string;
     temperature: number;
     luminosity: number;
     radius: number;
@@ -59,3 +58,49 @@ export interface ProductionStat {
 }
 
 export type GeneratorType = 'solar' | 'wind' | 'gamma' | 'geothermal' | 'thermal' | 'fusion' | 'artificial_star';
+
+export interface Planet {
+    id: number;
+    name: string;
+    starId: number;
+    starName: string;
+    type: string;
+    singularity: string;
+    theme: number;
+    radius: number;
+    orbitRadius: number;
+    rotationPeriod: number;
+    obliquity: number;
+    orbitalPeriod: number;
+    position: { x: number; y: number; z: number };
+}
+
+export interface ShipTransport {
+    shipIndex: number;
+    originStationGId: number;
+    originPlanet: string;
+    destStationGId: number;
+    destPlanet: string;
+    itemCount: number;
+    stage: string;
+    t: number;
+    uSpeed: number;
+    distance: number;
+    remainingTicks: number;
+    remainingSeconds: number;
+}
+
+export interface ItemTransportResponse {
+    itemId: number;
+    itemName: string;
+    ships: ShipTransport[];
+}
+
+export interface RouteAggregation {
+    fromStar: Star;
+    toStar: Star;
+    shipCount: number;
+    totalItems: number;
+    forwardShips: number;  // Ships going from fromStar to toStar
+    backwardShips: number; // Ships going from toStar to fromStar
+}
