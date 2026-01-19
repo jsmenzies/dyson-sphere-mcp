@@ -1,26 +1,34 @@
 <script lang="ts">
-    import { createEventDispatcher } from 'svelte';
+    import { getIcon } from '$lib/utils/icon-utils';
 
-    export let items: Array<{ id: number; name: string }> = [];
-    export let selectedItem: { id: number; name: string } | null = null;
-    export let shipCount: number = 0;
+    interface Props {
+        items?: Array<{ id: number; name: string }>;
+        selectedItem?: { id: number; name: string } | null;
+        shipCount?: number;
+        onSelect?: (item: { id: number; name: string }) => void;
+    }
 
-    const dispatch = createEventDispatcher<{
-        select: { id: number; name: string };
-    }>();
+    let {
+        items = [],
+        selectedItem = $bindable(null),
+        shipCount = 0,
+        onSelect,
+    }: Props = $props();
 
-    let searchTerm = '';
-    let isOpen = false;
+    let searchTerm = $state("");
+    let isOpen = $state(false);
 
-    $: filteredItems = items.filter(item =>
-        item.name.toLowerCase().includes(searchTerm.toLowerCase())
+    let filteredItems = $derived(
+        items.filter((item) =>
+            item.name.toLowerCase().includes(searchTerm.toLowerCase()),
+        ),
     );
 
     function selectItem(item: { id: number; name: string }) {
         selectedItem = item;
         searchTerm = item.name;
         isOpen = false;
-        dispatch('select', item);
+        onSelect?.(item);
     }
 
     function handleFocus() {
@@ -40,8 +48,8 @@
         <input
             type="text"
             bind:value={searchTerm}
-            on:focus={handleFocus}
-            on:blur={handleBlur}
+            onfocus={handleFocus}
+            onblur={handleBlur}
             placeholder="Search items..."
             class="search-input"
         />
@@ -51,10 +59,17 @@
                 {#each filteredItems as item}
                     <button
                         class="dropdown-item"
-                        on:click={() => selectItem(item)}
+                        onclick={() => selectItem(item)}
                     >
-                        {item.name}
-                        <span class="item-id">#{item.id}</span>
+                        {#if getIcon(item.id)}
+                            <img src={getIcon(item.id)} alt={item.name} class="item-icon" />
+                        {:else}
+                            <span class="item-icon-placeholder">?</span>
+                        {/if}
+                        <span class="item-info">
+                            <span class="item-name-text">{item.name}</span>
+                            <span class="item-id">#{item.id}</span>
+                        </span>
                     </button>
                 {/each}
             </div>
@@ -63,6 +78,9 @@
 
     {#if selectedItem}
         <div class="selection-info">
+            {#if getIcon(selectedItem.id)}
+                <img src={getIcon(selectedItem.id)} alt={selectedItem.name} class="selected-icon" />
+            {/if}
             <span class="item-name">{selectedItem.name}</span>
             <span class="ship-count">{shipCount} ships in transit</span>
         </div>
@@ -128,7 +146,7 @@
         text-align: left;
         cursor: pointer;
         display: flex;
-        justify-content: space-between;
+        gap: 0.75rem;
         align-items: center;
         transition: background-color 0.15s;
     }
@@ -137,19 +155,58 @@
         background: rgba(0, 212, 255, 0.1);
     }
 
+    .item-icon {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        image-rendering: pixelated;
+    }
+
+    .item-icon-placeholder {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 0.75rem;
+    }
+
+    .item-info {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .item-name-text {
+        flex: 1;
+    }
+
     .item-id {
         color: rgba(160, 160, 176, 0.6);
         font-size: 0.75rem;
+        flex-shrink: 0;
     }
 
     .selection-info {
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: 0.75rem;
         padding: 0.5rem 1rem;
         background: rgba(13, 13, 26, 0.9);
         border-radius: 6px;
         border: 1px solid rgba(255, 149, 0, 0.3);
+    }
+
+    .selected-icon {
+        width: 24px;
+        height: 24px;
+        image-rendering: pixelated;
     }
 
     .item-name {

@@ -1,0 +1,621 @@
+{
+  "Annihilation Constraint Sphere": {
+    "icon": "/icons/items/high-res/annihilation_constraint_sphere.png",
+    "iconHighRes": "/icons/items/high-res/annihilation_constraint_sphere.png",
+    "iconLowRes": null,
+    "itemId": 1403,
+    "name": "Annihilation Constraint Sphere",
+    "wikiUrl": "https://dsp-wiki.com/Annihilation_Constraint_Sphere"
+  },
+  "Antimatter": {
+    "icon": "/icons/items/high-res/antimatter.png",
+    "iconHighRes": "/icons/items/high-res/antimatter.png",
+    "iconLowRes": null,
+    "itemId": 1122,
+    "name": "Antimatter",
+    "wikiUrl": "https://dsp-wiki.com/Antimatter"
+  },
+  "Antimatter Fuel Rod": {
+    "icon": "/icons/items/high-res/antimatter_fuel_rod.png",
+    "iconHighRes": "/icons/items/high-res/antimatter_fuel_rod.png",
+    "iconLowRes": null,
+    "itemId": 1803,
+    "name": "Antimatter Fuel Rod",
+    "wikiUrl": "https://dsp-wiki.com/Antimatter_Fuel_Rod"
+  },
+  "Carbon Nanotube": {
+    "icon": "/icons/items/high-res/carbon_nanotube.png",
+    "iconHighRes": "/icons/items/high-res/carbon_nanotube.png",
+    "iconLowRes": null,
+    "itemId": 1124,
+    "name": "Carbon Nanotube",
+    "wikiUrl": "https://dsp-wiki.com/Carbon_Nanotube"
+  },
+  "Casimir Crystal": {
+    "icon": "/icons/items/high-res/casimir_crystal.png",
+    "iconHighRes": "/icons/items/high-res/casimir_crystal.png",
+    "iconLowRes": null,
+    "itemId": 1126,
+    "name": "Casimir Crystal",
+    "wikiUrl": "https://dsp-wiki.com/Casimir_Crystal"
+  },
+  "Circuit Board": {
+    "icon": "/icons/items/high-res/circuit_board.png",
+    "iconHighRes": "/icons/items/high-res/circuit_board.png",
+    "iconLowRes": null,
+    "itemId": 1301,
+    "name": "Circuit Board",
+    "wikiUrl": "https://dsp-wiki.com/Circuit_Board"
+  },
+  "Coal Ore": {
+    "icon": "/icons/items/high-res/coal_ore.png",
+    "iconHighRes": "/icons/items/high-res/coal_ore.png",
+    "iconLowRes": null,
+    "name": "Coal Ore",
+    "wikiUrl": "https://dsp-wiki.com/Coal_Ore"
+  },
+  "Copper Ingot": {
+    "icon": "/icons/items/high-res/copper_ingot.png",
+    "iconHighRes": "/icons/items/high-res/copper_ingot.png",
+    "iconLowRes": null,
+    "itemId": 1104,
+    "name": "Copper Ingot",
+    "wikiUrl": "https://dsp-wiki.com/Copper_Ingot"
+  },
+  "Copper Ore": {
+    "icon": "/icons/items/high-res/copper_ore.png",
+    "iconHighRes": "/icons/items/high-res/copper_ore.png",
+    "iconLowRes": null,
+    "itemId": 1002,
+    "name": "Copper Ore",
+    "wikiUrl": "https://dsp-wiki.com/Copper_Ore"
+  },
+  "Critical Photon": {
+    "icon": "/icons/items/high-res/critical_photon.png",
+    "iconHighRes": "/icons/items/high-res/critical_photon.png",
+    "iconLowRes": null,
+    "itemId": 1208,
+    "name": "Critical Photon",
+    "wikiUrl": "https://dsp-wiki.com/Critical_Photon"
+  },
+  "Crude Oil": {
+    "icon": "/icons/items/high-res/crude_oil.png",
+    "iconHighRes": "/icons/items/high-res/crude_oil.png",
+    "iconLowRes": null,
+    "itemId": 1007,
+    "name": "Crude Oil",
+    "wikiUrl": "https://dsp-wiki.com/Crude_Oil"
+  },
+  "Crystal Silicon": {
+    "icon": "/icons/items/high-res/crystal_silicon.png",
+    "iconHighRes": "/icons/items/high-res/crystal_silicon.png",
+    "iconLowRes": null,
+    "itemId": 1113,
+    "name": "Crystal Silicon",
+    "wikiUrl": "https://dsp-wiki.com/Crystal_Silicon"
+  },
+  "Deuterium": {
+    "icon": "/icons/items/high-res/deuterium.png",
+    "iconHighRes": "/icons/items/high-res/deuterium.png",
+    "iconLowRes": null,
+    "itemId": 1121,
+    "name": "Deuterium",
+    "wikiUrl": "https://dsp-wiki.com/Deuterium"
+  },
+  "Deuteron Fuel Rod": {
+    "icon": "/icons/items/high-res/deuteron_fuel_rod.png",
+    "iconHighRes": "/icons/items/high-res/deuteron_fuel_rod.png",
+    "iconLowRes": null,
+    "itemId": 1802,
+    "name": "Deuteron Fuel Rod",
+    "wikiUrl": "https://dsp-wiki.com/Deuteron_Fuel_Rod"
+  },
+  "Diamond": {
+    "icon": "/icons/items/high-res/diamond.png",
+    "iconHighRes": "/icons/items/high-res/diamond.png",
+    "iconLowRes": null,
+    "itemId": 1112,
+    "name": "Diamond",
+    "wikiUrl": "https://dsp-wiki.com/Diamond"
+  },
+  "Dyson Sphere Component": {
+    "icon": "/icons/items/high-res/dyson_sphere_component.png",
+    "iconHighRes": "/icons/items/high-res/dyson_sphere_component.png",
+    "iconLowRes": null,
+    "itemId": 1502,
+    "name": "Dyson Sphere Component",
+    "wikiUrl": "https://dsp-wiki.com/Dyson_Sphere_Component"
+  },
+  "Electric Motor": {
+    "icon": "/icons/items/high-res/electric_motor.png",
+    "iconHighRes": "/icons/items/high-res/electric_motor.png",
+    "iconLowRes": null,
+    "itemId": 1203,
+    "name": "Electric Motor",
+    "wikiUrl": "https://dsp-wiki.com/Electric_Motor"
+  },
+  "Electromagnetic Matrix": {
+    "icon": "/icons/items/high-res/electromagnetic_matrix.png",
+    "iconHighRes": "/icons/items/high-res/electromagnetic_matrix.png",
+    "iconLowRes": null,
+    "itemId": 6001,
+    "name": "Electromagnetic Matrix",
+    "wikiUrl": "https://dsp-wiki.com/Electromagnetic_Matrix"
+  },
+  "Electromagnetic Turbine": {
+    "icon": "/icons/items/high-res/electromagnetic_turbine.png",
+    "iconHighRes": "/icons/items/high-res/electromagnetic_turbine.png",
+    "iconLowRes": null,
+    "itemId": 1204,
+    "name": "Electromagnetic Turbine",
+    "wikiUrl": "https://dsp-wiki.com/Electromagnetic_Turbine"
+  },
+  "Energetic Graphite": {
+    "icon": "/icons/items/high-res/energetic_graphite.png",
+    "iconHighRes": "/icons/items/high-res/energetic_graphite.png",
+    "iconLowRes": null,
+    "itemId": 1109,
+    "name": "Energetic Graphite",
+    "wikiUrl": "https://dsp-wiki.com/Energetic_Graphite"
+  },
+  "Energy Matrix": {
+    "icon": "/icons/items/high-res/energy_matrix.png",
+    "iconHighRes": "/icons/items/high-res/energy_matrix.png",
+    "iconLowRes": null,
+    "itemId": 6002,
+    "name": "Energy Matrix",
+    "wikiUrl": "https://dsp-wiki.com/Energy_Matrix"
+  },
+  "Fire Ice": {
+    "icon": "/icons/items/high-res/fire_ice.png",
+    "iconHighRes": "/icons/items/high-res/fire_ice.png",
+    "iconLowRes": null,
+    "itemId": 1011,
+    "name": "Fire Ice",
+    "wikiUrl": "https://dsp-wiki.com/Fire_Ice"
+  },
+  "Foundation": {
+    "icon": "/icons/items/high-res/foundation.png",
+    "iconHighRes": "/icons/items/high-res/foundation.png",
+    "iconLowRes": null,
+    "itemId": 1131,
+    "name": "Foundation",
+    "wikiUrl": "https://dsp-wiki.com/Foundation"
+  },
+  "Fractal Silicon": {
+    "icon": "/icons/items/high-res/fractal_silicon.png",
+    "iconHighRes": "/icons/items/high-res/fractal_silicon.png",
+    "iconLowRes": null,
+    "itemId": 1013,
+    "name": "Fractal Silicon",
+    "wikiUrl": "https://dsp-wiki.com/Fractal_Silicon"
+  },
+  "Frame Material": {
+    "icon": "/icons/items/high-res/frame_material.png",
+    "iconHighRes": "/icons/items/high-res/frame_material.png",
+    "iconLowRes": null,
+    "itemId": 1125,
+    "name": "Frame Material",
+    "wikiUrl": "https://dsp-wiki.com/Frame_Material"
+  },
+  "Gear": {
+    "icon": "/icons/items/high-res/gear.png",
+    "iconHighRes": "/icons/items/high-res/gear.png",
+    "iconLowRes": null,
+    "itemId": 1201,
+    "name": "Gear",
+    "wikiUrl": "https://dsp-wiki.com/Gear"
+  },
+  "Glass": {
+    "icon": "/icons/items/high-res/glass.png",
+    "iconHighRes": "/icons/items/high-res/glass.png",
+    "iconLowRes": null,
+    "itemId": 1110,
+    "name": "Glass",
+    "wikiUrl": "https://dsp-wiki.com/Glass"
+  },
+  "Graphene": {
+    "icon": "/icons/items/high-res/graphene.png",
+    "iconHighRes": "/icons/items/high-res/graphene.png",
+    "iconLowRes": null,
+    "itemId": 1123,
+    "name": "Graphene",
+    "wikiUrl": "https://dsp-wiki.com/Graphene"
+  },
+  "Graviton Lens": {
+    "icon": "/icons/items/high-res/graviton_lens.png",
+    "iconHighRes": "/icons/items/high-res/graviton_lens.png",
+    "iconLowRes": null,
+    "itemId": 1209,
+    "name": "Graviton Lens",
+    "wikiUrl": "https://dsp-wiki.com/Graviton_Lens"
+  },
+  "Gravity Matrix": {
+    "icon": "/icons/items/high-res/gravity_matrix.png",
+    "iconHighRes": "/icons/items/high-res/gravity_matrix.png",
+    "iconLowRes": null,
+    "itemId": 6005,
+    "name": "Gravity Matrix",
+    "wikiUrl": "https://dsp-wiki.com/Gravity_Matrix"
+  },
+  "High-Purity Silicon": {
+    "icon": "/icons/items/high-res/high_purity_silicon.png",
+    "iconHighRes": "/icons/items/high-res/high_purity_silicon.png",
+    "iconLowRes": null,
+    "itemId": 1105,
+    "name": "High-Purity Silicon",
+    "wikiUrl": "https://dsp-wiki.com/High-Purity_Silicon"
+  },
+  "Hydrogen": {
+    "icon": "/icons/items/high-res/hydrogen.png",
+    "iconHighRes": "/icons/items/high-res/hydrogen.png",
+    "iconLowRes": null,
+    "itemId": 1120,
+    "name": "Hydrogen",
+    "wikiUrl": "https://dsp-wiki.com/Hydrogen"
+  },
+  "Hydrogen Fuel Rod": {
+    "icon": "/icons/items/high-res/hydrogen_fuel_rod.png",
+    "iconHighRes": "/icons/items/high-res/hydrogen_fuel_rod.png",
+    "iconLowRes": null,
+    "itemId": 1801,
+    "name": "Hydrogen Fuel Rod",
+    "wikiUrl": "https://dsp-wiki.com/Hydrogen_Fuel_Rod"
+  },
+  "Information Matrix": {
+    "icon": "/icons/items/high-res/information_matrix.png",
+    "iconHighRes": "/icons/items/high-res/information_matrix.png",
+    "iconLowRes": null,
+    "itemId": 6004,
+    "name": "Information Matrix",
+    "wikiUrl": "https://dsp-wiki.com/Information_Matrix"
+  },
+  "Iron Ingot": {
+    "icon": "/icons/items/high-res/iron_ingot.png",
+    "iconHighRes": "/icons/items/high-res/iron_ingot.png",
+    "iconLowRes": null,
+    "itemId": 1101,
+    "name": "Iron Ingot",
+    "wikiUrl": "https://dsp-wiki.com/Iron_Ingot"
+  },
+  "Iron Ore": {
+    "icon": "/icons/items/high-res/iron_ore.png",
+    "iconHighRes": "/icons/items/high-res/iron_ore.png",
+    "iconLowRes": null,
+    "itemId": 1001,
+    "name": "Iron Ore",
+    "wikiUrl": "https://dsp-wiki.com/Iron_Ore"
+  },
+  "Kimberlite Ore": {
+    "icon": "/icons/items/high-res/kimberlite_ore.png",
+    "iconHighRes": "/icons/items/high-res/kimberlite_ore.png",
+    "iconLowRes": null,
+    "itemId": 1012,
+    "name": "Kimberlite Ore",
+    "wikiUrl": "https://dsp-wiki.com/Kimberlite_Ore"
+  },
+  "Log": {
+    "icon": "/icons/items/high-res/log.png",
+    "iconHighRes": "/icons/items/high-res/log.png",
+    "iconLowRes": null,
+    "itemId": 1030,
+    "name": "Log",
+    "wikiUrl": "https://dsp-wiki.com/Log"
+  },
+  "Logistics Drone": {
+    "icon": "/icons/items/high-res/logistics_drone.png",
+    "iconHighRes": "/icons/items/high-res/logistics_drone.png",
+    "iconLowRes": null,
+    "itemId": 5001,
+    "name": "Logistics Drone",
+    "wikiUrl": "https://dsp-wiki.com/Logistics_Drone"
+  },
+  "Logistics Vessel": {
+    "icon": "/icons/items/high-res/logistics_vessel.png",
+    "iconHighRes": "/icons/items/high-res/logistics_vessel.png",
+    "iconLowRes": null,
+    "name": "Logistics Vessel",
+    "wikiUrl": "https://dsp-wiki.com/Logistics_Vessel"
+  },
+  "Magnet": {
+    "icon": "/icons/items/high-res/magnet.png",
+    "iconHighRes": "/icons/items/high-res/magnet.png",
+    "iconLowRes": null,
+    "itemId": 1102,
+    "name": "Magnet",
+    "wikiUrl": "https://dsp-wiki.com/Magnet"
+  },
+  "Magnetic Coil": {
+    "icon": "/icons/items/high-res/magnetic_coil.png",
+    "iconHighRes": "/icons/items/high-res/magnetic_coil.png",
+    "iconLowRes": null,
+    "itemId": 1202,
+    "name": "Magnetic Coil",
+    "wikiUrl": "https://dsp-wiki.com/Magnetic_Coil"
+  },
+  "Microcrystalline Component": {
+    "icon": "/icons/items/high-res/microcrystalline_component.png",
+    "iconHighRes": "/icons/items/high-res/microcrystalline_component.png",
+    "iconLowRes": null,
+    "itemId": 1302,
+    "name": "Microcrystalline Component",
+    "wikiUrl": "https://dsp-wiki.com/Microcrystalline_Component"
+  },
+  "Optical Grating Crystal": {
+    "icon": "/icons/items/high-res/optical_grating_crystal.png",
+    "iconHighRes": "/icons/items/high-res/optical_grating_crystal.png",
+    "iconLowRes": null,
+    "name": "Optical Grating Crystal",
+    "wikiUrl": "https://dsp-wiki.com/Optical_Grating_Crystal"
+  },
+  "Organic Crystal": {
+    "icon": "/icons/items/high-res/organic_crystal.png",
+    "iconHighRes": "/icons/items/high-res/organic_crystal.png",
+    "iconLowRes": null,
+    "itemId": 1117,
+    "name": "Organic Crystal",
+    "wikiUrl": "https://dsp-wiki.com/Organic_Crystal"
+  },
+  "Particle Broadband": {
+    "icon": "/icons/items/high-res/particle_broadband.png",
+    "iconHighRes": "/icons/items/high-res/particle_broadband.png",
+    "iconLowRes": null,
+    "itemId": 1402,
+    "name": "Particle Broadband",
+    "wikiUrl": "https://dsp-wiki.com/Particle_Broadband"
+  },
+  "Particle Container": {
+    "icon": "/icons/items/high-res/particle_container.png",
+    "iconHighRes": "/icons/items/high-res/particle_container.png",
+    "iconLowRes": null,
+    "itemId": 1206,
+    "name": "Particle Container",
+    "wikiUrl": "https://dsp-wiki.com/Particle_Container"
+  },
+  "Photon Combiner": {
+    "icon": "/icons/items/high-res/photon_combiner.png",
+    "iconHighRes": "/icons/items/high-res/photon_combiner.png",
+    "iconLowRes": null,
+    "itemId": 1404,
+    "name": "Photon Combiner",
+    "wikiUrl": "https://dsp-wiki.com/Photon_Combiner"
+  },
+  "Plane Filter": {
+    "icon": "/icons/items/high-res/plane_filter.png",
+    "iconHighRes": "/icons/items/high-res/plane_filter.png",
+    "iconLowRes": null,
+    "itemId": 1304,
+    "name": "Plane Filter",
+    "wikiUrl": "https://dsp-wiki.com/Plane_Filter"
+  },
+  "Plant Fuel": {
+    "icon": "/icons/items/high-res/plant_fuel.png",
+    "iconHighRes": "/icons/items/high-res/plant_fuel.png",
+    "iconLowRes": null,
+    "itemId": 1031,
+    "name": "Plant Fuel",
+    "wikiUrl": "https://dsp-wiki.com/Plant_Fuel"
+  },
+  "Plasma Exciter": {
+    "icon": "/icons/items/high-res/plasma_exciter.png",
+    "iconHighRes": "/icons/items/high-res/plasma_exciter.png",
+    "iconLowRes": null,
+    "itemId": 1401,
+    "name": "Plasma Exciter",
+    "wikiUrl": "https://dsp-wiki.com/Plasma_Exciter"
+  },
+  "Plastic": {
+    "icon": "/icons/items/high-res/plastic.png",
+    "iconHighRes": "/icons/items/high-res/plastic.png",
+    "iconLowRes": null,
+    "itemId": 1115,
+    "name": "Plastic",
+    "wikiUrl": "https://dsp-wiki.com/Plastic"
+  },
+  "Prism": {
+    "icon": "/icons/items/high-res/prism.png",
+    "iconHighRes": "/icons/items/high-res/prism.png",
+    "iconLowRes": null,
+    "itemId": 1111,
+    "name": "Prism",
+    "wikiUrl": "https://dsp-wiki.com/Prism"
+  },
+  "Processor": {
+    "icon": "/icons/items/high-res/processor.png",
+    "iconHighRes": "/icons/items/high-res/processor.png",
+    "iconLowRes": null,
+    "itemId": 1303,
+    "name": "Processor",
+    "wikiUrl": "https://dsp-wiki.com/Processor"
+  },
+  "Quantum Chip": {
+    "icon": "/icons/items/high-res/quantum_chip.png",
+    "iconHighRes": "/icons/items/high-res/quantum_chip.png",
+    "iconLowRes": null,
+    "itemId": 1305,
+    "name": "Quantum Chip",
+    "wikiUrl": "https://dsp-wiki.com/Quantum_Chip"
+  },
+  "Refined Oil": {
+    "icon": "/icons/items/high-res/refined_oil.png",
+    "iconHighRes": "/icons/items/high-res/refined_oil.png",
+    "iconLowRes": null,
+    "itemId": 1114,
+    "name": "Refined Oil",
+    "wikiUrl": "https://dsp-wiki.com/Refined_Oil"
+  },
+  "Reinforced Thruster": {
+    "icon": "/icons/items/high-res/reinforced_thruster.png",
+    "iconHighRes": "/icons/items/high-res/reinforced_thruster.png",
+    "iconLowRes": null,
+    "itemId": 1406,
+    "name": "Reinforced Thruster",
+    "wikiUrl": "https://dsp-wiki.com/Reinforced_Thruster"
+  },
+  "Silicon Ore": {
+    "icon": "/icons/items/high-res/silicon_ore.png",
+    "iconHighRes": "/icons/items/high-res/silicon_ore.png",
+    "iconLowRes": null,
+    "itemId": 1003,
+    "name": "Silicon Ore",
+    "wikiUrl": "https://dsp-wiki.com/Silicon_Ore"
+  },
+  "Small Carrier Rocket": {
+    "icon": "/icons/items/high-res/small_carrier_rocket.png",
+    "iconHighRes": "/icons/items/high-res/small_carrier_rocket.png",
+    "iconLowRes": null,
+    "itemId": 1503,
+    "name": "Small Carrier Rocket",
+    "wikiUrl": "https://dsp-wiki.com/Small_Carrier_Rocket"
+  },
+  "Solar Sail": {
+    "icon": "/icons/items/high-res/solar_sail.png",
+    "iconHighRes": "/icons/items/high-res/solar_sail.png",
+    "iconLowRes": null,
+    "itemId": 1501,
+    "name": "Solar Sail",
+    "wikiUrl": "https://dsp-wiki.com/Solar_Sail"
+  },
+  "Space Warper": {
+    "icon": "/icons/items/high-res/space_warper.png",
+    "iconHighRes": "/icons/items/high-res/space_warper.png",
+    "iconLowRes": null,
+    "itemId": 1210,
+    "name": "Space Warper",
+    "wikiUrl": "https://dsp-wiki.com/Space_Warper"
+  },
+  "Spiniform Stalagmite Crystal": {
+    "icon": "/icons/items/high-res/spiniform_stalagmite_crystal.png",
+    "iconHighRes": "/icons/items/high-res/spiniform_stalagmite_crystal.png",
+    "iconLowRes": null,
+    "name": "Spiniform Stalagmite Crystal",
+    "wikiUrl": "https://dsp-wiki.com/Spiniform_Stalagmite_Crystal"
+  },
+  "Steel": {
+    "icon": "/icons/items/high-res/steel.png",
+    "iconHighRes": "/icons/items/high-res/steel.png",
+    "iconLowRes": null,
+    "itemId": 1103,
+    "name": "Steel",
+    "wikiUrl": "https://dsp-wiki.com/Steel"
+  },
+  "Stone Brick": {
+    "icon": "/icons/items/high-res/stone_brick.png",
+    "iconHighRes": "/icons/items/high-res/stone_brick.png",
+    "iconLowRes": null,
+    "itemId": 1108,
+    "name": "Stone Brick",
+    "wikiUrl": "https://dsp-wiki.com/Stone_Brick"
+  },
+  "Stone Ore": {
+    "icon": "/icons/items/high-res/stone_ore.png",
+    "iconHighRes": "/icons/items/high-res/stone_ore.png",
+    "iconLowRes": null,
+    "name": "Stone Ore",
+    "wikiUrl": "https://dsp-wiki.com/Stone_Ore"
+  },
+  "Strange Matter": {
+    "icon": "/icons/items/high-res/strange_matter.png",
+    "iconHighRes": "/icons/items/high-res/strange_matter.png",
+    "iconLowRes": null,
+    "itemId": 1127,
+    "name": "Strange Matter",
+    "wikiUrl": "https://dsp-wiki.com/Strange_Matter"
+  },
+  "Structure Matrix": {
+    "icon": "/icons/items/high-res/structure_matrix.png",
+    "iconHighRes": "/icons/items/high-res/structure_matrix.png",
+    "iconLowRes": null,
+    "itemId": 6003,
+    "name": "Structure Matrix",
+    "wikiUrl": "https://dsp-wiki.com/Structure_Matrix"
+  },
+  "Sulfuric Acid": {
+    "icon": "/icons/items/high-res/sulfuric_acid.png",
+    "iconHighRes": "/icons/items/high-res/sulfuric_acid.png",
+    "iconLowRes": null,
+    "itemId": 1116,
+    "name": "Sulfuric Acid",
+    "wikiUrl": "https://dsp-wiki.com/Sulfuric_Acid"
+  },
+  "Super-Magnetic Ring": {
+    "icon": "/icons/items/high-res/super_magnetic_ring.png",
+    "iconHighRes": "/icons/items/high-res/super_magnetic_ring.png",
+    "iconLowRes": null,
+    "itemId": 1205,
+    "name": "Super-Magnetic Ring",
+    "wikiUrl": "https://dsp-wiki.com/Super-Magnetic_Ring"
+  },
+  "Thruster": {
+    "icon": "/icons/items/high-res/thruster.png",
+    "iconHighRes": "/icons/items/high-res/thruster.png",
+    "iconLowRes": null,
+    "itemId": 1405,
+    "name": "Thruster",
+    "wikiUrl": "https://dsp-wiki.com/Thruster"
+  },
+  "Titanium Alloy": {
+    "icon": "/icons/items/high-res/titanium_alloy.png",
+    "iconHighRes": "/icons/items/high-res/titanium_alloy.png",
+    "iconLowRes": null,
+    "itemId": 1107,
+    "name": "Titanium Alloy",
+    "wikiUrl": "https://dsp-wiki.com/Titanium_Alloy"
+  },
+  "Titanium Crystal": {
+    "icon": "/icons/items/high-res/titanium_crystal.png",
+    "iconHighRes": "/icons/items/high-res/titanium_crystal.png",
+    "iconLowRes": null,
+    "itemId": 1118,
+    "name": "Titanium Crystal",
+    "wikiUrl": "https://dsp-wiki.com/Titanium_Crystal"
+  },
+  "Titanium Glass": {
+    "icon": "/icons/items/high-res/titanium_glass.png",
+    "iconHighRes": "/icons/items/high-res/titanium_glass.png",
+    "iconLowRes": null,
+    "itemId": 1119,
+    "name": "Titanium Glass",
+    "wikiUrl": "https://dsp-wiki.com/Titanium_Glass"
+  },
+  "Titanium Ingot": {
+    "icon": "/icons/items/high-res/titanium_ingot.png",
+    "iconHighRes": "/icons/items/high-res/titanium_ingot.png",
+    "iconLowRes": null,
+    "itemId": 1106,
+    "name": "Titanium Ingot",
+    "wikiUrl": "https://dsp-wiki.com/Titanium_Ingot"
+  },
+  "Titanium Ore": {
+    "icon": "/icons/items/high-res/titanium_ore.png",
+    "iconHighRes": "/icons/items/high-res/titanium_ore.png",
+    "iconLowRes": null,
+    "itemId": 1004,
+    "name": "Titanium Ore",
+    "wikiUrl": "https://dsp-wiki.com/Titanium_Ore"
+  },
+  "Unipolar Magnet": {
+    "icon": "/icons/items/high-res/unipolar_magnet.png",
+    "iconHighRes": "/icons/items/high-res/unipolar_magnet.png",
+    "iconLowRes": null,
+    "itemId": 1016,
+    "name": "Unipolar Magnet",
+    "wikiUrl": "https://dsp-wiki.com/Unipolar_Magnet"
+  },
+  "Universe Matrix": {
+    "icon": "/icons/items/high-res/universe_matrix.png",
+    "iconHighRes": "/icons/items/high-res/universe_matrix.png",
+    "iconLowRes": null,
+    "itemId": 6006,
+    "name": "Universe Matrix",
+    "wikiUrl": "https://dsp-wiki.com/Universe_Matrix"
+  },
+  "Water": {
+    "icon": "/icons/items/high-res/water.png",
+    "iconHighRes": "/icons/items/high-res/water.png",
+    "iconLowRes": null,
+    "itemId": 1000,
+    "name": "Water",
+    "wikiUrl": "https://dsp-wiki.com/Water"
+  }
+}

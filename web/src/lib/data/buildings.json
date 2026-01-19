@@ -1,0 +1,319 @@
+{
+  "Accumulator": {
+    "icon": "/icons/buildings/high-res/accumulator.png",
+    "iconHighRes": "/icons/buildings/high-res/accumulator.png",
+    "iconLowRes": null,
+    "itemId": 2206,
+    "name": "Accumulator",
+    "wikiUrl": "https://dsp-wiki.com/Accumulator"
+  },
+  "Accumulator (Full)": {
+    "icon": "/icons/buildings/high-res/accumulator_full.png",
+    "iconHighRes": "/icons/buildings/high-res/accumulator_full.png",
+    "iconLowRes": null,
+    "itemId": 2207,
+    "name": "Accumulator (Full)",
+    "wikiUrl": "https://dsp-wiki.com/Accumulator_(Full)"
+  },
+  "Artificial star": {
+    "icon": "/icons/buildings/high-res/artificial_star.png",
+    "iconHighRes": "/icons/buildings/high-res/artificial_star.png",
+    "iconLowRes": null,
+    "name": "Artificial star",
+    "wikiUrl": "https://dsp-wiki.com/Artificial_star"
+  },
+  "Assembling Machine Mk.I": {
+    "icon": "/icons/buildings/high-res/assembling_machine_mki.png",
+    "iconHighRes": "/icons/buildings/high-res/assembling_machine_mki.png",
+    "iconLowRes": null,
+    "itemId": 2303,
+    "name": "Assembling Machine Mk.I",
+    "wikiUrl": "https://dsp-wiki.com/Assembling_Machine_Mk.I"
+  },
+  "Assembling Machine Mk.II": {
+    "icon": "/icons/buildings/high-res/assembling_machine_mkii.png",
+    "iconHighRes": "/icons/buildings/high-res/assembling_machine_mkii.png",
+    "iconLowRes": null,
+    "itemId": 2304,
+    "name": "Assembling Machine Mk.II",
+    "wikiUrl": "https://dsp-wiki.com/Assembling_Machine_Mk.II"
+  },
+  "Assembling Machine Mk.III": {
+    "icon": "/icons/buildings/high-res/assembling_machine_mkiii.png",
+    "iconHighRes": "/icons/buildings/high-res/assembling_machine_mkiii.png",
+    "iconLowRes": null,
+    "itemId": 2305,
+    "name": "Assembling Machine Mk.III",
+    "wikiUrl": "https://dsp-wiki.com/Assembling_Machine_Mk.III"
+  },
+  "Chemical Plant": {
+    "icon": "/icons/buildings/high-res/chemical_plant.png",
+    "iconHighRes": "/icons/buildings/high-res/chemical_plant.png",
+    "iconLowRes": null,
+    "itemId": 2309,
+    "name": "Chemical Plant",
+    "wikiUrl": "https://dsp-wiki.com/Chemical_Plant"
+  },
+  "Conveyor Belt Mk.I": {
+    "icon": "/icons/buildings/high-res/conveyor_belt_mki.png",
+    "iconHighRes": "/icons/buildings/high-res/conveyor_belt_mki.png",
+    "iconLowRes": null,
+    "name": "Conveyor Belt Mk.I",
+    "wikiUrl": "https://dsp-wiki.com/Conveyor_Belt_Mk.I"
+  },
+  "Conveyor Belt Mk.II": {
+    "icon": "/icons/buildings/high-res/conveyor_belt_mkii.png",
+    "iconHighRes": "/icons/buildings/high-res/conveyor_belt_mkii.png",
+    "iconLowRes": null,
+    "name": "Conveyor Belt Mk.II",
+    "wikiUrl": "https://dsp-wiki.com/Conveyor_Belt_Mk.II"
+  },
+  "Conveyor Belt Mk.III": {
+    "icon": "/icons/buildings/high-res/conveyor_belt_mkiii.png",
+    "iconHighRes": "/icons/buildings/high-res/conveyor_belt_mkiii.png",
+    "iconLowRes": null,
+    "name": "Conveyor Belt Mk.III",
+    "wikiUrl": "https://dsp-wiki.com/Conveyor_Belt_Mk.III"
+  },
+  "EM-Rail Ejector": {
+    "icon": "/icons/buildings/high-res/em_rail_ejector.png",
+    "iconHighRes": "/icons/buildings/high-res/em_rail_ejector.png",
+    "iconLowRes": null,
+    "itemId": 2311,
+    "name": "EM-Rail Ejector",
+    "wikiUrl": "https://dsp-wiki.com/EM-Rail_Ejector"
+  },
+  "Energy Exchanger": {
+    "icon": "/icons/buildings/high-res/energy_exchanger.png",
+    "iconHighRes": "/icons/buildings/high-res/energy_exchanger.png",
+    "iconLowRes": null,
+    "itemId": 2209,
+    "name": "Energy Exchanger",
+    "wikiUrl": "https://dsp-wiki.com/Energy_Exchanger"
+  },
+  "Fractionator": {
+    "icon": "/icons/buildings/high-res/fractionator.png",
+    "iconHighRes": "/icons/buildings/high-res/fractionator.png",
+    "iconLowRes": null,
+    "itemId": 2314,
+    "name": "Fractionator",
+    "wikiUrl": "https://dsp-wiki.com/Fractionator"
+  },
+  "Interstellar Logistics Station": {
+    "icon": "/icons/buildings/high-res/interstellar_logistics_station.png",
+    "iconHighRes": "/icons/buildings/high-res/interstellar_logistics_station.png",
+    "iconLowRes": null,
+    "itemId": 2104,
+    "name": "Interstellar Logistics Station",
+    "wikiUrl": "https://dsp-wiki.com/Interstellar_Logistics_Station"
+  },
+  "Matrix Lab": {
+    "icon": "/icons/buildings/high-res/matrix_lab.png",
+    "iconHighRes": "/icons/buildings/high-res/matrix_lab.png",
+    "iconLowRes": null,
+    "itemId": 2901,
+    "name": "Matrix Lab",
+    "wikiUrl": "https://dsp-wiki.com/Matrix_Lab"
+  },
+  "Mini Fusion Power Plant": {
+    "icon": "/icons/buildings/high-res/mini_fusion_power_plant.png",
+    "iconHighRes": "/icons/buildings/high-res/mini_fusion_power_plant.png",
+    "iconLowRes": null,
+    "itemId": 2211,
+    "name": "Mini Fusion Power Plant",
+    "wikiUrl": "https://dsp-wiki.com/Mini_Fusion_Power_Plant"
+  },
+  "Miniature Particle Collider": {
+    "icon": "/icons/buildings/high-res/miniature_particle_collider.png",
+    "iconHighRes": "/icons/buildings/high-res/miniature_particle_collider.png",
+    "iconLowRes": null,
+    "itemId": 2310,
+    "name": "Miniature Particle Collider",
+    "wikiUrl": "https://dsp-wiki.com/Miniature_Particle_Collider"
+  },
+  "Mining Machine": {
+    "icon": "/icons/buildings/high-res/mining_machine.png",
+    "iconHighRes": "/icons/buildings/high-res/mining_machine.png",
+    "iconLowRes": null,
+    "itemId": 2301,
+    "name": "Mining Machine",
+    "wikiUrl": "https://dsp-wiki.com/Mining_Machine"
+  },
+  "Oil Extractor": {
+    "icon": "/icons/buildings/high-res/oil_extractor.png",
+    "iconHighRes": "/icons/buildings/high-res/oil_extractor.png",
+    "iconLowRes": null,
+    "itemId": 2307,
+    "name": "Oil Extractor",
+    "wikiUrl": "https://dsp-wiki.com/Oil_Extractor"
+  },
+  "Oil Refinery": {
+    "icon": "/icons/buildings/high-res/oil_refinery.png",
+    "iconHighRes": "/icons/buildings/high-res/oil_refinery.png",
+    "iconLowRes": null,
+    "itemId": 2308,
+    "name": "Oil Refinery",
+    "wikiUrl": "https://dsp-wiki.com/Oil_Refinery"
+  },
+  "Orbital Collector": {
+    "icon": "/icons/buildings/high-res/orbital_collector.png",
+    "iconHighRes": "/icons/buildings/high-res/orbital_collector.png",
+    "iconLowRes": null,
+    "itemId": 2105,
+    "name": "Orbital Collector",
+    "wikiUrl": "https://dsp-wiki.com/Orbital_Collector"
+  },
+  "Plane Smelter": {
+    "icon": "/icons/buildings/high-res/plane_smelter.png",
+    "iconHighRes": "/icons/buildings/high-res/plane_smelter.png",
+    "iconLowRes": null,
+    "itemId": 2315,
+    "name": "Plane Smelter",
+    "wikiUrl": "https://dsp-wiki.com/Plane_Smelter"
+  },
+  "Planetary Logistics Station": {
+    "icon": "/icons/buildings/high-res/planetary_logistics_station.png",
+    "iconHighRes": "/icons/buildings/high-res/planetary_logistics_station.png",
+    "iconLowRes": null,
+    "itemId": 2103,
+    "name": "Planetary Logistics Station",
+    "wikiUrl": "https://dsp-wiki.com/Planetary_Logistics_Station"
+  },
+  "Ray Receiver": {
+    "icon": "/icons/buildings/high-res/ray_receiver.png",
+    "iconHighRes": "/icons/buildings/high-res/ray_receiver.png",
+    "iconLowRes": null,
+    "itemId": 2208,
+    "name": "Ray Receiver",
+    "wikiUrl": "https://dsp-wiki.com/Ray_Receiver"
+  },
+  "Satellite Substation": {
+    "icon": "/icons/buildings/high-res/satellite_substation.png",
+    "iconHighRes": "/icons/buildings/high-res/satellite_substation.png",
+    "iconLowRes": null,
+    "itemId": 2212,
+    "name": "Satellite Substation",
+    "wikiUrl": "https://dsp-wiki.com/Satellite_Substation"
+  },
+  "Smelter": {
+    "icon": "/icons/buildings/high-res/smelter.png",
+    "iconHighRes": "/icons/buildings/high-res/smelter.png",
+    "iconLowRes": null,
+    "name": "Smelter",
+    "wikiUrl": "https://dsp-wiki.com/Smelter"
+  },
+  "Solar Panel": {
+    "icon": "/icons/buildings/high-res/solar_panel.png",
+    "iconHighRes": "/icons/buildings/high-res/solar_panel.png",
+    "iconLowRes": null,
+    "itemId": 2205,
+    "name": "Solar Panel",
+    "wikiUrl": "https://dsp-wiki.com/Solar_Panel"
+  },
+  "Sorter Mk.I": {
+    "icon": "/icons/buildings/high-res/sorter_mki.png",
+    "iconHighRes": "/icons/buildings/high-res/sorter_mki.png",
+    "iconLowRes": null,
+    "name": "Sorter Mk.I",
+    "wikiUrl": "https://dsp-wiki.com/Sorter_Mk.I"
+  },
+  "Sorter Mk.II": {
+    "icon": "/icons/buildings/high-res/sorter_mkii.png",
+    "iconHighRes": "/icons/buildings/high-res/sorter_mkii.png",
+    "iconLowRes": null,
+    "name": "Sorter Mk.II",
+    "wikiUrl": "https://dsp-wiki.com/Sorter_Mk.II"
+  },
+  "Sorter Mk.III": {
+    "icon": "/icons/buildings/high-res/sorter_mkiii.png",
+    "iconHighRes": "/icons/buildings/high-res/sorter_mkiii.png",
+    "iconLowRes": null,
+    "name": "Sorter Mk.III",
+    "wikiUrl": "https://dsp-wiki.com/Sorter_Mk.III"
+  },
+  "Splitter": {
+    "icon": "/icons/buildings/high-res/splitter.png",
+    "iconHighRes": "/icons/buildings/high-res/splitter.png",
+    "iconLowRes": null,
+    "itemId": 2020,
+    "name": "Splitter",
+    "wikiUrl": "https://dsp-wiki.com/Splitter"
+  },
+  "Storage Mk.I": {
+    "icon": "/icons/buildings/high-res/storage_mki.png",
+    "iconHighRes": "/icons/buildings/high-res/storage_mki.png",
+    "iconLowRes": null,
+    "name": "Storage Mk.I",
+    "wikiUrl": "https://dsp-wiki.com/Storage_Mk.I"
+  },
+  "Storage Mk.II": {
+    "icon": "/icons/buildings/high-res/storage_mkii.png",
+    "iconHighRes": "/icons/buildings/high-res/storage_mkii.png",
+    "iconLowRes": null,
+    "name": "Storage Mk.II",
+    "wikiUrl": "https://dsp-wiki.com/Storage_Mk.II"
+  },
+  "Storage tank": {
+    "icon": "/icons/buildings/high-res/storage_tank.png",
+    "iconHighRes": "/icons/buildings/high-res/storage_tank.png",
+    "iconLowRes": null,
+    "name": "Storage tank",
+    "wikiUrl": "https://dsp-wiki.com/Storage_tank"
+  },
+  "Tesla Tower": {
+    "icon": "/icons/buildings/high-res/tesla_tower.png",
+    "iconHighRes": "/icons/buildings/high-res/tesla_tower.png",
+    "iconLowRes": null,
+    "itemId": 2201,
+    "name": "Tesla Tower",
+    "wikiUrl": "https://dsp-wiki.com/Tesla_Tower"
+  },
+  "Thermal Power Plant": {
+    "icon": "/icons/buildings/high-res/thermal_power_plant.png",
+    "iconHighRes": "/icons/buildings/high-res/thermal_power_plant.png",
+    "iconLowRes": null,
+    "itemId": 2204,
+    "name": "Thermal Power Plant",
+    "wikiUrl": "https://dsp-wiki.com/Thermal_Power_Plant"
+  },
+  "Traffic Monitor": {
+    "icon": "/icons/buildings/high-res/traffic_monitor.png",
+    "iconHighRes": "/icons/buildings/high-res/traffic_monitor.png",
+    "iconLowRes": null,
+    "itemId": 2030,
+    "name": "Traffic Monitor",
+    "wikiUrl": "https://dsp-wiki.com/Traffic_Monitor"
+  },
+  "Vertical Launching Silo": {
+    "icon": "/icons/buildings/high-res/vertical_launching_silo.png",
+    "iconHighRes": "/icons/buildings/high-res/vertical_launching_silo.png",
+    "iconLowRes": null,
+    "itemId": 2312,
+    "name": "Vertical Launching Silo",
+    "wikiUrl": "https://dsp-wiki.com/Vertical_Launching_Silo"
+  },
+  "Water Pump": {
+    "icon": "/icons/buildings/high-res/water_pump.png",
+    "iconHighRes": "/icons/buildings/high-res/water_pump.png",
+    "iconLowRes": null,
+    "itemId": 2306,
+    "name": "Water Pump",
+    "wikiUrl": "https://dsp-wiki.com/Water_Pump"
+  },
+  "Wind Turbine": {
+    "icon": "/icons/buildings/high-res/wind_turbine.png",
+    "iconHighRes": "/icons/buildings/high-res/wind_turbine.png",
+    "iconLowRes": null,
+    "itemId": 2203,
+    "name": "Wind Turbine",
+    "wikiUrl": "https://dsp-wiki.com/Wind_Turbine"
+  },
+  "Wireless Power Tower": {
+    "icon": "/icons/buildings/high-res/wireless_power_tower.png",
+    "iconHighRes": "/icons/buildings/high-res/wireless_power_tower.png",
+    "iconLowRes": null,
+    "itemId": 2202,
+    "name": "Wireless Power Tower",
+    "wikiUrl": "https://dsp-wiki.com/Wireless_Power_Tower"
+  }
+}

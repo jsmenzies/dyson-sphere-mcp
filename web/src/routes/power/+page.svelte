@@ -3,7 +3,7 @@
     import type { GeneratorType } from '$lib/types';
     import CircularGauge from '$lib/components/ui/CircularGauge.svelte';
     import MetricCard from '$lib/components/ui/MetricCard.svelte';
-    import generatorIcons from '$lib/data/generator-icons.json';
+    import { getIcon, getIconData } from '$lib/utils/icon-utils';
     import { image } from 'd3';
 
     export let data: PageData;
@@ -64,15 +64,14 @@
         ? activePlanets
         : activePlanets.filter(p => p.starName === selectedStar);
 
-    // Generator icon lookup
+    // Generator icon lookup using unified icon-utils
     function getGeneratorIcon(type: GeneratorType): string {
-        const iconData = generatorIcons[type as keyof typeof generatorIcons];
-        return iconData?.icon || '';
+        return getIcon(type) || '';
     }
 
     function getGeneratorName(type: GeneratorType): string {
-        const iconData = generatorIcons[type as keyof typeof generatorIcons];
-        return iconData?.name || type;
+        const data = getIconData(type);
+        return data?.name || type;
     }
 
     // Calculate cluster totals based on filtered planets

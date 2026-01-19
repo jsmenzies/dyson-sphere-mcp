@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { PageData } from './$types';
-    import techIcons from '$lib/data/tech-icons.json';
+    import { getResearchIcon, getResearchData, getAllResearchIds } from '$lib/utils/icon-utils';
     import { onMount, onDestroy } from 'svelte';
 
     export let data: PageData;
@@ -100,9 +100,9 @@
     }), { total: 0, active: 0, inactive: 0 }) : { total: 0, active: 0, inactive: 0 };
 
     function getTechIcon(techName: string): string | null {
-        // Direct match
-        const entry = techIcons[techName as keyof typeof techIcons];
-        if (entry?.icon) return entry.icon;
+        // Direct match using new icon utilities
+        const icon = getResearchIcon(techName);
+        if (icon) return icon;
 
         // Try to match infinite research by falling back to highest available level
         const levelMatch = techName.match(/^(.+) \(Lv(\d+)\)$/);
@@ -113,14 +113,14 @@
             // Try decrementing levels until we find an icon
             while (level > 0) {
                 const fallbackName = `${baseName} (Lv${level})`;
-                const fallbackEntry = techIcons[fallbackName as keyof typeof techIcons];
-                if (fallbackEntry?.icon) return fallbackEntry.icon;
+                const fallbackIcon = getResearchIcon(fallbackName);
+                if (fallbackIcon) return fallbackIcon;
                 level--;
             }
         }
 
         // For techs without level suffix, find the highest level icon available
-        const allKeys = Object.keys(techIcons);
+        const allKeys = getAllResearchIds();
         const matchingKeys = allKeys
             .filter(key => key.startsWith(techName + ' (Lv'))
             .sort((a, b) => {
@@ -130,8 +130,8 @@
             });
 
         if (matchingKeys.length > 0) {
-            const matchEntry = techIcons[matchingKeys[0] as keyof typeof techIcons];
-            if (matchEntry?.icon) return matchEntry.icon;
+            const matchIcon = getResearchIcon(matchingKeys[0]);
+            if (matchIcon) return matchIcon;
         }
 
         return null;
