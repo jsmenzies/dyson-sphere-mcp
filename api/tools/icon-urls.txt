@@ -1,0 +1,342 @@
+Icon Iron Ore.png|https://media.dsp-wiki.com/f/fc/Icon_Iron_Ore.png
+Icon Copper Ore.png|https://media.dsp-wiki.com/9/90/Icon_Copper_Ore.png
+Icon Stone.png|https://media.dsp-wiki.com/5/5a/Icon_Stone.png
+Icon Coal.png|https://media.dsp-wiki.com/a/a2/Icon_Coal.png
+Icon Silicon Ore.png|https://media.dsp-wiki.com/d/d4/Icon_Silicon_Ore.png
+Icon Titanium Ore.png|https://media.dsp-wiki.com/9/91/Icon_Titanium_Ore.png
+Icon Water.png|https://media.dsp-wiki.com/6/65/Icon_Water.png
+Icon Crude Oil.png|https://media.dsp-wiki.com/8/8f/Icon_Crude_Oil.png
+Icon Hydrogen.png|https://media.dsp-wiki.com/4/42/Icon_Hydrogen.png
+Icon Deuterium.png|https://media.dsp-wiki.com/4/4d/Icon_Deuterium.png
+Icon Antimatter.png|https://media.dsp-wiki.com/7/78/Icon_Antimatter.png
+Icon Core Element.png|https://media.dsp-wiki.com/a/af/Icon_Core_Element.png
+Icon Critical Photon.png|https://media.dsp-wiki.com/9/92/Icon_Critical_Photon.png
+Icon Kimberlite Ore.png|https://media.dsp-wiki.com/5/55/Icon_Kimberlite_Ore.png
+Icon Iron Ingot.png|https://media.dsp-wiki.com/f/f1/Icon_Iron_Ingot.png
+Icon Copper Ingot.png|https://media.dsp-wiki.com/e/ec/Icon_Copper_Ingot.png
+Icon Stone Brick.png|https://media.dsp-wiki.com/6/61/Icon_Stone_Brick.png
+Icon Energetic Graphite.png|https://media.dsp-wiki.com/1/11/Icon_Energetic_Graphite.png
+Icon High-Purity Silicon.png|https://media.dsp-wiki.com/8/8a/Icon_High-Purity_Silicon.png
+Icon Titanium Ingot.png|https://media.dsp-wiki.com/f/f1/Icon_Titanium_Ingot.png
+Icon Sulfuric Acid.png|https://media.dsp-wiki.com/5/53/Icon_Sulfuric_Acid.png
+Icon Refined Oil.png|https://media.dsp-wiki.com/f/f9/Icon_Refined_Oil.png
+Icon Hydrogen Fuel Rod.png|https://media.dsp-wiki.com/2/2d/Icon_Hydrogen_Fuel_Rod.png
+Icon Deuteron Fuel Rod.png|https://media.dsp-wiki.com/5/58/Icon_Deuteron_Fuel_Rod.png
+Icon Antimatter Fuel Rod.png|https://media.dsp-wiki.com/1/1c/Icon_Antimatter_Fuel_Rod.png
+Icon Strange Annihilation Fuel Rod.png|https://media.dsp-wiki.com/3/3f/Icon_Strange_Annihilation_Fuel_Rod.png
+Icon Missile Set.png|https://media.dsp-wiki.com/8/8a/Icon_Missile_Set.png
+Icon Fractal Silicon.png|https://media.dsp-wiki.com/3/35/Icon_Fractal_Silicon.png
+Icon Magnet.png|https://media.dsp-wiki.com/c/c6/Icon_Magnet.png
+Icon Magnetic Coil.png|https://media.dsp-wiki.com/e/e5/Icon_Magnetic_Coil.png
+Icon Glass.png|https://media.dsp-wiki.com/7/76/Icon_Glass.png
+Icon Diamond.png|https://media.dsp-wiki.com/a/af/Icon_Diamond.png
+Icon Crystal Silicon.png|https://media.dsp-wiki.com/2/2a/Icon_Crystal_Silicon.png
+Icon Titanium Alloy.png|https://media.dsp-wiki.com/8/85/Icon_Titanium_Alloy.png
+Icon Combustible Unit.png|https://media.dsp-wiki.com/2/2f/Icon_Combustible_Unit.png
+Icon Plastic.png|https://media.dsp-wiki.com/c/c8/Icon_Plastic.png
+Icon Organic Crystal.png|https://media.dsp-wiki.com/9/96/Icon_Organic_Crystal.png
+Icon Graphene.png|https://media.dsp-wiki.com/a/af/Icon_Graphene.png
+Icon Annihilation Constraint Sphere.png|https://media.dsp-wiki.com/3/37/Icon_Annihilation_Constraint_Sphere.png
+Icon Magnum Ammo Box.png|https://media.dsp-wiki.com/9/90/Icon_Magnum_Ammo_Box.png
+Icon Supersonic Missile Set.png|https://media.dsp-wiki.com/b/b2/Icon_Supersonic_Missile_Set.png
+Icon Grating Crystal.png|https://media.dsp-wiki.com/9/9d/Icon_Grating_Crystal.png
+Icon Steel.png|https://media.dsp-wiki.com/3/38/Icon_Steel.png
+Icon Circuit Board.png|https://media.dsp-wiki.com/2/2f/Icon_Circuit_Board.png
+Icon Prism.png|https://media.dsp-wiki.com/d/d3/Icon_Prism.png
+Icon Electric Motor.png|https://media.dsp-wiki.com/8/84/Icon_Electric_Motor.png
+Icon Microcrystalline Component.png|https://media.dsp-wiki.com/f/f5/Icon_Microcrystalline_Component.png
+Icon Proliferator Mk.I.png|https://media.dsp-wiki.com/e/ec/Icon_Proliferator_Mk.I.png
+Icon Explosive Unit.png|https://media.dsp-wiki.com/8/88/Icon_Explosive_Unit.png
+Icon Strange Matter.png|https://media.dsp-wiki.com/8/8f/Icon_Strange_Matter.png
+Icon Titanium Crystal.png|https://media.dsp-wiki.com/5/5b/Icon_Titanium_Crystal.png
+Icon Carbon Nanotube.png|https://media.dsp-wiki.com/7/7c/Icon_Carbon_Nanotube.png
+Icon Particle Broadband.png|https://media.dsp-wiki.com/b/b6/Icon_Particle_Broadband.png
+Icon Titanium Ammo Box.png|https://media.dsp-wiki.com/2/2a/Icon_Titanium_Ammo_Box.png
+Icon Gravity Missile Set.png|https://media.dsp-wiki.com/7/71/Icon_Gravity_Missile_Set.png
+Icon Spiniform Stalagmite Crystal.png|https://media.dsp-wiki.com/b/bd/Icon_Spiniform_Stalagmite_Crystal.png
+Icon Gear.png|https://media.dsp-wiki.com/8/87/Icon_Gear.png
+Icon Plasma Exciter.png|https://media.dsp-wiki.com/c/cc/Icon_Plasma_Exciter.png
+Icon Photon Combiner.png|https://media.dsp-wiki.com/9/93/Icon_Photon_Combiner.png
+Icon Electromagnetic Turbine.png|https://media.dsp-wiki.com/5/53/Icon_Electromagnetic_Turbine.png
+Icon Processor.png|https://media.dsp-wiki.com/f/f1/Icon_Processor.png
+Icon Proliferator Mk.II.png|https://media.dsp-wiki.com/b/b4/Icon_Proliferator_Mk.II.png
+Icon Crystal Explosive Unit.png|https://media.dsp-wiki.com/f/f6/Icon_Crystal_Explosive_Unit.png
+Icon Casimir Crystal.png|https://media.dsp-wiki.com/d/d7/Icon_Casimir_Crystal.png
+Icon Titanium Glass.png|https://media.dsp-wiki.com/5/56/Icon_Titanium_Glass.png
+Icon Plane Filter.png|https://media.dsp-wiki.com/1/15/Icon_Plane_Filter.png
+Icon Quantum Chip.png|https://media.dsp-wiki.com/2/2f/Icon_Quantum_Chip.png
+Icon Superalloy Ammo Box.png|https://media.dsp-wiki.com/9/93/Icon_Superalloy_Ammo_Box.png
+Icon Shell Set.png|https://media.dsp-wiki.com/a/aa/Icon_Shell_Set.png
+Icon Unipolar Magnet.png|https://media.dsp-wiki.com/a/a9/Icon_Unipolar_Magnet.png
+Icon Engine.png|https://media.dsp-wiki.com/2/21/Icon_Engine.png
+Icon Thruster.png|https://media.dsp-wiki.com/e/ea/Icon_Thruster.png
+Icon Reinforced Thruster.png|https://media.dsp-wiki.com/3/3d/Icon_Reinforced_Thruster.png
+Icon Super-Magnetic Ring.png|https://media.dsp-wiki.com/b/b4/Icon_Super-Magnetic_Ring.png
+Icon Particle Container.png|https://media.dsp-wiki.com/f/fd/Icon_Particle_Container.png
+Icon Proliferator Mk.III.png|https://media.dsp-wiki.com/c/c4/Icon_Proliferator_Mk.III.png
+Icon Prototype.png|https://media.dsp-wiki.com/d/dc/Icon_Prototype.png
+Icon Precision Drone.png|https://media.dsp-wiki.com/a/a6/Icon_Precision_Drone.png
+Icon Attack Drone.png|https://media.dsp-wiki.com/e/ea/Icon_Attack_Drone.png
+Icon Corvette.png|https://media.dsp-wiki.com/2/22/Icon_Corvette.png
+Icon Destroyer.png|https://media.dsp-wiki.com/c/cb/Icon_Destroyer.png
+Icon Plasma Capsule.png|https://media.dsp-wiki.com/2/2a/Icon_Plasma_Capsule.png
+Icon High-Explosive Shell Set.png|https://media.dsp-wiki.com/c/cf/Icon_High-Explosive_Shell_Set.png
+Icon Fire Ice.png|https://media.dsp-wiki.com/a/ab/Icon_Fire_Ice.png
+Icon Logistics Bot.png|https://media.dsp-wiki.com/d/d4/Icon_Logistics_Bot.png
+Icon Logistics Drone.png|https://media.dsp-wiki.com/a/a2/Icon_Logistics_Drone.png
+Icon Logistics Vessel.png|https://media.dsp-wiki.com/7/7e/Icon_Logistics_Vessel.png
+Icon Space Warper.png|https://media.dsp-wiki.com/c/cb/Icon_Space_Warper.png
+Icon Graviton Lens.png|https://media.dsp-wiki.com/d/df/Icon_Graviton_Lens.png
+Icon Foundation.png|https://media.dsp-wiki.com/6/60/Icon_Foundation.png
+Icon Solar Sail.png|https://media.dsp-wiki.com/5/50/Icon_Solar_Sail.png
+Icon Frame Material.png|https://media.dsp-wiki.com/9/9d/Icon_Frame_Material.png
+Icon Dyson Sphere Component.png|https://media.dsp-wiki.com/c/ce/Icon_Dyson_Sphere_Component.png
+Icon Small Carrier Rocket.png|https://media.dsp-wiki.com/1/1c/Icon_Small_Carrier_Rocket.png
+Icon Antimatter Capsule.png|https://media.dsp-wiki.com/e/ed/Icon_Antimatter_Capsule.png
+Icon Crystal Shell Set.png|https://media.dsp-wiki.com/2/25/Icon_Crystal_Shell_Set.png
+Icon Log.png|https://media.dsp-wiki.com/4/4a/Icon_Log.png
+Icon Electromagnetic Matrix.png|https://media.dsp-wiki.com/0/0f/Icon_Electromagnetic_Matrix.png
+Icon Energy Matrix.png|https://media.dsp-wiki.com/8/83/Icon_Energy_Matrix.png
+Icon Structure Matrix.png|https://media.dsp-wiki.com/4/44/Icon_Structure_Matrix.png
+Icon Information Matrix.png|https://media.dsp-wiki.com/c/ca/Icon_Information_Matrix.png
+Icon Gravity Matrix.png|https://media.dsp-wiki.com/4/47/Icon_Gravity_Matrix.png
+Icon Universe Matrix.png|https://media.dsp-wiki.com/f/fc/Icon_Universe_Matrix.png
+Icon Dark Fog Matrix.png|https://media.dsp-wiki.com/f/f1/Icon_Dark_Fog_Matrix.png
+Icon Energy Shard.png|https://media.dsp-wiki.com/8/89/Icon_Energy_Shard.png
+Icon Silicon-based Neuron.png|https://media.dsp-wiki.com/4/47/Icon_Silicon-based_Neuron.png
+Icon Negentropy Singularity.png|https://media.dsp-wiki.com/f/f8/Icon_Negentropy_Singularity.png
+Icon Matter Recombinator.png|https://media.dsp-wiki.com/c/cb/Icon_Matter_Recombinator.png
+Icon Jamming Capsule.png|https://media.dsp-wiki.com/a/a2/Icon_Jamming_Capsule.png
+Icon Suppressing Capsule.png|https://media.dsp-wiki.com/c/c2/Icon_Suppressing_Capsule.png
+Icon Plant Fuel.png|https://media.dsp-wiki.com/6/6a/Icon_Plant_Fuel.png
+Icon Tesla Tower.png|https://media.dsp-wiki.com/f/f1/Icon_Tesla_Tower.png
+Icon Wireless Power Tower.png|https://media.dsp-wiki.com/c/c7/Icon_Wireless_Power_Tower.png
+Icon Satellite Substation.png|https://media.dsp-wiki.com/d/d7/Icon_Satellite_Substation.png
+Icon Wind Turbine.png|https://media.dsp-wiki.com/1/14/Icon_Wind_Turbine.png
+Icon Thermal Power Plant.png|https://media.dsp-wiki.com/c/c5/Icon_Thermal_Power_Plant.png
+Icon Solar Panel.png|https://media.dsp-wiki.com/7/77/Icon_Solar_Panel.png
+Icon Geothermal Power Station.png|https://media.dsp-wiki.com/c/c3/Icon_Geothermal_Power_Station.png
+Icon Mini Fusion Power Plant.png|https://media.dsp-wiki.com/0/03/Icon_Mini_Fusion_Power_Plant.png
+Icon Energy Exchanger.png|https://media.dsp-wiki.com/6/64/Icon_Energy_Exchanger.png
+Icon Accumulator.png|https://media.dsp-wiki.com/7/71/Icon_Accumulator.png
+Icon Full Accumulator.png|https://media.dsp-wiki.com/6/67/Icon_Full_Accumulator.png
+Icon Ray Receiver.png|https://media.dsp-wiki.com/7/7b/Icon_Ray_Receiver.png
+Icon Artificial Star.png|https://media.dsp-wiki.com/b/b6/Icon_Artificial_Star.png
+Icon Conveyor Belt Mk.I.png|https://media.dsp-wiki.com/7/78/Icon_Conveyor_Belt_Mk.I.png
+Icon Conveyor Belt Mk.II.png|https://media.dsp-wiki.com/3/38/Icon_Conveyor_Belt_Mk.II.png
+Icon Conveyor Belt Mk.III.png|https://media.dsp-wiki.com/1/18/Icon_Conveyor_Belt_Mk.III.png
+Icon Splitter.png|https://media.dsp-wiki.com/d/d6/Icon_Splitter.png
+Icon Automatic Piler.png|https://media.dsp-wiki.com/1/1c/Icon_Automatic_Piler.png
+Icon Traffic Monitor.png|https://media.dsp-wiki.com/6/64/Icon_Traffic_Monitor.png
+Icon Spray Coater.png|https://media.dsp-wiki.com/9/99/Icon_Spray_Coater.png
+Icon Storage Mk.I.png|https://media.dsp-wiki.com/6/68/Icon_Storage_Mk.I.png
+Icon Storage Mk.II.png|https://media.dsp-wiki.com/e/e2/Icon_Storage_Mk.II.png
+Icon Storage Tank.png|https://media.dsp-wiki.com/0/00/Icon_Storage_Tank.png
+Icon Logistics Distributor.png|https://media.dsp-wiki.com/b/b3/Icon_Logistics_Distributor.png
+Icon Planetary Logistics Station.png|https://media.dsp-wiki.com/e/e5/Icon_Planetary_Logistics_Station.png
+Icon Interstellar Logistics Station.png|https://media.dsp-wiki.com/6/6c/Icon_Interstellar_Logistics_Station.png
+Icon Orbital Collector.png|https://media.dsp-wiki.com/6/64/Icon_Orbital_Collector.png
+Icon Sorter Mk.I.png|https://media.dsp-wiki.com/4/4f/Icon_Sorter_Mk.I.png
+Icon Sorter Mk.II.png|https://media.dsp-wiki.com/2/25/Icon_Sorter_Mk.II.png
+Icon Sorter Mk.III.png|https://media.dsp-wiki.com/b/b5/Icon_Sorter_Mk.III.png
+Icon Pile Sorter.png|https://media.dsp-wiki.com/7/72/Icon_Pile_Sorter.png
+Icon Mining Machine.png|https://media.dsp-wiki.com/c/cf/Icon_Mining_Machine.png
+Icon Advanced Mining Machine.png|https://media.dsp-wiki.com/5/55/Icon_Advanced_Mining_Machine.png
+Icon Water Pump.png|https://media.dsp-wiki.com/6/69/Icon_Water_Pump.png
+Icon Oil Extractor.png|https://media.dsp-wiki.com/8/8f/Icon_Oil_Extractor.png
+Icon Oil Refinery.png|https://media.dsp-wiki.com/7/74/Icon_Oil_Refinery.png
+Icon Fractionator.png|https://media.dsp-wiki.com/2/28/Icon_Fractionator.png
+Icon Chemical Plant.png|https://media.dsp-wiki.com/f/f9/Icon_Chemical_Plant.png
+Icon Quantum Chemical Plant.png|https://media.dsp-wiki.com/a/a9/Icon_Quantum_Chemical_Plant.png
+Icon Miniature Particle Collider.png|https://media.dsp-wiki.com/a/aa/Icon_Miniature_Particle_Collider.png
+Icon Arc Smelter.png|https://media.dsp-wiki.com/6/60/Icon_Arc_Smelter.png
+Icon Plane Smelter.png|https://media.dsp-wiki.com/1/13/Icon_Plane_Smelter.png
+Icon Negentropy Smelter.png|https://media.dsp-wiki.com/9/98/Icon_Negentropy_Smelter.png
+Icon Assembling Machine Mk.I.png|https://media.dsp-wiki.com/8/8e/Icon_Assembling_Machine_Mk.I.png
+Icon Assembling Machine Mk.II.png|https://media.dsp-wiki.com/9/93/Icon_Assembling_Machine_Mk.II.png
+Icon Assembling Machine Mk.III.png|https://media.dsp-wiki.com/8/8c/Icon_Assembling_Machine_Mk.III.png
+Icon Re-composing Assembler.png|https://media.dsp-wiki.com/8/8d/Icon_Re-composing_Assembler.png
+Icon Matrix Lab.png|https://media.dsp-wiki.com/b/b7/Icon_Matrix_Lab.png
+Icon Self-evolution Lab.png|https://media.dsp-wiki.com/5/54/Icon_Self-evolution_Lab.png
+Icon EM-Rail Ejector.png|https://media.dsp-wiki.com/a/a2/Icon_EM-Rail_Ejector.png
+Icon Vertical Launching Silo.png|https://media.dsp-wiki.com/0/05/Icon_Vertical_Launching_Silo.png
+Icon Gauss Turret.png|https://media.dsp-wiki.com/a/a2/Icon_Gauss_Turret.png
+Icon Missile Turret.png|https://media.dsp-wiki.com/4/45/Icon_Missile_Turret.png
+Icon Implosion Cannon.png|https://media.dsp-wiki.com/7/70/Icon_Implosion_Cannon.png
+Icon Laser Turret.png|https://media.dsp-wiki.com/7/76/Icon_Laser_Turret.png
+Icon Plasma Turret.png|https://media.dsp-wiki.com/0/0e/Icon_Plasma_Turret.png
+Icon SR Plasma Turret.png|https://media.dsp-wiki.com/b/b8/Icon_SR_Plasma_Turret.png
+Icon Battlefield Analysis Base.png|https://media.dsp-wiki.com/c/c2/Icon_Battlefield_Analysis_Base.png
+Icon Jammer Tower.png|https://media.dsp-wiki.com/c/cc/Icon_Jammer_Tower.png
+Icon Signal Tower.png|https://media.dsp-wiki.com/e/ec/Icon_Signal_Tower.png
+Icon Planetary Shield Generator.png|https://media.dsp-wiki.com/4/40/Icon_Planetary_Shield_Generator.png
+Icon Coal.png|https://media.dsp-wiki.com/thumb/a/a2/Icon_Coal.png/30px-Icon_Coal.png
+Icon Copper Ore.png|https://media.dsp-wiki.com/thumb/9/90/Icon_Copper_Ore.png/30px-Icon_Copper_Ore.png
+Icon Crude Oil.png|https://media.dsp-wiki.com/thumb/8/8f/Icon_Crude_Oil.png/18px-Icon_Crude_Oil.png
+Icon Deuterium.png|https://media.dsp-wiki.com/thumb/4/4d/Icon_Deuterium.png/30px-Icon_Deuterium.png
+Icon Fire Ice.png|https://media.dsp-wiki.com/thumb/a/ab/Icon_Fire_Ice.png/30px-Icon_Fire_Ice.png
+Icon Fractal Silicon.png|https://media.dsp-wiki.com/thumb/3/35/Icon_Fractal_Silicon.png/30px-Icon_Fractal_Silicon.png
+Icon Grating Crystal.png|https://media.dsp-wiki.com/thumb/9/9d/Icon_Grating_Crystal.png/25px-Icon_Grating_Crystal.png
+Icon Hydrogen.png|https://media.dsp-wiki.com/thumb/4/42/Icon_Hydrogen.png/30px-Icon_Hydrogen.png
+Icon Iron Ore.png|https://media.dsp-wiki.com/thumb/f/fc/Icon_Iron_Ore.png/28px-Icon_Iron_Ore.png
+Icon Kimberlite Ore.png|https://media.dsp-wiki.com/thumb/5/55/Icon_Kimberlite_Ore.png/29px-Icon_Kimberlite_Ore.png
+Icon Log.png|https://media.dsp-wiki.com/thumb/4/4a/Icon_Log.png/30px-Icon_Log.png
+Icon Organic Crystal.png|https://media.dsp-wiki.com/thumb/9/96/Icon_Organic_Crystal.png/20px-Icon_Organic_Crystal.png
+Icon Plant Fuel.png|https://media.dsp-wiki.com/thumb/6/6a/Icon_Plant_Fuel.png/30px-Icon_Plant_Fuel.png
+Icon Silicon Ore.png|https://media.dsp-wiki.com/thumb/d/d4/Icon_Silicon_Ore.png/29px-Icon_Silicon_Ore.png
+Icon Spiniform Stalagmite Crystal.png|https://media.dsp-wiki.com/thumb/b/bd/Icon_Spiniform_Stalagmite_Crystal.png/30px-Icon_Spiniform_Stalagmite_Crystal.png
+Icon Stone.png|https://media.dsp-wiki.com/thumb/5/5a/Icon_Stone.png/30px-Icon_Stone.png
+Icon Sulfuric Acid.png|https://media.dsp-wiki.com/thumb/5/53/Icon_Sulfuric_Acid.png/17px-Icon_Sulfuric_Acid.png
+Icon Titanium Ore.png|https://media.dsp-wiki.com/thumb/9/91/Icon_Titanium_Ore.png/30px-Icon_Titanium_Ore.png
+Icon Unipolar Magnet.png|https://media.dsp-wiki.com/thumb/a/a9/Icon_Unipolar_Magnet.png/30px-Icon_Unipolar_Magnet.png
+Icon Water.png|https://media.dsp-wiki.com/thumb/6/65/Icon_Water.png/17px-Icon_Water.png
+Icon Annihilation Constraint Sphere.png|https://media.dsp-wiki.com/thumb/3/37/Icon_Annihilation_Constraint_Sphere.png/30px-Icon_Annihilation_Constraint_Sphere.png
+Icon Antimatter.png|https://media.dsp-wiki.com/thumb/7/78/Icon_Antimatter.png/30px-Icon_Antimatter.png
+Icon Carbon Nanotube.png|https://media.dsp-wiki.com/thumb/7/7c/Icon_Carbon_Nanotube.png/30px-Icon_Carbon_Nanotube.png
+Icon Casimir Crystal.png|https://media.dsp-wiki.com/thumb/d/d7/Icon_Casimir_Crystal.png/30px-Icon_Casimir_Crystal.png
+Icon Circuit Board.png|https://media.dsp-wiki.com/thumb/2/2f/Icon_Circuit_Board.png/30px-Icon_Circuit_Board.png
+Icon Critical Photon.png|https://media.dsp-wiki.com/thumb/9/92/Icon_Critical_Photon.png/30px-Icon_Critical_Photon.png
+Icon Crystal Explosive Unit.png|https://media.dsp-wiki.com/thumb/f/f6/Icon_Crystal_Explosive_Unit.png/30px-Icon_Crystal_Explosive_Unit.png
+Icon Crystal Silicon.png|https://media.dsp-wiki.com/thumb/2/2a/Icon_Crystal_Silicon.png/30px-Icon_Crystal_Silicon.png
+Icon Combustible Unit.png|https://media.dsp-wiki.com/thumb/2/2f/Icon_Combustible_Unit.png/30px-Icon_Combustible_Unit.png
+Icon Copper Ingot.png|https://media.dsp-wiki.com/thumb/e/ec/Icon_Copper_Ingot.png/30px-Icon_Copper_Ingot.png
+Icon Diamond.png|https://media.dsp-wiki.com/thumb/a/af/Icon_Diamond.png/30px-Icon_Diamond.png
+Icon Dyson Sphere Component.png|https://media.dsp-wiki.com/thumb/c/ce/Icon_Dyson_Sphere_Component.png/30px-Icon_Dyson_Sphere_Component.png
+Icon Electric Motor.png|https://media.dsp-wiki.com/thumb/8/84/Icon_Electric_Motor.png/30px-Icon_Electric_Motor.png
+Icon Electromagnetic Turbine.png|https://media.dsp-wiki.com/thumb/5/53/Icon_Electromagnetic_Turbine.png/30px-Icon_Electromagnetic_Turbine.png
+Icon Energetic Graphite.png|https://media.dsp-wiki.com/thumb/1/11/Icon_Energetic_Graphite.png/26px-Icon_Energetic_Graphite.png
+Icon Engine.png|https://media.dsp-wiki.com/thumb/2/21/Icon_Engine.png/30px-Icon_Engine.png
+Icon Explosive Unit.png|https://media.dsp-wiki.com/thumb/8/88/Icon_Explosive_Unit.png/30px-Icon_Explosive_Unit.png
+Icon Frame Material.png|https://media.dsp-wiki.com/thumb/9/9d/Icon_Frame_Material.png/30px-Icon_Frame_Material.png
+Icon Gear.png|https://media.dsp-wiki.com/thumb/8/87/Icon_Gear.png/30px-Icon_Gear.png
+Icon Glass.png|https://media.dsp-wiki.com/thumb/7/76/Icon_Glass.png/30px-Icon_Glass.png
+Icon Graphene.png|https://media.dsp-wiki.com/thumb/a/af/Icon_Graphene.png/30px-Icon_Graphene.png
+Icon Graviton Lens.png|https://media.dsp-wiki.com/thumb/d/df/Icon_Graviton_Lens.png/30px-Icon_Graviton_Lens.png
+Icon High-Purity Silicon.png|https://media.dsp-wiki.com/thumb/8/8a/Icon_High-Purity_Silicon.png/30px-Icon_High-Purity_Silicon.png
+Icon Iron Ingot.png|https://media.dsp-wiki.com/thumb/f/f1/Icon_Iron_Ingot.png/30px-Icon_Iron_Ingot.png
+Icon Magnet.png|https://media.dsp-wiki.com/thumb/c/c6/Icon_Magnet.png/30px-Icon_Magnet.png
+Icon Magnetic Coil.png|https://media.dsp-wiki.com/thumb/e/e5/Icon_Magnetic_Coil.png/30px-Icon_Magnetic_Coil.png
+Icon Microcrystalline Component.png|https://media.dsp-wiki.com/thumb/f/f5/Icon_Microcrystalline_Component.png/30px-Icon_Microcrystalline_Component.png
+Icon Plane Filter.png|https://media.dsp-wiki.com/thumb/1/15/Icon_Plane_Filter.png/30px-Icon_Plane_Filter.png
+Icon Plasma Exciter.png|https://media.dsp-wiki.com/thumb/c/cc/Icon_Plasma_Exciter.png/30px-Icon_Plasma_Exciter.png
+Icon Plastic.png|https://media.dsp-wiki.com/thumb/c/c8/Icon_Plastic.png/30px-Icon_Plastic.png
+Icon Prism.png|https://media.dsp-wiki.com/thumb/d/d3/Icon_Prism.png/30px-Icon_Prism.png
+Icon Processor.png|https://media.dsp-wiki.com/thumb/f/f1/Icon_Processor.png/30px-Icon_Processor.png
+Icon Proliferator Mk.I.png|https://media.dsp-wiki.com/thumb/e/ec/Icon_Proliferator_Mk.I.png/30px-Icon_Proliferator_Mk.I.png
+Icon Proliferator Mk.II.png|https://media.dsp-wiki.com/thumb/b/b4/Icon_Proliferator_Mk.II.png/30px-Icon_Proliferator_Mk.II.png
+Icon Proliferator Mk.III.png|https://media.dsp-wiki.com/thumb/c/c4/Icon_Proliferator_Mk.III.png/30px-Icon_Proliferator_Mk.III.png
+Icon Quantum Chip.png|https://media.dsp-wiki.com/thumb/2/2f/Icon_Quantum_Chip.png/30px-Icon_Quantum_Chip.png
+Icon Reinforced Thruster.png|https://media.dsp-wiki.com/thumb/3/3d/Icon_Reinforced_Thruster.png/30px-Icon_Reinforced_Thruster.png
+Icon Particle Broadband.png|https://media.dsp-wiki.com/thumb/b/b6/Icon_Particle_Broadband.png/30px-Icon_Particle_Broadband.png
+Icon Particle Container.png|https://media.dsp-wiki.com/thumb/f/fd/Icon_Particle_Container.png/30px-Icon_Particle_Container.png
+Icon Photon Combiner.png|https://media.dsp-wiki.com/thumb/9/93/Icon_Photon_Combiner.png/30px-Icon_Photon_Combiner.png
+Icon Refined Oil.png|https://media.dsp-wiki.com/thumb/f/f9/Icon_Refined_Oil.png/17px-Icon_Refined_Oil.png
+Icon Steel.png|https://media.dsp-wiki.com/thumb/3/38/Icon_Steel.png/30px-Icon_Steel.png
+Icon Stone Brick.png|https://media.dsp-wiki.com/thumb/6/61/Icon_Stone_Brick.png/30px-Icon_Stone_Brick.png
+Icon Strange Matter.png|https://media.dsp-wiki.com/thumb/8/8f/Icon_Strange_Matter.png/30px-Icon_Strange_Matter.png
+Icon Super-Magnetic Ring.png|https://media.dsp-wiki.com/thumb/b/b4/Icon_Super-Magnetic_Ring.png/30px-Icon_Super-Magnetic_Ring.png
+Icon Titanium Alloy.png|https://media.dsp-wiki.com/thumb/8/85/Icon_Titanium_Alloy.png/30px-Icon_Titanium_Alloy.png
+Icon Titanium Crystal.png|https://media.dsp-wiki.com/thumb/5/5b/Icon_Titanium_Crystal.png/25px-Icon_Titanium_Crystal.png
+Icon Titanium Glass.png|https://media.dsp-wiki.com/thumb/5/56/Icon_Titanium_Glass.png/30px-Icon_Titanium_Glass.png
+Icon Titanium Ingot.png|https://media.dsp-wiki.com/thumb/f/f1/Icon_Titanium_Ingot.png/30px-Icon_Titanium_Ingot.png
+Icon Thruster.png|https://media.dsp-wiki.com/thumb/e/ea/Icon_Thruster.png/30px-Icon_Thruster.png
+Icon Energy Shard.png|https://media.dsp-wiki.com/thumb/8/89/Icon_Energy_Shard.png/30px-Icon_Energy_Shard.png
+Icon Matter Recombinator.png|https://media.dsp-wiki.com/thumb/c/cb/Icon_Matter_Recombinator.png/30px-Icon_Matter_Recombinator.png
+Icon Silicon-based Neuron.png|https://media.dsp-wiki.com/thumb/4/47/Icon_Silicon-based_Neuron.png/30px-Icon_Silicon-based_Neuron.png
+Icon Negentropy Singularity.png|https://media.dsp-wiki.com/thumb/f/f8/Icon_Negentropy_Singularity.png/30px-Icon_Negentropy_Singularity.png
+Icon Core Element.png|https://media.dsp-wiki.com/thumb/a/af/Icon_Core_Element.png/30px-Icon_Core_Element.png
+Icon Hydrogen Fuel Rod.png|https://media.dsp-wiki.com/thumb/2/2d/Icon_Hydrogen_Fuel_Rod.png/30px-Icon_Hydrogen_Fuel_Rod.png
+Icon Deuteron Fuel Rod.png|https://media.dsp-wiki.com/thumb/5/58/Icon_Deuteron_Fuel_Rod.png/30px-Icon_Deuteron_Fuel_Rod.png
+Icon Antimatter Fuel Rod.png|https://media.dsp-wiki.com/thumb/1/1c/Icon_Antimatter_Fuel_Rod.png/30px-Icon_Antimatter_Fuel_Rod.png
+Icon Strange Annihilation Fuel Rod.png|https://media.dsp-wiki.com/thumb/3/3f/Icon_Strange_Annihilation_Fuel_Rod.png/30px-Icon_Strange_Annihilation_Fuel_Rod.png
+Icon Magnum Ammo Box.png|https://media.dsp-wiki.com/thumb/9/90/Icon_Magnum_Ammo_Box.png/30px-Icon_Magnum_Ammo_Box.png
+Icon Titanium Ammo Box.png|https://media.dsp-wiki.com/thumb/2/2a/Icon_Titanium_Ammo_Box.png/30px-Icon_Titanium_Ammo_Box.png
+Icon Superalloy Ammo Box.png|https://media.dsp-wiki.com/thumb/9/93/Icon_Superalloy_Ammo_Box.png/30px-Icon_Superalloy_Ammo_Box.png
+Icon Missile Set.png|https://media.dsp-wiki.com/thumb/8/8a/Icon_Missile_Set.png/30px-Icon_Missile_Set.png
+Icon Supersonic Missile Set.png|https://media.dsp-wiki.com/thumb/b/b2/Icon_Supersonic_Missile_Set.png/30px-Icon_Supersonic_Missile_Set.png
+Icon Gravity Missile Set.png|https://media.dsp-wiki.com/thumb/7/71/Icon_Gravity_Missile_Set.png/30px-Icon_Gravity_Missile_Set.png
+Icon Shell Set.png|https://media.dsp-wiki.com/thumb/a/aa/Icon_Shell_Set.png/30px-Icon_Shell_Set.png
+Icon High-Explosive Shell Set.png|https://media.dsp-wiki.com/thumb/c/cf/Icon_High-Explosive_Shell_Set.png/30px-Icon_High-Explosive_Shell_Set.png
+Icon Crystal Shell Set.png|https://media.dsp-wiki.com/thumb/2/25/Icon_Crystal_Shell_Set.png/30px-Icon_Crystal_Shell_Set.png
+Icon Plasma Capsule.png|https://media.dsp-wiki.com/thumb/2/2a/Icon_Plasma_Capsule.png/30px-Icon_Plasma_Capsule.png
+Icon Antimatter Capsule.png|https://media.dsp-wiki.com/thumb/e/ed/Icon_Antimatter_Capsule.png/30px-Icon_Antimatter_Capsule.png
+Icon Jamming Capsule.png|https://media.dsp-wiki.com/thumb/a/a2/Icon_Jamming_Capsule.png/30px-Icon_Jamming_Capsule.png
+Icon Suppressing Capsule.png|https://media.dsp-wiki.com/thumb/c/c2/Icon_Suppressing_Capsule.png/30px-Icon_Suppressing_Capsule.png
+Icon Foundation.png|https://media.dsp-wiki.com/thumb/6/60/Icon_Foundation.png/30px-Icon_Foundation.png
+Icon Space Warper.png|https://media.dsp-wiki.com/thumb/c/cb/Icon_Space_Warper.png/30px-Icon_Space_Warper.png
+Icon Electromagnetic Matrix.png|https://media.dsp-wiki.com/thumb/0/0f/Icon_Electromagnetic_Matrix.png/30px-Icon_Electromagnetic_Matrix.png
+Icon Energy Matrix.png|https://media.dsp-wiki.com/thumb/8/83/Icon_Energy_Matrix.png/30px-Icon_Energy_Matrix.png
+Icon Structure Matrix.png|https://media.dsp-wiki.com/thumb/4/44/Icon_Structure_Matrix.png/30px-Icon_Structure_Matrix.png
+Icon Information Matrix.png|https://media.dsp-wiki.com/thumb/c/ca/Icon_Information_Matrix.png/30px-Icon_Information_Matrix.png
+Icon Gravity Matrix.png|https://media.dsp-wiki.com/thumb/4/47/Icon_Gravity_Matrix.png/30px-Icon_Gravity_Matrix.png
+Icon Universe Matrix.png|https://media.dsp-wiki.com/thumb/f/fc/Icon_Universe_Matrix.png/30px-Icon_Universe_Matrix.png
+Icon Dark Fog Matrix.png|https://media.dsp-wiki.com/thumb/f/f1/Icon_Dark_Fog_Matrix.png/30px-Icon_Dark_Fog_Matrix.png
+Icon Logistics Bot.png|https://media.dsp-wiki.com/thumb/d/d4/Icon_Logistics_Bot.png/30px-Icon_Logistics_Bot.png
+Icon Logistics Drone.png|https://media.dsp-wiki.com/thumb/a/a2/Icon_Logistics_Drone.png/30px-Icon_Logistics_Drone.png
+Icon Logistics Vessel.png|https://media.dsp-wiki.com/thumb/7/7e/Icon_Logistics_Vessel.png/30px-Icon_Logistics_Vessel.png
+Icon Prototype.png|https://media.dsp-wiki.com/thumb/d/dc/Icon_Prototype.png/30px-Icon_Prototype.png
+Icon Precision Drone.png|https://media.dsp-wiki.com/thumb/a/a6/Icon_Precision_Drone.png/30px-Icon_Precision_Drone.png
+Icon Attack Drone.png|https://media.dsp-wiki.com/thumb/e/ea/Icon_Attack_Drone.png/30px-Icon_Attack_Drone.png
+Icon Corvette.png|https://media.dsp-wiki.com/thumb/2/22/Icon_Corvette.png/30px-Icon_Corvette.png
+Icon Destroyer.png|https://media.dsp-wiki.com/thumb/c/cb/Icon_Destroyer.png/30px-Icon_Destroyer.png
+Icon Mining Machine.png|https://media.dsp-wiki.com/thumb/c/cf/Icon_Mining_Machine.png/30px-Icon_Mining_Machine.png
+Icon Water Pump.png|https://media.dsp-wiki.com/thumb/6/69/Icon_Water_Pump.png/30px-Icon_Water_Pump.png
+Icon Oil Extractor.png|https://media.dsp-wiki.com/thumb/8/8f/Icon_Oil_Extractor.png/23px-Icon_Oil_Extractor.png
+Icon Orbital Collector.png|https://media.dsp-wiki.com/thumb/6/64/Icon_Orbital_Collector.png/28px-Icon_Orbital_Collector.png
+Icon Advanced Mining Machine.png|https://media.dsp-wiki.com/thumb/5/55/Icon_Advanced_Mining_Machine.png/30px-Icon_Advanced_Mining_Machine.png
+Icon Wind Turbine.png|https://media.dsp-wiki.com/thumb/1/14/Icon_Wind_Turbine.png/17px-Icon_Wind_Turbine.png
+Icon Solar Panel.png|https://media.dsp-wiki.com/thumb/7/77/Icon_Solar_Panel.png/30px-Icon_Solar_Panel.png
+Icon Thermal Power Plant.png|https://media.dsp-wiki.com/thumb/c/c5/Icon_Thermal_Power_Plant.png/30px-Icon_Thermal_Power_Plant.png
+Icon Mini Fusion Power Plant.png|https://media.dsp-wiki.com/thumb/0/03/Icon_Mini_Fusion_Power_Plant.png/30px-Icon_Mini_Fusion_Power_Plant.png
+Icon Geothermal Power Station.png|https://media.dsp-wiki.com/thumb/c/c3/Icon_Geothermal_Power_Station.png/30px-Icon_Geothermal_Power_Station.png
+Icon Artificial Star.png|https://media.dsp-wiki.com/thumb/b/b6/Icon_Artificial_Star.png/30px-Icon_Artificial_Star.png
+Icon Tesla Tower.png|https://media.dsp-wiki.com/thumb/f/f1/Icon_Tesla_Tower.png/30px-Icon_Tesla_Tower.png
+Icon Wireless Power Tower.png|https://media.dsp-wiki.com/thumb/c/c7/Icon_Wireless_Power_Tower.png/30px-Icon_Wireless_Power_Tower.png
+Icon Satellite Substation.png|https://media.dsp-wiki.com/thumb/d/d7/Icon_Satellite_Substation.png/30px-Icon_Satellite_Substation.png
+Icon Energy Exchanger.png|https://media.dsp-wiki.com/thumb/6/64/Icon_Energy_Exchanger.png/30px-Icon_Energy_Exchanger.png
+Icon Accumulator.png|https://media.dsp-wiki.com/thumb/7/71/Icon_Accumulator.png/22px-Icon_Accumulator.png
+Icon Full Accumulator.png|https://media.dsp-wiki.com/thumb/6/67/Icon_Full_Accumulator.png/30px-Icon_Full_Accumulator.png
+Icon Arc Smelter.png|https://media.dsp-wiki.com/thumb/6/60/Icon_Arc_Smelter.png/30px-Icon_Arc_Smelter.png
+Icon Plane Smelter.png|https://media.dsp-wiki.com/thumb/1/13/Icon_Plane_Smelter.png/30px-Icon_Plane_Smelter.png
+Icon Negentropy Smelter.png|https://media.dsp-wiki.com/thumb/9/98/Icon_Negentropy_Smelter.png/30px-Icon_Negentropy_Smelter.png
+Icon Assembling Machine Mk.I.png|https://media.dsp-wiki.com/thumb/8/8e/Icon_Assembling_Machine_Mk.I.png/29px-Icon_Assembling_Machine_Mk.I.png
+Icon Assembling Machine Mk.II.png|https://media.dsp-wiki.com/thumb/9/93/Icon_Assembling_Machine_Mk.II.png/29px-Icon_Assembling_Machine_Mk.II.png
+Icon Assembling Machine Mk.III.png|https://media.dsp-wiki.com/thumb/8/8c/Icon_Assembling_Machine_Mk.III.png/30px-Icon_Assembling_Machine_Mk.III.png
+Icon Re-composing Assembler.png|https://media.dsp-wiki.com/thumb/8/8d/Icon_Re-composing_Assembler.png/30px-Icon_Re-composing_Assembler.png
+Icon Spray Coater.png|https://media.dsp-wiki.com/thumb/9/99/Icon_Spray_Coater.png/30px-Icon_Spray_Coater.png
+Icon Oil Refinery.png|https://media.dsp-wiki.com/thumb/7/74/Icon_Oil_Refinery.png/29px-Icon_Oil_Refinery.png
+Icon Chemical Plant.png|https://media.dsp-wiki.com/thumb/f/f9/Icon_Chemical_Plant.png/30px-Icon_Chemical_Plant.png
+Icon Quantum Chemical Plant.png|https://media.dsp-wiki.com/thumb/a/a9/Icon_Quantum_Chemical_Plant.png/30px-Icon_Quantum_Chemical_Plant.png
+Icon Fractionator.png|https://media.dsp-wiki.com/thumb/2/28/Icon_Fractionator.png/23px-Icon_Fractionator.png
+Icon Miniature Particle Collider.png|https://media.dsp-wiki.com/thumb/a/aa/Icon_Miniature_Particle_Collider.png/30px-Icon_Miniature_Particle_Collider.png
+Icon Matrix Lab.png|https://media.dsp-wiki.com/thumb/b/b7/Icon_Matrix_Lab.png/30px-Icon_Matrix_Lab.png
+Icon Self-evolution Lab.png|https://media.dsp-wiki.com/thumb/5/54/Icon_Self-evolution_Lab.png/30px-Icon_Self-evolution_Lab.png
+Icon Automatic Piler.png|https://media.dsp-wiki.com/thumb/1/1c/Icon_Automatic_Piler.png/30px-Icon_Automatic_Piler.png
+Icon Conveyor Belt Mk.I.png|https://media.dsp-wiki.com/thumb/7/78/Icon_Conveyor_Belt_Mk.I.png/30px-Icon_Conveyor_Belt_Mk.I.png
+Icon Conveyor Belt Mk.II.png|https://media.dsp-wiki.com/thumb/3/38/Icon_Conveyor_Belt_Mk.II.png/30px-Icon_Conveyor_Belt_Mk.II.png
+Icon Conveyor Belt Mk.III.png|https://media.dsp-wiki.com/thumb/1/18/Icon_Conveyor_Belt_Mk.III.png/30px-Icon_Conveyor_Belt_Mk.III.png
+Icon Sorter Mk.I.png|https://media.dsp-wiki.com/thumb/4/4f/Icon_Sorter_Mk.I.png/30px-Icon_Sorter_Mk.I.png
+Icon Sorter Mk.II.png|https://media.dsp-wiki.com/thumb/2/25/Icon_Sorter_Mk.II.png/30px-Icon_Sorter_Mk.II.png
+Icon Sorter Mk.III.png|https://media.dsp-wiki.com/thumb/b/b5/Icon_Sorter_Mk.III.png/30px-Icon_Sorter_Mk.III.png
+Icon Pile Sorter.png|https://media.dsp-wiki.com/thumb/7/72/Icon_Pile_Sorter.png/30px-Icon_Pile_Sorter.png
+Icon Splitter.png|https://media.dsp-wiki.com/thumb/d/d6/Icon_Splitter.png/28px-Icon_Splitter.png
+Icon Traffic Monitor.png|https://media.dsp-wiki.com/thumb/6/64/Icon_Traffic_Monitor.png/30px-Icon_Traffic_Monitor.png
+Icon Storage Mk.I.png|https://media.dsp-wiki.com/thumb/6/68/Icon_Storage_Mk.I.png/30px-Icon_Storage_Mk.I.png
+Icon Storage Mk.II.png|https://media.dsp-wiki.com/thumb/e/e2/Icon_Storage_Mk.II.png/30px-Icon_Storage_Mk.II.png
+Icon Storage Tank.png|https://media.dsp-wiki.com/thumb/0/00/Icon_Storage_Tank.png/30px-Icon_Storage_Tank.png
+Icon Logistics Distributor.png|https://media.dsp-wiki.com/thumb/b/b3/Icon_Logistics_Distributor.png/30px-Icon_Logistics_Distributor.png
+Icon Planetary Logistics Station.png|https://media.dsp-wiki.com/thumb/e/e5/Icon_Planetary_Logistics_Station.png/20px-Icon_Planetary_Logistics_Station.png
+Icon Interstellar Logistics Station.png|https://media.dsp-wiki.com/thumb/6/6c/Icon_Interstellar_Logistics_Station.png/25px-Icon_Interstellar_Logistics_Station.png
+Icon Gauss Turret.png|https://media.dsp-wiki.com/thumb/a/a2/Icon_Gauss_Turret.png/30px-Icon_Gauss_Turret.png
+Icon Missile Turret.png|https://media.dsp-wiki.com/thumb/4/45/Icon_Missile_Turret.png/30px-Icon_Missile_Turret.png
+Icon Implosion Cannon.png|https://media.dsp-wiki.com/thumb/7/70/Icon_Implosion_Cannon.png/30px-Icon_Implosion_Cannon.png
+Icon Jammer Tower.png|https://media.dsp-wiki.com/thumb/c/cc/Icon_Jammer_Tower.png/30px-Icon_Jammer_Tower.png
+Icon Laser Turret.png|https://media.dsp-wiki.com/thumb/7/76/Icon_Laser_Turret.png/30px-Icon_Laser_Turret.png
+Icon Plasma Turret.png|https://media.dsp-wiki.com/thumb/0/0e/Icon_Plasma_Turret.png/30px-Icon_Plasma_Turret.png
+Icon SR Plasma Turret.png|https://media.dsp-wiki.com/thumb/b/b8/Icon_SR_Plasma_Turret.png/30px-Icon_SR_Plasma_Turret.png
+Icon Battlefield Analysis Base.png|https://media.dsp-wiki.com/thumb/c/c2/Icon_Battlefield_Analysis_Base.png/30px-Icon_Battlefield_Analysis_Base.png
+Icon Signal Tower.png|https://media.dsp-wiki.com/thumb/e/ec/Icon_Signal_Tower.png/30px-Icon_Signal_Tower.png
+Icon Planetary Shield Generator.png|https://media.dsp-wiki.com/thumb/4/40/Icon_Planetary_Shield_Generator.png/30px-Icon_Planetary_Shield_Generator.png
+Icon EM-Rail Ejector.png|https://media.dsp-wiki.com/thumb/a/a2/Icon_EM-Rail_Ejector.png/30px-Icon_EM-Rail_Ejector.png
+Icon Ray Receiver.png|https://media.dsp-wiki.com/thumb/7/7b/Icon_Ray_Receiver.png/30px-Icon_Ray_Receiver.png
+Icon Vertical Launching Silo.png|https://media.dsp-wiki.com/thumb/0/05/Icon_Vertical_Launching_Silo.png/30px-Icon_Vertical_Launching_Silo.png

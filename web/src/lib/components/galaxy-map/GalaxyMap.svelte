@@ -1,8 +1,8 @@
 <script lang="ts">
-    import { onMount, onDestroy } from 'svelte';
-    import { browser } from '$app/environment';
+    import {onDestroy, onMount} from 'svelte';
+    import {browser} from '$app/environment';
     import * as d3 from 'd3';
-    import type { Star, Planet, RouteAggregation } from '$lib/types';
+    import type {Planet, RouteAggregation, Star} from '$lib/types';
 
     export let stars: Star[] = [];
     export let planets: Planet[] = [];
@@ -19,7 +19,7 @@
     let fps = 0;
     let frameCount = 0;
     let lastTime = 0;
-    let fpsInterval: number;
+    let fpsRafId: number | null = null;
 
     // Star colors based on spectral type
     const spectralColors: Record<string, string> = {
@@ -38,7 +38,6 @@
         return spectralColors[star.spectr] || '#ffffff';
     }
 
-    // Build planet name to star name map
     function buildPlanetStarMap(planets: Planet[]): Map<string, string> {
         const map = new Map<string, string>();
         for (const planet of planets) {
@@ -47,7 +46,6 @@
         return map;
     }
 
-    // Build star name to star map
     function buildStarNameMap(stars: Star[]): Map<string, Star> {
         const map = new Map<string, Star>();
         for (const star of stars) {
@@ -59,7 +57,6 @@
         return map;
     }
 
-    // Get stars that are part of routes
     function getActiveStars(routes: RouteAggregation[]): Set<number> {
         const activeIds = new Set<number>();
         for (const route of routes) {
@@ -69,26 +66,61 @@
         return activeIds;
     }
 
+    let renderQueued = false;
+
+    function scheduleRender() {
+        if (!browser || !svg || !g) return;
+        if (renderQueued) return;
+        renderQueued = true;
+        requestAnimationFrame(() => {
+            renderQueued = false;
+            render();
+        });
+    }
+
+    function ensureGroups() {
+        if (g.select('g.routes').empty()) g.append('g').attr('class', 'routes');
+        if (g.select('g.stars').empty()) g.append('g').attr('class', 'stars');
+        if (g.select('g.ships').empty()) g.append('g').attr('class', 'ships');
+        if (g.select('text.empty-state').empty()) {
+            g.append('text')
+                .attr('class', 'empty-state')
+                .attr('text-anchor', 'middle')
+                .attr('fill', '#6b7280')
+                .attr('font-size', '1.2rem');
+        }
+    }
+
+
     function render() {
         if (!svg || !g || width === 0 || height === 0) return;
 
-        // Clear previous content
-        g.selectAll('*').remove();
+        ensureGroups();
+
+        const emptyState = g.select<SVGTextElement>('text.empty-state');
 
         const activeStarIds = getActiveStars(routes);
         const activeStars = stars.filter(s => activeStarIds.has(s.id));
 
         if (activeStars.length === 0) {
             // Show message when no routes
-            g.append('text')
+            g.select('g.routes').attr('display', 'none');
+            g.select('g.stars').attr('display', 'none');
+            g.select('g.ships').attr('display', 'none');
+
+            emptyState
+                .attr('display', null)
                 .attr('x', width / 2)
                 .attr('y', height / 2)
-                .attr('text-anchor', 'middle')
-                .attr('fill', '#6b7280')
-                .attr('font-size', '1.2rem')
                 .text('Select an item to view transport routes');
+
             return;
         }
+
+        emptyState.attr('display', 'none');
+        g.select('g.routes').attr('display', null);
+        g.select('g.stars').attr('display', null);
+        g.select('g.ships').attr('display', null);
 
         // Calculate bounds from active stars
         const padding = 80;
@@ -107,242 +139,184 @@
             .domain([zExtent[0] - zPad, zExtent[1] + zPad])
             .range([height - padding, padding]);
 
-        // Draw routes first (behind stars)
-        const routeGroup = g.append('g').attr('class', 'routes');
+        // ---- Routes: data join (no full clear) ----
+        type RouteDatum = RouteAggregation & { _key: string };
+        const routeData: RouteDatum[] = routes
+            .filter((r) => r.forwardShips > 0 || r.backwardShips > 0)
+            .flatMap((r) => {
+                const baseKey = `${r.fromStar.id}-${r.toStar.id}`;
+                const out: RouteDatum[] = [];
+                if (r.forwardShips > 0) out.push(Object.assign({}, r, {_key: `${baseKey}-f`}));
+                if (r.backwardShips > 0) out.push(Object.assign({}, r, {_key: `${baseKey}-b`}));
+                return out;
+            });
 
-        for (const route of routes) {
-            const x1 = xScale(route.fromStar.position.x);
-            const y1 = yScale(route.fromStar.position.z);
-            const x2 = xScale(route.toStar.position.x);
-            const y2 = yScale(route.toStar.position.z);
+        const routeSel = g
+            .select('g.routes')
+            .selectAll<SVGLineElement, RouteDatum>('line.route')
+            .data(routeData, (d) => d._key);
 
-            // Calculate line length for animation
-            const dx = x2 - x1;
-            const dy = y2 - y1;
-            const length = Math.sqrt(dx * dx + dy * dy);
+        routeSel.exit().remove();
 
-            // Forward direction ships (fromStar to toStar)
-            if (route.forwardShips > 0) {
-                const forwardPath = routeGroup.append('line')
-                    .attr('x1', x1)
-                    .attr('y1', y1)
-                    .attr('x2', x2)
-                    .attr('y2', y2)
-                    .attr('stroke', '#00d4ff')
-                    .attr('stroke-width', 2)
-                    .attr('stroke-dasharray', '8 12')
-                    .attr('stroke-dashoffset', 0)
-                    .attr('stroke-opacity', 0.8)
-                    .attr('filter', 'url(#glow)');
+        const routeEnter = routeSel
+            .enter()
+            .append('line')
+            .attr('class', (d) => `route ${d._key.endsWith('-f') ? 'forward' : 'backward'}`)
+            .attr('stroke', '#00d4ff')
+            .attr('stroke-width', 2)
+            .attr('stroke-dasharray', '8 12')
+            .attr('stroke-opacity', 0.8)
+            .attr('filter', 'url(#glow)');
 
-                // Animate dash offset to create traveling dots effect
-                forwardPath.append('animate')
-                    .attr('attributeName', 'stroke-dashoffset')
-                    .attr('from', 0)
-                    .attr('to', -20)
-                    .attr('dur', '1.5s')
-                    .attr('repeatCount', 'indefinite');
+        routeEnter
+            .merge(routeSel)
+            .attr('x1', (d) => xScale(d.fromStar.position.x))
+            .attr('y1', (d) => yScale(d.fromStar.position.z))
+            .attr('x2', (d) => xScale(d.toStar.position.x))
+            .attr('y2', (d) => yScale(d.toStar.position.z));
 
-                // Pulsing opacity
-                forwardPath.append('animate')
-                    .attr('attributeName', 'stroke-opacity')
-                    .attr('values', '0.6;1;0.6')
-                    .attr('dur', '2s')
-                    .attr('repeatCount', 'indefinite');
-            }
+        // ---- Stars: data join (group per star) ----
+        const starSel = g
+            .select('g.stars')
+            .selectAll<SVGGElement, Star>('g.star')
+            .data(activeStars, (d) => d.id);
 
-            // Backward direction ships (toStar to fromStar)
-            if (route.backwardShips > 0) {
-                const backwardPath = routeGroup.append('line')
-                    .attr('x1', x1)
-                    .attr('y1', y1)
-                    .attr('x2', x2)
-                    .attr('y2', y2)
-                    .attr('stroke', '#00d4ff')
-                    .attr('stroke-width', 2)
-                    .attr('stroke-dasharray', '8 12')
-                    .attr('stroke-dashoffset', 0)
-                    .attr('stroke-opacity', 0.8)
-                    .attr('filter', 'url(#glow)');
+        starSel.exit().remove();
 
-                // Animate dash offset in reverse direction
-                backwardPath.append('animate')
-                    .attr('attributeName', 'stroke-dashoffset')
-                    .attr('from', 0)
-                    .attr('to', 20)
-                    .attr('dur', '1.5s')
-                    .attr('repeatCount', 'indefinite');
+        const starEnter = starSel.enter().append('g').attr('class', 'star');
 
-                // Pulsing opacity (offset from forward for visual distinction)
-                backwardPath.append('animate')
-                    .attr('attributeName', 'stroke-opacity')
-                    .attr('values', '0.8;0.5;0.8')
-                    .attr('dur', '2s')
-                    .attr('repeatCount', 'indefinite');
-            }
+        starEnter
+            .append('circle')
+            .attr('class', 'star-glow')
+            .attr('r', 12)
+            .attr('opacity', 0.3)
+            .attr('filter', 'url(#starGlow)');
+
+        starEnter.append('circle').attr('class', 'star-core').attr('r', 6).style('cursor', 'pointer');
+
+        starEnter
+            .append('text')
+            .attr('class', 'star-label')
+            .attr('text-anchor', 'middle')
+            .attr('fill', '#ffffff')
+            .attr('font-size', '0.75rem')
+            .attr('opacity', 0.9);
+
+        const starMerge = starEnter.merge(starSel);
+
+        starMerge.attr('transform', (d) => `translate(${xScale(d.position.x)},${yScale(d.position.z)})`);
+
+        starMerge.select<SVGCircleElement>('circle.star-glow').attr('fill', (d) => getStarColor(d));
+        starMerge.select<SVGCircleElement>('circle.star-core').attr('fill', (d) => getStarColor(d));
+        starMerge.select<SVGTextElement>('text.star-label').attr('y', -16).text((d) => d.displayName || d.name);
+
+        // ---- Ships: join and update positions ----
+        const planetStarMap = buildPlanetStarMap(planets);
+        const starNameMap = buildStarNameMap(activeStars);
+
+        type ShipDatum = { _key: string; x: number; y: number };
+        const shipData: ShipDatum[] = [];
+
+        for (const ship of ships) {
+            if (ship.itemCount === 0) continue;
+            if (ship.t <= 0 || ship.t >= 1) continue;
+
+            const originStarName = planetStarMap.get(ship.originPlanet);
+            const destStarName = planetStarMap.get(ship.destPlanet);
+            if (!originStarName || !destStarName) continue;
+            if (originStarName === destStarName) continue;
+
+            const fromStar = starNameMap.get(originStarName);
+            const toStar = starNameMap.get(destStarName);
+            if (!fromStar || !toStar) continue;
+
+            const x1 = xScale(fromStar.position.x);
+            const y1 = yScale(fromStar.position.z);
+            const x2 = xScale(toStar.position.x);
+            const y2 = yScale(toStar.position.z);
+
+            shipData.push({
+                _key: `${ship.id ?? `${ship.originPlanet}-${ship.destPlanet}`}@${originStarName}->${destStarName}`,
+                x: x1 + (x2 - x1) * ship.t,
+                y: y1 + (y2 - y1) * ship.t
+            });
         }
 
-        // Draw stars
-        const starGroup = g.append('g').attr('class', 'stars');
+        const shipSel = g
+            .select('g.ships')
+            .selectAll<SVGGElement, ShipDatum>('g.ship')
+            .data(shipData, (d) => d._key);
 
-        for (const star of activeStars) {
-            const cx = xScale(star.position.x);
-            const cy = yScale(star.position.z);
-            const color = getStarColor(star);
+        shipSel.exit().remove();
 
-            // Star glow
-            starGroup.append('circle')
-                .attr('cx', cx)
-                .attr('cy', cy)
-                .attr('r', 12)
-                .attr('fill', color)
-                .attr('opacity', 0.3)
-                .attr('filter', 'url(#starGlow)');
+        const shipEnter = shipSel.enter().append('g').attr('class', 'ship');
+        shipEnter
+            .append('circle')
+            .attr('class', 'ship-glow')
+            .attr('r', 8)
+            .attr('fill', '#ffffff')
+            .attr('opacity', 0.3)
+            .attr('filter', 'url(#shipGlow)');
 
-            // Star core
-            starGroup.append('circle')
-                .attr('cx', cx)
-                .attr('cy', cy)
-                .attr('r', 6)
-                .attr('fill', color)
-                .style('cursor', 'pointer');
+        shipEnter.append('circle').attr('class', 'ship-core').attr('r', 3).attr('fill', '#ffffff').attr('opacity', 0.9);
 
-            // Star label
-            starGroup.append('text')
-                .attr('x', cx)
-                .attr('y', cy - 16)
-                .attr('text-anchor', 'middle')
-                .attr('fill', '#ffffff')
-                .attr('font-size', '0.75rem')
-                .attr('opacity', 0.9)
-                .text(star.displayName || star.name);
-        }
-
-        // Draw individual ships in transit
-        if (ships.length > 0) {
-            const planetStarMap = buildPlanetStarMap(planets);
-            const starNameMap = buildStarNameMap(activeStars);
-            const shipGroup = g.append('g').attr('class', 'ships');
-
-            for (const ship of ships) {
-                // Only show ships that are carrying items
-                if (ship.itemCount === 0) continue;
-
-                // Only show ships that are in transit (0 < t < 1)
-                if (ship.t <= 0 || ship.t >= 1) continue;
-
-                const originStarName = planetStarMap.get(ship.originPlanet);
-                const destStarName = planetStarMap.get(ship.destPlanet);
-
-                if (!originStarName || !destStarName) continue;
-                if (originStarName === destStarName) continue;
-
-                const fromStar = starNameMap.get(originStarName);
-                const toStar = starNameMap.get(destStarName);
-
-                if (!fromStar || !toStar) continue;
-
-                // Calculate ship position along the route
-                const x1 = xScale(fromStar.position.x);
-                const y1 = yScale(fromStar.position.z);
-                const x2 = xScale(toStar.position.x);
-                const y2 = yScale(toStar.position.z);
-
-                const shipX = x1 + (x2 - x1) * ship.t;
-                const shipY = y1 + (y2 - y1) * ship.t;
-
-                // Ship glow
-                shipGroup.append('circle')
-                    .attr('cx', shipX)
-                    .attr('cy', shipY)
-                    .attr('r', 8)
-                    .attr('fill', '#ffffff')
-                    .attr('opacity', 0.3)
-                    .attr('filter', 'url(#shipGlow)');
-
-                // Ship core
-                shipGroup.append('circle')
-                    .attr('cx', shipX)
-                    .attr('cy', shipY)
-                    .attr('r', 3)
-                    .attr('fill', '#ffffff')
-                    .attr('opacity', 0.9);
-            }
-        }
+        shipEnter.merge(shipSel).attr('transform', (d) => `translate(${d.x},${d.y})`);
     }
 
     function setupSvg() {
         if (!browser || !container) return;
 
-        // Clear any existing SVG
         d3.select(container).select('svg').remove();
 
-        svg = d3.select(container)
-            .append('svg')
-            .attr('width', width)
-            .attr('height', height)
-            .style('background', '#0d0d1a');
+        svg = d3.select(container).append('svg').attr('width', width).attr('height', height).style('background', '#0d0d1a');
 
-        // Add filters for glow effects
         const defs = svg.append('defs');
 
-        // Route glow filter
-        const glowFilter = defs.append('filter')
+        const glowFilter = defs
+            .append('filter')
             .attr('id', 'glow')
             .attr('x', '-50%')
             .attr('y', '-50%')
             .attr('width', '200%')
             .attr('height', '200%');
 
-        glowFilter.append('feGaussianBlur')
-            .attr('stdDeviation', '3')
-            .attr('result', 'coloredBlur');
-
+        glowFilter.append('feGaussianBlur').attr('stdDeviation', '3').attr('result', 'coloredBlur');
         const glowMerge = glowFilter.append('feMerge');
         glowMerge.append('feMergeNode').attr('in', 'coloredBlur');
         glowMerge.append('feMergeNode').attr('in', 'SourceGraphic');
 
-        // Star glow filter
-        const starGlowFilter = defs.append('filter')
+        const starGlowFilter = defs
+            .append('filter')
             .attr('id', 'starGlow')
             .attr('x', '-100%')
             .attr('y', '-100%')
             .attr('width', '300%')
             .attr('height', '300%');
 
-        starGlowFilter.append('feGaussianBlur')
-            .attr('stdDeviation', '4')
-            .attr('result', 'blur');
+        starGlowFilter.append('feGaussianBlur').attr('stdDeviation', '4').attr('result', 'blur');
 
-        // Ship glow filter
-        const shipGlowFilter = defs.append('filter')
+        const shipGlowFilter = defs
+            .append('filter')
             .attr('id', 'shipGlow')
             .attr('x', '-150%')
             .attr('y', '-150%')
             .attr('width', '400%')
             .attr('height', '400%');
 
-        shipGlowFilter.append('feGaussianBlur')
-            .attr('stdDeviation', '5')
-            .attr('result', 'blur');
-
+        shipGlowFilter.append('feGaussianBlur').attr('stdDeviation', '5').attr('result', 'blur');
         const shipMerge = shipGlowFilter.append('feMerge');
         shipMerge.append('feMergeNode').attr('in', 'blur');
         shipMerge.append('feMergeNode').attr('in', 'SourceGraphic');
 
-        // Create main group
         g = svg.append('g');
 
-        render();
+        scheduleRender();
     }
 
     function updateFPS(timestamp: number) {
         if (!browser) return;
 
-        if (lastTime === 0) {
-            lastTime = timestamp;
-        }
-
+        if (lastTime === 0) lastTime = timestamp;
         frameCount++;
 
         const elapsed = timestamp - lastTime;
@@ -352,7 +326,7 @@
             lastTime = timestamp;
         }
 
-        requestAnimationFrame(updateFPS);
+        fpsRafId = requestAnimationFrame(updateFPS);
     }
 
     function handleResize() {
@@ -362,28 +336,29 @@
 
         if (svg) {
             svg.attr('width', width).attr('height', height);
-            render();
+            scheduleRender();
         }
     }
 
     onMount(() => {
-        if (browser) {
-            handleResize();
-            setupSvg();
-            window.addEventListener('resize', handleResize);
-            requestAnimationFrame(updateFPS);
-        }
+        if (!browser) return;
+        handleResize();
+        setupSvg();
+        window.addEventListener('resize', handleResize, { passive: true });
+        fpsRafId = requestAnimationFrame(updateFPS);
     });
 
     onDestroy(() => {
-        if (browser) {
-            window.removeEventListener('resize', handleResize);
-        }
+        if (!browser) return;
+        window.removeEventListener('resize', handleResize);
+        if (fpsRafId != null) cancelAnimationFrame(fpsRafId);
     });
 
-    // Re-render when routes change
-    $: if (browser && routes && svg) {
-        render();
+    // Re-render when inputs change (debounced to RAF)
+    $: if (browser && svg) {
+        // Reference the reactive deps explicitly
+        routes; stars; planets; ships; width; height;
+        scheduleRender();
     }
 </script>
 
@@ -394,6 +369,44 @@
 </div>
 
 <style>
+    /* Replace SMIL with CSS animation */
+    :global(.galaxy-map .route) {
+        animation: routeDash 1.5s linear infinite, routePulse 2s ease-in-out infinite;
+    }
+
+    :global(.galaxy-map .route.forward) {
+        animation-direction: normal, normal;
+    }
+
+    :global(.galaxy-map .route.backward) {
+        animation-direction: reverse, normal;
+    }
+
+    @keyframes routeDash {
+        from {
+            stroke-dashoffset: 0;
+        }
+        to {
+            stroke-dashoffset: -20;
+        }
+    }
+
+    @keyframes routePulse {
+        0%,
+        100% {
+            stroke-opacity: 0.6;
+        }
+        50% {
+            stroke-opacity: 1;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        :global(.galaxy-map .route) {
+            animation: none;
+        }
+    }
+
     .galaxy-map {
         width: 100%;
         height: 100%;

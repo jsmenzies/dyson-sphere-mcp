@@ -4,14 +4,17 @@
     import ItemSearch from '$lib/components/galaxy-map/ItemSearch.svelte';
     import GalaxyMap from '$lib/components/galaxy-map/GalaxyMap.svelte';
 
-    export let data: PageData;
+    interface Props {
+        data: PageData;
+    }
 
-    let selectedItem: { id: number; name: string } | null = null;
-    let transportData: ItemTransportResponse | null = null;
-    let routes: RouteAggregation[] = [];
-    let loading = false;
+    let { data }: Props = $props();
 
-    // Build planet name to star name map
+    let selectedItem = $state<{ id: number; name: string } | null>(null);
+    let transportData = $state<ItemTransportResponse | null>(null);
+    let routes = $state<RouteAggregation[]>([]);
+    let loading = $state(false);
+
     function buildPlanetStarMap(planets: Planet[]): Map<string, string> {
         const map = new Map<string, string>();
         for (const planet of planets) {
@@ -20,7 +23,6 @@
         return map;
     }
 
-    // Build star name to star map
     function buildStarNameMap(stars: Star[]): Map<string, Star> {
         const map = new Map<string, Star>();
         for (const star of stars) {
@@ -32,7 +34,6 @@
         return map;
     }
 
-    // Aggregate ships into routes between stars
     function aggregateRoutes(
         transport: ItemTransportResponse,
         planets: Planet[],
@@ -97,15 +98,14 @@
         return Array.from(routeMap.values());
     }
 
-    async function handleItemSelect(event: CustomEvent<{ id: number; name: string }>) {
-        const item = event.detail;
+    async function handleItemSelect(item: { id: number; name: string }) {
         selectedItem = item;
         loading = true;
 
         try {
             const response = await fetch(`/api/transport/items/${item.id}`);
             if (response.ok) {
-                transportData = await response.json();
+                transportData = await response.json() as ItemTransportResponse;
                 routes = aggregateRoutes(transportData, data.planets, data.stars);
             } else {
                 console.error('Failed to fetch transport data');
@@ -132,9 +132,9 @@
 
     <ItemSearch
         items={data.items}
-        {selectedItem}
+        bind:selectedItem
         shipCount={transportData?.ships?.filter(s => s.itemCount > 0).length ?? 0}
-        on:select={handleItemSelect}
+        onSelect={handleItemSelect}
     />
 
     {#if loading}

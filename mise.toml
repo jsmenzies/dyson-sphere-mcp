@@ -1,0 +1,4 @@
+[tools]
+bun = "latest"
+dotnet = "8"
+uv = "latest"
