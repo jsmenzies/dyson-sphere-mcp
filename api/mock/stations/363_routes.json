@@ -1,0 +1,78 @@
+{
+  "stationId": 363,
+  "planetId": 1403,
+  "planetName": "Algomeyla III Expiriment",
+  "starName": "Algomeyla",
+  "outgoing": [
+    {
+      "shipIndex": 5,
+      "otherStationGId": 222,
+      "otherPlanetName": "Algomeyla IV",
+      "otherStarName": "Algomeyla",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 1830.572,
+      "warpState": 0,
+      "distance": 87847.6822410275,
+      "remainingTicks": 131044,
+      "remainingSeconds": 2184.06666666667
+    }
+  ],
+  "incoming": [
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 157,
+      "sourcePlanetName": "Porrima I Sulfur",
+      "sourceStarName": "Porrima",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 4957842.85068022,
+      "remainingTicks": 518,
+      "remainingSeconds": 8.63333333333333
+    },
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 577,
+      "sourcePlanetName": "Almach II",
+      "sourceStarName": "Almach",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 5123.448,
+      "warpState": 0,
+      "distance": 3430.87949497042,
+      "remainingTicks": 861,
+      "remainingSeconds": 14.35
+    },
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 577,
+      "sourcePlanetName": "Almach II",
+      "sourceStarName": "Almach",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 80775.77,
+      "warpState": 0.4500002,
+      "distance": 16869853.46296,
+      "remainingTicks": 136223,
+      "remainingSeconds": 2270.38333333333
+    }
+  ]
+}

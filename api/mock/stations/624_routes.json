@@ -1,0 +1,43 @@
+{
+  "stationId": 624,
+  "planetId": 401,
+  "planetName": "CorHydrae Proliferator Silicon",
+  "starName": "CorHydrae",
+  "outgoing": [
+    {
+      "shipIndex": 5,
+      "otherStationGId": 377,
+      "otherPlanetName": "Algomeyla III Expiriment",
+      "otherStarName": "Algomeyla",
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 15160.29,
+      "warpState": 0,
+      "distance": 27631.3311947445,
+      "remainingTicks": 39841,
+      "remainingSeconds": 664.016666666667
+    },
+    {
+      "shipIndex": 6,
+      "otherStationGId": 427,
+      "otherPlanetName": "Bunda MegaFarm",
+      "otherStarName": "Bunda",
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 3146207.09320438,
+      "remainingTicks": 39841,
+      "remainingSeconds": 664.016666666667
+    }
+  ],
+  "incoming": []
+}

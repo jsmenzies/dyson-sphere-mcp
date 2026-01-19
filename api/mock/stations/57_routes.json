@@ -1,0 +1,60 @@
+{
+  "stationId": 57,
+  "planetId": 103,
+  "planetName": "Home",
+  "starName": "Acrux",
+  "outgoing": [
+    {
+      "shipIndex": 6,
+      "otherStationGId": 603,
+      "otherPlanetName": "DSR J2029+13 I",
+      "otherStarName": "DSR J2029+13",
+      "itemId": 1016,
+      "itemName": "Unipolar Magnet",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 76061571.1029091,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    },
+    {
+      "shipIndex": 7,
+      "otherStationGId": 90,
+      "otherPlanetName": "\u03b6 Ursae Majoris IV MegaFarm",
+      "otherStarName": "\u03b6 Ursae Majoris",
+      "itemId": 1210,
+      "itemName": "Space Warper",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 886.2395,
+      "warpState": 0,
+      "distance": 1216.8884377628,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    },
+    {
+      "shipIndex": 8,
+      "otherStationGId": 603,
+      "otherPlanetName": "DSR J2029+13 I",
+      "otherStarName": "DSR J2029+13",
+      "itemId": 1016,
+      "itemName": "Unipolar Magnet",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 90282335.62135,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ],
+  "incoming": []
+}

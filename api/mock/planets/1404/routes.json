@@ -1,0 +1,54 @@
+{
+  "planetId": 1404,
+  "planetName": "Algomeyla IV",
+  "starName": "Algomeyla",
+  "stationCount": 40,
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "originStationGId": 363,
+      "originPlanetName": "Algomeyla III Expiriment",
+      "destStationGId": 202,
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 15300,
+      "distance": 33980.4835916916,
+      "remainingTicks": 131042,
+      "remainingSeconds": 2184.03333333333
+    },
+    {
+      "shipIndex": 4,
+      "originStationGId": 363,
+      "originPlanetName": "Algomeyla III Expiriment",
+      "destStationGId": 211,
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Approach",
+      "t": 0.3568276,
+      "uSpeed": 0,
+      "distance": 849.248854312035,
+      "remainingTicks": 131042,
+      "remainingSeconds": 2184.03333333333
+    },
+    {
+      "shipIndex": 5,
+      "originStationGId": 363,
+      "originPlanetName": "Algomeyla III Expiriment",
+      "destStationGId": 222,
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 10287.57,
+      "distance": 11141.6082857314,
+      "remainingTicks": 131042,
+      "remainingSeconds": 2184.03333333333
+    }
+  ]
+}

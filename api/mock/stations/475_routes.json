@@ -1,0 +1,43 @@
+{
+  "stationId": 475,
+  "planetId": 805,
+  "planetName": "MegaFarm Alpha",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 71,
+      "sourcePlanetName": "Atlas I",
+      "sourceStarName": "Atlas",
+      "itemId": 1003,
+      "itemName": "Silicon Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 19673937.238509,
+      "remainingTicks": 741,
+      "remainingSeconds": 12.35
+    },
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 529,
+      "sourcePlanetName": "Porrima III Coal",
+      "sourceStarName": "Porrima",
+      "itemId": 1003,
+      "itemName": "Silicon Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 36553.74,
+      "warpState": 0.3,
+      "distance": 20036679.1538187,
+      "remainingTicks": 779,
+      "remainingSeconds": 12.9833333333333
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "planetId": 102,
+  "planetName": "Acrux II",
+  "starName": "Acrux",
+  "stationCount": 40,
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 9,
+      "originStationGId": 180,
+      "originPlanetName": "Home",
+      "destStationGId": 5,
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "itemCount": 0,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 45.28792,
+      "distance": 877.128576500968,
+      "remainingTicks": 696,
+      "remainingSeconds": 11.6
+    }
+  ]
+}

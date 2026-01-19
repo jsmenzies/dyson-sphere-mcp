@@ -1,0 +1,173 @@
+{
+  "planetId": 1103,
+  "planetName": "Porrima III Coal",
+  "starName": "Porrima",
+  "ilsStations": [
+    {
+      "id": 2,
+      "gid": 580,
+      "entityId": 396,
+      "isStellar": true,
+      "deliveryDrones": 50,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1209,
+          "itemName": "Graviton Lens",
+          "count": 1412,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 0,
+          "inc": 0,
+          "max": 0,
+          "localLogic": "Supply",
+          "remoteLogic": "None"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "gid": 530,
+      "entityId": 3247,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 100,
+      "workDroneCount": 0,
+      "idleShipCount": 6,
+      "workShipCount": 4,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 2112569981,
+      "energyMax": 12000000000,
+      "energyPerTick": 2622638,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 20000,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1003,
+          "itemName": "Silicon Ore",
+          "count": 20000,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1603,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "gid": 529,
+      "entityId": 3250,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 91,
+      "workDroneCount": 9,
+      "idleShipCount": 5,
+      "workShipCount": 5,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 663849478,
+      "energyMax": 12000000000,
+      "energyPerTick": 2984788,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 20000,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1003,
+          "itemName": "Silicon Ore",
+          "count": 18200,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "gid": 528,
+      "entityId": 3273,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 92,
+      "workDroneCount": 8,
+      "idleShipCount": 5,
+      "workShipCount": 5,
+      "warperCount": 51,
+      "warperMaxCount": 50,
+      "energy": 740115850,
+      "energyMax": 12000000000,
+      "energyPerTick": 2965723,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 20000,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1003,
+          "itemName": "Silicon Ore",
+          "count": 18400,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 4
+}

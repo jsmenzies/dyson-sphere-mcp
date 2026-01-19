@@ -1,0 +1,125 @@
+{
+  "planetId": 6006,
+  "planetName": "Alifa VI",
+  "starName": "Alifa",
+  "ilsStations": [
+    {
+      "id": 1,
+      "gid": 178,
+      "entityId": 1519,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1501,
+          "itemName": "Solar Sail",
+          "count": 0,
+          "inc": 0,
+          "max": 0,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1238,
+          "inc": 96,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "gid": 184,
+      "entityId": 4366,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1501,
+          "itemName": "Solar Sail",
+          "count": 0,
+          "inc": 0,
+          "max": 0,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 944,
+          "inc": 50,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "gid": 168,
+      "entityId": 6356,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1804,
+          "itemName": "Strange Annihilation Fuel Rod",
+          "count": 668,
+          "inc": 1170,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1948,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 3
+}

@@ -1,0 +1,26 @@
+{
+  "stationId": 146,
+  "planetId": 602,
+  "planetName": "\u03b6 Ursae Majoris II",
+  "starName": "\u03b6 Ursae Majoris",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 99,
+      "sourcePlanetName": "\u03b6 Ursae Majoris IV MegaFarm",
+      "sourceStarName": "\u03b6 Ursae Majoris",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 6487.946,
+      "warpState": 0,
+      "distance": 5899.58377561782,
+      "remainingTicks": 702,
+      "remainingSeconds": 11.7
+    }
+  ]
+}

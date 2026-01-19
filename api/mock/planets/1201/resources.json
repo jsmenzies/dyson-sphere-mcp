@@ -1,0 +1,46 @@
+{
+  "planetId": 1201,
+  "planetName": "Saidak I Proliferator",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 3282634,
+      "veinCount": 44
+    },
+    {
+      "type": "Copper",
+      "amount": 4878556,
+      "veinCount": 66
+    },
+    {
+      "type": "Silicium",
+      "amount": 9157897,
+      "veinCount": 126
+    },
+    {
+      "type": "Stone",
+      "amount": 3263222,
+      "veinCount": 52
+    },
+    {
+      "type": "Coal",
+      "amount": 20272705,
+      "veinCount": 166
+    },
+    {
+      "type": "Oil",
+      "amount": 2580173,
+      "veinCount": 22
+    },
+    {
+      "type": "Crysrub",
+      "amount": 2985374,
+      "veinCount": 24
+    },
+    {
+      "type": "Bamboo",
+      "amount": 2610208,
+      "veinCount": 21
+    }
+  ]
+}

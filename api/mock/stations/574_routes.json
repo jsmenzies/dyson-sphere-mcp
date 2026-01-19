@@ -1,0 +1,60 @@
+{
+  "stationId": 574,
+  "planetId": 103,
+  "planetName": "Home",
+  "starName": "Acrux",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 173,
+      "sourcePlanetName": "Algomeyla V Supplier 3",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 4061562.32408759,
+      "remainingTicks": 280,
+      "remainingSeconds": 4.66666666666667
+    },
+    {
+      "shipIndex": 4,
+      "sourceStationGId": 212,
+      "sourcePlanetName": "Farm II Coal/Stone",
+      "sourceStarName": "Farm",
+      "itemId": 1006,
+      "itemName": "Coal",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 3424721.80687687,
+      "remainingTicks": 781,
+      "remainingSeconds": 13.0166666666667
+    },
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 354,
+      "sourcePlanetName": "Farm 4 Titan",
+      "sourceStarName": "Farm",
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 1702470.74440186,
+      "remainingTicks": 87,
+      "remainingSeconds": 1.45
+    }
+  ]
+}

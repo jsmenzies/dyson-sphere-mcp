@@ -1,0 +1,36 @@
+{
+  "planetId": 3101,
+  "planetName": "Gamma Aurigae I",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 71974122,
+      "veinCount": 244
+    },
+    {
+      "type": "Copper",
+      "amount": 70978392,
+      "veinCount": 241
+    },
+    {
+      "type": "Silicium",
+      "amount": 7090221,
+      "veinCount": 40
+    },
+    {
+      "type": "Titanium",
+      "amount": 38467705,
+      "veinCount": 130
+    },
+    {
+      "type": "Stone",
+      "amount": 9547602,
+      "veinCount": 65
+    },
+    {
+      "type": "Coal",
+      "amount": 617904,
+      "veinCount": 7
+    }
+  ]
+}

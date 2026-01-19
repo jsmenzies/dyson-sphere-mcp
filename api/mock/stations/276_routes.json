@@ -1,0 +1,26 @@
+{
+  "stationId": 276,
+  "planetId": 202,
+  "planetName": "Phact II",
+  "starName": "Phact",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 19,
+      "sourcePlanetName": "CorHydrae MegaFarm",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 66678.07,
+      "warpState": 0.4166668,
+      "distance": 36819.3050747973,
+      "remainingTicks": 39757,
+      "remainingSeconds": 662.616666666667
+    }
+  ]
+}

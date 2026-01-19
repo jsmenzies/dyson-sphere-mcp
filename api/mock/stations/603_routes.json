@@ -1,0 +1,60 @@
+{
+  "stationId": 603,
+  "planetId": 6401,
+  "planetName": "DSR J2029+13 I",
+  "starName": "DSR J2029+13",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 57,
+      "sourcePlanetName": "Home",
+      "sourceStarName": "Acrux",
+      "itemId": 1016,
+      "itemName": "Unipolar Magnet",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 78880756.9314072,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    },
+    {
+      "shipIndex": 8,
+      "sourceStationGId": 57,
+      "sourcePlanetName": "Home",
+      "sourceStarName": "Acrux",
+      "itemId": 1016,
+      "itemName": "Unipolar Magnet",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 87463471.5386716,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    },
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 570,
+      "sourcePlanetName": "Home",
+      "sourceStarName": "Acrux",
+      "itemId": 5205,
+      "itemName": "Core Element",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 58.1783,
+      "warpState": 0,
+      "distance": 287.752438401236,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ]
+}

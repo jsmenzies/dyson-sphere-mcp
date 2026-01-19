@@ -1,0 +1,36 @@
+{
+  "planetId": 4503,
+  "planetName": "Muphrid III",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 74726359,
+      "veinCount": 321
+    },
+    {
+      "type": "Copper",
+      "amount": 76793894,
+      "veinCount": 330
+    },
+    {
+      "type": "Silicium",
+      "amount": 1771343,
+      "veinCount": 13
+    },
+    {
+      "type": "Titanium",
+      "amount": 46605131,
+      "veinCount": 200
+    },
+    {
+      "type": "Stone",
+      "amount": 4691173,
+      "veinCount": 40
+    },
+    {
+      "type": "Coal",
+      "amount": 1402680,
+      "veinCount": 20
+    }
+  ]
+}

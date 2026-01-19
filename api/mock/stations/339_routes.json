@@ -1,0 +1,26 @@
+{
+  "stationId": 339,
+  "planetId": 1404,
+  "planetName": "Algomeyla IV",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 453,
+      "sourcePlanetName": "MegaFarm Alpha",
+      "sourceStarName": "Farm",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 20753017.3874559,
+      "remainingTicks": 758,
+      "remainingSeconds": 12.6333333333333
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "stationId": 576,
+  "planetId": 6001,
+  "planetName": "Alifa I Photon Farm",
+  "starName": "Alifa",
+  "outgoing": [
+    {
+      "shipIndex": 9,
+      "otherStationGId": 157,
+      "otherPlanetName": "Porrima I Sulfur",
+      "otherStarName": "Porrima",
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 53083259.8913206,
+      "remainingTicks": 325522,
+      "remainingSeconds": 5425.36666666667
+    },
+    {
+      "shipIndex": 0,
+      "otherStationGId": 179,
+      "otherPlanetName": "Porrima I Sulfur",
+      "otherStarName": "Porrima",
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 3911255.63523005,
+      "remainingTicks": 750,
+      "remainingSeconds": 12.5
+    }
+  ],
+  "incoming": []
+}

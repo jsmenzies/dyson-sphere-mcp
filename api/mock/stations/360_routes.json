@@ -1,0 +1,26 @@
+{
+  "stationId": 360,
+  "planetId": 801,
+  "planetName": "Double Farm",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 8,
+      "sourceStationGId": 584,
+      "sourcePlanetName": "CorHydrae Oil Platform Stalag",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 2000,
+      "stage": "Approach",
+      "direction": 1,
+      "t": 0.006006725,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 216.154613417148,
+      "remainingTicks": 39803,
+      "remainingSeconds": 663.383333333333
+    }
+  ]
+}

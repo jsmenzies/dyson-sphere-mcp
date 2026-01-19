@@ -1,0 +1,46 @@
+{
+  "planetId": 6005,
+  "planetName": "Alifa V",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 60898711,
+      "veinCount": 145
+    },
+    {
+      "type": "Copper",
+      "amount": 10046738,
+      "veinCount": 24
+    },
+    {
+      "type": "Silicium",
+      "amount": 10689995,
+      "veinCount": 17
+    },
+    {
+      "type": "Titanium",
+      "amount": 69492595,
+      "veinCount": 132
+    },
+    {
+      "type": "Stone",
+      "amount": 17845747,
+      "veinCount": 34
+    },
+    {
+      "type": "Coal",
+      "amount": 979533,
+      "veinCount": 6
+    },
+    {
+      "type": "Fireice",
+      "amount": 124766920,
+      "veinCount": 237
+    },
+    {
+      "type": "Diamond",
+      "amount": 24713653,
+      "veinCount": 47
+    }
+  ]
+}

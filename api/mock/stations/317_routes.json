@@ -1,0 +1,26 @@
+{
+  "stationId": 317,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 375,
+      "sourcePlanetName": "Algomeyla III Expiriment",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 4240.228,
+      "warpState": 0,
+      "distance": 3026.0387962794,
+      "remainingTicks": 198243,
+      "remainingSeconds": 3304.05
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "planetId": 702,
+  "planetName": "Bunda II",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 11064221,
+      "veinCount": 159
+    },
+    {
+      "type": "Copper",
+      "amount": 1469851,
+      "veinCount": 21
+    },
+    {
+      "type": "Silicium",
+      "amount": 5294508,
+      "veinCount": 50
+    },
+    {
+      "type": "Titanium",
+      "amount": 13703002,
+      "veinCount": 157
+    },
+    {
+      "type": "Stone",
+      "amount": 2562595,
+      "veinCount": 29
+    },
+    {
+      "type": "Coal",
+      "amount": 180631,
+      "veinCount": 7
+    },
+    {
+      "type": "Fireice",
+      "amount": 2077399,
+      "veinCount": 23
+    },
+    {
+      "type": "Diamond",
+      "amount": 8115682,
+      "veinCount": 91
+    }
+  ]
+}

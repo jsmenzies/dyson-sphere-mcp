@@ -1,0 +1,26 @@
+{
+  "stationId": 338,
+  "planetId": 1404,
+  "planetName": "Algomeyla IV",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 40,
+      "sourcePlanetName": "Phact Farm",
+      "sourceStarName": "Phact",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 13556817.2696548,
+      "remainingTicks": 922,
+      "remainingSeconds": 15.3666666666667
+    }
+  ]
+}

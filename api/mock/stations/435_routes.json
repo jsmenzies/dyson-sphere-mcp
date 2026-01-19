@@ -1,0 +1,43 @@
+{
+  "stationId": 435,
+  "planetId": 801,
+  "planetName": "Double Farm",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 4,
+      "sourceStationGId": 585,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 36553.74,
+      "warpState": 0.3,
+      "distance": 32992.7839602688,
+      "remainingTicks": 573,
+      "remainingSeconds": 9.55
+    },
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 585,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 1561.304,
+      "warpState": 0,
+      "distance": 12396531.8205439,
+      "remainingTicks": 573,
+      "remainingSeconds": 9.55
+    }
+  ]
+}

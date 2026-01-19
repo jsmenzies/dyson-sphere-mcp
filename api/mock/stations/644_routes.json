@@ -1,0 +1,43 @@
+{
+  "stationId": 644,
+  "planetId": 404,
+  "planetName": "CorHydrae MegaFarm",
+  "starName": "CorHydrae",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 157,
+      "sourcePlanetName": "Porrima I Sulfur",
+      "sourceStarName": "Porrima",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Departure",
+      "direction": 1,
+      "t": 0.4823788,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 11185345.1314674,
+      "remainingTicks": 849,
+      "remainingSeconds": 14.15
+    },
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 179,
+      "sourcePlanetName": "Porrima I Sulfur",
+      "sourceStarName": "Porrima",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 4202.662,
+      "warpState": 0,
+      "distance": 2441.13017096993,
+      "remainingTicks": 83364,
+      "remainingSeconds": 1389.4
+    }
+  ]
+}

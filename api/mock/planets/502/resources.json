@@ -1,0 +1,41 @@
+{
+  "planetId": 502,
+  "planetName": "Atlas II",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 9988507,
+      "veinCount": 101
+    },
+    {
+      "type": "Copper",
+      "amount": 25954800,
+      "veinCount": 261
+    },
+    {
+      "type": "Silicium",
+      "amount": 1199974,
+      "veinCount": 12
+    },
+    {
+      "type": "Titanium",
+      "amount": 15139201,
+      "veinCount": 154
+    },
+    {
+      "type": "Stone",
+      "amount": 2314338,
+      "veinCount": 46
+    },
+    {
+      "type": "Coal",
+      "amount": 175546,
+      "veinCount": 6
+    },
+    {
+      "type": "Fireice",
+      "amount": 1925201,
+      "veinCount": 20
+    }
+  ]
+}

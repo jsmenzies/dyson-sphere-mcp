@@ -1,0 +1,60 @@
+{
+  "stationId": 376,
+  "planetId": 1403,
+  "planetName": "Algomeyla III Expiriment",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 4,
+      "sourceStationGId": 172,
+      "sourcePlanetName": "Algomeyla V Supplier 3",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 8866.399,
+      "warpState": 0,
+      "distance": 80584.7707187543,
+      "remainingTicks": 11504,
+      "remainingSeconds": 191.733333333333
+    },
+    {
+      "shipIndex": 4,
+      "sourceStationGId": 542,
+      "sourcePlanetName": "Epsilon Sagittarii III Fire",
+      "sourceStarName": "Epsilon Sagittarii",
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 23187811.8834204,
+      "remainingTicks": 960,
+      "remainingSeconds": 16
+    },
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 546,
+      "sourcePlanetName": "Epsilon Sagittarii III Fire",
+      "sourceStarName": "Epsilon Sagittarii",
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 15300,
+      "warpState": 0.2333333,
+      "distance": 9716.26068018751,
+      "remainingTicks": 45283,
+      "remainingSeconds": 754.716666666667
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "planetId": 1101,
+  "planetName": "Porrima I Sulfur",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 22139802,
+      "veinCount": 229
+    },
+    {
+      "type": "Copper",
+      "amount": 19620969,
+      "veinCount": 174
+    },
+    {
+      "type": "Titanium",
+      "amount": 15133550,
+      "veinCount": 134
+    },
+    {
+      "type": "Stone",
+      "amount": 1658339,
+      "veinCount": 43
+    }
+  ]
+}

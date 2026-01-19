@@ -1,0 +1,26 @@
+{
+  "stationId": 299,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 19,
+      "sourcePlanetName": "CorHydrae MegaFarm",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 2052.995,
+      "warpState": 0,
+      "distance": 25802770.2643615,
+      "remainingTicks": 261,
+      "remainingSeconds": 4.35
+    }
+  ]
+}

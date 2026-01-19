@@ -1,0 +1,26 @@
+{
+  "stationId": 646,
+  "planetId": 404,
+  "planetName": "CorHydrae MegaFarm",
+  "starName": "CorHydrae",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 533,
+      "sourcePlanetName": "CorHydrae Oil Platform Stalag",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 578.4715,
+      "warpState": 0,
+      "distance": 22212.3397375415,
+      "remainingTicks": 4233,
+      "remainingSeconds": 70.55
+    }
+  ]
+}

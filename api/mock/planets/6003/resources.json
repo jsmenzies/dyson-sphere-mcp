@@ -1,0 +1,36 @@
+{
+  "planetId": 6003,
+  "planetName": "Alifa III",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 133646985,
+      "veinCount": 254
+    },
+    {
+      "type": "Copper",
+      "amount": 146119509,
+      "veinCount": 278
+    },
+    {
+      "type": "Silicium",
+      "amount": 11360143,
+      "veinCount": 36
+    },
+    {
+      "type": "Titanium",
+      "amount": 88807598,
+      "veinCount": 169
+    },
+    {
+      "type": "Stone",
+      "amount": 14119003,
+      "veinCount": 54
+    },
+    {
+      "type": "Coal",
+      "amount": 768206,
+      "veinCount": 5
+    }
+  ]
+}

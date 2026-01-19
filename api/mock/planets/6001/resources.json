@@ -1,0 +1,36 @@
+{
+  "planetId": 6001,
+  "planetName": "Alifa I Photon Farm",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 115969213,
+      "veinCount": 221
+    },
+    {
+      "type": "Copper",
+      "amount": 107176714,
+      "veinCount": 204
+    },
+    {
+      "type": "Silicium",
+      "amount": 8236516,
+      "veinCount": 26
+    },
+    {
+      "type": "Titanium",
+      "amount": 96278576,
+      "veinCount": 183
+    },
+    {
+      "type": "Stone",
+      "amount": 16882436,
+      "veinCount": 64
+    },
+    {
+      "type": "Coal",
+      "amount": 942181,
+      "veinCount": 6
+    }
+  ]
+}

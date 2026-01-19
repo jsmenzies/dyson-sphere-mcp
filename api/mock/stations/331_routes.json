@@ -1,0 +1,26 @@
+{
+  "stationId": 331,
+  "planetId": 3803,
+  "planetName": "Eta Corvi III",
+  "starName": "Eta Corvi",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 86,
+      "sourcePlanetName": "\u03b6 Ursae Majoris IV MegaFarm",
+      "sourceStarName": "\u03b6 Ursae Majoris",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 46.3678,
+      "warpState": 0,
+      "distance": 877.371924385697,
+      "remainingTicks": 68617,
+      "remainingSeconds": 1143.61666666667
+    }
+  ]
+}

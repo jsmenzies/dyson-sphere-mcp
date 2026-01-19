@@ -1,0 +1,36 @@
+{
+  "planetId": 4005,
+  "planetName": "Procyon V",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 57022485,
+      "veinCount": 174
+    },
+    {
+      "type": "Copper",
+      "amount": 6586597,
+      "veinCount": 20
+    },
+    {
+      "type": "Silicium",
+      "amount": 73004293,
+      "veinCount": 134
+    },
+    {
+      "type": "Titanium",
+      "amount": 45805797,
+      "veinCount": 84
+    },
+    {
+      "type": "Stone",
+      "amount": 28830183,
+      "veinCount": 106
+    },
+    {
+      "type": "Coal",
+      "amount": 1008972,
+      "veinCount": 6
+    }
+  ]
+}

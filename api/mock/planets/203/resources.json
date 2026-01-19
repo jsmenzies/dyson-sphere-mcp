@@ -1,0 +1,31 @@
+{
+  "planetId": 203,
+  "planetName": "Phact Farm",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 1108552,
+      "veinCount": 18
+    },
+    {
+      "type": "Copper",
+      "amount": 10607577,
+      "veinCount": 136
+    },
+    {
+      "type": "Silicium",
+      "amount": 12217212,
+      "veinCount": 157
+    },
+    {
+      "type": "Stone",
+      "amount": 12584104,
+      "veinCount": 162
+    },
+    {
+      "type": "Coal",
+      "amount": 1695298,
+      "veinCount": 31
+    }
+  ]
+}

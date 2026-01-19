@@ -1,0 +1,78 @@
+{
+  "stationId": 546,
+  "planetId": 303,
+  "planetName": "Epsilon Sagittarii III Fire",
+  "starName": "Epsilon Sagittarii",
+  "outgoing": [
+    {
+      "shipIndex": 4,
+      "otherStationGId": 425,
+      "otherPlanetName": "Bunda MegaFarm",
+      "otherStarName": "Bunda",
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 428.2825,
+      "warpState": 0,
+      "distance": 11576028.3364997,
+      "remainingTicks": 45283,
+      "remainingSeconds": 754.716666666667
+    },
+    {
+      "shipIndex": 5,
+      "otherStationGId": 376,
+      "otherPlanetName": "Algomeyla III Expiriment",
+      "otherStarName": "Algomeyla",
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 1811697.08709546,
+      "remainingTicks": 45283,
+      "remainingSeconds": 754.716666666667
+    },
+    {
+      "shipIndex": 6,
+      "otherStationGId": 473,
+      "otherPlanetName": "MegaFarm Alpha",
+      "otherStarName": "Farm",
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3853.142,
+      "warpState": 0,
+      "distance": 4117.86973890044,
+      "remainingTicks": 45283,
+      "remainingSeconds": 754.716666666667
+    }
+  ],
+  "incoming": [
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 57,
+      "sourcePlanetName": "Home",
+      "sourceStarName": "Acrux",
+      "itemId": 1210,
+      "itemName": "Space Warper",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 4511.444,
+      "warpState": 0,
+      "distance": 11421808.3375891,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ]
+}

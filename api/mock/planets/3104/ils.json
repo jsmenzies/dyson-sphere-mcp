@@ -1,0 +1,146 @@
+{
+  "planetId": 3104,
+  "planetName": "Gamma Aurigae IV",
+  "starName": "Gamma Aurigae",
+  "ilsStations": [
+    {
+      "id": 1,
+      "gid": 37,
+      "entityId": 2884,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1007,
+          "itemName": "Crude Oil",
+          "count": 4,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1804,
+          "itemName": "Strange Annihilation Fuel Rod",
+          "count": 1952,
+          "inc": 7808,
+          "max": 200,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 320,
+          "inc": 0,
+          "max": 200,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "gid": 78,
+      "entityId": 4315,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 3,
+      "workShipCount": 7,
+      "warperCount": 52,
+      "warperMaxCount": 50,
+      "energy": 2055671800,
+      "energyMax": 12000000000,
+      "energyPerTick": 4393591,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1007,
+          "itemName": "Crude Oil",
+          "count": 1869,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "gid": 188,
+      "entityId": 3137,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 3,
+      "workShipCount": 7,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 2013268538,
+      "energyMax": 12000000000,
+      "energyPerTick": 4413093,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1007,
+          "itemName": "Crude Oil",
+          "count": 1328,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "gid": 451,
+      "entityId": 4233,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 6,
+      "workShipCount": 4,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 7449549860,
+      "energyMax": 12000000000,
+      "energyPerTick": 2147485,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1007,
+          "itemName": "Crude Oil",
+          "count": 1740,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 4
+}

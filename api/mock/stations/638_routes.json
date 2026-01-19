@@ -1,0 +1,60 @@
+{
+  "stationId": 638,
+  "planetId": 404,
+  "planetName": "CorHydrae MegaFarm",
+  "starName": "CorHydrae",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 385,
+      "sourcePlanetName": "Algomeyla I Supplier 2",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 23211425.1338445,
+      "remainingTicks": 598,
+      "remainingSeconds": 9.96666666666667
+    },
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 458,
+      "sourcePlanetName": "Farm III Iron/Kim",
+      "sourceStarName": "Farm",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 397740.8,
+      "warpState": 0.7,
+      "distance": 73030.8064352944,
+      "remainingTicks": 726,
+      "remainingSeconds": 12.1
+    },
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 465,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 4400.854,
+      "warpState": 0,
+      "distance": 4718.0547211567,
+      "remainingTicks": 39972,
+      "remainingSeconds": 666.2
+    }
+  ]
+}

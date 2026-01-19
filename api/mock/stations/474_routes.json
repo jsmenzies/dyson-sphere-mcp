@@ -1,0 +1,43 @@
+{
+  "stationId": 474,
+  "planetId": 805,
+  "planetName": "MegaFarm Alpha",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 448,
+      "sourcePlanetName": "CorHydrae Proliferator Silicon",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1003,
+      "itemName": "Silicon Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 2304.005,
+      "warpState": 0,
+      "distance": 12923066.0853098,
+      "remainingTicks": 65,
+      "remainingSeconds": 1.08333333333333
+    },
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 513,
+      "sourcePlanetName": "CorHydrae Proliferator Silicon",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1003,
+      "itemName": "Silicon Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 5250371.56569604,
+      "remainingTicks": 1007,
+      "remainingSeconds": 16.7833333333333
+    }
+  ]
+}

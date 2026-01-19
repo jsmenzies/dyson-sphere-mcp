@@ -1,0 +1,26 @@
+{
+  "stationId": 222,
+  "planetId": 1404,
+  "planetName": "Algomeyla IV",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 363,
+      "sourcePlanetName": "Algomeyla III Expiriment",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 1461.077,
+      "warpState": 0,
+      "distance": 88243.0880167025,
+      "remainingTicks": 131044,
+      "remainingSeconds": 2184.06666666667
+    }
+  ]
+}

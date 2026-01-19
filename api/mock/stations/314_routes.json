@@ -1,0 +1,43 @@
+{
+  "stationId": 314,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 20,
+      "sourcePlanetName": "CorHydrae MegaFarm",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 2278192.2070803,
+      "remainingTicks": 648,
+      "remainingSeconds": 10.8
+    },
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 500,
+      "sourcePlanetName": "Acrux IV",
+      "sourceStarName": "Acrux",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 14075633.7188602,
+      "remainingTicks": 944,
+      "remainingSeconds": 15.7333333333333
+    }
+  ]
+}

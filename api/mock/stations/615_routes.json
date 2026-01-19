@@ -1,0 +1,26 @@
+{
+  "stationId": 615,
+  "planetId": 6001,
+  "planetName": "Alifa I Photon Farm",
+  "starName": "Alifa",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 567,
+      "sourcePlanetName": "Home",
+      "sourceStarName": "Acrux",
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 55709135.1125752,
+      "remainingTicks": 1010,
+      "remainingSeconds": 16.8333333333333
+    }
+  ]
+}

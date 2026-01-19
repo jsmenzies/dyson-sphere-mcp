@@ -1,0 +1,60 @@
+{
+  "stationId": 418,
+  "planetId": 701,
+  "planetName": "Bunda MegaFarm",
+  "starName": "Bunda",
+  "outgoing": [
+    {
+      "shipIndex": 1,
+      "otherStationGId": 578,
+      "otherPlanetName": "Almach II",
+      "otherStarName": "Almach",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 34371157.8321618,
+      "remainingTicks": 433,
+      "remainingSeconds": 7.21666666666667
+    },
+    {
+      "shipIndex": 2,
+      "otherStationGId": 605,
+      "otherPlanetName": "Farm 4 Titan",
+      "otherStarName": "Farm",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 5094.713,
+      "warpState": 0,
+      "distance": 5947502.73162055,
+      "remainingTicks": 708,
+      "remainingSeconds": 11.8
+    },
+    {
+      "shipIndex": 3,
+      "otherStationGId": 578,
+      "otherPlanetName": "Almach II",
+      "otherStarName": "Almach",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 11036.23,
+      "warpState": 0,
+      "distance": 41745595.2395523,
+      "remainingTicks": 44517,
+      "remainingSeconds": 741.95
+    }
+  ],
+  "incoming": []
+}

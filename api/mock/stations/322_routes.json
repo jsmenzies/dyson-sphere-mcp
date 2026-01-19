@@ -1,0 +1,43 @@
+{
+  "stationId": 322,
+  "planetId": 3803,
+  "planetName": "Eta Corvi III",
+  "starName": "Eta Corvi",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 4,
+      "sourceStationGId": 20,
+      "sourcePlanetName": "CorHydrae MegaFarm",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 50.56533,
+      "warpState": 0,
+      "distance": 901.697315339333,
+      "remainingTicks": 1065,
+      "remainingSeconds": 17.75
+    },
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 500,
+      "sourcePlanetName": "Acrux IV",
+      "sourceStarName": "Acrux",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 376.9484,
+      "warpState": 0,
+      "distance": 896.567499789336,
+      "remainingTicks": 300,
+      "remainingSeconds": 5
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "planetId": 701,
+  "planetName": "Bunda MegaFarm",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 8529882,
+      "veinCount": 159
+    },
+    {
+      "type": "Copper",
+      "amount": 517013,
+      "veinCount": 10
+    },
+    {
+      "type": "Silicium",
+      "amount": 11158837,
+      "veinCount": 128
+    },
+    {
+      "type": "Titanium",
+      "amount": 5435861,
+      "veinCount": 63
+    },
+    {
+      "type": "Stone",
+      "amount": 6142714,
+      "veinCount": 140
+    },
+    {
+      "type": "Coal",
+      "amount": 186687,
+      "veinCount": 6
+    },
+    {
+      "type": "Fireice",
+      "amount": 1060905,
+      "veinCount": 23
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "stationId": 414,
+  "planetId": 801,
+  "planetName": "Double Farm",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 468,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1002,
+      "itemName": "Copper Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 183.6015,
+      "warpState": 0,
+      "distance": 12396299.4978878,
+      "remainingTicks": 206,
+      "remainingSeconds": 3.43333333333333
+    },
+    {
+      "shipIndex": 8,
+      "sourceStationGId": 482,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1002,
+      "itemName": "Copper Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 11633321.9521177,
+      "remainingTicks": 1077,
+      "remainingSeconds": 17.95
+    }
+  ]
+}

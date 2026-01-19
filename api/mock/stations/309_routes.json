@@ -1,0 +1,60 @@
+{
+  "stationId": 309,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 8,
+      "sourceStationGId": 40,
+      "sourcePlanetName": "Phact Farm",
+      "sourceStarName": "Phact",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 10652897.7307027,
+      "remainingTicks": 26386,
+      "remainingSeconds": 439.766666666667
+    },
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 374,
+      "sourcePlanetName": "Double Farm",
+      "sourceStarName": "Farm",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 1096.436,
+      "warpState": 0,
+      "distance": 22170839.8911786,
+      "remainingTicks": 328,
+      "remainingSeconds": 5.46666666666667
+    },
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 375,
+      "sourcePlanetName": "Algomeyla III Expiriment",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 14234430.9902888,
+      "remainingTicks": 82,
+      "remainingSeconds": 1.36666666666667
+    }
+  ]
+}

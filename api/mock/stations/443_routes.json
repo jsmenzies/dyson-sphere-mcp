@@ -1,0 +1,26 @@
+{
+  "stationId": 443,
+  "planetId": 1101,
+  "planetName": "Porrima I Sulfur",
+  "starName": "Porrima",
+  "outgoing": [
+    {
+      "shipIndex": 2,
+      "otherStationGId": 573,
+      "otherPlanetName": "Home",
+      "otherStarName": "Acrux",
+      "itemId": 1116,
+      "itemName": "Sulfuric Acid",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 4723.644,
+      "warpState": 0,
+      "distance": 5080.99961001753,
+      "remainingTicks": 83365,
+      "remainingSeconds": 1389.41666666667
+    }
+  ],
+  "incoming": []
+}

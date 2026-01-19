@@ -1,0 +1,60 @@
+{
+  "stationId": 198,
+  "planetId": 104,
+  "planetName": "Acrux IV",
+  "starName": "Acrux",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 468,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1002,
+      "itemName": "Copper Ore",
+      "itemCount": 0,
+      "stage": "Landing",
+      "direction": -1,
+      "t": 0.2004,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 216.14996960548,
+      "remainingTicks": 572,
+      "remainingSeconds": 9.53333333333333
+    },
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 471,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1002,
+      "itemName": "Copper Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 2291.272,
+      "warpState": 0,
+      "distance": 109270.787262898,
+      "remainingTicks": 572,
+      "remainingSeconds": 9.53333333333333
+    },
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 482,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1002,
+      "itemName": "Copper Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 24001.16,
+      "warpState": 0.7499999,
+      "distance": 10354.6808059858,
+      "remainingTicks": 3264,
+      "remainingSeconds": 54.4
+    }
+  ]
+}

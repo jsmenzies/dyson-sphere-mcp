@@ -1,0 +1,41 @@
+{
+  "planetId": 803,
+  "planetName": "Farm III Iron/Kim",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 10627225,
+      "veinCount": 159
+    },
+    {
+      "type": "Copper",
+      "amount": 1784227,
+      "veinCount": 32
+    },
+    {
+      "type": "Silicium",
+      "amount": 3056309,
+      "veinCount": 37
+    },
+    {
+      "type": "Titanium",
+      "amount": 11673645,
+      "veinCount": 138
+    },
+    {
+      "type": "Stone",
+      "amount": 1196938,
+      "veinCount": 15
+    },
+    {
+      "type": "Fireice",
+      "amount": 1401802,
+      "veinCount": 21
+    },
+    {
+      "type": "Diamond",
+      "amount": 7334959,
+      "veinCount": 89
+    }
+  ]
+}

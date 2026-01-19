@@ -1,11 +1,11 @@
 {
-    "currentTech": {
-        "id": 5206,
-        "name": "Explosive Weapon Damage",
-        "hashNeeded": 378000000,
-        "hashUploaded": 109034730,
-        "progressPercent": 28.85
-    },
-    "totalHashPerSecond": 1080000,
-    "totalLabCount": 480
+  "currentTech": {
+    "id": 3606,
+    "name": "Vein Utilization",
+    "hashNeeded": 730800000,
+    "hashUploaded": 393493155,
+    "progressPercent": 53.84
+  },
+  "totalHashPerSecond": 1080000,
+  "totalLabCount": 480
 }

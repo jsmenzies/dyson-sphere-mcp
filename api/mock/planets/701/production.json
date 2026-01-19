@@ -1,0 +1,854 @@
+{
+  "planetId": 701,
+  "timeLevel": 0,
+  "stats": [
+    {
+      "itemId": 1608,
+      "itemName": "Antimatter Capsule",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1210,
+      "itemName": "Space Warper",
+      "productionRate": 0,
+      "consumptionRate": 30,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1804,
+      "itemName": "Strange Annihilation Fuel Rod",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1131,
+      "itemName": "Foundation",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5203,
+      "itemName": "Matter Recombinator",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5206,
+      "itemName": "Energy Shard",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1609,
+      "itemName": "Missile Set",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1603,
+      "itemName": "Superalloy Ammo Box",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5201,
+      "itemName": "Dark Fog Matrix",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "productionRate": 0,
+      "consumptionRate": 10307,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1005,
+      "itemName": "Stone",
+      "productionRate": 0,
+      "consumptionRate": 7554,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1110,
+      "itemName": "Glass",
+      "productionRate": 4724,
+      "consumptionRate": 4718,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "productionRate": 0,
+      "consumptionRate": 43669,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1101,
+      "itemName": "Iron Ingot",
+      "productionRate": 40046,
+      "consumptionRate": 40105,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1003,
+      "itemName": "Silicon Ore",
+      "productionRate": 0,
+      "consumptionRate": 62256,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1105,
+      "itemName": "High-purity Silicon",
+      "productionRate": 38905,
+      "consumptionRate": 38918,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1201,
+      "itemName": "Gear",
+      "productionRate": 6036,
+      "consumptionRate": 6033,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1002,
+      "itemName": "Copper Ore",
+      "productionRate": 0,
+      "consumptionRate": 30861,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1104,
+      "itemName": "Copper Ingot",
+      "productionRate": 38576,
+      "consumptionRate": 38574,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1113,
+      "itemName": "Crystal Silicon",
+      "productionRate": 7388,
+      "consumptionRate": 7388,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1302,
+      "itemName": "Microcrystalline Component",
+      "productionRate": 20641,
+      "consumptionRate": 20630,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "productionRate": 0,
+      "consumptionRate": 39012,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1106,
+      "itemName": "Titanium Ingot",
+      "productionRate": 24376,
+      "consumptionRate": 24396,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1007,
+      "itemName": "Crude Oil",
+      "productionRate": 0,
+      "consumptionRate": 19688,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1114,
+      "itemName": "Refined Oil",
+      "productionRate": 24614,
+      "consumptionRate": 24622,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "productionRate": 21441,
+      "consumptionRate": 37438,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "productionRate": 0,
+      "consumptionRate": 14614,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1000,
+      "itemName": "Water",
+      "productionRate": 0,
+      "consumptionRate": 9174,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1123,
+      "itemName": "Graphene",
+      "productionRate": 18268,
+      "consumptionRate": 18268,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1301,
+      "itemName": "Circuit Board",
+      "productionRate": 25244,
+      "consumptionRate": 25228,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1119,
+      "itemName": "Titanium Glass",
+      "productionRate": 5898,
+      "consumptionRate": 5904,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1102,
+      "itemName": "Magnet",
+      "productionRate": 14540,
+      "consumptionRate": 14514,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1202,
+      "itemName": "Magnetic Coil",
+      "productionRate": 18142,
+      "consumptionRate": 18173,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1006,
+      "itemName": "Coal",
+      "productionRate": 0,
+      "consumptionRate": 46236,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1109,
+      "itemName": "Energetic Graphite",
+      "productionRate": 28900,
+      "consumptionRate": 28872,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1203,
+      "itemName": "Electric Motor",
+      "productionRate": 7538,
+      "consumptionRate": 7542,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1303,
+      "itemName": "Processor",
+      "productionRate": 12894,
+      "consumptionRate": 12878,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1112,
+      "itemName": "Diamond",
+      "productionRate": 11975,
+      "consumptionRate": 11948,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 6002,
+      "itemName": "Energy Matrix",
+      "productionRate": 5761,
+      "consumptionRate": 5760,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1124,
+      "itemName": "Carbon Nanotube",
+      "productionRate": 7376,
+      "consumptionRate": 7388,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1115,
+      "itemName": "Plastic",
+      "productionRate": 12603,
+      "consumptionRate": 12606,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1117,
+      "itemName": "Organic Crystal",
+      "productionRate": 5571,
+      "consumptionRate": 5576,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1204,
+      "itemName": "Electromagnetic Turbine",
+      "productionRate": 4714,
+      "consumptionRate": 4714,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1206,
+      "itemName": "Particle Container",
+      "productionRate": 2946,
+      "consumptionRate": 3016,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1402,
+      "itemName": "Particle Broadband",
+      "productionRate": 4621,
+      "consumptionRate": 4608,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1118,
+      "itemName": "Titanium Crystal",
+      "productionRate": 6966,
+      "consumptionRate": 6960,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 6004,
+      "itemName": "Information Matrix",
+      "productionRate": 5745,
+      "consumptionRate": 5760,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1126,
+      "itemName": "Casimir Crystal",
+      "productionRate": 2940,
+      "consumptionRate": 2952,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "productionRate": 0,
+      "consumptionRate": 15080,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1127,
+      "itemName": "Strange Matter",
+      "productionRate": 1873,
+      "consumptionRate": 1835,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1304,
+      "itemName": "Plane Filter",
+      "productionRate": 3689,
+      "consumptionRate": 3662,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1209,
+      "itemName": "Graviton Lens",
+      "productionRate": 2291,
+      "consumptionRate": 2323,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1305,
+      "itemName": "Quantum Chip",
+      "productionRate": 2286,
+      "consumptionRate": 2323,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 6005,
+      "itemName": "Gravity Matrix",
+      "productionRate": 5800,
+      "consumptionRate": 5760,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 6001,
+      "itemName": "Electromagnetic Matrix",
+      "productionRate": 5748,
+      "consumptionRate": 5760,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 6003,
+      "itemName": "Structure Matrix",
+      "productionRate": 5756,
+      "consumptionRate": 5760,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "productionRate": 0,
+      "consumptionRate": 5760,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 6006,
+      "itemName": "Universe Matrix",
+      "productionRate": 7200,
+      "consumptionRate": 7200,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5002,
+      "itemName": "Interstellar Logistics Vessel",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5001,
+      "itemName": "Logistics Drone",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1610,
+      "itemName": "Supersonic Missile Set",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1602,
+      "itemName": "Titanium Ammo Box",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1601,
+      "itemName": "Magnum Ammo Box",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1142,
+      "itemName": "Proliferator Mk.II",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1501,
+      "itemName": "Solar Sail",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1404,
+      "itemName": "Photon Combiner",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5202,
+      "itemName": "Silicon-based Neuron",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2014,
+      "itemName": "Pile Sorter",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1503,
+      "itemName": "Small Carrier Rocket",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1108,
+      "itemName": "Stone Brick",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 1803,
+      "itemName": "Antimatter Fuel Rod",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5205,
+      "itemName": "Core Element",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2003,
+      "itemName": "Conveyor Belt Mk.III",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2201,
+      "itemName": "Tesla Tower",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2020,
+      "itemName": "Splitter",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2318,
+      "itemName": "Re-composing Assembler",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2208,
+      "itemName": "Ray Receiver",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2202,
+      "itemName": "Wireless Power Tower",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2311,
+      "itemName": "EM-Rail Ejector",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2212,
+      "itemName": "Satellite Substation",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2313,
+      "itemName": "Spray Coater",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2319,
+      "itemName": "Negentropy Smelter",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2310,
+      "itemName": "Miniature Particle Collider",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2312,
+      "itemName": "Vertical Launching Silo",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2210,
+      "itemName": "Artificial Star",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2104,
+      "itemName": "Interstellar Logistics Station",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2103,
+      "itemName": "Planetary Logistics Station",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2213,
+      "itemName": "Geothermal Power Station",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2316,
+      "itemName": "Advanced Mining Machine",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2317,
+      "itemName": "Quantum Chemical Plant",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2101,
+      "itemName": "Depot Mk.I",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2102,
+      "itemName": "Depot Mk.II",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2107,
+      "itemName": "Logistics Distributor",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5003,
+      "itemName": "Logistics Bot",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2106,
+      "itemName": "Storage Tank",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2105,
+      "itemName": "Orbital Collector",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 3004,
+      "itemName": "Plasma Turret",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 2902,
+      "itemName": "Self-evolution Lab",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 3003,
+      "itemName": "Implosion Cannon",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 3009,
+      "itemName": "Battlefield Analysis Base",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 3007,
+      "itemName": "Signal Tower",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 3008,
+      "itemName": "Planetary Shield Generator",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5111,
+      "itemName": "Corvette",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5112,
+      "itemName": "Destroyer",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    },
+    {
+      "itemId": 5103,
+      "itemName": "Attack Drone",
+      "productionRate": 0,
+      "consumptionRate": 0,
+      "theoreticalMaxProduction": 0,
+      "theoreticalMaxConsumption": 0
+    }
+  ]
+}

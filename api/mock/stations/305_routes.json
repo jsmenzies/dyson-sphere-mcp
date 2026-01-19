@@ -1,0 +1,26 @@
+{
+  "stationId": 305,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 8,
+      "sourceStationGId": 500,
+      "sourcePlanetName": "Acrux IV",
+      "sourceStarName": "Acrux",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 810.5003,
+      "warpState": 0,
+      "distance": 32335055.0295145,
+      "remainingTicks": 944,
+      "remainingSeconds": 15.7333333333333
+    }
+  ]
+}

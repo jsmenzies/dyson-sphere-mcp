@@ -1,0 +1,46 @@
+{
+  "planetId": 2004,
+  "planetName": "Becrux IV",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 21002855,
+      "veinCount": 156
+    },
+    {
+      "type": "Copper",
+      "amount": 2706722,
+      "veinCount": 20
+    },
+    {
+      "type": "Silicium",
+      "amount": 3594824,
+      "veinCount": 18
+    },
+    {
+      "type": "Titanium",
+      "amount": 26730380,
+      "veinCount": 158
+    },
+    {
+      "type": "Stone",
+      "amount": 2882581,
+      "veinCount": 17
+    },
+    {
+      "type": "Coal",
+      "amount": 310997,
+      "veinCount": 7
+    },
+    {
+      "type": "Fireice",
+      "amount": 23379800,
+      "veinCount": 138
+    },
+    {
+      "type": "Diamond",
+      "amount": 15528217,
+      "veinCount": 92
+    }
+  ]
+}

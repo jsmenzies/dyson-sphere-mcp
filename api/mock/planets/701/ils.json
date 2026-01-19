@@ -1,0 +1,668 @@
+{
+  "planetId": 701,
+  "planetName": "Bunda MegaFarm",
+  "starName": "Bunda",
+  "ilsStations": [
+    {
+      "id": 2,
+      "gid": 441,
+      "entityId": 265,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1804,
+          "itemName": "Strange Annihilation Fuel Rod",
+          "count": 450,
+          "inc": 1800,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1143,
+          "itemName": "Proliferator Mk.III",
+          "count": 1856,
+          "inc": 7424,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1944,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "gid": 439,
+      "entityId": 417,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 8,
+      "workShipCount": 2,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 10136871385,
+      "energyMax": 12000000000,
+      "energyPerTick": 1027525,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1143,
+          "itemName": "Proliferator Mk.III",
+          "count": 15864,
+          "inc": 63456,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1382,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "gid": 438,
+      "entityId": 5371,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1001,
+          "itemName": "Iron Ore",
+          "count": 14048,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "gid": 436,
+      "entityId": 5606,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1003,
+          "itemName": "Silicon Ore",
+          "count": 7136,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "gid": 431,
+      "entityId": 5987,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1001,
+          "itemName": "Iron Ore",
+          "count": 15756,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "gid": 430,
+      "entityId": 7209,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1002,
+          "itemName": "Copper Ore",
+          "count": 16644,
+          "inc": 1304,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "gid": 429,
+      "entityId": 7358,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1003,
+          "itemName": "Silicon Ore",
+          "count": 11416,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "gid": 428,
+      "entityId": 7441,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1002,
+          "itemName": "Copper Ore",
+          "count": 17160,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "gid": 427,
+      "entityId": 9155,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1004,
+          "itemName": "Titanium Ore",
+          "count": 8708,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "gid": 426,
+      "entityId": 16272,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1007,
+          "itemName": "Crude Oil",
+          "count": 12160,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "gid": 425,
+      "entityId": 16532,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 15668,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "gid": 424,
+      "entityId": 21372,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1001,
+          "itemName": "Iron Ore",
+          "count": 16960,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "gid": 423,
+      "entityId": 26240,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1000,
+          "itemName": "Water",
+          "count": 20028,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1005,
+          "itemName": "Stone",
+          "count": 16848,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1110,
+          "itemName": "Glass",
+          "count": 496,
+          "inc": 0,
+          "max": 500,
+          "localLogic": "None",
+          "remoteLogic": "None"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "gid": 422,
+      "entityId": 64479,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 3772,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "gid": 421,
+      "entityId": 67785,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1000,
+          "itemName": "Water",
+          "count": 18956,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "gid": 420,
+      "entityId": 72388,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 1384580772,
+      "energyMax": 12000000000,
+      "energyPerTick": 467393,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 15078,
+          "inc": 60312,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1880,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "gid": 419,
+      "entityId": 97711,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 4,
+      "workShipCount": 6,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 5104040245,
+      "energyMax": 12000000000,
+      "energyPerTick": 3124993,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 8660,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1127,
+          "itemName": "Strange Matter",
+          "count": 508,
+          "inc": 0,
+          "max": 500,
+          "localLogic": "None",
+          "remoteLogic": "None"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1076,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "gid": 418,
+      "entityId": 98672,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 8,
+      "workShipCount": 2,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 9596382746,
+      "energyMax": 12000000000,
+      "energyPerTick": 1252778,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1122,
+          "itemName": "Antimatter",
+          "count": 17792,
+          "inc": 64124,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 824,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "gid": 417,
+      "entityId": 100837,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 11394570855,
+      "energyMax": 12000000000,
+      "energyPerTick": 101360,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1143,
+          "itemName": "Proliferator Mk.III",
+          "count": 19476,
+          "inc": 77904,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 990,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 19
+}

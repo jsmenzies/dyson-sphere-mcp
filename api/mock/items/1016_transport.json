@@ -1,0 +1,34 @@
+{
+  "itemId": 1016,
+  "itemName": "Unipolar Magnet",
+  "ships": [
+    {
+      "shipIndex": 6,
+      "originStationGId": 57,
+      "originPlanet": "Home",
+      "destStationGId": 603,
+      "destPlanet": "DSR J2029+13 I",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 836265.9,
+      "distance": 95054274.6075472,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    },
+    {
+      "shipIndex": 8,
+      "originStationGId": 57,
+      "originPlanet": "Home",
+      "destStationGId": 603,
+      "destPlanet": "DSR J2029+13 I",
+      "itemCount": 0,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 3075300,
+      "distance": 70909027.307005,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ]
+}

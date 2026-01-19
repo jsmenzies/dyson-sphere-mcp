@@ -1,0 +1,26 @@
+{
+  "stationId": 433,
+  "planetId": 801,
+  "planetName": "Double Farm",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 459,
+      "sourcePlanetName": "Farm III Iron/Kim",
+      "sourceStarName": "Farm",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 0,
+      "stage": "Landing",
+      "direction": -1,
+      "t": 0.6346,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 215.513184090987,
+      "remainingTicks": 497,
+      "remainingSeconds": 8.28333333333333
+    }
+  ]
+}

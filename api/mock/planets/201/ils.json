@@ -1,0 +1,140 @@
+{
+  "planetId": 201,
+  "planetName": "Phact I",
+  "starName": "Phact",
+  "ilsStations": [
+    {
+      "id": 1,
+      "gid": 565,
+      "entityId": 110,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 10675709895,
+      "energyMax": 12000000000,
+      "energyPerTick": 161197,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 5201,
+          "itemName": "Dark Fog Matrix",
+          "count": 235,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 5206,
+          "itemName": "Energy Shard",
+          "count": 938,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 5202,
+          "itemName": "Silicon-based Neuron",
+          "count": 1020,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 5204,
+          "itemName": "Negentropy Singularity",
+          "count": 1012,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 5203,
+          "itemName": "Matter Recombinator",
+          "count": 486,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "gid": 566,
+      "entityId": 441,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 10675709895,
+      "energyMax": 12000000000,
+      "energyPerTick": 161197,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1606,
+          "itemName": "Crystal Shell Set",
+          "count": 3053,
+          "inc": 0,
+          "max": 2000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1608,
+          "itemName": "Antimatter Capsule",
+          "count": 3031,
+          "inc": 0,
+          "max": 2000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 5205,
+          "itemName": "Core Element",
+          "count": 0,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1127,
+          "itemName": "Strange Matter",
+          "count": 73,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1305,
+          "itemName": "Quantum Chip",
+          "count": 12,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 2
+}

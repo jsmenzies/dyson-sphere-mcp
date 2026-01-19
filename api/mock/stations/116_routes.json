@@ -1,0 +1,26 @@
+{
+  "stationId": 116,
+  "planetId": 2003,
+  "planetName": "Becrux III",
+  "starName": "Becrux",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 180,
+      "sourcePlanetName": "Home",
+      "sourceStarName": "Acrux",
+      "itemId": 1011,
+      "itemName": "Fire Ice",
+      "itemCount": 0,
+      "stage": "Takeoff",
+      "direction": 1,
+      "t": 0.8670998,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 37241829.7191576,
+      "remainingTicks": 1577,
+      "remainingSeconds": 26.2833333333333
+    }
+  ]
+}

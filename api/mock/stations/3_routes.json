@@ -1,0 +1,26 @@
+{
+  "stationId": 3,
+  "planetId": 102,
+  "planetName": "Acrux II",
+  "starName": "Acrux",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 371,
+      "sourcePlanetName": "Double Farm",
+      "sourceStarName": "Farm",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 14759.01,
+      "warpState": 0,
+      "distance": 12383649.1312832,
+      "remainingTicks": 1076,
+      "remainingSeconds": 17.9333333333333
+    }
+  ]
+}

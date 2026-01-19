@@ -1,0 +1,26 @@
+{
+  "stationId": 463,
+  "planetId": 805,
+  "planetName": "MegaFarm Alpha",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 382,
+      "sourcePlanetName": "Algomeyla I Supplier 2",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 18621460.8953441,
+      "remainingTicks": 84,
+      "remainingSeconds": 1.4
+    }
+  ]
+}

@@ -49,20 +49,64 @@ async def query_game(method: str, params: dict = None) -> Any:
 def load_mock_data(method: str, params: dict = None) -> Any:
     """Load data from the mock directory."""
     filename = f"{method}.json"
-    
-    # Special handling for methods with planetId/starId/itemId to look for specific mocks
-    if params:
-        if "planetId" in params:
-            specific_file = f"{method}_{params['planetId']}.json"
-            if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
-                filename = specific_file
-        elif "itemId" in params:
-            specific_file = f"{method}_{params['itemId']}.json"
-            if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
-                filename = specific_file
-            
     filepath = os.path.join(MOCK_DIR, filename)
     
+    # Special handling for methods with planetId/starId/itemId/stationId
+    if params:
+        if "planetId" in params:
+            pid = params['planetId']
+            # Try new structure: planets/{pid}/{category}.json
+            category_map = {
+                "get_planet_resources": "resources",
+                "get_lab_details": "labs",
+                "get_ils_details": "ils",
+                "get_power_grids_by_planet": "power",
+                "get_production_stats": "production",
+                "get_assembler_details": "assemblers",
+                "get_planet_routes": "routes"
+            }
+            if method in category_map:
+                specific_file = os.path.join("planets", str(pid), f"{category_map[method]}.json")
+                specific_path = os.path.join(MOCK_DIR, specific_file)
+                if os.path.exists(specific_path):
+                    filepath = specific_path
+                else:
+                    # Fallback to old flat structure for compatibility
+                    specific_file = f"{method}_{pid}.json"
+                    if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
+                        filepath = os.path.join(MOCK_DIR, specific_file)
+            else:
+                 # Generic fallback
+                specific_file = f"{method}_{pid}.json"
+                if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
+                    filepath = os.path.join(MOCK_DIR, specific_file)
+
+        elif "stationId" in params:
+            sid = params['stationId']
+            # stations/{sid}_routes.json
+            if method == "get_shipping_routes_for_ils":
+                specific_file = os.path.join("stations", f"{sid}_routes.json")
+                if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
+                    filepath = os.path.join(MOCK_DIR, specific_file)
+                else:
+                     # Fallback
+                    specific_file = f"{method}_{sid}.json"
+                    if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
+                        filepath = os.path.join(MOCK_DIR, specific_file)
+
+        elif "itemId" in params:
+            iid = params['itemId']
+            # items/{iid}_transport.json
+            if method == "find_item_transport":
+                specific_file = os.path.join("items", f"{iid}_transport.json")
+                if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
+                    filepath = os.path.join(MOCK_DIR, specific_file)
+                else:
+                    # Fallback
+                    specific_file = f"{method}_{iid}.json"
+                    if os.path.exists(os.path.join(MOCK_DIR, specific_file)):
+                        filepath = os.path.join(MOCK_DIR, specific_file)
+            
     try:
         if not os.path.exists(filepath):
             logger.warning(f"Mock file not found: {filepath}. Falling back to empty or generic response.")

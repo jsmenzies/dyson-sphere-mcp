@@ -1,0 +1,31 @@
+{
+  "planetId": 801,
+  "planetName": "Double Farm",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 949061,
+      "veinCount": 21
+    },
+    {
+      "type": "Copper",
+      "amount": 10578171,
+      "veinCount": 200
+    },
+    {
+      "type": "Titanium",
+      "amount": 9796704,
+      "veinCount": 115
+    },
+    {
+      "type": "Stone",
+      "amount": 17986762,
+      "veinCount": 198
+    },
+    {
+      "type": "Coal",
+      "amount": 199190,
+      "veinCount": 7
+    }
+  ]
+}

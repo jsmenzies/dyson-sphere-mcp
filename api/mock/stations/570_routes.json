@@ -1,0 +1,26 @@
+{
+  "stationId": 570,
+  "planetId": 103,
+  "planetName": "Home",
+  "starName": "Acrux",
+  "outgoing": [
+    {
+      "shipIndex": 1,
+      "otherStationGId": 603,
+      "otherPlanetName": "DSR J2029+13 I",
+      "otherStarName": "DSR J2029+13",
+      "itemId": 5205,
+      "itemName": "Core Element",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 142.2814,
+      "warpState": 0,
+      "distance": 370.107971707272,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ],
+  "incoming": []
+}

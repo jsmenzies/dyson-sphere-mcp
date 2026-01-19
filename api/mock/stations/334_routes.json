@@ -1,0 +1,26 @@
+{
+  "stationId": 334,
+  "planetId": 1404,
+  "planetName": "Algomeyla IV",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 518,
+      "sourcePlanetName": "Acrux IV",
+      "sourceStarName": "Acrux",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 14126.84,
+      "warpState": 0,
+      "distance": 33295877.0373669,
+      "remainingTicks": 944,
+      "remainingSeconds": 15.7333333333333
+    }
+  ]
+}

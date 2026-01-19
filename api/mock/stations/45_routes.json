@@ -1,0 +1,44 @@
+{
+  "stationId": 45,
+  "planetId": 203,
+  "planetName": "Phact Farm",
+  "starName": "Phact",
+  "outgoing": [
+    {
+      "shipIndex": 9,
+      "otherStationGId": 291,
+      "otherPlanetName": "Menkent III",
+      "otherStarName": "Menkent",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 29822030.1780974,
+      "remainingTicks": 26385,
+      "remainingSeconds": 439.75
+    }
+  ],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 578,
+      "sourcePlanetName": "Almach II",
+      "sourceStarName": "Almach",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 5366986.32781617,
+      "remainingTicks": 136224,
+      "remainingSeconds": 2270.4
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "stationId": 127,
+  "planetId": 604,
+  "planetName": "\u03b6 Ursae Majoris IV MegaFarm",
+  "starName": "\u03b6 Ursae Majoris",
+  "outgoing": [
+    {
+      "shipIndex": 9,
+      "otherStationGId": 160,
+      "otherPlanetName": "CorHydrae Proliferator Silicon",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 190.6529,
+      "warpState": 0,
+      "distance": 9397791.68906884,
+      "remainingTicks": 68619,
+      "remainingSeconds": 1143.65
+    },
+    {
+      "shipIndex": 0,
+      "otherStationGId": 160,
+      "otherPlanetName": "CorHydrae Proliferator Silicon",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Approach",
+      "direction": -1,
+      "t": 0.5481576,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 239.405191034095,
+      "remainingTicks": 208,
+      "remainingSeconds": 3.46666666666667
+    },
+    {
+      "shipIndex": 1,
+      "otherStationGId": 160,
+      "otherPlanetName": "CorHydrae Proliferator Silicon",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 15300,
+      "warpState": 0.01666667,
+      "distance": 9382246.01233797,
+      "remainingTicks": 980,
+      "remainingSeconds": 16.3333333333333
+    }
+  ],
+  "incoming": []
+}

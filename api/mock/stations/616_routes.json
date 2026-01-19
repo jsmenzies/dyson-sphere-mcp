@@ -1,0 +1,43 @@
+{
+  "stationId": 616,
+  "planetId": 1405,
+  "planetName": "Algomeyla V Supplier 3",
+  "starName": "Algomeyla",
+  "outgoing": [
+    {
+      "shipIndex": 7,
+      "otherStationGId": 469,
+      "otherPlanetName": "MegaFarm Alpha",
+      "otherStarName": "Farm",
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 11445.16,
+      "warpState": 0,
+      "distance": 15574.7901731683,
+      "remainingTicks": 131316,
+      "remainingSeconds": 2188.6
+    },
+    {
+      "shipIndex": 8,
+      "otherStationGId": 54,
+      "otherPlanetName": "Phact Farm",
+      "otherStarName": "Phact",
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 12665697.3431119,
+      "remainingTicks": 131316,
+      "remainingSeconds": 2188.6
+    }
+  ],
+  "incoming": []
+}

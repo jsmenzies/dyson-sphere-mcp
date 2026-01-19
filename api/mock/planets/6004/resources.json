@@ -1,0 +1,41 @@
+{
+  "planetId": 6004,
+  "planetName": "Alifa IV",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 20271280,
+      "veinCount": 64
+    },
+    {
+      "type": "Copper",
+      "amount": 49191385,
+      "veinCount": 156
+    },
+    {
+      "type": "Silicium",
+      "amount": 91835508,
+      "veinCount": 174
+    },
+    {
+      "type": "Titanium",
+      "amount": 10548513,
+      "veinCount": 20
+    },
+    {
+      "type": "Stone",
+      "amount": 7723357,
+      "veinCount": 30
+    },
+    {
+      "type": "Coal",
+      "amount": 1127104,
+      "veinCount": 7
+    },
+    {
+      "type": "Diamond",
+      "amount": 4563505,
+      "veinCount": 13
+    }
+  ]
+}

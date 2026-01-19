@@ -1,0 +1,26 @@
+{
+  "stationId": 306,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 20,
+      "sourcePlanetName": "CorHydrae MegaFarm",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 286760.8,
+      "warpState": 0.6666666,
+      "distance": 25782433.755878,
+      "remainingTicks": 918,
+      "remainingSeconds": 15.3
+    }
+  ]
+}

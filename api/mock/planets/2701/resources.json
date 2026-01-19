@@ -1,0 +1,51 @@
+{
+  "planetId": 2701,
+  "planetName": "Zeta Hydrae I",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 10743732,
+      "veinCount": 114
+    },
+    {
+      "type": "Copper",
+      "amount": 3150920,
+      "veinCount": 40
+    },
+    {
+      "type": "Silicium",
+      "amount": 10101550,
+      "veinCount": 109
+    },
+    {
+      "type": "Titanium",
+      "amount": 668036,
+      "veinCount": 8
+    },
+    {
+      "type": "Stone",
+      "amount": 3321274,
+      "veinCount": 30
+    },
+    {
+      "type": "Coal",
+      "amount": 19500100,
+      "veinCount": 125
+    },
+    {
+      "type": "Oil",
+      "amount": 2809797,
+      "veinCount": 18
+    },
+    {
+      "type": "Crysrub",
+      "amount": 3812952,
+      "veinCount": 24
+    },
+    {
+      "type": "Bamboo",
+      "amount": 3377727,
+      "veinCount": 21
+    }
+  ]
+}

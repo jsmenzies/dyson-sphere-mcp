@@ -1,0 +1,46 @@
+{
+  "planetId": 404,
+  "planetName": "CorHydrae MegaFarm",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 6581877,
+      "veinCount": 80
+    },
+    {
+      "type": "Copper",
+      "amount": 176762,
+      "veinCount": 4
+    },
+    {
+      "type": "Silicium",
+      "amount": 5968203,
+      "veinCount": 70
+    },
+    {
+      "type": "Titanium",
+      "amount": 16272058,
+      "veinCount": 193
+    },
+    {
+      "type": "Stone",
+      "amount": 4486066,
+      "veinCount": 53
+    },
+    {
+      "type": "Coal",
+      "amount": 94164,
+      "veinCount": 4
+    },
+    {
+      "type": "Fireice",
+      "amount": 1769929,
+      "veinCount": 21
+    },
+    {
+      "type": "Fractal",
+      "amount": 6742419,
+      "veinCount": 111
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "planetId": 403,
+  "planetName": "CorHydrae Proliferator 1",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 10576661,
+      "veinCount": 157
+    },
+    {
+      "type": "Copper",
+      "amount": 1494552,
+      "veinCount": 22
+    },
+    {
+      "type": "Silicium",
+      "amount": 5303300,
+      "veinCount": 53
+    },
+    {
+      "type": "Titanium",
+      "amount": 9491031,
+      "veinCount": 112
+    },
+    {
+      "type": "Stone",
+      "amount": 3833788,
+      "veinCount": 45
+    },
+    {
+      "type": "Coal",
+      "amount": 108917,
+      "veinCount": 6
+    },
+    {
+      "type": "Fireice",
+      "amount": 1841403,
+      "veinCount": 21
+    },
+    {
+      "type": "Diamond",
+      "amount": 19080725,
+      "veinCount": 230
+    },
+    {
+      "type": "Grat",
+      "amount": 1640032,
+      "veinCount": 21
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "stationId": 579,
+  "planetId": 801,
+  "planetName": "Double Farm",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 362,
+      "sourcePlanetName": "Farm 4 Titan",
+      "sourceStarName": "Farm",
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 174.9611,
+      "warpState": 0,
+      "distance": 128993.378127175,
+      "remainingTicks": 1571,
+      "remainingSeconds": 26.1833333333333
+    },
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 362,
+      "sourcePlanetName": "Farm 4 Titan",
+      "sourceStarName": "Farm",
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "itemCount": 2000,
+      "stage": "Approach",
+      "direction": 1,
+      "t": 0.6491785,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 249.785705871598,
+      "remainingTicks": 74,
+      "remainingSeconds": 1.23333333333333
+    },
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 454,
+      "sourcePlanetName": "Farm 4 Titan",
+      "sourceStarName": "Farm",
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 129281.915532014,
+      "remainingTicks": 1489,
+      "remainingSeconds": 24.8166666666667
+    }
+  ]
+}

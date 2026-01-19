@@ -1,0 +1,31 @@
+{
+  "planetId": 6002,
+  "planetName": "Alifa II",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 7493767,
+      "veinCount": 18
+    },
+    {
+      "type": "Copper",
+      "amount": 89401225,
+      "veinCount": 170
+    },
+    {
+      "type": "Silicium",
+      "amount": 93125407,
+      "veinCount": 177
+    },
+    {
+      "type": "Stone",
+      "amount": 93175555,
+      "veinCount": 177
+    },
+    {
+      "type": "Coal",
+      "amount": 17665774,
+      "veinCount": 48
+    }
+  ]
+}

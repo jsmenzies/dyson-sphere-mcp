@@ -1,0 +1,41 @@
+{
+  "planetId": 303,
+  "planetName": "Epsilon Sagittarii III Fire",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 4825115,
+      "veinCount": 55
+    },
+    {
+      "type": "Copper",
+      "amount": 77373,
+      "veinCount": 2
+    },
+    {
+      "type": "Silicium",
+      "amount": 2784954,
+      "veinCount": 32
+    },
+    {
+      "type": "Titanium",
+      "amount": 19286815,
+      "veinCount": 218
+    },
+    {
+      "type": "Stone",
+      "amount": 4613016,
+      "veinCount": 53
+    },
+    {
+      "type": "Coal",
+      "amount": 113725,
+      "veinCount": 4
+    },
+    {
+      "type": "Fireice",
+      "amount": 7246438,
+      "veinCount": 83
+    }
+  ]
+}

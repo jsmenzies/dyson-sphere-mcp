@@ -1,0 +1,26 @@
+{
+  "stationId": 635,
+  "planetId": 404,
+  "planetName": "CorHydrae MegaFarm",
+  "starName": "CorHydrae",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 466,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 2000,
+      "stage": "Landing",
+      "direction": 1,
+      "t": 0.2318,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 216.150023821716,
+      "remainingTicks": 458,
+      "remainingSeconds": 7.63333333333333
+    }
+  ]
+}

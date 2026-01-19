@@ -1,0 +1,43 @@
+{
+  "stationId": 10,
+  "planetId": 404,
+  "planetName": "CorHydrae MegaFarm",
+  "starName": "CorHydrae",
+  "outgoing": [
+    {
+      "shipIndex": 2,
+      "otherStationGId": 621,
+      "otherPlanetName": "CorHydrae Proliferator 1",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 48.14279,
+      "warpState": 0,
+      "distance": 52162.0041536758,
+      "remainingTicks": 39759,
+      "remainingSeconds": 662.65
+    },
+    {
+      "shipIndex": 3,
+      "otherStationGId": 621,
+      "otherPlanetName": "CorHydrae Proliferator 1",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 0,
+      "stage": "Approach",
+      "direction": 1,
+      "t": 0.6491785,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 247.174046492498,
+      "remainingTicks": 39759,
+      "remainingSeconds": 662.65
+    }
+  ],
+  "incoming": []
+}

@@ -1,0 +1,41 @@
+{
+  "planetId": 601,
+  "planetName": "\u03b6 Ursae Majoris I",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 4251280,
+      "veinCount": 70
+    },
+    {
+      "type": "Copper",
+      "amount": 8727206,
+      "veinCount": 141
+    },
+    {
+      "type": "Silicium",
+      "amount": 14328883,
+      "veinCount": 139
+    },
+    {
+      "type": "Titanium",
+      "amount": 2141727,
+      "veinCount": 21
+    },
+    {
+      "type": "Stone",
+      "amount": 1471393,
+      "veinCount": 30
+    },
+    {
+      "type": "Coal",
+      "amount": 176104,
+      "veinCount": 6
+    },
+    {
+      "type": "Diamond",
+      "amount": 3451351,
+      "veinCount": 67
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "planetId": 1101,
+  "planetName": "Porrima I Sulfur",
+  "starName": "Porrima",
+  "ilsStations": [
+    {
+      "id": 3,
+      "gid": 157,
+      "entityId": 899,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 2,
+      "workShipCount": 8,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 1117830652,
+      "energyMax": 12000000000,
+      "energyPerTick": 4786273,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1208,
+          "itemName": "Critical Photon",
+          "count": 15352,
+          "inc": 48,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1122,
+          "itemName": "Antimatter",
+          "count": 3032,
+          "inc": 12128,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 1028,
+          "inc": 4112,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1143,
+          "itemName": "Proliferator Mk.III",
+          "count": 5652,
+          "inc": 22608,
+          "max": 5000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1948,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "gid": 179,
+      "entityId": 6009,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 1,
+      "workShipCount": 9,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 2870325423,
+      "energyMax": 12000000000,
+      "energyPerTick": 4055909,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1208,
+          "itemName": "Critical Photon",
+          "count": 10636,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1122,
+          "itemName": "Antimatter",
+          "count": 496,
+          "inc": 1984,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 2408,
+          "inc": 9632,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1143,
+          "itemName": "Proliferator Mk.III",
+          "count": 6456,
+          "inc": 25824,
+          "max": 5000,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 494,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "gid": 623,
+      "entityId": 9771,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1804,
+          "itemName": "Strange Annihilation Fuel Rod",
+          "count": 1581,
+          "inc": 6324,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1948,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "gid": 443,
+      "entityId": 9017,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 9,
+      "workShipCount": 1,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 11915813443,
+      "energyMax": 12000000000,
+      "energyPerTick": 286139,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1116,
+          "itemName": "Sulfuric Acid",
+          "count": 20001,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1386,
+          "inc": 85,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "gid": 445,
+      "entityId": 4546,
+      "isStellar": true,
+      "deliveryDrones": 1,
+      "deliveryShips": 1,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 44,
+      "warperMaxCount": 50,
+      "energy": 10820579000,
+      "energyMax": 12000000000,
+      "energyPerTick": 742276,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 5001,
+          "itemName": "Logistics Drone",
+          "count": 2317,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 5
+}

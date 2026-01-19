@@ -1,0 +1,41 @@
+{
+  "planetId": 302,
+  "planetName": "Epsilon Sagittarii II Titan",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 7631468,
+      "veinCount": 87
+    },
+    {
+      "type": "Copper",
+      "amount": 20475519,
+      "veinCount": 233
+    },
+    {
+      "type": "Silicium",
+      "amount": 789290,
+      "veinCount": 9
+    },
+    {
+      "type": "Titanium",
+      "amount": 15156474,
+      "veinCount": 171
+    },
+    {
+      "type": "Stone",
+      "amount": 2125979,
+      "veinCount": 48
+    },
+    {
+      "type": "Coal",
+      "amount": 159060,
+      "veinCount": 7
+    },
+    {
+      "type": "Fireice",
+      "amount": 1096625,
+      "veinCount": 17
+    }
+  ]
+}

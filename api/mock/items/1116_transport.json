@@ -1,0 +1,20 @@
+{
+  "itemId": 1116,
+  "itemName": "Sulfuric Acid",
+  "ships": [
+    {
+      "shipIndex": 2,
+      "originStationGId": 443,
+      "originPlanet": "Porrima I Sulfur",
+      "destStationGId": 573,
+      "destPlanet": "Home",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 52.45156,
+      "distance": 248.144400899585,
+      "remainingTicks": 83364,
+      "remainingSeconds": 1389.4
+    }
+  ]
+}

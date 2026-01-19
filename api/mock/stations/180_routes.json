@@ -1,0 +1,43 @@
+{
+  "stationId": 180,
+  "planetId": 103,
+  "planetName": "Home",
+  "starName": "Acrux",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 76,
+      "sourcePlanetName": "Farm II Coal/Stone",
+      "sourceStarName": "Farm",
+      "itemId": 1006,
+      "itemName": "Coal",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 1173.778,
+      "warpState": 0,
+      "distance": 1278.83007237434,
+      "remainingTicks": 333,
+      "remainingSeconds": 5.55
+    },
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 454,
+      "sourcePlanetName": "Farm 4 Titan",
+      "sourceStarName": "Farm",
+      "itemId": 1004,
+      "itemName": "Titanium Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 1756.095,
+      "warpState": 0,
+      "distance": 12500220.8536952,
+      "remainingTicks": 833,
+      "remainingSeconds": 13.8833333333333
+    }
+  ]
+}

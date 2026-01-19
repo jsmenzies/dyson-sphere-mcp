@@ -1,0 +1,51 @@
+{
+  "planetId": 501,
+  "planetName": "Atlas I",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 8084945,
+      "veinCount": 116
+    },
+    {
+      "type": "Copper",
+      "amount": 3930662,
+      "veinCount": 66
+    },
+    {
+      "type": "Silicium",
+      "amount": 9772430,
+      "veinCount": 123
+    },
+    {
+      "type": "Titanium",
+      "amount": 3498965,
+      "veinCount": 50
+    },
+    {
+      "type": "Stone",
+      "amount": 3721115,
+      "veinCount": 37
+    },
+    {
+      "type": "Coal",
+      "amount": 16808647,
+      "veinCount": 142
+    },
+    {
+      "type": "Oil",
+      "amount": 1430821,
+      "veinCount": 14
+    },
+    {
+      "type": "Crysrub",
+      "amount": 1951623,
+      "veinCount": 20
+    },
+    {
+      "type": "Bamboo",
+      "amount": 2054118,
+      "veinCount": 21
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "planetId": 4804,
+  "planetName": "Eta Lupi IV",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 82476355,
+      "veinCount": 179
+    },
+    {
+      "type": "Copper",
+      "amount": 15597129,
+      "veinCount": 34
+    },
+    {
+      "type": "Silicium",
+      "amount": 12373419,
+      "veinCount": 18
+    },
+    {
+      "type": "Titanium",
+      "amount": 62691769,
+      "veinCount": 109
+    },
+    {
+      "type": "Stone",
+      "amount": 16672454,
+      "veinCount": 29
+    },
+    {
+      "type": "Coal",
+      "amount": 1069177,
+      "veinCount": 6
+    },
+    {
+      "type": "Fireice",
+      "amount": 116196926,
+      "veinCount": 202
+    },
+    {
+      "type": "Diamond",
+      "amount": 79956856,
+      "veinCount": 139
+    }
+  ]
+}

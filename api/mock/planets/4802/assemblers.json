@@ -1,0 +1,6 @@
+{
+  "error": {
+    "code": -32602,
+    "message": "Planet with ID 4802 not found."
+  }
+}

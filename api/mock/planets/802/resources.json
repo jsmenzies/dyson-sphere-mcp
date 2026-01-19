@@ -1,0 +1,41 @@
+{
+  "planetId": 802,
+  "planetName": "Farm II Coal/Stone",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 1637338,
+      "veinCount": 46
+    },
+    {
+      "type": "Copper",
+      "amount": 4545836,
+      "veinCount": 91
+    },
+    {
+      "type": "Stone",
+      "amount": 14858710,
+      "veinCount": 209
+    },
+    {
+      "type": "Coal",
+      "amount": 11173249,
+      "veinCount": 134
+    },
+    {
+      "type": "Oil",
+      "amount": 1309314,
+      "veinCount": 13
+    },
+    {
+      "type": "Crysrub",
+      "amount": 549672,
+      "veinCount": 11
+    },
+    {
+      "type": "Bamboo",
+      "amount": 23412,
+      "veinCount": 6
+    }
+  ]
+}

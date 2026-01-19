@@ -1,0 +1,660 @@
+{
+  "planetId": 501,
+  "planetName": "Atlas I",
+  "totalGenerationCapacityW": 5184000000,
+  "totalConsumptionDemandW": 2887531440,
+  "networks": [
+    {
+      "networkId": 2,
+      "energyRequired": 48125524,
+      "energyServed": 48958780,
+      "energyCapacity": 86400000,
+      "energyDischarge": 0,
+      "energyCharge": 0,
+      "energyAccumulated": 0,
+      "energyStored": 0,
+      "satisfactionPercent": 101.73,
+      "consumerRatio": 1,
+      "generatorRatio": 0.5667,
+      "consumerCount": 66,
+      "generatorCount": 18,
+      "accumulatorCount": 0,
+      "exchangerCount": 0,
+      "consumers": [
+        {
+          "consumerId": 1,
+          "entityId": 4,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 2,
+          "entityId": 6,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 3,
+          "entityId": 10,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 4,
+          "entityId": 14,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 5,
+          "entityId": 23,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 6,
+          "entityId": 24,
+          "workEnergyPerTick": 1000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 7,
+          "entityId": 28,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 8,
+          "entityId": 46,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 9,
+          "entityId": 59,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 10,
+          "entityId": 65,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 11,
+          "entityId": 78,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 12,
+          "entityId": 113,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 13,
+          "entityId": 115,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 14,
+          "entityId": 118,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 15,
+          "entityId": 130,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 16,
+          "entityId": 136,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 17,
+          "entityId": 138,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 18,
+          "entityId": 143,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 19,
+          "entityId": 147,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 20,
+          "entityId": 151,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 21,
+          "entityId": 155,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 22,
+          "entityId": 159,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 23,
+          "entityId": 165,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 24,
+          "entityId": 175,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 25,
+          "entityId": 177,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 26,
+          "entityId": 181,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 27,
+          "entityId": 186,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 28,
+          "entityId": 190,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 29,
+          "entityId": 195,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 30,
+          "entityId": 198,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 31,
+          "entityId": 202,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 32,
+          "entityId": 206,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 33,
+          "entityId": 207,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 34,
+          "entityId": 210,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 35,
+          "entityId": 212,
+          "workEnergyPerTick": 14000,
+          "idleEnergyPerTick": 400
+        },
+        {
+          "consumerId": 36,
+          "entityId": 213,
+          "workEnergyPerTick": 14000,
+          "idleEnergyPerTick": 400
+        },
+        {
+          "consumerId": 37,
+          "entityId": 214,
+          "workEnergyPerTick": 14000,
+          "idleEnergyPerTick": 400
+        },
+        {
+          "consumerId": 38,
+          "entityId": 385,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 39,
+          "entityId": 386,
+          "workEnergyPerTick": 14000,
+          "idleEnergyPerTick": 400
+        },
+        {
+          "consumerId": 40,
+          "entityId": 387,
+          "workEnergyPerTick": 14000,
+          "idleEnergyPerTick": 400
+        },
+        {
+          "consumerId": 41,
+          "entityId": 388,
+          "workEnergyPerTick": 14000,
+          "idleEnergyPerTick": 400
+        },
+        {
+          "consumerId": 42,
+          "entityId": 389,
+          "workEnergyPerTick": 14000,
+          "idleEnergyPerTick": 400
+        },
+        {
+          "consumerId": 43,
+          "entityId": 390,
+          "workEnergyPerTick": 14000,
+          "idleEnergyPerTick": 400
+        },
+        {
+          "consumerId": 44,
+          "entityId": 728,
+          "workEnergyPerTick": 14000,
+          "idleEnergyPerTick": 400
+        },
+        {
+          "consumerId": 45,
+          "entityId": 808,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 46,
+          "entityId": 840,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 47,
+          "entityId": 856,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 48,
+          "entityId": 1519,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 49,
+          "entityId": 187,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 50,
+          "entityId": 2561,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 51,
+          "entityId": 2665,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 52,
+          "entityId": 2755,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 53,
+          "entityId": 3074,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 54,
+          "entityId": 3297,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 55,
+          "entityId": 3312,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 56,
+          "entityId": 3313,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 57,
+          "entityId": 3317,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 58,
+          "entityId": 3838,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 59,
+          "entityId": 4264,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 60,
+          "entityId": 4271,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 61,
+          "entityId": 4280,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 62,
+          "entityId": 4286,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 63,
+          "entityId": 4301,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 64,
+          "entityId": 4311,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 65,
+          "entityId": 4316,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        },
+        {
+          "consumerId": 66,
+          "entityId": 4318,
+          "workEnergyPerTick": 2400,
+          "idleEnergyPerTick": 150
+        }
+      ],
+      "generators": [
+        {
+          "generatorId": 1,
+          "entityId": 25,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 10,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 2,
+          "entityId": 39,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 3,
+          "entityId": 43,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 4,
+          "entityId": 72,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 5,
+          "entityId": 94,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 6,
+          "entityId": 96,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 7,
+          "entityId": 100,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 8,
+          "entityId": 121,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 9,
+          "entityId": 125,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 10,
+          "entityId": 135,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 11,
+          "entityId": 4275,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 12,
+          "entityId": 4276,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 13,
+          "entityId": 4293,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 14,
+          "entityId": 4298,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 15,
+          "entityId": 4305,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 16,
+          "entityId": 4312,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 17,
+          "entityId": 4328,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        },
+        {
+          "generatorId": 18,
+          "entityId": 4329,
+          "genEnergyPerTick": 1200000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": false,
+          "fuelId": 1804,
+          "fuelCount": 11,
+          "productId": 0,
+          "warmup": 0
+        }
+      ],
+      "accumulators": []
+    }
+  ]
+}

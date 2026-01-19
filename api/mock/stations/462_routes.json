@@ -1,0 +1,60 @@
+{
+  "stationId": 462,
+  "planetId": 802,
+  "planetName": "Farm II Coal/Stone",
+  "starName": "Farm",
+  "outgoing": [
+    {
+      "shipIndex": 4,
+      "otherStationGId": 397,
+      "otherPlanetName": "Double Farm",
+      "otherStarName": "Farm",
+      "itemId": 1005,
+      "itemName": "Stone",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 14387.64,
+      "warpState": 0,
+      "distance": 21212.2410769216,
+      "remainingTicks": 49062,
+      "remainingSeconds": 817.7
+    },
+    {
+      "shipIndex": 5,
+      "otherStationGId": 519,
+      "otherPlanetName": "Acrux IV",
+      "otherStarName": "Acrux",
+      "itemId": 1005,
+      "itemName": "Stone",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 8725.917,
+      "warpState": 0,
+      "distance": 12455675.4382776,
+      "remainingTicks": 49062,
+      "remainingSeconds": 817.7
+    },
+    {
+      "shipIndex": 6,
+      "otherStationGId": 397,
+      "otherPlanetName": "Double Farm",
+      "otherStarName": "Farm",
+      "itemId": 1005,
+      "itemName": "Stone",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 4511.444,
+      "warpState": 0,
+      "distance": 44810.7080068429,
+      "remainingTicks": 49062,
+      "remainingSeconds": 817.7
+    }
+  ],
+  "incoming": []
+}

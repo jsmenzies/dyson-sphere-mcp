@@ -1,0 +1,36 @@
+{
+  "planetId": 1403,
+  "planetName": "Algomeyla III Expiriment",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 13806233,
+      "veinCount": 151
+    },
+    {
+      "type": "Copper",
+      "amount": 2041411,
+      "veinCount": 22
+    },
+    {
+      "type": "Silicium",
+      "amount": 23686784,
+      "veinCount": 153
+    },
+    {
+      "type": "Titanium",
+      "amount": 7124994,
+      "veinCount": 46
+    },
+    {
+      "type": "Stone",
+      "amount": 8469720,
+      "veinCount": 108
+    },
+    {
+      "type": "Coal",
+      "amount": 275507,
+      "veinCount": 7
+    }
+  ]
+}

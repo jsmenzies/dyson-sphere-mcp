@@ -1,0 +1,56 @@
+{
+  "planetId": 6301,
+  "planetName": "NTR J1954-02 I",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 82715315,
+      "veinCount": 142
+    },
+    {
+      "type": "Copper",
+      "amount": 18639376,
+      "veinCount": 32
+    },
+    {
+      "type": "Silicium",
+      "amount": 29738290,
+      "veinCount": 34
+    },
+    {
+      "type": "Titanium",
+      "amount": 112248702,
+      "veinCount": 154
+    },
+    {
+      "type": "Stone",
+      "amount": 21031073,
+      "veinCount": 29
+    },
+    {
+      "type": "Coal",
+      "amount": 1550171,
+      "veinCount": 7
+    },
+    {
+      "type": "Fireice",
+      "amount": 113747357,
+      "veinCount": 156
+    },
+    {
+      "type": "Diamond",
+      "amount": 16018811,
+      "veinCount": 22
+    },
+    {
+      "type": "Grat",
+      "amount": 16087117,
+      "veinCount": 22
+    },
+    {
+      "type": "Mag",
+      "amount": 3284342,
+      "veinCount": 15
+    }
+  ]
+}

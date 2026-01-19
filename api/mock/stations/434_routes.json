@@ -1,0 +1,26 @@
+{
+  "stationId": 434,
+  "planetId": 801,
+  "planetName": "Double Farm",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 466,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3788.864,
+      "warpState": 0,
+      "distance": 2007.68933113081,
+      "remainingTicks": 413,
+      "remainingSeconds": 6.88333333333333
+    }
+  ]
+}

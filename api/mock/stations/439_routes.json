@@ -1,0 +1,60 @@
+{
+  "stationId": 439,
+  "planetId": 701,
+  "planetName": "Bunda MegaFarm",
+  "starName": "Bunda",
+  "outgoing": [
+    {
+      "shipIndex": 3,
+      "otherStationGId": 621,
+      "otherPlanetName": "CorHydrae Proliferator 1",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 38.09666,
+      "warpState": 0,
+      "distance": 15561006.4628436,
+      "remainingTicks": 44517,
+      "remainingSeconds": 741.95
+    },
+    {
+      "shipIndex": 4,
+      "otherStationGId": 621,
+      "otherPlanetName": "CorHydrae Proliferator 1",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 8908.823,
+      "warpState": 0,
+      "distance": 9624.798774212,
+      "remainingTicks": 44517,
+      "remainingSeconds": 741.95
+    },
+    {
+      "shipIndex": 5,
+      "otherStationGId": 509,
+      "otherPlanetName": "CorHydrae Proliferator Silicon",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 3483367.02092678,
+      "remainingTicks": 44517,
+      "remainingSeconds": 741.95
+    }
+  ],
+  "incoming": []
+}

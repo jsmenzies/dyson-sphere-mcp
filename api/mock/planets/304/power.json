@@ -1,0 +1,646 @@
+{
+  "planetId": 304,
+  "planetName": "Epsilon Sagittarii IV Iron",
+  "totalGenerationCapacityW": 920119800,
+  "totalConsumptionDemandW": 549808140,
+  "networks": [
+    {
+      "networkId": 4,
+      "energyRequired": 9163469,
+      "energyServed": 9285741,
+      "energyCapacity": 15335330,
+      "energyDischarge": 0,
+      "energyCharge": 0,
+      "energyAccumulated": 0,
+      "energyStored": 0,
+      "satisfactionPercent": 101.33,
+      "consumerRatio": 1,
+      "generatorRatio": 0.6055,
+      "consumerCount": 29,
+      "generatorCount": 34,
+      "accumulatorCount": 0,
+      "exchangerCount": 0,
+      "consumers": [
+        {
+          "consumerId": 1,
+          "entityId": 2627,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 2,
+          "entityId": 2998,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 3,
+          "entityId": 955,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 4,
+          "entityId": 2370,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 5,
+          "entityId": 2358,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 6,
+          "entityId": 1272,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 7,
+          "entityId": 1336,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 8,
+          "entityId": 1655,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 9,
+          "entityId": 1382,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 10,
+          "entityId": 1579,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 11,
+          "entityId": 2177,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 12,
+          "entityId": 2418,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 13,
+          "entityId": 48,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 14,
+          "entityId": 1670,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 15,
+          "entityId": 2174,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 16,
+          "entityId": 2918,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 17,
+          "entityId": 19,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 18,
+          "entityId": 2992,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 19,
+          "entityId": 1705,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 20,
+          "entityId": 1881,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 21,
+          "entityId": 2420,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 22,
+          "entityId": 2496,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 23,
+          "entityId": 773,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 24,
+          "entityId": 2282,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 25,
+          "entityId": 1888,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        },
+        {
+          "consumerId": 26,
+          "entityId": 587,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 27,
+          "entityId": 2244,
+          "workEnergyPerTick": 49000,
+          "idleEnergyPerTick": 2800
+        },
+        {
+          "consumerId": 28,
+          "entityId": 2317,
+          "workEnergyPerTick": 5000000,
+          "idleEnergyPerTick": 1000
+        },
+        {
+          "consumerId": 29,
+          "entityId": 555,
+          "workEnergyPerTick": 400000,
+          "idleEnergyPerTick": 200000
+        }
+      ],
+      "generators": [
+        {
+          "generatorId": 2,
+          "entityId": 2080,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 6,
+          "entityId": 3135,
+          "genEnergyPerTick": 80000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": true,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 11,
+          "entityId": 1075,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 13,
+          "entityId": 2375,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 15,
+          "entityId": 328,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 24,
+          "entityId": 282,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 25,
+          "entityId": 317,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 27,
+          "entityId": 818,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 28,
+          "entityId": 1404,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 30,
+          "entityId": 58,
+          "genEnergyPerTick": 80000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": true,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 32,
+          "entityId": 47,
+          "genEnergyPerTick": 80000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": true,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 33,
+          "entityId": 1201,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 35,
+          "entityId": 433,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 36,
+          "entityId": 2845,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 40,
+          "entityId": 2716,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 44,
+          "entityId": 3162,
+          "genEnergyPerTick": 80000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": false,
+          "geothermal": true,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 46,
+          "entityId": 3129,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 48,
+          "entityId": 2409,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 50,
+          "entityId": 3120,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 52,
+          "entityId": 868,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 53,
+          "entityId": 1739,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 54,
+          "entityId": 2297,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 55,
+          "entityId": 2208,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 66,
+          "entityId": 2808,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 76,
+          "entityId": 2812,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 78,
+          "entityId": 1868,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 94,
+          "entityId": 3033,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 95,
+          "entityId": 2336,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 96,
+          "entityId": 990,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 101,
+          "entityId": 2179,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 103,
+          "entityId": 2243,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 113,
+          "entityId": 2023,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 115,
+          "entityId": 510,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        },
+        {
+          "generatorId": 118,
+          "entityId": 542,
+          "genEnergyPerTick": 100000,
+          "photovoltaic": false,
+          "wind": false,
+          "gamma": true,
+          "geothermal": false,
+          "fuelId": 0,
+          "fuelCount": 0,
+          "productId": 0,
+          "warmup": 1
+        }
+      ],
+      "accumulators": []
+    }
+  ]
+}

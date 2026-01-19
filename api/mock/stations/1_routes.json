@@ -1,0 +1,26 @@
+{
+  "stationId": 1,
+  "planetId": 103,
+  "planetName": "Home",
+  "starName": "Acrux",
+  "outgoing": [
+    {
+      "shipIndex": 3,
+      "otherStationGId": 385,
+      "otherPlanetName": "Algomeyla I Supplier 2",
+      "otherStarName": "Algomeyla",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 7113937.15182181,
+      "remainingTicks": 698,
+      "remainingSeconds": 11.6333333333333
+    }
+  ],
+  "incoming": []
+}

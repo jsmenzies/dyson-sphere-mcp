@@ -1,0 +1,494 @@
+{
+  "planetId": 802,
+  "planetName": "Farm II Coal/Stone",
+  "starName": "Farm",
+  "ilsStations": [
+    {
+      "id": 2,
+      "gid": 608,
+      "entityId": 14043,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 9,
+      "workShipCount": 1,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 11714435165,
+      "energyMax": 12000000000,
+      "energyPerTick": 370065,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1000,
+          "itemName": "Water",
+          "count": 20000,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "gid": 159,
+      "entityId": 13782,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1804,
+          "itemName": "Strange Annihilation Fuel Rod",
+          "count": 1978,
+          "inc": 7912,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1948,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "gid": 92,
+      "entityId": 1405,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 10,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 1205511046,
+      "energyMax": 12000000000,
+      "energyPerTick": 4749732,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1007,
+          "itemName": "Crude Oil",
+          "count": 1798,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "gid": 174,
+      "entityId": 122,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 1,
+      "workShipCount": 9,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 2232892514,
+      "energyMax": 12000000000,
+      "energyPerTick": 4321564,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 18636,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 444,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "gid": 129,
+      "entityId": 140,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 1,
+      "workShipCount": 9,
+      "warperCount": 53,
+      "warperMaxCount": 50,
+      "energy": 941517755,
+      "energyMax": 12000000000,
+      "energyPerTick": 4859753,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 18870,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "gid": 380,
+      "entityId": 13794,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 6,
+      "workShipCount": 4,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 7256764657,
+      "energyMax": 12000000000,
+      "energyPerTick": 2227830,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1000,
+          "itemName": "Water",
+          "count": 2676,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "gid": 462,
+      "entityId": 10355,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 8,
+      "workShipCount": 2,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 9985370223,
+      "energyMax": 12000000000,
+      "energyPerTick": 1090665,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1005,
+          "itemName": "Stone",
+          "count": 20019,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "gid": 464,
+      "entityId": 10356,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1005,
+          "itemName": "Stone",
+          "count": 20016,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 1310,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "gid": 592,
+      "entityId": 4581,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 100,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 52,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 20006,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "gid": 79,
+      "entityId": 13600,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 81,
+      "workDroneCount": 19,
+      "idleShipCount": 2,
+      "workShipCount": 8,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 1490045595,
+      "energyMax": 12000000000,
+      "energyPerTick": 4631150,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 16200,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "gid": 612,
+      "entityId": 110,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 20011,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "gid": 460,
+      "entityId": 10354,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 1,
+      "workShipCount": 9,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 3536265957,
+      "energyMax": 12000000000,
+      "energyPerTick": 3778374,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1005,
+          "itemName": "Stone",
+          "count": 20013,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "gid": 212,
+      "entityId": 7352,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 95,
+      "workDroneCount": 5,
+      "idleShipCount": 0,
+      "workShipCount": 10,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 873886364,
+      "energyMax": 12000000000,
+      "energyPerTick": 4887939,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 19583,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "gid": 76,
+      "entityId": 13682,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 90,
+      "workDroneCount": 10,
+      "idleShipCount": 0,
+      "workShipCount": 10,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 1112110790,
+      "energyMax": 12000000000,
+      "energyPerTick": 4788657,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 18000,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "gid": 216,
+      "entityId": 655,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 100,
+      "idleDroneCount": 100,
+      "workDroneCount": 0,
+      "idleShipCount": 1,
+      "workShipCount": 9,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 2759656342,
+      "energyMax": 12000000000,
+      "energyPerTick": 4102031,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1006,
+          "itemName": "Coal",
+          "count": 21211,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Demand",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 888,
+          "inc": 0,
+          "max": 500,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 15
+}

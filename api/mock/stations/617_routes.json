@@ -1,0 +1,43 @@
+{
+  "stationId": 617,
+  "planetId": 1405,
+  "planetName": "Algomeyla V Supplier 3",
+  "starName": "Algomeyla",
+  "outgoing": [
+    {
+      "shipIndex": 3,
+      "otherStationGId": 432,
+      "otherPlanetName": "Double Farm",
+      "otherStarName": "Farm",
+      "itemId": 1003,
+      "itemName": "Silicon Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 18877102.6494244,
+      "remainingTicks": 131316,
+      "remainingSeconds": 2188.6
+    },
+    {
+      "shipIndex": 4,
+      "otherStationGId": 359,
+      "otherPlanetName": "Algomeyla III Expiriment",
+      "otherStarName": "Algomeyla",
+      "itemId": 1003,
+      "itemName": "Silicon Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 57.78251,
+      "warpState": 0,
+      "distance": 87992.3278951946,
+      "remainingTicks": 131316,
+      "remainingSeconds": 2188.6
+    }
+  ],
+  "incoming": []
+}

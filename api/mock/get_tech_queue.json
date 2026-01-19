@@ -1,40 +1,61 @@
 {
-    "queue": [
-        {
-            "id": 5206,
-            "name": "Explosive Weapon Damage",
-            "position": 0,
-            "hashNeeded": 378000000,
-            "hashUploaded": 376656930
-        },
-        {
-            "id": 5206,
-            "name": "Explosive Weapon Damage",
-            "position": 1,
-            "hashNeeded": 378000000,
-            "hashUploaded": 376656930
-        },
-        {
-            "id": 5206,
-            "name": "Explosive Weapon Damage",
-            "position": 2,
-            "hashNeeded": 378000000,
-            "hashUploaded": 376656930
-        },
-        {
-            "id": 5106,
-            "name": "Energy Weapon Damage",
-            "position": 3,
-            "hashNeeded": 1215000000,
-            "hashUploaded": 0
-        },
-        {
-            "id": 5006,
-            "name": "Kinetic Weapon Damage",
-            "position": 4,
-            "hashNeeded": 432000000,
-            "hashUploaded": 0
-        }
-    ],
-    "queueLength": 5
+  "queue": [
+    {
+      "id": 3606,
+      "name": "Vein Utilization",
+      "position": 0,
+      "hashNeeded": 730800000,
+      "hashUploaded": 393565155
+    },
+    {
+      "id": 3606,
+      "name": "Vein Utilization",
+      "position": 1,
+      "hashNeeded": 730800000,
+      "hashUploaded": 393565155
+    },
+    {
+      "id": 3606,
+      "name": "Vein Utilization",
+      "position": 2,
+      "hashNeeded": 730800000,
+      "hashUploaded": 393565155
+    },
+    {
+      "id": 3606,
+      "name": "Vein Utilization",
+      "position": 3,
+      "hashNeeded": 730800000,
+      "hashUploaded": 393565155
+    },
+    {
+      "id": 3606,
+      "name": "Vein Utilization",
+      "position": 4,
+      "hashNeeded": 730800000,
+      "hashUploaded": 393565155
+    },
+    {
+      "id": 3606,
+      "name": "Vein Utilization",
+      "position": 5,
+      "hashNeeded": 730800000,
+      "hashUploaded": 393565155
+    },
+    {
+      "id": 3606,
+      "name": "Vein Utilization",
+      "position": 6,
+      "hashNeeded": 730800000,
+      "hashUploaded": 393565155
+    },
+    {
+      "id": 3606,
+      "name": "Vein Utilization",
+      "position": 7,
+      "hashNeeded": 730800000,
+      "hashUploaded": 393565155
+    }
+  ],
+  "queueLength": 8
 }

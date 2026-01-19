@@ -1,0 +1,26 @@
+{
+  "stationId": 389,
+  "planetId": 1401,
+  "planetName": "Algomeyla I Supplier 2",
+  "starName": "Algomeyla",
+  "outgoing": [
+    {
+      "shipIndex": 3,
+      "otherStationGId": 110,
+      "otherPlanetName": "\u03b6 Ursae Majoris IV MegaFarm",
+      "otherStarName": "\u03b6 Ursae Majoris",
+      "itemId": 1002,
+      "itemName": "Copper Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 2244.663,
+      "warpState": 0,
+      "distance": 2320.89602567463,
+      "remainingTicks": 131086,
+      "remainingSeconds": 2184.76666666667
+    }
+  ],
+  "incoming": []
+}

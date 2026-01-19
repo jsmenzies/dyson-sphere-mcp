@@ -1,0 +1,43 @@
+{
+  "stationId": 600,
+  "planetId": 6001,
+  "planetName": "Alifa I Photon Farm",
+  "starName": "Alifa",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 571,
+      "sourcePlanetName": "Home",
+      "sourceStarName": "Acrux",
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 1405.513,
+      "warpState": 0,
+      "distance": 1503.61995223363,
+      "remainingTicks": 2040,
+      "remainingSeconds": 34
+    },
+    {
+      "shipIndex": 8,
+      "sourceStationGId": 578,
+      "sourcePlanetName": "Almach II",
+      "sourceStarName": "Almach",
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 31617693.3709425,
+      "remainingTicks": 136223,
+      "remainingSeconds": 2270.38333333333
+    }
+  ]
+}

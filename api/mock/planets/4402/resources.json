@@ -1,0 +1,46 @@
+{
+  "planetId": 4402,
+  "planetName": "173 Comae Berenices II",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 195025604,
+      "veinCount": 350
+    },
+    {
+      "type": "Copper",
+      "amount": 176666754,
+      "veinCount": 317
+    },
+    {
+      "type": "Silicium",
+      "amount": 3663690,
+      "veinCount": 11
+    },
+    {
+      "type": "Titanium",
+      "amount": 92872813,
+      "veinCount": 167
+    },
+    {
+      "type": "Stone",
+      "amount": 14544744,
+      "veinCount": 52
+    },
+    {
+      "type": "Coal",
+      "amount": 1177277,
+      "veinCount": 7
+    },
+    {
+      "type": "Diamond",
+      "amount": 11125717,
+      "veinCount": 21
+    },
+    {
+      "type": "Fractal",
+      "amount": 24859762,
+      "veinCount": 47
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "planetId": 4504,
+  "planetName": "Muphrid IV",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 5938455,
+      "veinCount": 42
+    },
+    {
+      "type": "Copper",
+      "amount": 3012402,
+      "veinCount": 22
+    },
+    {
+      "type": "Silicium",
+      "amount": 4207611,
+      "veinCount": 20
+    },
+    {
+      "type": "Titanium",
+      "amount": 23579938,
+      "veinCount": 113
+    },
+    {
+      "type": "Stone",
+      "amount": 113535695,
+      "veinCount": 325
+    },
+    {
+      "type": "Grat",
+      "amount": 292790,
+      "veinCount": 5
+    }
+  ]
+}

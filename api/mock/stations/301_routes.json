@@ -1,0 +1,26 @@
+{
+  "stationId": 301,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 40,
+      "sourcePlanetName": "Phact Farm",
+      "sourceStarName": "Phact",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 35721169.6859388,
+      "remainingTicks": 26386,
+      "remainingSeconds": 439.766666666667
+    }
+  ]
+}

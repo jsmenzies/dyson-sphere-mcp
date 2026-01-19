@@ -1,0 +1,36 @@
+{
+  "planetId": 5501,
+  "planetName": "Theta Scuti I",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 161186996,
+      "veinCount": 297
+    },
+    {
+      "type": "Copper",
+      "amount": 168241116,
+      "veinCount": 310
+    },
+    {
+      "type": "Silicium",
+      "amount": 10120019,
+      "veinCount": 31
+    },
+    {
+      "type": "Titanium",
+      "amount": 105517353,
+      "veinCount": 194
+    },
+    {
+      "type": "Stone",
+      "amount": 17823641,
+      "veinCount": 65
+    },
+    {
+      "type": "Coal",
+      "amount": 1004106,
+      "veinCount": 6
+    }
+  ]
+}

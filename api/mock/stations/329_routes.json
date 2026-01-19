@@ -1,0 +1,26 @@
+{
+  "stationId": 329,
+  "planetId": 3803,
+  "planetName": "Eta Corvi III",
+  "starName": "Eta Corvi",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 371,
+      "sourcePlanetName": "Double Farm",
+      "sourceStarName": "Farm",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 7102131.53123038,
+      "remainingTicks": 49218,
+      "remainingSeconds": 820.3
+    }
+  ]
+}

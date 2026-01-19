@@ -1,0 +1,26 @@
+{
+  "stationId": 42,
+  "planetId": 203,
+  "planetName": "Phact Farm",
+  "starName": "Phact",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 584,
+      "sourcePlanetName": "CorHydrae Oil Platform Stalag",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 53.55001,
+      "warpState": 0,
+      "distance": 259.121046500882,
+      "remainingTicks": 39804,
+      "remainingSeconds": 663.4
+    }
+  ]
+}

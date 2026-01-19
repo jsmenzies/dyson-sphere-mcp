@@ -1,0 +1,36 @@
+{
+  "planetId": 4803,
+  "planetName": "Eta Lupi III",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 20506730,
+      "veinCount": 71
+    },
+    {
+      "type": "Copper",
+      "amount": 29676037,
+      "veinCount": 86
+    },
+    {
+      "type": "Stone",
+      "amount": 83308539,
+      "veinCount": 181
+    },
+    {
+      "type": "Coal",
+      "amount": 83929229,
+      "veinCount": 146
+    },
+    {
+      "type": "Oil",
+      "amount": 2750299,
+      "veinCount": 11
+    },
+    {
+      "type": "Crysrub",
+      "amount": 8266790,
+      "veinCount": 18
+    }
+  ]
+}

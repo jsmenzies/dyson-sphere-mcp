@@ -1,0 +1,46 @@
+{
+  "planetId": 301,
+  "planetName": "Epsilon Sagittarii I Coal",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 3756359,
+      "veinCount": 91
+    },
+    {
+      "type": "Silicium",
+      "amount": 9499625,
+      "veinCount": 130
+    },
+    {
+      "type": "Stone",
+      "amount": 373311,
+      "veinCount": 12
+    },
+    {
+      "type": "Coal",
+      "amount": 10084458,
+      "veinCount": 119
+    },
+    {
+      "type": "Oil",
+      "amount": 2036864,
+      "veinCount": 21
+    },
+    {
+      "type": "Fractal",
+      "amount": 1365238,
+      "veinCount": 22
+    },
+    {
+      "type": "Crysrub",
+      "amount": 648682,
+      "veinCount": 20
+    },
+    {
+      "type": "Bamboo",
+      "amount": 350470,
+      "veinCount": 16
+    }
+  ]
+}

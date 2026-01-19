@@ -1,0 +1,43 @@
+{
+  "stationId": 365,
+  "planetId": 1403,
+  "planetName": "Algomeyla III Expiriment",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 410,
+      "sourcePlanetName": "Saidak I Proliferator",
+      "sourceStarName": "Saidak",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 2755.104,
+      "warpState": 0,
+      "distance": 3153.39663432047,
+      "remainingTicks": 391,
+      "remainingSeconds": 6.51666666666667
+    },
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 509,
+      "sourcePlanetName": "CorHydrae Proliferator Silicon",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 0,
+      "stage": "Approach",
+      "direction": -1,
+      "t": 0.3288946,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 226.623027843622,
+      "remainingTicks": 39840,
+      "remainingSeconds": 664
+    }
+  ]
+}

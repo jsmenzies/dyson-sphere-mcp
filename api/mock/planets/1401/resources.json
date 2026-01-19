@@ -1,0 +1,36 @@
+{
+  "planetId": 1401,
+  "planetName": "Algomeyla I Supplier 2",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 47320414,
+      "veinCount": 257
+    },
+    {
+      "type": "Copper",
+      "amount": 1487461,
+      "veinCount": 12
+    },
+    {
+      "type": "Titanium",
+      "amount": 7005260,
+      "veinCount": 46
+    },
+    {
+      "type": "Coal",
+      "amount": 2066607,
+      "veinCount": 27
+    },
+    {
+      "type": "Crysrub",
+      "amount": 1389411,
+      "veinCount": 19
+    },
+    {
+      "type": "Grat",
+      "amount": 23194742,
+      "veinCount": 210
+    }
+  ]
+}

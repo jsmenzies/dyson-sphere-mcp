@@ -1,0 +1,41 @@
+{
+  "planetId": 2703,
+  "planetName": "Zeta Hydrae III",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 8016084,
+      "veinCount": 51
+    },
+    {
+      "type": "Copper",
+      "amount": 314913,
+      "veinCount": 4
+    },
+    {
+      "type": "Silicium",
+      "amount": 8293450,
+      "veinCount": 53
+    },
+    {
+      "type": "Titanium",
+      "amount": 29915134,
+      "veinCount": 190
+    },
+    {
+      "type": "Stone",
+      "amount": 8622477,
+      "veinCount": 54
+    },
+    {
+      "type": "Coal",
+      "amount": 189706,
+      "veinCount": 4
+    },
+    {
+      "type": "Fireice",
+      "amount": 3667298,
+      "veinCount": 23
+    }
+  ]
+}

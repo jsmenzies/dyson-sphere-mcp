@@ -1,0 +1,36 @@
+{
+  "planetId": 4501,
+  "planetName": "Muphrid Photon Farm",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 50471308,
+      "veinCount": 216
+    },
+    {
+      "type": "Copper",
+      "amount": 47631811,
+      "veinCount": 204
+    },
+    {
+      "type": "Silicium",
+      "amount": 1675751,
+      "veinCount": 12
+    },
+    {
+      "type": "Titanium",
+      "amount": 30732987,
+      "veinCount": 132
+    },
+    {
+      "type": "Stone",
+      "amount": 6030661,
+      "veinCount": 52
+    },
+    {
+      "type": "Coal",
+      "amount": 499103,
+      "veinCount": 7
+    }
+  ]
+}

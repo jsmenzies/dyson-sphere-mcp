@@ -1,0 +1,34 @@
+{
+  "itemId": 1210,
+  "itemName": "Space Warper",
+  "ships": [
+    {
+      "shipIndex": 7,
+      "originStationGId": 57,
+      "originPlanet": "Home",
+      "destStationGId": 90,
+      "destPlanet": "\u03b6 Ursae Majoris IV MegaFarm",
+      "itemCount": 0,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 168.3,
+      "distance": 287.808750209357,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    },
+    {
+      "shipIndex": 9,
+      "originStationGId": 57,
+      "originPlanet": "Home",
+      "destStationGId": 546,
+      "destPlanet": "Epsilon Sagittarii III Fire",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 33909.28,
+      "distance": 11414670.9176262,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ]
+}

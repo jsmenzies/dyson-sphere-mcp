@@ -1,0 +1,56 @@
+{
+  "planetId": 6101,
+  "planetName": "Zibel I",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 62608789,
+      "veinCount": 156
+    },
+    {
+      "type": "Copper",
+      "amount": 8783204,
+      "veinCount": 22
+    },
+    {
+      "type": "Silicium",
+      "amount": 9603298,
+      "veinCount": 16
+    },
+    {
+      "type": "Titanium",
+      "amount": 66035206,
+      "veinCount": 132
+    },
+    {
+      "type": "Stone",
+      "amount": 23029775,
+      "veinCount": 46
+    },
+    {
+      "type": "Coal",
+      "amount": 1034116,
+      "veinCount": 7
+    },
+    {
+      "type": "Fireice",
+      "amount": 60305401,
+      "veinCount": 120
+    },
+    {
+      "type": "Diamond",
+      "amount": 87197634,
+      "veinCount": 174
+    },
+    {
+      "type": "Fractal",
+      "amount": 22463164,
+      "veinCount": 45
+    },
+    {
+      "type": "Grat",
+      "amount": 20250413,
+      "veinCount": 41
+    }
+  ]
+}

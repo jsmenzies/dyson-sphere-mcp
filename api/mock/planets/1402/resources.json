@@ -1,0 +1,46 @@
+{
+  "planetId": 1402,
+  "planetName": "Algomeyla II Supplier 1",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 8582878,
+      "veinCount": 92
+    },
+    {
+      "type": "Copper",
+      "amount": 1879355,
+      "veinCount": 20
+    },
+    {
+      "type": "Silicium",
+      "amount": 21741824,
+      "veinCount": 237
+    },
+    {
+      "type": "Stone",
+      "amount": 6489124,
+      "veinCount": 85
+    },
+    {
+      "type": "Coal",
+      "amount": 31064016,
+      "veinCount": 202
+    },
+    {
+      "type": "Oil",
+      "amount": 3021978,
+      "veinCount": 23
+    },
+    {
+      "type": "Crysrub",
+      "amount": 3682005,
+      "veinCount": 24
+    },
+    {
+      "type": "Bamboo",
+      "amount": 3081910,
+      "veinCount": 20
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "planetId": 6401,
+  "planetName": "DSR J2029+13 I",
+  "starName": "DSR J2029+13",
+  "stationCount": 8,
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 6,
+      "originStationGId": 57,
+      "originPlanetName": "Home",
+      "destStationGId": 603,
+      "itemId": 1016,
+      "itemName": "Unipolar Magnet",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 3075300,
+      "distance": 75446479.4420303,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    },
+    {
+      "shipIndex": 8,
+      "originStationGId": 57,
+      "originPlanetName": "Home",
+      "destStationGId": 603,
+      "itemId": 1016,
+      "itemName": "Unipolar Magnet",
+      "itemCount": 0,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 3075300,
+      "distance": 90897364.0048016,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    },
+    {
+      "shipIndex": 1,
+      "originStationGId": 570,
+      "originPlanetName": "Home",
+      "destStationGId": 603,
+      "itemId": 5205,
+      "itemName": "Core Element",
+      "itemCount": 0,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 155.2087,
+      "distance": 386.480412968603,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ]
+}

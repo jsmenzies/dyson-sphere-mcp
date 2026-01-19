@@ -1,0 +1,26 @@
+{
+  "stationId": 312,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 518,
+      "sourcePlanetName": "Acrux IV",
+      "sourceStarName": "Acrux",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 2000,
+      "stage": "Landing",
+      "direction": -1,
+      "t": 0.7014,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 836.149984938633,
+      "remainingTicks": 944,
+      "remainingSeconds": 15.7333333333333
+    }
+  ]
+}

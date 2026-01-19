@@ -1,0 +1,41 @@
+{
+  "planetId": 1102,
+  "planetName": "Porrima II Silicon",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 4559208,
+      "veinCount": 67
+    },
+    {
+      "type": "Copper",
+      "amount": 11165273,
+      "veinCount": 162
+    },
+    {
+      "type": "Silicium",
+      "amount": 19399303,
+      "veinCount": 172
+    },
+    {
+      "type": "Titanium",
+      "amount": 2487725,
+      "veinCount": 22
+    },
+    {
+      "type": "Stone",
+      "amount": 1822002,
+      "veinCount": 31
+    },
+    {
+      "type": "Coal",
+      "amount": 210732,
+      "veinCount": 7
+    },
+    {
+      "type": "Diamond",
+      "amount": 581704,
+      "veinCount": 10
+    }
+  ]
+}

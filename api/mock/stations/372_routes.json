@@ -1,0 +1,43 @@
+{
+  "stationId": 372,
+  "planetId": 801,
+  "planetName": "Double Farm",
+  "starName": "Farm",
+  "outgoing": [
+    {
+      "shipIndex": 0,
+      "otherStationGId": 160,
+      "otherPlanetName": "CorHydrae Proliferator Silicon",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 15300,
+      "warpState": 0.01666667,
+      "distance": 24703.3177117433,
+      "remainingTicks": 782,
+      "remainingSeconds": 13.0333333333333
+    },
+    {
+      "shipIndex": 1,
+      "otherStationGId": 160,
+      "otherPlanetName": "CorHydrae Proliferator Silicon",
+      "otherStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 6726.053,
+      "warpState": 0,
+      "distance": 7274.33601359276,
+      "remainingTicks": 452,
+      "remainingSeconds": 7.53333333333333
+    }
+  ],
+  "incoming": []
+}

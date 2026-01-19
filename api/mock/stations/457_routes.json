@@ -1,0 +1,43 @@
+{
+  "stationId": 457,
+  "planetId": 803,
+  "planetName": "Farm III Iron/Kim",
+  "starName": "Farm",
+  "outgoing": [
+    {
+      "shipIndex": 6,
+      "otherStationGId": 568,
+      "otherPlanetName": "Home",
+      "otherStarName": "Acrux",
+      "itemId": 1012,
+      "itemName": "Kimberlite Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 1753.663,
+      "warpState": 0,
+      "distance": 12452634.6506952,
+      "remainingTicks": 49431,
+      "remainingSeconds": 823.85
+    },
+    {
+      "shipIndex": 7,
+      "otherStationGId": 55,
+      "otherPlanetName": "CorHydrae Proliferator Silicon",
+      "otherStarName": "CorHydrae",
+      "itemId": 1012,
+      "itemName": "Kimberlite Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 469.4588,
+      "warpState": 0,
+      "distance": 678.366822802647,
+      "remainingTicks": 49431,
+      "remainingSeconds": 823.85
+    }
+  ],
+  "incoming": []
+}

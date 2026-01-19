@@ -1,0 +1,43 @@
+{
+  "stationId": 340,
+  "planetId": 1404,
+  "planetName": "Algomeyla IV",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 449,
+      "sourcePlanetName": "MegaFarm Alpha",
+      "sourceStarName": "Farm",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 9631.402,
+      "warpState": 0,
+      "distance": 41762778.2125262,
+      "remainingTicks": 1007,
+      "remainingSeconds": 16.7833333333333
+    },
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 500,
+      "sourcePlanetName": "Acrux IV",
+      "sourceStarName": "Acrux",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 12404459.1193377,
+      "remainingTicks": 1342,
+      "remainingSeconds": 22.3666666666667
+    }
+  ]
+}

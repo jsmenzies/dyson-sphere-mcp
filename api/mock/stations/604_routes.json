@@ -1,0 +1,43 @@
+{
+  "stationId": 604,
+  "planetId": 104,
+  "planetName": "Acrux IV",
+  "starName": "Acrux",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 410,
+      "sourcePlanetName": "Saidak I Proliferator",
+      "sourceStarName": "Saidak",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 0,
+      "stage": "Approach",
+      "direction": -1,
+      "t": 0.4165998,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 230.927169462149,
+      "remainingTicks": 1367,
+      "remainingSeconds": 22.7833333333333
+    },
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 410,
+      "sourcePlanetName": "Saidak I Proliferator",
+      "sourceStarName": "Saidak",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 12292802.335803,
+      "remainingTicks": 606,
+      "remainingSeconds": 10.1
+    }
+  ]
+}

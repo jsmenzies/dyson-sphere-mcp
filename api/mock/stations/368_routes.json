@@ -1,0 +1,26 @@
+{
+  "stationId": 368,
+  "planetId": 1403,
+  "planetName": "Algomeyla III Expiriment",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 380,
+      "sourcePlanetName": "Farm II Coal/Stone",
+      "sourceStarName": "Farm",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 24358362.3157594,
+      "remainingTicks": 956,
+      "remainingSeconds": 15.9333333333333
+    }
+  ]
+}

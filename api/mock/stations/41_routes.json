@@ -1,0 +1,43 @@
+{
+  "stationId": 41,
+  "planetId": 203,
+  "planetName": "Phact Farm",
+  "starName": "Phact",
+  "outgoing": [
+    {
+      "shipIndex": 6,
+      "otherStationGId": 157,
+      "otherPlanetName": "Porrima I Sulfur",
+      "otherStarName": "Porrima",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 2103.069,
+      "warpState": 0,
+      "distance": 831.843991240414,
+      "remainingTicks": 26386,
+      "remainingSeconds": 439.766666666667
+    },
+    {
+      "shipIndex": 7,
+      "otherStationGId": 577,
+      "otherPlanetName": "Almach II",
+      "otherStarName": "Almach",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 14126.84,
+      "warpState": 0,
+      "distance": 38627323.7675599,
+      "remainingTicks": 26386,
+      "remainingSeconds": 439.766666666667
+    }
+  ],
+  "incoming": []
+}

@@ -1,0 +1,21 @@
+{
+  "planetId": 402,
+  "planetName": "CorHydrae Oil Platform Stalag",
+  "resourceSpots": [
+    {
+      "type": "Coal",
+      "amount": 860391,
+      "veinCount": 12
+    },
+    {
+      "type": "Oil",
+      "amount": 2092787,
+      "veinCount": 11
+    },
+    {
+      "type": "Bamboo",
+      "amount": 24223997,
+      "veinCount": 287
+    }
+  ]
+}

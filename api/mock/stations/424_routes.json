@@ -1,0 +1,60 @@
+{
+  "stationId": 424,
+  "planetId": 701,
+  "planetName": "Bunda MegaFarm",
+  "starName": "Bunda",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 458,
+      "sourcePlanetName": "Farm III Iron/Kim",
+      "sourceStarName": "Farm",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 409.1343,
+      "warpState": 0,
+      "distance": 5839949.04859533,
+      "remainingTicks": 977,
+      "remainingSeconds": 16.2833333333333
+    },
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 458,
+      "sourcePlanetName": "Farm III Iron/Kim",
+      "sourceStarName": "Farm",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 2000,
+      "stage": "Landing",
+      "direction": 1,
+      "t": 0.1316,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 215.690019756129,
+      "remainingTicks": 576,
+      "remainingSeconds": 9.6
+    },
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 465,
+      "sourcePlanetName": "Acrux I IronCopper",
+      "sourceStarName": "Acrux",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 7981268.71212535,
+      "remainingTicks": 1002,
+      "remainingSeconds": 16.7
+    }
+  ]
+}

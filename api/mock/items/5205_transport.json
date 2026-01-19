@@ -1,0 +1,20 @@
+{
+  "itemId": 5205,
+  "itemName": "Core Element",
+  "ships": [
+    {
+      "shipIndex": 1,
+      "originStationGId": 570,
+      "originPlanet": "Home",
+      "destStationGId": 603,
+      "destPlanet": "DSR J2029+13 I",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 13123.3,
+      "distance": 21013.382388641,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ]
+}

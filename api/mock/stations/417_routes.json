@@ -1,0 +1,26 @@
+{
+  "stationId": 417,
+  "planetId": 701,
+  "planetName": "Bunda MegaFarm",
+  "starName": "Bunda",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 410,
+      "sourcePlanetName": "Saidak I Proliferator",
+      "sourceStarName": "Saidak",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 89.55551,
+      "warpState": 0,
+      "distance": 34105052.6969624,
+      "remainingTicks": 96783,
+      "remainingSeconds": 1613.05
+    }
+  ]
+}

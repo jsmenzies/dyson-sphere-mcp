@@ -1,0 +1,44 @@
+{
+  "stationId": 573,
+  "planetId": 103,
+  "planetName": "Home",
+  "starName": "Acrux",
+  "outgoing": [
+    {
+      "shipIndex": 1,
+      "otherStationGId": 274,
+      "otherPlanetName": "Phact II",
+      "otherStarName": "Phact",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 33909.28,
+      "warpState": 0.2833334,
+      "distance": 30508.9538008351,
+      "remainingTicks": 698,
+      "remainingSeconds": 11.6333333333333
+    }
+  ],
+  "incoming": [
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 443,
+      "sourcePlanetName": "Porrima I Sulfur",
+      "sourceStarName": "Porrima",
+      "itemId": 1116,
+      "itemName": "Sulfuric Acid",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 763214.381663945,
+      "remainingTicks": 83365,
+      "remainingSeconds": 1389.41666666667
+    }
+  ]
+}

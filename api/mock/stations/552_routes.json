@@ -1,0 +1,43 @@
+{
+  "stationId": 552,
+  "planetId": 402,
+  "planetName": "CorHydrae Oil Platform Stalag",
+  "starName": "CorHydrae",
+  "outgoing": [
+    {
+      "shipIndex": 9,
+      "otherStationGId": 426,
+      "otherPlanetName": "Bunda MegaFarm",
+      "otherStarName": "Bunda",
+      "itemId": 1007,
+      "itemName": "Crude Oil",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 761.666,
+      "warpState": 0,
+      "distance": 672.647400122065,
+      "remainingTicks": 39804,
+      "remainingSeconds": 663.4
+    },
+    {
+      "shipIndex": 0,
+      "otherStationGId": 486,
+      "otherPlanetName": "MegaFarm Alpha",
+      "otherStarName": "Farm",
+      "itemId": 1007,
+      "itemName": "Crude Oil",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 826.5291,
+      "warpState": 0,
+      "distance": 1045.48662632785,
+      "remainingTicks": 852,
+      "remainingSeconds": 14.2
+    }
+  ],
+  "incoming": []
+}

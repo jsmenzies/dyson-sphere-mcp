@@ -1,0 +1,41 @@
+{
+  "planetId": 2702,
+  "planetName": "Zeta Hydrae II",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 15473741,
+      "veinCount": 98
+    },
+    {
+      "type": "Copper",
+      "amount": 31923230,
+      "veinCount": 203
+    },
+    {
+      "type": "Silicium",
+      "amount": 1902961,
+      "veinCount": 12
+    },
+    {
+      "type": "Titanium",
+      "amount": 23573819,
+      "veinCount": 150
+    },
+    {
+      "type": "Stone",
+      "amount": 3514785,
+      "veinCount": 43
+    },
+    {
+      "type": "Coal",
+      "amount": 293093,
+      "veinCount": 7
+    },
+    {
+      "type": "Fireice",
+      "amount": 1017144,
+      "veinCount": 12
+    }
+  ]
+}

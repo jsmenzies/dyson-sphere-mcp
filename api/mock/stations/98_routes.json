@@ -1,0 +1,43 @@
+{
+  "stationId": 98,
+  "planetId": 604,
+  "planetName": "\u03b6 Ursae Majoris IV MegaFarm",
+  "starName": "\u03b6 Ursae Majoris",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 4,
+      "sourceStationGId": 167,
+      "sourcePlanetName": "Algomeyla II Supplier 1",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 2000,
+      "stage": "Departure",
+      "direction": 1,
+      "t": 0.2850419,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 35721924.9415784,
+      "remainingTicks": 1041,
+      "remainingSeconds": 17.35
+    },
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 533,
+      "sourcePlanetName": "CorHydrae Oil Platform Stalag",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 5631.826,
+      "warpState": 0,
+      "distance": 9376810.63208939,
+      "remainingTicks": 39804,
+      "remainingSeconds": 663.4
+    }
+  ]
+}

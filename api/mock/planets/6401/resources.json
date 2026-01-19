@@ -1,0 +1,51 @@
+{
+  "planetId": 6401,
+  "planetName": "DSR J2029+13 I",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 39681817,
+      "veinCount": 64
+    },
+    {
+      "type": "Copper",
+      "amount": 1258346,
+      "veinCount": 4
+    },
+    {
+      "type": "Silicium",
+      "amount": 34741474,
+      "veinCount": 56
+    },
+    {
+      "type": "Titanium",
+      "amount": 133292790,
+      "veinCount": 215
+    },
+    {
+      "type": "Stone",
+      "amount": 31496483,
+      "veinCount": 51
+    },
+    {
+      "type": "Coal",
+      "amount": 742290,
+      "veinCount": 4
+    },
+    {
+      "type": "Fireice",
+      "amount": 93082375,
+      "veinCount": 150
+    },
+    {
+      "type": "Fractal",
+      "amount": 21681373,
+      "veinCount": 38
+    },
+    {
+      "type": "Mag",
+      "amount": 5550421,
+      "veinCount": 30
+    }
+  ]
+}

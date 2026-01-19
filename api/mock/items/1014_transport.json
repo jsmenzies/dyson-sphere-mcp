@@ -1,0 +1,20 @@
+{
+  "itemId": 1014,
+  "itemName": "Grating Crystal",
+  "ships": [
+    {
+      "shipIndex": 0,
+      "originStationGId": 48,
+      "originPlanet": "Home",
+      "destStationGId": 205,
+      "destPlanet": "CorHydrae Proliferator Silicon",
+      "itemCount": 0,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 1139.856,
+      "distance": 9982032.079038,
+      "remainingTicks": 928,
+      "remainingSeconds": 15.4666666666667
+    }
+  ]
+}

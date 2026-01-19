@@ -1,0 +1,43 @@
+{
+  "stationId": 421,
+  "planetId": 701,
+  "planetName": "Bunda MegaFarm",
+  "starName": "Bunda",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 533,
+      "sourcePlanetName": "CorHydrae Oil Platform Stalag",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 80.0699,
+      "warpState": 0,
+      "distance": 15545152.7180922,
+      "remainingTicks": 959,
+      "remainingSeconds": 15.9833333333333
+    },
+    {
+      "shipIndex": 4,
+      "sourceStationGId": 533,
+      "sourcePlanetName": "CorHydrae Oil Platform Stalag",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 6037556.60412214,
+      "remainingTicks": 186,
+      "remainingSeconds": 3.1
+    }
+  ]
+}

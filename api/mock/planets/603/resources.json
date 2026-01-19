@@ -1,0 +1,41 @@
+{
+  "planetId": 603,
+  "planetName": "\u03b6 Ursae Majoris III Coal/Oil",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 4809024,
+      "veinCount": 80
+    },
+    {
+      "type": "Copper",
+      "amount": 868996,
+      "veinCount": 14
+    },
+    {
+      "type": "Silicium",
+      "amount": 13174562,
+      "veinCount": 209
+    },
+    {
+      "type": "Stone",
+      "amount": 2214219,
+      "veinCount": 43
+    },
+    {
+      "type": "Coal",
+      "amount": 24150368,
+      "veinCount": 236
+    },
+    {
+      "type": "Oil",
+      "amount": 2327957,
+      "veinCount": 23
+    },
+    {
+      "type": "Crysrub",
+      "amount": 2109757,
+      "veinCount": 20
+    }
+  ]
+}

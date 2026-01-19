@@ -1,0 +1,46 @@
+{
+  "planetId": 805,
+  "planetName": "MegaFarm Alpha",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 937468,
+      "veinCount": 20
+    },
+    {
+      "type": "Copper",
+      "amount": 10547885,
+      "veinCount": 147
+    },
+    {
+      "type": "Silicium",
+      "amount": 5304840,
+      "veinCount": 67
+    },
+    {
+      "type": "Titanium",
+      "amount": 9007930,
+      "veinCount": 131
+    },
+    {
+      "type": "Stone",
+      "amount": 6147398,
+      "veinCount": 110
+    },
+    {
+      "type": "Coal",
+      "amount": 28715,
+      "veinCount": 3
+    },
+    {
+      "type": "Fractal",
+      "amount": 482923,
+      "veinCount": 11
+    },
+    {
+      "type": "Grat",
+      "amount": 1334118,
+      "veinCount": 18
+    }
+  ]
+}

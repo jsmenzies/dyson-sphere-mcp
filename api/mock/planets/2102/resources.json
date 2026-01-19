@@ -1,0 +1,46 @@
+{
+  "planetId": 2102,
+  "planetName": "Almach II",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 12991695,
+      "veinCount": 82
+    },
+    {
+      "type": "Copper",
+      "amount": 324691,
+      "veinCount": 4
+    },
+    {
+      "type": "Silicium",
+      "amount": 8219335,
+      "veinCount": 52
+    },
+    {
+      "type": "Titanium",
+      "amount": 35489380,
+      "veinCount": 223
+    },
+    {
+      "type": "Stone",
+      "amount": 5673250,
+      "veinCount": 36
+    },
+    {
+      "type": "Coal",
+      "amount": 168445,
+      "veinCount": 4
+    },
+    {
+      "type": "Fireice",
+      "amount": 3511597,
+      "veinCount": 22
+    },
+    {
+      "type": "Fractal",
+      "amount": 638659,
+      "veinCount": 10
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "planetId": 5505,
+  "planetName": "Theta Scuti V",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 37546144,
+      "veinCount": 69
+    },
+    {
+      "type": "Copper",
+      "amount": 129336827,
+      "veinCount": 238
+    },
+    {
+      "type": "Silicium",
+      "amount": 6491576,
+      "veinCount": 12
+    },
+    {
+      "type": "Titanium",
+      "amount": 83843237,
+      "veinCount": 154
+    },
+    {
+      "type": "Stone",
+      "amount": 16899468,
+      "veinCount": 62
+    },
+    {
+      "type": "Coal",
+      "amount": 1006956,
+      "veinCount": 6
+    },
+    {
+      "type": "Fireice",
+      "amount": 1823790,
+      "veinCount": 9
+    }
+  ]
+}

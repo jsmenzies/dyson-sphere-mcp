@@ -1,0 +1,26 @@
+{
+  "stationId": 378,
+  "planetId": 1403,
+  "planetName": "Algomeyla III Expiriment",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 509,
+      "sourcePlanetName": "CorHydrae Proliferator Silicon",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 1667.583,
+      "warpState": 0,
+      "distance": 29146383.0121157,
+      "remainingTicks": 39840,
+      "remainingSeconds": 664
+    }
+  ]
+}

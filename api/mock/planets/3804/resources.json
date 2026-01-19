@@ -1,0 +1,31 @@
+{
+  "planetId": 3804,
+  "planetName": "Eta Corvi IV",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 59725280,
+      "veinCount": 306
+    },
+    {
+      "type": "Copper",
+      "amount": 1612330,
+      "veinCount": 12
+    },
+    {
+      "type": "Titanium",
+      "amount": 7752018,
+      "veinCount": 47
+    },
+    {
+      "type": "Coal",
+      "amount": 2206346,
+      "veinCount": 27
+    },
+    {
+      "type": "Grat",
+      "amount": 10004483,
+      "veinCount": 119
+    }
+  ]
+}

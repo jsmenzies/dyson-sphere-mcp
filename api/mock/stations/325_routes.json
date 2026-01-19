@@ -1,0 +1,26 @@
+{
+  "stationId": 325,
+  "planetId": 3803,
+  "planetName": "Eta Corvi III",
+  "starName": "Eta Corvi",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 375,
+      "sourcePlanetName": "Algomeyla III Expiriment",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 460.4041,
+      "warpState": 0,
+      "distance": 1363.29696648998,
+      "remainingTicks": 1764,
+      "remainingSeconds": 29.4
+    }
+  ]
+}

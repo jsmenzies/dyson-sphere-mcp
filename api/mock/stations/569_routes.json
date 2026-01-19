@@ -1,0 +1,26 @@
+{
+  "stationId": 569,
+  "planetId": 103,
+  "planetName": "Home",
+  "starName": "Acrux",
+  "outgoing": [
+    {
+      "shipIndex": 6,
+      "otherStationGId": 149,
+      "otherPlanetName": "\u03b6 Ursae Majoris II",
+      "otherStarName": "\u03b6 Ursae Majoris",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 1377.715,
+      "warpState": 0,
+      "distance": 17479523.5715421,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ],
+  "incoming": []
+}

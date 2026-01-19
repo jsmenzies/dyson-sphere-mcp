@@ -1,0 +1,43 @@
+{
+  "stationId": 361,
+  "planetId": 1403,
+  "planetName": "Algomeyla III Expiriment",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 4,
+      "sourceStationGId": 157,
+      "sourcePlanetName": "Porrima I Sulfur",
+      "sourceStarName": "Porrima",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 2050927.57233791,
+      "remainingTicks": 1001,
+      "remainingSeconds": 16.6833333333333
+    },
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 179,
+      "sourcePlanetName": "Porrima I Sulfur",
+      "sourceStarName": "Porrima",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 18108409.3349154,
+      "remainingTicks": 83364,
+      "remainingSeconds": 1389.4
+    }
+  ]
+}

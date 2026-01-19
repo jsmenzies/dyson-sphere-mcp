@@ -1,0 +1,31 @@
+{
+  "planetId": 4003,
+  "planetName": "Procyon III",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 187299766,
+      "veinCount": 286
+    },
+    {
+      "type": "Copper",
+      "amount": 4407684,
+      "veinCount": 10
+    },
+    {
+      "type": "Titanium",
+      "amount": 24567718,
+      "veinCount": 45
+    },
+    {
+      "type": "Coal",
+      "amount": 10344283,
+      "veinCount": 38
+    },
+    {
+      "type": "Grat",
+      "amount": 37268493,
+      "veinCount": 132
+    }
+  ]
+}

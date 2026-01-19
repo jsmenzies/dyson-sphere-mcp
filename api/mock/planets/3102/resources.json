@@ -1,0 +1,41 @@
+{
+  "planetId": 3102,
+  "planetName": "Gamma Aurigae II",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 92621757,
+      "veinCount": 314
+    },
+    {
+      "type": "Copper",
+      "amount": 94061406,
+      "veinCount": 319
+    },
+    {
+      "type": "Silicium",
+      "amount": 2285059,
+      "veinCount": 13
+    },
+    {
+      "type": "Titanium",
+      "amount": 59086549,
+      "veinCount": 200
+    },
+    {
+      "type": "Stone",
+      "amount": 7867693,
+      "veinCount": 53
+    },
+    {
+      "type": "Coal",
+      "amount": 1042357,
+      "veinCount": 12
+    },
+    {
+      "type": "Fractal",
+      "amount": 17592757,
+      "veinCount": 105
+    }
+  ]
+}

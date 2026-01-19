@@ -1,0 +1,46 @@
+{
+  "planetId": 1103,
+  "planetName": "Porrima III Coal",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 6759104,
+      "veinCount": 85
+    },
+    {
+      "type": "Copper",
+      "amount": 4475175,
+      "veinCount": 65
+    },
+    {
+      "type": "Silicium",
+      "amount": 10593066,
+      "veinCount": 117
+    },
+    {
+      "type": "Titanium",
+      "amount": 2946658,
+      "veinCount": 37
+    },
+    {
+      "type": "Stone",
+      "amount": 4301699,
+      "veinCount": 38
+    },
+    {
+      "type": "Coal",
+      "amount": 15213575,
+      "veinCount": 111
+    },
+    {
+      "type": "Oil",
+      "amount": 1678648,
+      "veinCount": 15
+    },
+    {
+      "type": "Crysrub",
+      "amount": 8844244,
+      "veinCount": 78
+    }
+  ]
+}

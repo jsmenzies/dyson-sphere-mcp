@@ -1,0 +1,60 @@
+{
+  "stationId": 517,
+  "planetId": 104,
+  "planetName": "Acrux IV",
+  "starName": "Acrux",
+  "outgoing": [
+    {
+      "shipIndex": 5,
+      "otherStationGId": 577,
+      "otherPlanetName": "Almach II",
+      "otherStarName": "Almach",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 31720919.5050129,
+      "remainingTicks": 944,
+      "remainingSeconds": 15.7333333333333
+    },
+    {
+      "shipIndex": 6,
+      "otherStationGId": 605,
+      "otherPlanetName": "Farm 4 Titan",
+      "otherStarName": "Farm",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 4272.903,
+      "warpState": 0,
+      "distance": 2506.44245826828,
+      "remainingTicks": 944,
+      "remainingSeconds": 15.7333333333333
+    },
+    {
+      "shipIndex": 7,
+      "otherStationGId": 578,
+      "otherPlanetName": "Almach II",
+      "otherStarName": "Almach",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 91.80001,
+      "warpState": 0,
+      "distance": 34610712.8272879,
+      "remainingTicks": 944,
+      "remainingSeconds": 15.7333333333333
+    }
+  ],
+  "incoming": []
+}

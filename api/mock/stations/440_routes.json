@@ -1,0 +1,43 @@
+{
+  "stationId": 440,
+  "planetId": 805,
+  "planetName": "MegaFarm Alpha",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 584,
+      "sourcePlanetName": "CorHydrae Oil Platform Stalag",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 0,
+      "stage": "Departure",
+      "direction": -1,
+      "t": 0.7076488,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 12898224.2270078,
+      "remainingTicks": 39804,
+      "remainingSeconds": 663.4
+    },
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 584,
+      "sourcePlanetName": "CorHydrae Oil Platform Stalag",
+      "sourceStarName": "CorHydrae",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 5377502.20040147,
+      "remainingTicks": 78,
+      "remainingSeconds": 1.3
+    }
+  ]
+}

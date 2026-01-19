@@ -1,0 +1,43 @@
+{
+  "stationId": 634,
+  "planetId": 404,
+  "planetName": "CorHydrae MegaFarm",
+  "starName": "CorHydrae",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 398,
+      "sourcePlanetName": "Algomeyla II Supplier 1",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 12844411.2908474,
+      "remainingTicks": 1103,
+      "remainingSeconds": 18.3833333333333
+    },
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 458,
+      "sourcePlanetName": "Farm III Iron/Kim",
+      "sourceStarName": "Farm",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 2634569.21249677,
+      "remainingTicks": 778,
+      "remainingSeconds": 12.9666666666667
+    }
+  ]
+}

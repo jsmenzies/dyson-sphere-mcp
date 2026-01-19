@@ -1,0 +1,46 @@
+{
+  "planetId": 304,
+  "planetName": "Epsilon Sagittarii IV Iron",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 9926081,
+      "veinCount": 141
+    },
+    {
+      "type": "Copper",
+      "amount": 1416291,
+      "veinCount": 22
+    },
+    {
+      "type": "Silicium",
+      "amount": 3640979,
+      "veinCount": 37
+    },
+    {
+      "type": "Titanium",
+      "amount": 9844062,
+      "veinCount": 113
+    },
+    {
+      "type": "Stone",
+      "amount": 3950073,
+      "veinCount": 43
+    },
+    {
+      "type": "Coal",
+      "amount": 148876,
+      "veinCount": 6
+    },
+    {
+      "type": "Fireice",
+      "amount": 15020848,
+      "veinCount": 174
+    },
+    {
+      "type": "Diamond",
+      "amount": 5383150,
+      "veinCount": 63
+    }
+  ]
+}

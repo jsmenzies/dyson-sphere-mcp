@@ -1,0 +1,41 @@
+{
+  "planetId": 604,
+  "planetName": "\u03b6 Ursae Majoris IV MegaFarm",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 6618519,
+      "veinCount": 65
+    },
+    {
+      "type": "Copper",
+      "amount": 240224,
+      "veinCount": 5
+    },
+    {
+      "type": "Silicium",
+      "amount": 3392689,
+      "veinCount": 33
+    },
+    {
+      "type": "Titanium",
+      "amount": 21591280,
+      "veinCount": 210
+    },
+    {
+      "type": "Stone",
+      "amount": 5152885,
+      "veinCount": 50
+    },
+    {
+      "type": "Coal",
+      "amount": 116461,
+      "veinCount": 4
+    },
+    {
+      "type": "Fireice",
+      "amount": 20198454,
+      "veinCount": 200
+    }
+  ]
+}

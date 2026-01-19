@@ -1,0 +1,43 @@
+{
+  "stationId": 333,
+  "planetId": 1404,
+  "planetName": "Algomeyla IV",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 8,
+      "sourceStationGId": 375,
+      "sourcePlanetName": "Algomeyla III Expiriment",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Landing",
+      "direction": -1,
+      "t": 0.7348,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 836.150092877628,
+      "remainingTicks": 131044,
+      "remainingSeconds": 2184.06666666667
+    },
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 449,
+      "sourcePlanetName": "MegaFarm Alpha",
+      "sourceStarName": "Farm",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 26774934.0875608,
+      "remainingTicks": 1667,
+      "remainingSeconds": 27.7833333333333
+    }
+  ]
+}

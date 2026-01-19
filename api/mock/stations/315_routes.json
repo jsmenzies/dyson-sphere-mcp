@@ -1,0 +1,26 @@
+{
+  "stationId": 315,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 5,
+      "sourceStationGId": 86,
+      "sourcePlanetName": "\u03b6 Ursae Majoris IV MegaFarm",
+      "sourceStarName": "\u03b6 Ursae Majoris",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 592.9001,
+      "warpState": 0,
+      "distance": 16524797.8153345,
+      "remainingTicks": 68617,
+      "remainingSeconds": 1143.61666666667
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "planetId": 104,
+  "planetName": "Acrux IV",
+  "resourceSpots": [
+    {
+      "type": "Stone",
+      "amount": 2516858,
+      "veinCount": 87
+    }
+  ]
+}

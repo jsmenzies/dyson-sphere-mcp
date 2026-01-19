@@ -1,0 +1,43 @@
+{
+  "stationId": 472,
+  "planetId": 805,
+  "planetName": "MegaFarm Alpha",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 157,
+      "sourcePlanetName": "Porrima I Sulfur",
+      "sourceStarName": "Porrima",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 255458.4,
+      "warpState": 0.6333334,
+      "distance": 67825.2084314414,
+      "remainingTicks": 535,
+      "remainingSeconds": 8.91666666666667
+    },
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 179,
+      "sourcePlanetName": "Porrima I Sulfur",
+      "sourceStarName": "Porrima",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 55480.25,
+      "warpState": 0.3833334,
+      "distance": 19992039.4590896,
+      "remainingTicks": 742,
+      "remainingSeconds": 12.3666666666667
+    }
+  ]
+}

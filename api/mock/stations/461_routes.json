@@ -1,0 +1,26 @@
+{
+  "stationId": 461,
+  "planetId": 805,
+  "planetName": "MegaFarm Alpha",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 349,
+      "sourcePlanetName": "Atlas I",
+      "sourceStarName": "Atlas",
+      "itemId": 1002,
+      "itemName": "Copper Ore",
+      "itemCount": 2000,
+      "stage": "Approach",
+      "direction": 1,
+      "t": 0.7953541,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 259.510549855795,
+      "remainingTicks": 64049,
+      "remainingSeconds": 1067.48333333333
+    }
+  ]
+}

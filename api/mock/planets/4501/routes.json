@@ -1,0 +1,100 @@
+{
+  "planetId": 4501,
+  "planetName": "Muphrid Photon Farm",
+  "starName": "Muphrid",
+  "stationCount": 2,
+  "outgoing": [
+    {
+      "shipIndex": 3,
+      "originStationGId": 491,
+      "destStationGId": 585,
+      "destPlanetName": "Acrux I IronCopper",
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 0,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 12631.61,
+      "distance": 18425.4012744663,
+      "remainingTicks": 1755,
+      "remainingSeconds": 29.25
+    },
+    {
+      "shipIndex": 4,
+      "originStationGId": 491,
+      "destStationGId": 578,
+      "destPlanetName": "Almach II",
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 3075300,
+      "distance": 19655613.0685421,
+      "remainingTicks": 195840,
+      "remainingSeconds": 3264
+    },
+    {
+      "shipIndex": 5,
+      "originStationGId": 491,
+      "destStationGId": 157,
+      "destPlanetName": "Porrima I Sulfur",
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 3075300,
+      "distance": 33984047.6657698,
+      "remainingTicks": 195840,
+      "remainingSeconds": 3264
+    },
+    {
+      "shipIndex": 6,
+      "originStationGId": 491,
+      "destStationGId": 157,
+      "destPlanetName": "Porrima I Sulfur",
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 99.45001,
+      "distance": 58735786.6898949,
+      "remainingTicks": 195840,
+      "remainingSeconds": 3264
+    }
+  ],
+  "incoming": [
+    {
+      "shipIndex": 3,
+      "originStationGId": 77,
+      "originPlanetName": "Home",
+      "destStationGId": 491,
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 3075300,
+      "distance": 25763849.55212,
+      "remainingTicks": 836,
+      "remainingSeconds": 13.9333333333333
+    },
+    {
+      "shipIndex": 9,
+      "originStationGId": 179,
+      "originPlanetName": "Porrima I Sulfur",
+      "destStationGId": 491,
+      "itemId": 1208,
+      "itemName": "Critical Photon",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "t": 1,
+      "uSpeed": 3075300,
+      "distance": 47851398.5155998,
+      "remainingTicks": 83366,
+      "remainingSeconds": 1389.43333333333
+    }
+  ]
+}

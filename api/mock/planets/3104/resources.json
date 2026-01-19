@@ -1,0 +1,51 @@
+{
+  "planetId": 3104,
+  "planetName": "Gamma Aurigae IV",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 28939465,
+      "veinCount": 140
+    },
+    {
+      "type": "Copper",
+      "amount": 3956710,
+      "veinCount": 27
+    },
+    {
+      "type": "Silicium",
+      "amount": 59467627,
+      "veinCount": 202
+    },
+    {
+      "type": "Titanium",
+      "amount": 5900887,
+      "veinCount": 20
+    },
+    {
+      "type": "Stone",
+      "amount": 7951681,
+      "veinCount": 39
+    },
+    {
+      "type": "Coal",
+      "amount": 62289826,
+      "veinCount": 176
+    },
+    {
+      "type": "Oil",
+      "amount": 3192786,
+      "veinCount": 21
+    },
+    {
+      "type": "Fractal",
+      "amount": 7045307,
+      "veinCount": 24
+    },
+    {
+      "type": "Crysrub",
+      "amount": 6145934,
+      "veinCount": 21
+    }
+  ]
+}

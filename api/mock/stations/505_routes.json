@@ -1,0 +1,26 @@
+{
+  "stationId": 505,
+  "planetId": 104,
+  "planetName": "Acrux IV",
+  "starName": "Acrux",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 167,
+      "sourcePlanetName": "Algomeyla II Supplier 1",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1000,
+      "itemName": "Water",
+      "itemCount": 0,
+      "stage": "Approach",
+      "direction": -1,
+      "t": 0.5920102,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 240.887136368703,
+      "remainingTicks": 232,
+      "remainingSeconds": 3.86666666666667
+    }
+  ]
+}

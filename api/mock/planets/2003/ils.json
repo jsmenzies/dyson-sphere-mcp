@@ -1,0 +1,515 @@
+{
+  "planetId": 2003,
+  "planetName": "Becrux III",
+  "starName": "Becrux",
+  "ilsStations": [
+    {
+      "id": 1,
+      "gid": 114,
+      "entityId": 1,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "gid": 115,
+      "entityId": 2,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "gid": 116,
+      "entityId": 3,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "gid": 117,
+      "entityId": 4,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "gid": 118,
+      "entityId": 5,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "gid": 119,
+      "entityId": 6,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "gid": 120,
+      "entityId": 7,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "gid": 121,
+      "entityId": 8,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "gid": 122,
+      "entityId": 9,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "gid": 123,
+      "entityId": 10,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "gid": 124,
+      "entityId": 11,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "gid": 125,
+      "entityId": 12,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "gid": 126,
+      "entityId": 13,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1011,
+          "itemName": "Fire Ice",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 13
+}

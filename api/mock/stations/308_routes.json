@@ -1,0 +1,26 @@
+{
+  "stationId": 308,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 6,
+      "sourceStationGId": 419,
+      "sourcePlanetName": "Bunda MegaFarm",
+      "sourceStarName": "Bunda",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 338.7,
+      "warpState": 0,
+      "distance": 27721645.8228743,
+      "remainingTicks": 44517,
+      "remainingSeconds": 741.95
+    }
+  ]
+}

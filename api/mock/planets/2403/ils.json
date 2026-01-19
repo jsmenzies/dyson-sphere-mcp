@@ -1,0 +1,1568 @@
+{
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "ilsStations": [
+    {
+      "id": 1,
+      "gid": 281,
+      "entityId": 1,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 1566,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "gid": 282,
+      "entityId": 2,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 2856,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "gid": 283,
+      "entityId": 3,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 1038,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "gid": 284,
+      "entityId": 4,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 2902,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "gid": 285,
+      "entityId": 5,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 4757,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "gid": 286,
+      "entityId": 6,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "gid": 287,
+      "entityId": 7,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "gid": 288,
+      "entityId": 8,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "gid": 289,
+      "entityId": 9,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 8613,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "gid": 290,
+      "entityId": 10,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 4607,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "gid": 291,
+      "entityId": 11,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 2789,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "gid": 292,
+      "entityId": 12,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 3263,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "gid": 293,
+      "entityId": 13,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 6488,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "gid": 294,
+      "entityId": 14,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 8461,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "gid": 295,
+      "entityId": 15,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 9619,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "gid": 296,
+      "entityId": 16,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "gid": 297,
+      "entityId": 17,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 8363,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "gid": 298,
+      "entityId": 18,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 7858,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "gid": 299,
+      "entityId": 19,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 2526,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "gid": 300,
+      "entityId": 20,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 3007,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "gid": 301,
+      "entityId": 21,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 6247,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "gid": 302,
+      "entityId": 22,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 8215,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "gid": 303,
+      "entityId": 23,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 8272,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "gid": 304,
+      "entityId": 24,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "gid": 305,
+      "entityId": 25,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 6275,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "gid": 306,
+      "entityId": 26,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 8855,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "gid": 307,
+      "entityId": 27,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 2256,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "gid": 308,
+      "entityId": 28,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 8086,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "gid": 309,
+      "entityId": 29,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 8847,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "gid": 310,
+      "entityId": 30,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "gid": 311,
+      "entityId": 31,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "gid": 312,
+      "entityId": 32,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "gid": 313,
+      "entityId": 33,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "gid": 314,
+      "entityId": 34,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 9437,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 6593,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "gid": 315,
+      "entityId": 35,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 5989,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "gid": 316,
+      "entityId": 36,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 5895,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "gid": 317,
+      "entityId": 37,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10001,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "gid": 318,
+      "entityId": 38,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "gid": 319,
+      "entityId": 39,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "gid": 320,
+      "entityId": 40,
+      "isStellar": true,
+      "deliveryDrones": 10,
+      "deliveryShips": 100,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 0,
+      "workShipCount": 0,
+      "warperCount": 0,
+      "warperMaxCount": 50,
+      "energy": 0,
+      "energyMax": 8000000000,
+      "energyPerTick": 500000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1120,
+          "itemName": "Hydrogen",
+          "count": 10002,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1121,
+          "itemName": "Deuterium",
+          "count": 10000,
+          "inc": 0,
+          "max": 10000,
+          "localLogic": "None",
+          "remoteLogic": "Supply"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 40
+}

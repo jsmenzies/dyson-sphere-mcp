@@ -1,0 +1,78 @@
+{
+  "stationId": 90,
+  "planetId": 604,
+  "planetName": "\u03b6 Ursae Majoris IV MegaFarm",
+  "starName": "\u03b6 Ursae Majoris",
+  "outgoing": [
+    {
+      "shipIndex": 4,
+      "otherStationGId": 577,
+      "otherPlanetName": "Almach II",
+      "otherStarName": "Almach",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 269.573,
+      "warpState": 0,
+      "distance": 28583998.3447035,
+      "remainingTicks": 68617,
+      "remainingSeconds": 1143.61666666667
+    },
+    {
+      "shipIndex": 5,
+      "otherStationGId": 577,
+      "otherPlanetName": "Almach II",
+      "otherStarName": "Almach",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 64.45831,
+      "warpState": 0,
+      "distance": 281.021372405583,
+      "remainingTicks": 68617,
+      "remainingSeconds": 1143.61666666667
+    },
+    {
+      "shipIndex": 6,
+      "otherStationGId": 585,
+      "otherPlanetName": "Acrux I IronCopper",
+      "otherStarName": "Acrux",
+      "itemId": 1122,
+      "itemName": "Antimatter",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 221.8499,
+      "warpState": 0,
+      "distance": 17351269.2440881,
+      "remainingTicks": 68617,
+      "remainingSeconds": 1143.61666666667
+    }
+  ],
+  "incoming": [
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 57,
+      "sourcePlanetName": "Home",
+      "sourceStarName": "Acrux",
+      "itemId": 1210,
+      "itemName": "Space Warper",
+      "itemCount": 0,
+      "stage": "Landing",
+      "direction": -1,
+      "t": 0.9686,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 216.149996653196,
+      "remainingTicks": 699,
+      "remainingSeconds": 11.65
+    }
+  ]
+}

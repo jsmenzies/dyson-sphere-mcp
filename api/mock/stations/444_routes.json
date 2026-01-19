@@ -1,0 +1,60 @@
+{
+  "stationId": 444,
+  "planetId": 805,
+  "planetName": "MegaFarm Alpha",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 2,
+      "sourceStationGId": 410,
+      "sourcePlanetName": "Saidak I Proliferator",
+      "sourceStarName": "Saidak",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 781491.5,
+      "warpState": 0.7999999,
+      "distance": 138545.265923459,
+      "remainingTicks": 1204,
+      "remainingSeconds": 20.0666666666667
+    },
+    {
+      "shipIndex": 4,
+      "sourceStationGId": 410,
+      "sourcePlanetName": "Saidak I Proliferator",
+      "sourceStarName": "Saidak",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 198574,
+      "warpState": 0.6166666,
+      "distance": 16967.4200696066,
+      "remainingTicks": 476,
+      "remainingSeconds": 7.93333333333333
+    },
+    {
+      "shipIndex": 7,
+      "sourceStationGId": 410,
+      "sourcePlanetName": "Saidak I Proliferator",
+      "sourceStarName": "Saidak",
+      "itemId": 1143,
+      "itemName": "Proliferator Mk.III",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 12378.46,
+      "warpState": 0,
+      "distance": 34521955.4191565,
+      "remainingTicks": 1247,
+      "remainingSeconds": 20.7833333333333
+    }
+  ]
+}

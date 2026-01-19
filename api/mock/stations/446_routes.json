@@ -1,0 +1,26 @@
+{
+  "stationId": 446,
+  "planetId": 805,
+  "planetName": "MegaFarm Alpha",
+  "starName": "Farm",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 0,
+      "sourceStationGId": 591,
+      "sourcePlanetName": "Farm III Iron/Kim",
+      "sourceStarName": "Farm",
+      "itemId": 1001,
+      "itemName": "Iron Ore",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 4631.76,
+      "warpState": 0,
+      "distance": 2862.14332584984,
+      "remainingTicks": 75,
+      "remainingSeconds": 1.25
+    }
+  ]
+}

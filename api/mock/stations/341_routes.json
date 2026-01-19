@@ -1,0 +1,26 @@
+{
+  "stationId": 341,
+  "planetId": 1404,
+  "planetName": "Algomeyla IV",
+  "starName": "Algomeyla",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 8,
+      "sourceStationGId": 86,
+      "sourcePlanetName": "\u03b6 Ursae Majoris IV MegaFarm",
+      "sourceStarName": "\u03b6 Ursae Majoris",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 17945629.9368822,
+      "remainingTicks": 68617,
+      "remainingSeconds": 1143.61666666667
+    }
+  ]
+}

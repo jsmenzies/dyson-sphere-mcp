@@ -1,0 +1,46 @@
+{
+  "planetId": 3805,
+  "planetName": "Eta Corvi V",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 8491908,
+      "veinCount": 88
+    },
+    {
+      "type": "Copper",
+      "amount": 4055361,
+      "veinCount": 51
+    },
+    {
+      "type": "Silicium",
+      "amount": 11514355,
+      "veinCount": 117
+    },
+    {
+      "type": "Titanium",
+      "amount": 393323,
+      "veinCount": 5
+    },
+    {
+      "type": "Stone",
+      "amount": 1926828,
+      "veinCount": 17
+    },
+    {
+      "type": "Coal",
+      "amount": 21825744,
+      "veinCount": 133
+    },
+    {
+      "type": "Oil",
+      "amount": 3091071,
+      "veinCount": 19
+    },
+    {
+      "type": "Crysrub",
+      "amount": 3030180,
+      "veinCount": 19
+    }
+  ]
+}

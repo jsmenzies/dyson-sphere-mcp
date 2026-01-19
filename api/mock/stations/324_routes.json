@@ -1,0 +1,26 @@
+{
+  "stationId": 324,
+  "planetId": 3803,
+  "planetName": "Eta Corvi III",
+  "starName": "Eta Corvi",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 8,
+      "sourceStationGId": 419,
+      "sourcePlanetName": "Bunda MegaFarm",
+      "sourceStarName": "Bunda",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Approach",
+      "direction": -1,
+      "t": 0.9209045,
+      "uSpeed": 0,
+      "warpState": 0,
+      "distance": 874.849593467538,
+      "remainingTicks": 44517,
+      "remainingSeconds": 741.95
+    }
+  ]
+}

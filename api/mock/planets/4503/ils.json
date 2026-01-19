@@ -1,0 +1,164 @@
+{
+  "planetId": 4503,
+  "planetName": "Muphrid III",
+  "starName": "Muphrid",
+  "ilsStations": [
+    {
+      "id": 2,
+      "gid": 492,
+      "entityId": 38,
+      "isStellar": true,
+      "deliveryDrones": 100,
+      "deliveryShips": 80,
+      "idleDroneCount": 1,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1501,
+          "itemName": "Solar Sail",
+          "count": 0,
+          "inc": 0,
+          "max": 0,
+          "localLogic": "None",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 153,
+          "inc": 612,
+          "max": 100,
+          "localLogic": "Demand",
+          "remoteLogic": "None"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "gid": 493,
+      "entityId": 1551,
+      "isStellar": true,
+      "deliveryDrones": 1,
+      "deliveryShips": 100,
+      "idleDroneCount": 7,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1209,
+          "itemName": "Graviton Lens",
+          "count": 540,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 600,
+          "inc": 2400,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "Demand"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "gid": 494,
+      "entityId": 5293,
+      "isStellar": true,
+      "deliveryDrones": 1,
+      "deliveryShips": 50,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1503,
+          "itemName": "Small Carrier Rocket",
+          "count": 0,
+          "inc": 0,
+          "max": 20000,
+          "localLogic": "Supply",
+          "remoteLogic": "Supply"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 30,
+          "inc": 120,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "None"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "gid": 495,
+      "entityId": 6384,
+      "isStellar": true,
+      "deliveryDrones": 1,
+      "deliveryShips": 50,
+      "idleDroneCount": 0,
+      "workDroneCount": 0,
+      "idleShipCount": 10,
+      "workShipCount": 0,
+      "warperCount": 50,
+      "warperMaxCount": 50,
+      "energy": 12000000000,
+      "energyMax": 12000000000,
+      "energyPerTick": 1000,
+      "remoteGroupMask": 0,
+      "routePriority": "Prioritize",
+      "storage": [
+        {
+          "itemId": 1503,
+          "itemName": "Small Carrier Rocket",
+          "count": 0,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "None",
+          "remoteLogic": "None"
+        },
+        {
+          "itemId": 1210,
+          "itemName": "Space Warper",
+          "count": 0,
+          "inc": 0,
+          "max": 100,
+          "localLogic": "Supply",
+          "remoteLogic": "None"
+        }
+      ]
+    }
+  ],
+  "ilsCount": 4
+}

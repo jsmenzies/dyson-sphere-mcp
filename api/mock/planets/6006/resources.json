@@ -1,0 +1,41 @@
+{
+  "planetId": 6006,
+  "planetName": "Alifa VI",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 55913237,
+      "veinCount": 177
+    },
+    {
+      "type": "Copper",
+      "amount": 3139526,
+      "veinCount": 10
+    },
+    {
+      "type": "Silicium",
+      "amount": 78325216,
+      "veinCount": 149
+    },
+    {
+      "type": "Titanium",
+      "amount": 33578228,
+      "veinCount": 64
+    },
+    {
+      "type": "Stone",
+      "amount": 27583717,
+      "veinCount": 105
+    },
+    {
+      "type": "Coal",
+      "amount": 1084218,
+      "veinCount": 7
+    },
+    {
+      "type": "Fireice",
+      "amount": 4557971,
+      "veinCount": 13
+    }
+  ]
+}

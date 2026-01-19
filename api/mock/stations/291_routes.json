@@ -1,0 +1,43 @@
+{
+  "stationId": 291,
+  "planetId": 2403,
+  "planetName": "Menkent III",
+  "starName": "Menkent",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 9,
+      "sourceStationGId": 45,
+      "sourcePlanetName": "Phact Farm",
+      "sourceStarName": "Phact",
+      "itemId": 1120,
+      "itemName": "Hydrogen",
+      "itemCount": 0,
+      "stage": "Flight",
+      "direction": 1,
+      "t": 1,
+      "uSpeed": 3075300,
+      "warpState": 1,
+      "distance": 32487272.9010602,
+      "remainingTicks": 26385,
+      "remainingSeconds": 439.75
+    },
+    {
+      "shipIndex": 3,
+      "sourceStationGId": 375,
+      "sourcePlanetName": "Algomeyla III Expiriment",
+      "sourceStarName": "Algomeyla",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 137.5479,
+      "warpState": 0,
+      "distance": 50375480.6198353,
+      "remainingTicks": 1684,
+      "remainingSeconds": 28.0666666666667
+    }
+  ]
+}

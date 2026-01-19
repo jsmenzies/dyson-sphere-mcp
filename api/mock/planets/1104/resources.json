@@ -1,0 +1,41 @@
+{
+  "planetId": 1104,
+  "planetName": "Porrima IV Titan",
+  "resourceSpots": [
+    {
+      "type": "Iron",
+      "amount": 8991938,
+      "veinCount": 79
+    },
+    {
+      "type": "Copper",
+      "amount": 289549,
+      "veinCount": 5
+    },
+    {
+      "type": "Silicium",
+      "amount": 6027253,
+      "veinCount": 53
+    },
+    {
+      "type": "Titanium",
+      "amount": 27617512,
+      "veinCount": 248
+    },
+    {
+      "type": "Stone",
+      "amount": 6112384,
+      "veinCount": 54
+    },
+    {
+      "type": "Coal",
+      "amount": 143813,
+      "veinCount": 4
+    },
+    {
+      "type": "Fireice",
+      "amount": 7387256,
+      "veinCount": 65
+    }
+  ]
+}

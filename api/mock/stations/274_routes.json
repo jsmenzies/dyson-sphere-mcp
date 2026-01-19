@@ -1,0 +1,26 @@
+{
+  "stationId": 274,
+  "planetId": 202,
+  "planetName": "Phact II",
+  "starName": "Phact",
+  "outgoing": [],
+  "incoming": [
+    {
+      "shipIndex": 1,
+      "sourceStationGId": 573,
+      "sourcePlanetName": "Home",
+      "sourceStarName": "Acrux",
+      "itemId": 1121,
+      "itemName": "Deuterium",
+      "itemCount": 2000,
+      "stage": "Flight",
+      "direction": -1,
+      "t": 1,
+      "uSpeed": 15300,
+      "warpState": 0.1833332,
+      "distance": 6614252.47507388,
+      "remainingTicks": 698,
+      "remainingSeconds": 11.6333333333333
+    }
+  ]
+}
